@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_fgets_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_fscanf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_large_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_listen_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE129_rand_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE131_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE131_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE131_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE135_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_alloca_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_alloca_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_wchar_t_declare_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_alloca_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_char_declare_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_int64_t_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_struct_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_alloca_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__CWE805_wchar_t_declare_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_char_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_char_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_alloca_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__dest_wchar_t_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__placement_new_alloca_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE121_Stack_Based_Buffer_Overflow__placement_new_declare_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE121_Stack_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_char_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_alloca_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m31\CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

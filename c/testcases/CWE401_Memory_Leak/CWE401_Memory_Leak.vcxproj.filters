@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_char_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_int_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_int64_t_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_struct_twoIntsStruct_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_TwoIntsClass_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_twointsStruct_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_wchar_t_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_char_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_int_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_int64_t_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_struct_twoIntsStruct_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_TwoIntsClass_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_twoIntsStruct_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_wchar_t_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__strdup_char_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__strdup_wchar_t_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_calloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_malloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_realloc_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_char_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_int_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_int64_t_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_wchar_t_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE401_Memory_Leak__destructor_01_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE401_Memory_Leak__destructor_01_good1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE401_Memory_Leak__virtual_destructor_01_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE401_Memory_Leak__virtual_destructor_01_good1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

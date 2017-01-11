@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_81_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_82_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_83_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_84_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE369_Divide_by_Zero__int_zero_divide_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_connect_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_fgets_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_fscanf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_listenSocket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_rand_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__float_zero_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_connect_socket_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_connect_socket_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_fgets_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_fgets_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_fscanf_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_fscanf_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_listen_socket_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_listen_socket_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_rand_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_rand_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_zero_divide_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE369_Divide_by_Zero__int_zero_modulo_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE369_Divide_by_Zero__int_zero_divide_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE369_Divide_by_Zero__int_zero_divide_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE369_Divide_by_Zero__int_zero_divide_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE369_Divide_by_Zero__int_zero_divide_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

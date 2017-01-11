@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_81_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_82_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_83_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_84_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_connect_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_fgets_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_fscanf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_listen_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_negative_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__CWE839_rand_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_char_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_char_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_char_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_char_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_char_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_wchar_t_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_wchar_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_wchar_t_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_wchar_t_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__malloc_wchar_t_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_char_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_char_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_char_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_char_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_char_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_wchar_t_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_wchar_t_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_wchar_t_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_wchar_t_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE124_Buffer_Underwrite__new_wchar_t_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__char_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_alloca_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_alloca_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_alloca_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_alloca_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_alloca_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_declare_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_declare_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_declare_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_declare_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE124_Buffer_Underwrite__wchar_t_declare_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE124_Buffer_Underwrite__CWE839_fgets_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE124_Buffer_Underwrite__char_alloca_cpy_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

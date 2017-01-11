@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D874312-6DF5-4B03-83B1-0BFD1346AB34}</ProjectGuid>
+    <RootNamespace>CWE126_Buffer_Overread</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_01.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_02.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_03.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_04.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_05.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_06.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_07.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_08.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_09.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_10.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_11.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_12.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_13.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_14.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_15.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_16.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_17.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_18.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_21.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_22a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_22b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_31.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_32.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_33.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_34.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_41.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_42.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_43.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_44.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_45.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_51a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_51b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_52a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_52b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_52c.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_53a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_53b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_53c.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_53d.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_54a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_54b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_54c.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_54d.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_54e.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_61a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_61b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_62a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_62b.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_63a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_63b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_64a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_64b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_65a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_65b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_66a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_66b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_67a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_67b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_68a.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_68b.c" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_72a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_72b.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_73a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_73b.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_74a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_74b.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_81a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_81_bad.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_82a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_82_bad.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_83a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_83_bad.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_84a.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_84_bad.cpp" />
+    <ClCompile Include="m00\CWE126_Buffer_Overread__malloc_char_loop_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_connect_socket_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_fgets_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_fscanf_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_large_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_listen_socket_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__CWE129_rand_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_char_loop_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_char_memcpy_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_char_memmove_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_wchar_t_loop_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_wchar_t_memcpy_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__malloc_wchar_t_memmove_01.c" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_char_loop_01.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_char_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_char_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_wchar_t_loop_01.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_wchar_t_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE126_Buffer_Overread__new_wchar_t_memmove_01.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_01.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_02.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_03.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_04.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_05.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_06.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_07.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_08.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_09.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_10.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_11.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_12.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_13.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_14.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_15.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_16.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_17.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_18.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_31.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_32.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_33.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_34.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_41.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_44.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_45.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_51a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_51b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_52a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_52b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_52c.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_53a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_53b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_53c.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_53d.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_54a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_54b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_54c.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_54d.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_54e.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_63a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_63b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_64a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_64b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_65a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_65b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_66a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_66b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_67a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_67b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_68a.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_68b.c" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_72a.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_72b.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_73a.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_73b.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_74a.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_74b.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_81a.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_81_bad.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_81_goodG2B.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_82a.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_82_bad.cpp" />
+    <ClCompile Include="m10\CWE126_Buffer_Overread__char_alloca_loop_82_goodG2B.cpp" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_alloca_loop_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_alloca_memcpy_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_alloca_memmove_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_declare_loop_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_declare_memcpy_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__char_declare_memmove_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_alloca_loop_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_alloca_memcpy_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_alloca_memmove_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_declare_loop_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_declare_memcpy_01.c" />
+    <ClCompile Include="m11\CWE126_Buffer_Overread__wchar_t_declare_memmove_01.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_01.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_02.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_03.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_04.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_05.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_06.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_07.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_08.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_09.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_10.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_11.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_12.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_13.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_14.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_15.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_16.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_17.c" />
+    <ClCompile Include="m20\CWE126_Buffer_Overread__CWE170_char_loop_18.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_char_loop_01.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_char_memcpy_01.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_char_strncpy_01.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_wchar_t_loop_01.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_wchar_t_memcpy_01.c" />
+    <ClCompile Include="m21\CWE126_Buffer_Overread__CWE170_wchar_t_strncpy_01.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE126_Buffer_Overread__malloc_char_loop_81.h" />
+    <ClInclude Include="m00\CWE126_Buffer_Overread__malloc_char_loop_82.h" />
+    <ClInclude Include="m00\CWE126_Buffer_Overread__malloc_char_loop_83.h" />
+    <ClInclude Include="m00\CWE126_Buffer_Overread__malloc_char_loop_84.h" />
+    <ClInclude Include="m10\CWE126_Buffer_Overread__char_alloca_loop_81.h" />
+    <ClInclude Include="m10\CWE126_Buffer_Overread__char_alloca_loop_82.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

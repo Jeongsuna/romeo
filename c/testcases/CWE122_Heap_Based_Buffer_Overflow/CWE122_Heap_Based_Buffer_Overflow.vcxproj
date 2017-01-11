@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3166F4F8-2E03-4520-8102-34A7C0AB7DDB}</ProjectGuid>
+    <RootNamespace>CWE122_Heap_Based_Buffer_Overflow</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_01.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_02.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_03.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_04.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_05.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_06.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_07.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_08.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_09.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_10.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_11.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_12.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_13.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_14.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_15.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_16.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_17.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_18.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_21.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_22a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_22b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_31.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_32.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_33.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_34.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_41.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_42.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_43.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_44.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_45.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_51a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_51b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52c.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53c.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53d.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54c.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54d.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54e.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_61a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_61b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_62a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_62b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_63a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_63b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_64a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_64b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_65a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_65b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_66a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_66b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_67a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_67b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_68a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_68b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_72a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_72b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_73a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_73b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_74a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_74b.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81_bad.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82_bad.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83_bad.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84a.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84_bad.cpp" />
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_connect_socket_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_fgets_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_fscanf_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_large_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_listen_socket_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_rand_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_ncat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_snprintf_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_ncat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_snprintf_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_ncat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_snprintf_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_loop_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_memcpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_memmove_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_ncat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_ncpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_snprintf_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_char_cat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_char_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_wchar_t_cat_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_wchar_t_cpy_01.cpp" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_01.c" />
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_01.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_01.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_02.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_03.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_04.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_05.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_06.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_07.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_08.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_09.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_10.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_11.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_12.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_13.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_14.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_15.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_16.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_17.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_18.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_21.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_22a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_22b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_31.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_32.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_33.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_34.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_41.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_42.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_43.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_44.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_45.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_51a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_51b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52c.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53c.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53d.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54c.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54d.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54e.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_61a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_61b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_62a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_62b.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_63a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_63b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_64a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_64b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_65a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_65b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_66a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_66b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_67a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_67b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_68a.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_68b.c" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_72a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_72b.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_73a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_73b.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_74a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_74b.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81_bad.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81_goodG2B.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82_bad.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82_goodG2B.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83_bad.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83_goodG2B.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84a.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84_bad.cpp" />
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84_goodG2B.cpp" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__CWE135_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_ncat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_snprintf_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_loop_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_memcpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_memmove_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_ncat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_ncpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cpy_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_double_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_01.c" />
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_01.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_02.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_03.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_04.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_05.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_06.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_07.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_08.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_09.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_10.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_11.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_12.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_13.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_14.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_15.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_16.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_17.c" />
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_18.c" />
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c" />
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_01.c" />
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memcpy_01.c" />
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_01.c" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_01.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_02.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_03.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_04.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_05.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_06.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_07.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_08.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_09.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_10.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_11.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_12.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_13.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_14.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_15.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_16.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_17.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_18.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_21.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_22a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_22b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_31.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_32.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_33.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_34.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_41.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_44.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_45.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_51a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_51b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52c.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53c.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53d.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54c.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54d.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54e.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_63a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_63b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_64a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_64b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_65a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_65b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_66a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_66b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_67a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_67b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_68a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_68b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_72a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_72b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_73a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_73b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_74a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_74b.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_bad.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_goodB2G.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_goodG2B.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82a.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_bad.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_goodB2G.cpp" />
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_goodG2B.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81.h" />
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82.h" />
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83.h" />
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84.h" />
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81.h" />
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82.h" />
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83.h" />
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84.h" />
+    <ClInclude Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81.h" />
+    <ClInclude Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

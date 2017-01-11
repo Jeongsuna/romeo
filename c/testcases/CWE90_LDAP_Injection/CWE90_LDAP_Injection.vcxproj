@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{258B0705-C8CE-4E6E-B1E6-84C955C684D9}</ProjectGuid>
+    <RootNamespace>CWE90_LDAP_Injection</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_01.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_02.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_03.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_04.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_05.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_06.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_07.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_08.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_09.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_10.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_11.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_12.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_13.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_14.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_15.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_16.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_17.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_18.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_21.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_22a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_22b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_31.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_32.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_33.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_34.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_41.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_42.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_43.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_44.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_45.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_51a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_51b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_52a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_52b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_52c.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_53a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_53b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_53c.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_53d.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_54a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_54b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_54c.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_54d.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_54e.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_61a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_61b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_62a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_62b.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_63a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_63b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_64a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_64b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_65a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_65b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_66a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_66b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_67a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_67b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_68a.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_68b.c" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_72a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_72b.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_73a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_73b.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_74a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_74b.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_81a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_81_bad.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_82a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_82_bad.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_83a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_83_bad.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_84a.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_84_bad.cpp" />
+    <ClCompile Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_char_connect_socket_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_char_console_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_char_environment_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_char_file_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_char_listen_socket_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_wchar_t_connect_socket_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_wchar_t_console_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_wchar_t_environment_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_wchar_t_file_01.c" />
+    <ClCompile Include="m01\CWE90_LDAP_Injection__w32_wchar_t_listen_socket_01.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_81.h" />
+    <ClInclude Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_82.h" />
+    <ClInclude Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_83.h" />
+    <ClInclude Include="m00\CWE90_LDAP_Injection__w32_char_connect_socket_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

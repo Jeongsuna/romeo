@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A765193B-FA62-40F1-A233-4496CC680165}</ProjectGuid>
+    <RootNamespace>CWE36_Absolute_Path_Traversal</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_01.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_02.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_03.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_04.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_05.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_06.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_07.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_08.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_09.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_10.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_11.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_12.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_13.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_14.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_15.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_16.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_17.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_18.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_21.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_22a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_22b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_31.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_32.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_33.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_34.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_41.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_42.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_43.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_44.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_45.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_51a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_51b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52c.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53c.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53d.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54c.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54d.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54e.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_61a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_61b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_62a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_62b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_63a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_63b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_64a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_64b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_65a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_65b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_66a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_66b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_67a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_67b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_68a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_68b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_72a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_72b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_73a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_73b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_74a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_74b.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81_bad.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82_bad.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83_bad.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84a.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84_bad.cpp" />
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_w32CreateFile_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_fopen_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_ifstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_ofstream_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_open_01.cpp" />
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_w32CreateFile_01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81.h" />
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82.h" />
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83.h" />
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

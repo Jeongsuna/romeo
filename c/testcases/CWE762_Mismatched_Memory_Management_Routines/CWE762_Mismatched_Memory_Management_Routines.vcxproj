@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D16A194-C092-470C-A5C3-D36BF569B0C0}</ProjectGuid>
+    <RootNamespace>CWE762_Mismatched_Memory_Management_Routines</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_02.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_03.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_04.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_05.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_06.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_07.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_08.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_09.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_10.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_11.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_12.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_13.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_14.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_15.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_16.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_17.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_18.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_21.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_22a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_22b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_31.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_32.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_33.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_34.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_41.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_42.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_43.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_44.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_45.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_51a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_51b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52c.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53c.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53d.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54c.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54d.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54e.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_61a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_61b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_63a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_63b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_64a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_64b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_66a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_66b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_67a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_67b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_68a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_68b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_73a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_73b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_74a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_74b.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81_bad.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_bad.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83_bad.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84a.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_bad.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_char_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_char_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_char_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_class_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_class_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_class_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int64_t_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int64_t_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int64_t_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_long_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_long_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_long_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_char_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_char_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_char_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_class_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_class_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_class_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int64_t_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int64_t_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int64_t_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_int_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_long_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_long_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_long_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_struct_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_struct_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_struct_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_wchar_t_calloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_wchar_t_malloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__delete_wchar_t_realloc_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_int_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_long_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_struct_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_array_free_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_char_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_class_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_long_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_struct_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_char_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_class_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_int_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_long_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_struct_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__new_free_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_char_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_char_01.cpp" />
+    <ClCompile Include="m01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_wchar_t_01.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__calloc_delete_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__calloc_delete_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__calloc_delete_array_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__calloc_delete_array_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__malloc_delete_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__malloc_delete_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_array_delete_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_array_free_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_array_free_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_delete_array_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_free_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__new_free_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__realloc_delete_array_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__realloc_delete_array_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_01_good1.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_01_bad.cpp" />
+    <ClCompile Include="s01\CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_01_good1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81.h" />
+    <ClInclude Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82.h" />
+    <ClInclude Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83.h" />
+    <ClInclude Include="m00\CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

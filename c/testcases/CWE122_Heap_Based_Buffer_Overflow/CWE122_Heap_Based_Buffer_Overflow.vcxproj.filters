@@ -1,0 +1,1158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_04.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_15.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_17.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_18.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_21.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_22a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_22b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_31.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_32.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_34.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_41.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_42.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_44.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_45.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_51a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_51b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_52c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_53d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_54e.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_61a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_61b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_63a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_63b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_64a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_64b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_65a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_65b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_66a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_66b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_67a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_67b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_68a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_68b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_connect_socket_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_fgets_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_fscanf_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_large_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_listen_socket_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE129_rand_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_char_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE193_wchar_t_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_ncat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_char_snprintf_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_class_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_int64_t_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_ncat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE805_wchar_t_snprintf_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_ncat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_char_snprintf_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_loop_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_memcpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_memmove_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_ncat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_ncpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_CWE806_wchar_t_snprintf_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_char_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_char_cat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_char_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_wchar_t_cat_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__cpp_src_wchar_t_cpy_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__CWE131_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_21.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_22a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_22b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_31.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_32.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_51a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_51b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_52c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_53d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54c.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54d.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_54e.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_61a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_61b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_63a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_63b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_64a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_64b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_65a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_65b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_66a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_66b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_67a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_67b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_68a.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_68b.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_connect_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fgets_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_fscanf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_large_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_listen_socket_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE129_rand_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_char_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int64_t_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_struct_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE805_wchar_t_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_char_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_loop_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_ncat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_ncpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_CWE806_wchar_t_snprintf_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_char_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_dest_wchar_t_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_char_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cat_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__c_src_wchar_t_cpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__CWE131_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__CWE135_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_double_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m11\CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_05.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_16.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m20\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__char_type_overrun_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memcpy_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m21\CWE122_Heap_Based_Buffer_Overflow__wchar_t_type_overrun_memmove_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_04.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_15.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_17.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_18.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_21.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_22a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_22b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_31.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_32.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_34.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_41.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_44.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_45.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_51a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_51b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_52c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_53d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_54e.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_63a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_63b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_64a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_64b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_65a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_65b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_66a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_66b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_67a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_67b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_68a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_68b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_goodB2G.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE122_Heap_Based_Buffer_Overflow__cpp_dest_wchar_t_cat_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m10\CWE122_Heap_Based_Buffer_Overflow__c_CWE193_wchar_t_loop_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="s01\CWE122_Heap_Based_Buffer_Overflow__placement_new_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

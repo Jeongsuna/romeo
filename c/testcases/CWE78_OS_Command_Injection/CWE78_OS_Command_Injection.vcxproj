@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF4F7A63-0198-450F-9A07-466789C30036}</ProjectGuid>
+    <RootNamespace>CWE78_OS_Command_Injection</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_01.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_02.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_03.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_04.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_05.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_06.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_07.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_08.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_09.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_10.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_11.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_12.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_13.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_14.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_15.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_16.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_17.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_18.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_21.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_22a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_22b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_31.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_32.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_33.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_34.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_41.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_42.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_43.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_44.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_45.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_51a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_51b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_52a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_52b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_52c.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_53a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_53b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_53c.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_53d.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_54a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_54b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_54c.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_54d.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_54e.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_61a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_61b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_62a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_62b.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_63a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_63b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_64a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_64b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_65a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_65b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_66a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_66b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_67a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_67b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_68a.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_68b.c" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_72a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_72b.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_73a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_73b.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_74a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_74b.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_81a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_81_bad.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_82a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_82_bad.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_83a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_83_bad.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_84a.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_84_bad.cpp" />
+    <ClCompile Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_connect_socket_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_console_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_environment_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_file_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__char_listen_socket_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_connect_socket_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_console_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_environment_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_file_w32_spawnv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_execlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_execl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_popen_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_system_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32spawnl_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_01.c" />
+    <ClCompile Include="m01\CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_01.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_81.h" />
+    <ClInclude Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_82.h" />
+    <ClInclude Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_83.h" />
+    <ClInclude Include="m00\CWE78_OS_Command_Injection__char_connect_socket_execl_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_04.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_06.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_07.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_08.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_09.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_12.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_15.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_16.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_17.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_18.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_21.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_22a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_22b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_31.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_32.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_33.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_34.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_41.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_42.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_43.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_44.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_45.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_51a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_51b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_52c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_53d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_54e.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_61a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_61b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_62a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_62b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_63a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_63b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_64a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_64b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_65a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_65b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_66a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_66b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_67a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_67b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_68a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_68b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_72a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_72b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_73a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_73b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_74a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_74b.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84_bad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84_goodG2B.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84a.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_connect_socket_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_console_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_environment_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_file_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__char_listen_socket_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_connect_socket_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_console_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_environment_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_file_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_fopen_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_ifstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_ofstream_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_open_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m01\CWE36_Absolute_Path_Traversal__wchar_t_listen_socket_w32CreateFile_01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_81.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_82.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_83.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m00\CWE36_Absolute_Path_Traversal__char_connect_socket_fopen_84.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

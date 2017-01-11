@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0434ADCC-76E0-432F-8329-A4D96E37E1D8}</ProjectGuid>
+    <RootNamespace>CWE416_Use_After_Free</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_01.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_02.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_03.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_04.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_05.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_06.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_07.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_08.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_09.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_10.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_11.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_12.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_13.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_14.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_15.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_16.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_17.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_18.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_43.cpp" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_62a.cpp" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_62b.cpp" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_63a.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_63b.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_64a.c" />
+    <ClCompile Include="m00\CWE416_Use_After_Free__malloc_free_char_64b.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_char_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_int64_t_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_int_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_long_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_struct_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__malloc_free_wchar_t_01.c" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_char_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_class_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_int_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_long_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_struct_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_array_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_char_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_class_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_int_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_long_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_struct_01.cpp" />
+    <ClCompile Include="m01\CWE416_Use_After_Free__new_delete_wchar_t_01.cpp" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__operator_equals_01_bad.cpp" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__operator_equals_01_good1.cpp" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_01.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_02.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_03.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_04.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_05.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_06.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_07.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_08.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_09.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_10.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_11.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_12.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_13.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_14.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_15.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_16.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_17.c" />
+    <ClCompile Include="s01\CWE416_Use_After_Free__return_freed_ptr_18.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

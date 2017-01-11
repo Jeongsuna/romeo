@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{16C3254B-9BC8-47EF-96AD-844BE76036BE}</ProjectGuid>
+    <RootNamespace>CWE404_Improper_Resource_Shutdown</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_01.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_02.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_03.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_04.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_05.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_06.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_07.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_08.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_09.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_10.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_11.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_12.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_13.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_14.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_15.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_16.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_17.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_18.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_21.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_22a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_22b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_31.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_32.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_33.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_34.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_41.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_42.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_43.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_44.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_45.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_51a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_51b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_52a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_52b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_52c.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_53a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_53b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_53c.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_53d.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_54a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_54b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_54c.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_54d.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_54e.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_61a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_61b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_62a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_62b.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_63a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_63b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_64a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_64b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_65a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_65b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_66a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_66b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_67a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_67b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_68a.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_68b.c" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_72a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_72b.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_73a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_73b.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_74a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_74b.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_81a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_81_bad.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_81_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_82a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_82_bad.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_82_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_83a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_83_bad.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_83_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_84a.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_84_bad.cpp" />
+    <ClCompile Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_84_goodB2G.cpp" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__fopen_w32CloseHandle_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__fopen_w32_close_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__freopen_w32CloseHandle_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__freopen_w32_close_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__open_fclose_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__open_w32CloseHandle_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__w32CreateFile_close_01.c" />
+    <ClCompile Include="m01\CWE404_Improper_Resource_Shutdown__w32CreateFile_fclose_01.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_81.h" />
+    <ClInclude Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_82.h" />
+    <ClInclude Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_83.h" />
+    <ClInclude Include="m00\CWE404_Improper_Resource_Shutdown__fopen_w32_close_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D216378F-86D2-40EF-81F9-8CFB080720CB}</ProjectGuid>
+    <RootNamespace>CWE401_Memory_Leak</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\testcasesupport;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fake_main.cpp" />
+    <ClCompile Include="io.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_01.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_02.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_03.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_04.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_05.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_06.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_07.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_08.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_09.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_10.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_11.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_12.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_13.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_14.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_15.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_16.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_17.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_18.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_21.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_22a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_22b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_31.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_32.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_33.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_34.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_41.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_42.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_43.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_44.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_45.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_51a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_51b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_52c.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53c.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_53d.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54c.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54d.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_54e.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_61a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_61b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_62a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_62b.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_63a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_63b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_64a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_64b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_65a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_65b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_66a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_66b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_67a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_67b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_68a.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_68b.c" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_72a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_72b.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_73a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_73b.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_74a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_74b.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_bad.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_81_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_bad.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_82_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_bad.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_83_goodG2B.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84a.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_bad.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_goodB2G.cpp" />
+    <ClCompile Include="m00\CWE401_Memory_Leak__char_calloc_84_goodG2B.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__char_realloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int64_t_realloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__int_realloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_char_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_int_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_struct_twoIntsStruct_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_TwoIntsClass_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_twointsStruct_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_array_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_char_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_int64_t_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_int_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_struct_twoIntsStruct_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_TwoIntsClass_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_twoIntsStruct_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__new_wchar_t_01.cpp" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__strdup_char_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__strdup_wchar_t_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__struct_twoIntsStruct_realloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__twoIntsStruct_realloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_calloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_malloc_01.c" />
+    <ClCompile Include="m01\CWE401_Memory_Leak__wchar_t_realloc_01.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_01.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_02.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_03.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_04.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_05.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_06.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_07.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_08.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_09.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_10.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_11.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_12.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_13.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_14.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_15.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_16.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_17.c" />
+    <ClCompile Include="m10\CWE401_Memory_Leak__malloc_realloc_char_18.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_char_01.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_int64_t_01.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_int_01.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_struct_twoIntsStruct_01.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_twoIntsStruct_01.c" />
+    <ClCompile Include="m11\CWE401_Memory_Leak__malloc_realloc_wchar_t_01.c" />
+    <ClCompile Include="s01\CWE401_Memory_Leak__destructor_01_bad.cpp" />
+    <ClCompile Include="s01\CWE401_Memory_Leak__destructor_01_good1.cpp" />
+    <ClCompile Include="s01\CWE401_Memory_Leak__virtual_destructor_01_bad.cpp" />
+    <ClCompile Include="s01\CWE401_Memory_Leak__virtual_destructor_01_good1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_81.h" />
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_82.h" />
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_83.h" />
+    <ClInclude Include="m00\CWE401_Memory_Leak__char_calloc_84.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
