@@ -4,26 +4,26 @@
  * 
  * */
 
-package testcases.CWE690_NULL_Deref_From_Return.m00;
+package testcasesupport;
 
 public class CWE690_NULL_Deref_From_Return__Class_Helper 
 {
-    static String getStringBad() 
+    public static String getStringBad() 
     {
         return null;    
     }
     
-    static String getStringGood() 
+    public static String getStringGood() 
     {
         return "getStringGood";    
     }
     
-    static StringBuilder getStringBuilderBad() 
+    public static StringBuilder getStringBuilderBad() 
     {
         return null;
     }
     
-    static StringBuilder getStringBuilderGood()
+    public static StringBuilder getStringBuilderGood()
     {
         return new StringBuilder("getStringBuilderGood");
     }
