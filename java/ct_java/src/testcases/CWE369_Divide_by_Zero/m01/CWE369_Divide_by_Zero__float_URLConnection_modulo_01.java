@@ -1,32 +1,32 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE369_Divide_by_Zero__float_listen_tcp_divide_01.java
+Filename: CWE369_Divide_by_Zero__float_URLConnection_modulo_01.java
 Label Definition File: CWE369_Divide_by_Zero__float.label.xml
 Template File: sources-sinks-01.tmpl.java
 */
 /*
 * @description
 * CWE: 369 Divide by zero
-* BadSource: listen_tcp Read data using a listening tcp connection
+* BadSource: URLConnection Read data from a web server with URLConnection
 * GoodSource: A hardcoded non-zero number (two)
-* Sinks: divide
-*    GoodSink: Check for zero before dividing
-*    BadSink : Dividing by a value that may be zero
+* Sinks: modulo
+*    GoodSink: Check for zero before modulo
+*    BadSink : Modulo by a value that may be zero
 * Flow Variant: 01 Baseline
 *
 * */
 
-package testcases.CWE369_Divide_by_Zero.s01;
+package testcases.CWE369_Divide_by_Zero.s02;
 import testcasesupport.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.net.Socket;
-import java.net.ServerSocket;
+import java.net.URL;
+import java.net.URLConnection;
 
 import java.util.logging.Level;
 
-public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractTestCase
+public class CWE369_Divide_by_Zero__float_URLConnection_modulo_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
@@ -34,25 +34,22 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
 
         data = -1.0f; /* Initialize data */
 
-        /* Read data using a listening tcp connection */
+        /* read input from URLConnection */
         {
-            ServerSocket listener = null;
-            Socket socket = null;
+            URLConnection urlConnection = (new URL("http://www.example.org/")).openConnection();
             BufferedReader readerBuffered = null;
             InputStreamReader readerInputStream = null;
 
             try
             {
-                /* read input from socket */
-                listener = new ServerSocket(39543);
-                socket = listener.accept();
-
-                readerInputStream = new InputStreamReader(socket.getInputStream(), "UTF-8");
+                readerInputStream = new InputStreamReader(urlConnection.getInputStream(), "UTF-8");
                 readerBuffered = new BufferedReader(readerInputStream);
 
-                /* POTENTIAL FLAW: Read data using a listening tcp connection */
+                /* POTENTIAL FLAW: Read data from a web server with URLConnection */
+                /* This will be reading the first "line" of the response body,
+                 * which could be very long if there are no newlines in the HTML */
                 String stringNumber = readerBuffered.readLine();
-                if (stringNumber != null) // avoid NPD incidental warnings
+                if (stringNumber != null)
                 {
                     try
                     {
@@ -70,7 +67,7 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
             }
             finally
             {
-                /* Close stream reading objects */
+                /* clean up stream reading objects */
                 try
                 {
                     if (readerBuffered != null)
@@ -94,36 +91,11 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
                 {
                     IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO);
                 }
-
-                /* Close socket objects */
-                try
-                {
-                    if (socket != null)
-                    {
-                        socket.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing Socket", exceptIO);
-                }
-
-                try
-                {
-                    if (listener != null)
-                    {
-                        listener.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing ServerSocket", exceptIO);
-                }
             }
         }
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
+        /* POTENTIAL FLAW: Possibly modulo by zero */
+        int result = (int)(100.0 % data);
         IO.writeLine(result);
 
     }
@@ -142,8 +114,8 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
         /* FIX: Use a hardcoded number that won't a divide by zero */
         data = 2.0f;
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
+        /* POTENTIAL FLAW: Possibly modulo by zero */
+        int result = (int)(100.0 % data);
         IO.writeLine(result);
 
     }
@@ -155,25 +127,22 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
 
         data = -1.0f; /* Initialize data */
 
-        /* Read data using a listening tcp connection */
+        /* read input from URLConnection */
         {
-            ServerSocket listener = null;
-            Socket socket = null;
+            URLConnection urlConnection = (new URL("http://www.example.org/")).openConnection();
             BufferedReader readerBuffered = null;
             InputStreamReader readerInputStream = null;
 
             try
             {
-                /* read input from socket */
-                listener = new ServerSocket(39543);
-                socket = listener.accept();
-
-                readerInputStream = new InputStreamReader(socket.getInputStream(), "UTF-8");
+                readerInputStream = new InputStreamReader(urlConnection.getInputStream(), "UTF-8");
                 readerBuffered = new BufferedReader(readerInputStream);
 
-                /* POTENTIAL FLAW: Read data using a listening tcp connection */
+                /* POTENTIAL FLAW: Read data from a web server with URLConnection */
+                /* This will be reading the first "line" of the response body,
+                 * which could be very long if there are no newlines in the HTML */
                 String stringNumber = readerBuffered.readLine();
-                if (stringNumber != null) // avoid NPD incidental warnings
+                if (stringNumber != null)
                 {
                     try
                     {
@@ -191,7 +160,7 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
             }
             finally
             {
-                /* Close stream reading objects */
+                /* clean up stream reading objects */
                 try
                 {
                     if (readerBuffered != null)
@@ -215,43 +184,18 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
                 {
                     IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO);
                 }
-
-                /* Close socket objects */
-                try
-                {
-                    if (socket != null)
-                    {
-                        socket.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing Socket", exceptIO);
-                }
-
-                try
-                {
-                    if (listener != null)
-                    {
-                        listener.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing ServerSocket", exceptIO);
-                }
             }
         }
 
-        /* FIX: Check for value of or near zero before dividing */
+        /* FIX: Check for value of or near zero before modulo */
         if (Math.abs(data) > 0.000001)
         {
-            int result = (int)(100.0 / data);
+            int result = (int)(100.0 % data);
             IO.writeLine(result);
         }
         else
         {
-            IO.writeLine("This would result in a divide by zero");
+            IO.writeLine("This would result in a modulo by zero");
         }
 
     }

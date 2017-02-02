@@ -1,64 +1,65 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE369_Divide_by_Zero__float_listen_tcp_divide_01.java
-Label Definition File: CWE369_Divide_by_Zero__float.label.xml
+Filename: CWE369_Divide_by_Zero__int_File_modulo_01.java
+Label Definition File: CWE369_Divide_by_Zero__int.label.xml
 Template File: sources-sinks-01.tmpl.java
 */
 /*
 * @description
 * CWE: 369 Divide by zero
-* BadSource: listen_tcp Read data using a listening tcp connection
-* GoodSource: A hardcoded non-zero number (two)
-* Sinks: divide
-*    GoodSink: Check for zero before dividing
-*    BadSink : Dividing by a value that may be zero
+* BadSource: File Read data from file (named c:\data.txt)
+* GoodSource: A hardcoded non-zero, non-min, non-max, even number
+* Sinks: modulo
+*    GoodSink: Check for zero before modulo
+*    BadSink : Modulo by a value that may be zero
 * Flow Variant: 01 Baseline
 *
 * */
 
-package testcases.CWE369_Divide_by_Zero.s01;
+package testcases.CWE369_Divide_by_Zero.s02;
 import testcasesupport.*;
+
+import javax.servlet.http.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.io.File;
 import java.io.IOException;
-import java.net.Socket;
-import java.net.ServerSocket;
 
 import java.util.logging.Level;
 
-public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractTestCase
+public class CWE369_Divide_by_Zero__int_File_modulo_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
-        float data;
+        int data;
 
-        data = -1.0f; /* Initialize data */
+        data = Integer.MIN_VALUE; /* Initialize data */
 
-        /* Read data using a listening tcp connection */
         {
-            ServerSocket listener = null;
-            Socket socket = null;
-            BufferedReader readerBuffered = null;
+            File file = new File("C:\\data.txt");
+            FileInputStream streamFileInput = null;
             InputStreamReader readerInputStream = null;
+            BufferedReader readerBuffered = null;
 
             try
             {
-                /* read input from socket */
-                listener = new ServerSocket(39543);
-                socket = listener.accept();
-
-                readerInputStream = new InputStreamReader(socket.getInputStream(), "UTF-8");
+                /* read string from file into data */
+                streamFileInput = new FileInputStream(file);
+                readerInputStream = new InputStreamReader(streamFileInput, "UTF-8");
                 readerBuffered = new BufferedReader(readerInputStream);
 
-                /* POTENTIAL FLAW: Read data using a listening tcp connection */
+                /* POTENTIAL FLAW: Read data from a file */
+                /* This will be reading the first "line" of the file, which
+                 * could be very long if there are little or no newlines in the file */
                 String stringNumber = readerBuffered.readLine();
-                if (stringNumber != null) // avoid NPD incidental warnings
+                if (stringNumber != null) /* avoid NPD incidental warnings */
                 {
                     try
                     {
-                        data = Float.parseFloat(stringNumber.trim());
+                        data = Integer.parseInt(stringNumber.trim());
                     }
-                    catch (NumberFormatException exceptNumberFormat)
+                    catch(NumberFormatException exceptNumberFormat)
                     {
                         IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
                     }
@@ -95,36 +96,23 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
                     IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO);
                 }
 
-                /* Close socket objects */
                 try
                 {
-                    if (socket != null)
+                    if (streamFileInput != null)
                     {
-                        socket.close();
+                        streamFileInput.close();
                     }
                 }
                 catch (IOException exceptIO)
                 {
-                    IO.logger.log(Level.WARNING, "Error closing Socket", exceptIO);
-                }
-
-                try
-                {
-                    if (listener != null)
-                    {
-                        listener.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing ServerSocket", exceptIO);
+                    IO.logger.log(Level.WARNING, "Error closing FileInputStream", exceptIO);
                 }
             }
         }
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
-        IO.writeLine(result);
+        /* POTENTIAL FLAW: Zero modulus will cause an issue.  An integer division will
+        result in an exception.  */
+        IO.writeLine("100%" + data + " = " + (100 % data) + "\n");
 
     }
 
@@ -137,49 +125,48 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
     /* goodG2B() - use goodsource and badsink */
     private void goodG2B() throws Throwable
     {
-        float data;
+        int data;
 
-        /* FIX: Use a hardcoded number that won't a divide by zero */
-        data = 2.0f;
+        /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
+        data = 2;
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
-        IO.writeLine(result);
+        /* POTENTIAL FLAW: Zero modulus will cause an issue.  An integer division will
+        result in an exception.  */
+        IO.writeLine("100%" + data + " = " + (100 % data) + "\n");
 
     }
 
     /* goodB2G() - use badsource and goodsink */
     private void goodB2G() throws Throwable
     {
-        float data;
+        int data;
 
-        data = -1.0f; /* Initialize data */
+        data = Integer.MIN_VALUE; /* Initialize data */
 
-        /* Read data using a listening tcp connection */
         {
-            ServerSocket listener = null;
-            Socket socket = null;
-            BufferedReader readerBuffered = null;
+            File file = new File("C:\\data.txt");
+            FileInputStream streamFileInput = null;
             InputStreamReader readerInputStream = null;
+            BufferedReader readerBuffered = null;
 
             try
             {
-                /* read input from socket */
-                listener = new ServerSocket(39543);
-                socket = listener.accept();
-
-                readerInputStream = new InputStreamReader(socket.getInputStream(), "UTF-8");
+                /* read string from file into data */
+                streamFileInput = new FileInputStream(file);
+                readerInputStream = new InputStreamReader(streamFileInput, "UTF-8");
                 readerBuffered = new BufferedReader(readerInputStream);
 
-                /* POTENTIAL FLAW: Read data using a listening tcp connection */
+                /* POTENTIAL FLAW: Read data from a file */
+                /* This will be reading the first "line" of the file, which
+                 * could be very long if there are little or no newlines in the file */
                 String stringNumber = readerBuffered.readLine();
-                if (stringNumber != null) // avoid NPD incidental warnings
+                if (stringNumber != null) /* avoid NPD incidental warnings */
                 {
                     try
                     {
-                        data = Float.parseFloat(stringNumber.trim());
+                        data = Integer.parseInt(stringNumber.trim());
                     }
-                    catch (NumberFormatException exceptNumberFormat)
+                    catch(NumberFormatException exceptNumberFormat)
                     {
                         IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
                     }
@@ -216,42 +203,28 @@ public class CWE369_Divide_by_Zero__float_listen_tcp_divide_01 extends AbstractT
                     IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO);
                 }
 
-                /* Close socket objects */
                 try
                 {
-                    if (socket != null)
+                    if (streamFileInput != null)
                     {
-                        socket.close();
+                        streamFileInput.close();
                     }
                 }
                 catch (IOException exceptIO)
                 {
-                    IO.logger.log(Level.WARNING, "Error closing Socket", exceptIO);
-                }
-
-                try
-                {
-                    if (listener != null)
-                    {
-                        listener.close();
-                    }
-                }
-                catch (IOException exceptIO)
-                {
-                    IO.logger.log(Level.WARNING, "Error closing ServerSocket", exceptIO);
+                    IO.logger.log(Level.WARNING, "Error closing FileInputStream", exceptIO);
                 }
             }
         }
 
-        /* FIX: Check for value of or near zero before dividing */
-        if (Math.abs(data) > 0.000001)
+        /* FIX: test for a zero modulus */
+        if (data != 0)
         {
-            int result = (int)(100.0 / data);
-            IO.writeLine(result);
+            IO.writeLine("100%" + data + " = " + (100 % data) + "\n");
         }
         else
         {
-            IO.writeLine("This would result in a divide by zero");
+            IO.writeLine("This would result in a modulo by zero");
         }
 
     }

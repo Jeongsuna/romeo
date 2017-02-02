@@ -1,13 +1,13 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE369_Divide_by_Zero__float_Property_divide_01.java
-Label Definition File: CWE369_Divide_by_Zero__float.label.xml
+Filename: CWE369_Divide_by_Zero__int_Property_divide_01.java
+Label Definition File: CWE369_Divide_by_Zero__int.label.xml
 Template File: sources-sinks-01.tmpl.java
 */
 /*
 * @description
 * CWE: 369 Divide by zero
 * BadSource: Property Read data from a system property
-* GoodSource: A hardcoded non-zero number (two)
+* GoodSource: A hardcoded non-zero, non-min, non-max, even number
 * Sinks: divide
 *    GoodSink: Check for zero before dividing
 *    BadSink : Dividing by a value that may be zero
@@ -15,39 +15,38 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE369_Divide_by_Zero.s01;
+package testcases.CWE369_Divide_by_Zero.s03;
 import testcasesupport.*;
+
+import javax.servlet.http.*;
 
 import java.util.logging.Level;
 
-public class CWE369_Divide_by_Zero__float_Property_divide_01 extends AbstractTestCase
+public class CWE369_Divide_by_Zero__int_Property_divide_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
-        float data;
+        int data;
 
-        data = -1.0f; /* Initialize data */
+        data = Integer.MIN_VALUE; /* Initialize data */
 
         /* get system property user.home */
         /* POTENTIAL FLAW: Read data from a system property */
         {
             String stringNumber = System.getProperty("user.home");
-            if (stringNumber != null)
+            try
             {
-                try
-                {
-                    data = Float.parseFloat(stringNumber.trim());
-                }
-                catch(NumberFormatException exceptNumberFormat)
-                {
-                    IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
-                }
+                data = Integer.parseInt(stringNumber.trim());
+            }
+            catch(NumberFormatException exceptNumberFormat)
+            {
+                IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
             }
         }
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
-        IO.writeLine(result);
+        /* POTENTIAL FLAW: Zero denominator will cause an issue.  An integer division will
+        result in an exception. */
+        IO.writeLine("bad: 100/" + data + " = " + (100 / data) + "\n");
 
     }
 
@@ -60,46 +59,42 @@ public class CWE369_Divide_by_Zero__float_Property_divide_01 extends AbstractTes
     /* goodG2B() - use goodsource and badsink */
     private void goodG2B() throws Throwable
     {
-        float data;
+        int data;
 
-        /* FIX: Use a hardcoded number that won't a divide by zero */
-        data = 2.0f;
+        /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
+        data = 2;
 
-        /* POTENTIAL FLAW: Possibly divide by zero */
-        int result = (int)(100.0 / data);
-        IO.writeLine(result);
+        /* POTENTIAL FLAW: Zero denominator will cause an issue.  An integer division will
+        result in an exception. */
+        IO.writeLine("bad: 100/" + data + " = " + (100 / data) + "\n");
 
     }
 
     /* goodB2G() - use badsource and goodsink */
     private void goodB2G() throws Throwable
     {
-        float data;
+        int data;
 
-        data = -1.0f; /* Initialize data */
+        data = Integer.MIN_VALUE; /* Initialize data */
 
         /* get system property user.home */
         /* POTENTIAL FLAW: Read data from a system property */
         {
             String stringNumber = System.getProperty("user.home");
-            if (stringNumber != null)
+            try
             {
-                try
-                {
-                    data = Float.parseFloat(stringNumber.trim());
-                }
-                catch(NumberFormatException exceptNumberFormat)
-                {
-                    IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
-                }
+                data = Integer.parseInt(stringNumber.trim());
+            }
+            catch(NumberFormatException exceptNumberFormat)
+            {
+                IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
             }
         }
 
-        /* FIX: Check for value of or near zero before dividing */
-        if (Math.abs(data) > 0.000001)
+        /* FIX: test for a zero denominator */
+        if (data != 0)
         {
-            int result = (int)(100.0 / data);
-            IO.writeLine(result);
+            IO.writeLine("100/" + data + " = " + (100 / data) + "\n");
         }
         else
         {

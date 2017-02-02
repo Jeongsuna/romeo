@@ -1,12 +1,12 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE369_Divide_by_Zero__float_Property_modulo_01.java
+Filename: CWE369_Divide_by_Zero__float_random_modulo_01.java
 Label Definition File: CWE369_Divide_by_Zero__float.label.xml
 Template File: sources-sinks-01.tmpl.java
 */
 /*
 * @description
 * CWE: 369 Divide by zero
-* BadSource: Property Read data from a system property
+* BadSource: random Set data to a random value between 0.0f (inclusive) and 1.0f (exclusive)
 * GoodSource: A hardcoded non-zero number (two)
 * Sinks: modulo
 *    GoodSink: Check for zero before modulo
@@ -15,35 +15,20 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE369_Divide_by_Zero.s01;
+package testcases.CWE369_Divide_by_Zero.s02;
 import testcasesupport.*;
 
-import java.util.logging.Level;
+import java.security.SecureRandom;
 
-public class CWE369_Divide_by_Zero__float_Property_modulo_01 extends AbstractTestCase
+public class CWE369_Divide_by_Zero__float_random_modulo_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
         float data;
 
-        data = -1.0f; /* Initialize data */
-
-        /* get system property user.home */
-        /* POTENTIAL FLAW: Read data from a system property */
-        {
-            String stringNumber = System.getProperty("user.home");
-            if (stringNumber != null)
-            {
-                try
-                {
-                    data = Float.parseFloat(stringNumber.trim());
-                }
-                catch(NumberFormatException exceptNumberFormat)
-                {
-                    IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
-                }
-            }
-        }
+        /* POTENTIAL FLAW: Set data to a random value between 0.0f (inclusive) and 1.0f (exclusive) */
+        SecureRandom secureRandom = new SecureRandom();
+        data = secureRandom.nextFloat();
 
         /* POTENTIAL FLAW: Possibly modulo by zero */
         int result = (int)(100.0 % data);
@@ -76,24 +61,9 @@ public class CWE369_Divide_by_Zero__float_Property_modulo_01 extends AbstractTes
     {
         float data;
 
-        data = -1.0f; /* Initialize data */
-
-        /* get system property user.home */
-        /* POTENTIAL FLAW: Read data from a system property */
-        {
-            String stringNumber = System.getProperty("user.home");
-            if (stringNumber != null)
-            {
-                try
-                {
-                    data = Float.parseFloat(stringNumber.trim());
-                }
-                catch(NumberFormatException exceptNumberFormat)
-                {
-                    IO.logger.log(Level.WARNING, "Number format exception parsing data from string", exceptNumberFormat);
-                }
-            }
-        }
+        /* POTENTIAL FLAW: Set data to a random value between 0.0f (inclusive) and 1.0f (exclusive) */
+        SecureRandom secureRandom = new SecureRandom();
+        data = secureRandom.nextFloat();
 
         /* FIX: Check for value of or near zero before modulo */
         if (Math.abs(data) > 0.000001)
