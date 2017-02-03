@@ -15,7 +15,7 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE369_Divide_by_Zero.s02;
+package testcases.CWE369_Divide_by_Zero.m01;
 import testcasesupport.*;
 
 public class CWE369_Divide_by_Zero__float_zero_modulo_01 extends AbstractTestCase
