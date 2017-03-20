@@ -45,7 +45,13 @@
   <ItemGroup>
     <Compile Include="CWE209_Information_Exposure_Through_an_Error_Message\CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs" />
     <Compile Include="CWE259_Hard_Coded_Password\CWE259_Hard_Coded_Password__equals_01.cs" />
+    <Compile Include="CWE321_Hard_Coded_Cryptographic_Key\CWE321_Hard_Coded_Cryptographic_Key__Equals_01.cs" />
     <Compile Include="CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__MD5_01.cs" />
+    <Compile Include="CWE397_Declaration_of_Throws_for_Generic_Exception\CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs" />
+    <Compile Include="CWE477_Use_of_Obsolete_Functions\CWE477_Use_of_Obsolete_Functions__Obsolete_Attribute_Method_01.cs" />
+    <Compile Include="CWE478_Missing_Default_Case_in_Switch_Statement\CWE478_Missing_Default_Case_in_Switch_Statement__Simple_01.cs" />
+    <Compile Include="CWE481_Assigning_instead_of_Comparing\CWE481_Assigning_instead_of_Comparing__Simple_01.cs" />
+    <Compile Include="CWE89_SQL_Injection\CWE89_SQL_Injection__SqlDataAdapter_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="testcasesupport\Log.cs" />
