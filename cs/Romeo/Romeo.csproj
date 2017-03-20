@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,12 +46,25 @@
   <ItemGroup>
     <Compile Include="CWE209_Information_Exposure_Through_an_Error_Message\CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs" />
     <Compile Include="CWE259_Hard_Coded_Password\CWE259_Hard_Coded_Password__equals_01.cs" />
+    <Compile Include="CWE310_Cryptographic_Issues\CWE310_Cryptographic_Issues__RSA_01.cs" />
     <Compile Include="CWE321_Hard_Coded_Cryptographic_Key\CWE321_Hard_Coded_Cryptographic_Key__Equals_01.cs" />
     <Compile Include="CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__MD5_01.cs" />
+    <Compile Include="CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action\CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action__Simple_01.cs" />
+    <Compile Include="CWE369_Divide_By_Zero\CWE369_Divide_By_Zero__Simple_01.cs" />
     <Compile Include="CWE397_Declaration_of_Throws_for_Generic_Exception\CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs" />
+    <Compile Include="CWE404_Improper_Resource_Shutdown_or_Release\CWE404_Improper_Resource_Shutdown_or_Release__Simple_01.cs" />
     <Compile Include="CWE477_Use_of_Obsolete_Functions\CWE477_Use_of_Obsolete_Functions__Obsolete_Attribute_Method_01.cs" />
     <Compile Include="CWE478_Missing_Default_Case_in_Switch_Statement\CWE478_Missing_Default_Case_in_Switch_Statement__Simple_01.cs" />
     <Compile Include="CWE481_Assigning_instead_of_Comparing\CWE481_Assigning_instead_of_Comparing__Simple_01.cs" />
+    <Compile Include="CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
+    <Compile Include="CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
+    <Compile Include="CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
+    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs" />
+    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Good.cs" />
+    <Compile Include="CWE643_Xpath_Injection\CWE643_Xpath_Injection__Simple_01.cs" />
+    <Compile Include="CWE78_OS_Command_Injection\CWE78_OS_Command_Injection__Process__01.cs" />
+    <Compile Include="CWE80_XSS\CWE80_XSS__Simple_01.cs" />
+    <Compile Include="CWE80_XSS\CWE80_XSS__Simple_02.cs" />
     <Compile Include="CWE89_SQL_Injection\CWE89_SQL_Injection__SqlDataAdapter_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,6 +72,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CWE330_Insufficiently_Random_Values\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CWE80_XSS\CWE80_XSS__Simple_01.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
