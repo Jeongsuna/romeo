@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,11 +60,25 @@
     <Compile Include="CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
     <Compile Include="CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
     <Compile Include="CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
-    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs" />
-    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Good.cs" />
+    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Good.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWE615_Info_Exposure_by_Comment\CWE615_Info_Exposure_by_Comment__Simple_01.cs" />
     <Compile Include="CWE643_Xpath_Injection\CWE643_Xpath_Injection__Simple_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_everyone_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_Guest_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_WorldSid_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_everyone_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_Guest_01.cs" />
+    <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_WorldSid_01.cs" />
+    <Compile Include="CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions\CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__StreamReader_read_01.cs" />
     <Compile Include="CWE78_OS_Command_Injection\CWE78_OS_Command_Injection__Process__01.cs" />
-    <Compile Include="CWE80_XSS\CWE80_XSS__Simple_01.cs" />
+    <Compile Include="CWE80_XSS\CWE80_XSS__Simple_01.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="CWE80_XSS\CWE80_XSS__Simple_02.cs" />
     <Compile Include="CWE89_SQL_Injection\CWE89_SQL_Injection__SqlDataAdapter_01.cs" />
     <Compile Include="Program.cs" />
