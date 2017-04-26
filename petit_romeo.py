@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os, shutil, traceback
 
 romeo_root = '.'
@@ -11,6 +12,10 @@ def c():
   _lang = romeo_root + '/c'
   if os.path.exists(romeo_root + '/petit_c'):
     shutil.rmtree(romeo_root + '/petit_c')
+  
+  # copy testcasesupport and Makefile
+  shutil.copytree(romeo_root + '/c/testcasesupport', romeo_root + '/petit_c/testcasesupport')
+  shutil.copyfile(romeo_root + '/c/Makefile', romeo_root + '/petit_c/Makefile')
 
   for rule in os.listdir(_lang):
     _rule = _lang + '/' + rule
