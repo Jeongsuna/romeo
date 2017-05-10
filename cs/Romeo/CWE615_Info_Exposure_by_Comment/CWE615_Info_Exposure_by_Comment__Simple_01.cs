@@ -16,7 +16,7 @@ namespace Romeo.CWE615_Info_Exposure_by_Comment
         {
             if (!Regex.IsMatch(userName, @"^[a-zA-Z'./s]{1,40}$")) {
                 Console.WriteLine("Invalid name format");
-				return
+                return;
 			}
 
             if (!Regex.IsMatch(password,

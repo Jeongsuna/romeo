@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CWE190_Integer_Overflow\CWE190_Integer_Overflow__Int_Divide_Wraparound_01.cs" />
     <Compile Include="CWE209_Information_Exposure_Through_an_Error_Message\CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs" />
     <Compile Include="CWE259_Hard_Coded_Password\CWE259_Hard_Coded_Password__equals_01.cs" />
     <Compile Include="CWE310_Cryptographic_Issues\CWE310_Cryptographic_Issues__RSA_01.cs" />

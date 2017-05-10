@@ -1,1 +1,2 @@
 C:\Users\jemin\git\romeo\cs\Romeo\bin\Debug\Romeo.exe.config
+C:\Users\jemin\git\romeo\cs\Romeo\obj\Debug\Romeo.csprojResolveAssemblyReference.cache
