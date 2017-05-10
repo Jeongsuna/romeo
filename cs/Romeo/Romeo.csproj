@@ -70,6 +70,7 @@
     <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Good.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CWE609_Double_Checked_Locking__Double_Null_Check_01.cs" />
     <Compile Include="CWE615_Info_Exposure_by_Comment\CWE615_Info_Exposure_by_Comment__Simple_01.cs" />
     <Compile Include="CWE643_Xpath_Injection\CWE643_Xpath_Injection__Simple_01.cs" />
     <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_everyone_01.cs" />
