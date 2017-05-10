@@ -11,7 +11,7 @@ namespace Romeo.CWE321_Hard_Coded_Cryptographic_Key
         int bad(String password)
         {
             // FLAW
-            if (password.Equals("68af404b513073584c4b6f22b6c63e6b"))
+            if (password == "68af404b513073584c4b6f22b6c63e6b")
             {
                 Console.WriteLine("Entering Diagnostic Mode...");
                 return (1);
