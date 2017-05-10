@@ -10,6 +10,7 @@ namespace Romeo.CWE477_Use_of_Obsolete_Functions
     {
         public void bad()
         {
+            // Flaw: use obsolete function
             oldCopy();
         }
 

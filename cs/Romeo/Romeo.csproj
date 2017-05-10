@@ -62,6 +62,7 @@
     <Compile Include="CWE481_Assigning_instead_of_Comparing\CWE481_Assigning_instead_of_Comparing__Simple_01.cs" />
     <Compile Include="CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
     <Compile Include="CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
+    <Compile Include="CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere\CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere__Sqlconnection_Writeline_01.cs" />
     <Compile Include="CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
     <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs">
       <SubType>ASPXCodeBehind</SubType>
