@@ -11,7 +11,13 @@ namespace Romeo.CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method
         private string[] colors;
         public string[] bad()
         {
-            return colors;
+			return colors;
+        }
+		
+		public string[] names;
+		public string[] good()
+        {
+			return names;
         }
     }
 }

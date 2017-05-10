@@ -50,6 +50,7 @@
     <Compile Include="CWE310_Cryptographic_Issues\CWE310_Cryptographic_Issues__RSA_01.cs" />
     <Compile Include="CWE321_Hard_Coded_Cryptographic_Key\CWE321_Hard_Coded_Cryptographic_Key__Equals_01.cs" />
     <Compile Include="CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__MD5_01.cs" />
+    <Compile Include="CWE330_Insufficiently_Random_Values\CWE330_Insufficiently_Random_Values__Random_01.cs" />
     <Compile Include="CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action\CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action__Simple_01.cs" />
     <Compile Include="CWE369_Divide_By_Zero\CWE369_Divide_By_Zero__Simple_01.cs" />
     <Compile Include="CWE397_Declaration_of_Throws_for_Generic_Exception\CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs" />
@@ -88,9 +89,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CWE330_Insufficiently_Random_Values\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="CWE80_XSS\CWE80_XSS__Simple_01.aspx" />
   </ItemGroup>

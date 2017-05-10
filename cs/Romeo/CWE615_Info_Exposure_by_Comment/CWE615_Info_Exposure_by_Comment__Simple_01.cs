@@ -11,15 +11,19 @@ namespace Romeo.CWE615_Info_Exposure_by_Comment
 {
     class CWE615_Info_Exposure_by_Comment__Simple_01
     {
-        // FLAW: password for administrator is "tiger."
+        // FLAW: administrator's password is "tiger."
         public void bad(string connectionString, string userName, string password)
         {
-            if (!Regex.IsMatch(userName, @"^[a-zA-Z'./s]{1,40}$"))
-                throw new FormatException("Invalid name format");
+            if (!Regex.IsMatch(userName, @"^[a-zA-Z'./s]{1,40}$")) {
+                Console.WriteLine("Invalid name format");
+				return
+			}
 
             if (!Regex.IsMatch(password,
-                     @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$"))
-                throw new FormatException("Invalid password format");
+                     @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$")) {
+                Console.WriteLine("Invalid password format");
+				return;
+			}
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

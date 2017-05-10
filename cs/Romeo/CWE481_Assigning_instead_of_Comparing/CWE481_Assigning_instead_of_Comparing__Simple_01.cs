@@ -24,7 +24,7 @@ namespace Romeo.CWE481_Assigning_instead_of_Comparing
 
         private void doSomethingImportant()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Do Something Important");
         }
 
         void good(bool isValid)
