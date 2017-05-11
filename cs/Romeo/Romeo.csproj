@@ -84,6 +84,7 @@
     <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_Guest_01.cs" />
     <Compile Include="CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_WorldSid_01.cs" />
     <Compile Include="CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions\CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__StreamReader_read_01.cs" />
+    <Compile Include="CWE767_Access_to_Critical_Private_Variable_via_Public_Method\CWE767_Access_to_Critical_Private_Variable_via_Public_Method__simple_01.cs" />
     <Compile Include="CWE78_OS_Command_Injection\CWE78_OS_Command_Injection__Process__01.cs" />
     <Compile Include="CWE80_XSS\CWE80_XSS__Simple_01.cs">
       <SubType>ASPXCodeBehind</SubType>
