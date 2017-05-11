@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
@@ -63,7 +64,9 @@
     <Compile Include="CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
     <Compile Include="CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
     <Compile Include="CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere\CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere__Sqlconnection_Writeline_01.cs" />
+    <Compile Include="CWE571_Expression_Always_True\CWE571_Expression_Always_True__Always_True_Cond_01.cs" />
     <Compile Include="CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
+    <Compile Include="CWE595_Comparison_of_Object_References_Instead_of_Object_Contents\CWE595_Comparison_of_Object_References_Instead_of_Object_Contents__simple_01.cs" />
     <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -86,6 +89,7 @@
     </Compile>
     <Compile Include="CWE80_XSS\CWE80_XSS__Simple_02.cs" />
     <Compile Include="CWE89_SQL_Injection\CWE89_SQL_Injection__SqlDataAdapter_01.cs" />
+    <Compile Include="CWE90_LDAP_Injection\CWE90_LDAP_Injection__simple_01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="testcasesupport\Log.cs" />
