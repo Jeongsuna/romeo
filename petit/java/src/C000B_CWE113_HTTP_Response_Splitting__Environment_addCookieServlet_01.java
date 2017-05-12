@@ -16,11 +16,11 @@ Template File: sources-sinks-01.tmpl.java
 * */
 
 
-import testcasesupport.*;
+import java.net.URLEncoder;
 
 import javax.servlet.http.*;
 
-import java.net.URLEncoder;
+import testcasesupport.AbstractTestCaseServlet;
 
 public class C000B_CWE113_HTTP_Response_Splitting__Environment_addCookieServlet_01 extends AbstractTestCaseServlet
 {

@@ -1,18 +1,17 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE78_OS_Command_Injection__connect_tcp_01.java
-Label Definition File: CWE78_OS_Command_Injection.label.xml
+Filename: CWE80_XSS__CWE182_Servlet_File_01.java
+Label Definition File: CWE80_XSS__CWE182_Servlet.label.xml
 Template File: sources-sink-01.tmpl.java
 */
 /*
 * @description
-* CWE: 78 OS Command Injection
-* BadSource: connect_tcp Read data using an outbound tcp connection
+* CWE: 80 Cross Site Scripting (XSS)
+* BadSource: File Read data from file (named c:\data.txt)
 * GoodSource: A hardcoded string
-* BadSink: exec dynamic command execution with Runtime.getRuntime().exec()
+* BadSink:  Display of data in web page after using replaceAll() to remove script tags, which will still allow XSS (CWE 182: Collapse of Data into Unsafe Value)
 * Flow Variant: 01 Baseline
 *
 * */
-
 
 
 import testcasesupport.*;
@@ -21,37 +20,36 @@ import javax.servlet.http.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.FileInputStream;
+import java.io.File;
 import java.io.IOException;
-import java.net.Socket;
 
 import java.util.logging.Level;
 
-public class C0004_CWE078_OS_Command_Injection__connect_tcp_01 extends AbstractTestCase
+public class C0003_CWE080_XSS__CWE182_Servlet_File_01 extends AbstractTestCaseServlet
 {
     /* uses badsource and badsink */
-    public void bad() throws Throwable
+    public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {
         String data;
 
         data = ""; /* Initialize data */
-
-        /* Read data using an outbound tcp connection */
         {
-            Socket socket = null;
-            BufferedReader readerBuffered = null;
+            File file = new File("C:\\data.txt");
+            FileInputStream streamFileInput = null;
             InputStreamReader readerInputStream = null;
+            BufferedReader readerBuffered = null;
 
             try
             {
-                /* Read data using an outbound tcp connection */
-                socket = new Socket("host.example.org", 39544);
-
-                /* read input from socket */
-
-                readerInputStream = new InputStreamReader(socket.getInputStream(), "UTF-8");
+                /* read string from file into data */
+                streamFileInput = new FileInputStream(file);
+                readerInputStream = new InputStreamReader(streamFileInput, "UTF-8");
                 readerBuffered = new BufferedReader(readerInputStream);
 
-                /* POTENTIAL FLAW: Read data using an outbound tcp connection */
+                /* POTENTIAL FLAW: Read data from a file */
+                /* This will be reading the first "line" of the file, which
+                 * could be very long if there are little or no newlines in the file */
                 data = readerBuffered.readLine();
             }
             catch (IOException exceptIO)
@@ -60,7 +58,7 @@ public class C0004_CWE078_OS_Command_Injection__connect_tcp_01 extends AbstractT
             }
             finally
             {
-                /* clean up stream reading objects */
+                /* Close stream reading objects */
                 try
                 {
                     if (readerBuffered != null)
@@ -85,67 +83,46 @@ public class C0004_CWE078_OS_Command_Injection__connect_tcp_01 extends AbstractT
                     IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO);
                 }
 
-                /* clean up socket objects */
                 try
                 {
-                    if (socket != null)
+                    if (streamFileInput != null)
                     {
-                        socket.close();
+                        streamFileInput.close();
                     }
                 }
                 catch (IOException exceptIO)
                 {
-                    IO.logger.log(Level.WARNING, "Error closing Socket", exceptIO);
+                    IO.logger.log(Level.WARNING, "Error closing FileInputStream", exceptIO);
                 }
             }
         }
 
-        String osCommand;
-        if(System.getProperty("os.name").toLowerCase().indexOf("win") >= 0)
+        if (data != null)
         {
-            /* running on Windows */
-            osCommand = "c:\\WINDOWS\\SYSTEM32\\cmd.exe /c dir ";
+            /* POTENTIAL FLAW: Display of data in web page after using replaceAll() to remove script tags, which will still allow XSS with strings like <scr<script>ipt> (CWE 182: Collapse of Data into Unsafe Value) */
+            response.getWriter().println("<br>bad(): data = " + data.replaceAll("(<script>)", ""));
         }
-        else
-        {
-            /* running on non-Windows */
-            osCommand = "/bin/ls ";
-        }
-
-        /* POTENTIAL FLAW: command injection */
-        Process process = Runtime.getRuntime().exec(osCommand + data);
-        process.waitFor();
 
     }
 
-    public void good() throws Throwable
+    public void good(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {
-        goodG2B();
+        goodG2B(request, response);
     }
 
     /* goodG2B() - uses goodsource and badsink */
-    private void goodG2B() throws Throwable
+    private void goodG2B(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {
         String data;
 
         /* FIX: Use a hardcoded string */
         data = "foo";
 
-        String osCommand;
-        if(System.getProperty("os.name").toLowerCase().indexOf("win") >= 0)
+        if (data != null)
         {
-            /* running on Windows */
-            osCommand = "c:\\WINDOWS\\SYSTEM32\\cmd.exe /c dir ";
+            /* POTENTIAL FLAW: Display of data in web page after using replaceAll() to remove script tags, which will still allow XSS with strings like <scr<script>ipt> (CWE 182: Collapse of Data into Unsafe Value) */
+            response.getWriter().println("<br>bad(): data = " + data.replaceAll("(<script>)", ""));
         }
-        else
-        {
-            /* running on non-Windows */
-            osCommand = "/bin/ls ";
-        }
-
-        /* POTENTIAL FLAW: command injection */
-        Process process = Runtime.getRuntime().exec(osCommand + data);
-        process.waitFor();
 
     }
 
