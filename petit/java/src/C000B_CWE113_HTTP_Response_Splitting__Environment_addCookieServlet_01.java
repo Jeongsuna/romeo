@@ -15,14 +15,14 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE113_HTTP_Response_Splitting.s01;
+
 import testcasesupport.*;
 
 import javax.servlet.http.*;
 
 import java.net.URLEncoder;
 
-public class CWE113_HTTP_Response_Splitting__Environment_addCookieServlet_01 extends AbstractTestCaseServlet
+public class C000B_CWE113_HTTP_Response_Splitting__Environment_addCookieServlet_01 extends AbstractTestCaseServlet
 {
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {
