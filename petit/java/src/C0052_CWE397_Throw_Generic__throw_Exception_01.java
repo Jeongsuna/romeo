@@ -3,12 +3,12 @@
  *
  * */
 
-package testcases.CWE397_Throw_Generic;
+
 
 import testcasesupport.AbstractTestCase;
 import java.io.FileNotFoundException;
 
-public class CWE397_Throw_Generic__throw_Exception_01 extends AbstractTestCase 
+public class C0052_CWE397_Throw_Generic__throw_Exception_01 extends AbstractTestCase 
 {
     public void bad() throws Exception 
     {

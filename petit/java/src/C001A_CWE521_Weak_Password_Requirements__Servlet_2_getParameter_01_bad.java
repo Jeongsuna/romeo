@@ -2,7 +2,7 @@
 Filename : CWE521_Weak_Password_Requirements__Servlet_2_getParameter_01_bad.java
 */
 
-package testcases.CWE521_Weak_Password_Requirements;
+
 
 import testcasesupport.*;
 
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CWE521_Weak_Password_Requirements__Servlet_2_getParameter_01_bad extends AbstractTestCaseServlet
+public class C001A_CWE521_Weak_Password_Requirements__Servlet_2_getParameter_01_bad extends AbstractTestCaseServlet
 {
 
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable

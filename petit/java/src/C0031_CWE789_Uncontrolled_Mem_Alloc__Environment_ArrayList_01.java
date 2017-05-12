@@ -22,7 +22,7 @@ import java.util.logging.Level;
 
 import java.util.ArrayList;
 
-public class C000F_CWE134_CWE789_Uncontrolled_Mem_Alloc__Environment_ArrayList_01 extends AbstractTestCase
+public class C0031_CWE789_Uncontrolled_Mem_Alloc__Environment_ArrayList_01 extends AbstractTestCase
 {
     /* uses badsource and badsink */
     public void bad() throws Throwable

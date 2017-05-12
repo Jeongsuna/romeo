@@ -25,7 +25,7 @@ import java.net.Socket;
 
 import java.util.logging.Level;
 
-public class C0008_CWE134_Uncontrolled_Format_String__connect_tcp_format_01 extends AbstractTestCase
+public class C000F_CWE134_Uncontrolled_Format_String__connect_tcp_format_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {

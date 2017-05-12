@@ -13,7 +13,7 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE597_Wrong_Operator_String_Comparison;
+
 
 import testcasesupport.*;
 
@@ -23,7 +23,7 @@ import java.io.IOException;
 
 import java.util.logging.Level;
 
-public class CWE597_Wrong_Operator_String_Comparison__basic_01 extends AbstractTestCase
+public class C0059_CWE597_Wrong_Operator_String_Comparison__basic_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {

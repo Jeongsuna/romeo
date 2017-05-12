@@ -13,9 +13,9 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases;
 
-public class CWE486_Compare_Classes_by_Name__basic_01
+
+public class C004D_CWE486_Compare_Classes_by_Name__basic_01
 {
     public static class A {
       public static class Helper {

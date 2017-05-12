@@ -1,31 +1,30 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE338_Weak_PRNG__math_01.java
-Label Definition File: CWE338_Weak_PRNG.label.xml
+Filename: CWE546_Suspicious_Comment__BUG_01.java
+Label Definition File: CWE546_Suspicious_Comment.label.xml
 Template File: point-flaw-01.tmpl.java
 */
 /*
 * @description
-* CWE: 338 Use of Cryptographically Weak PRNG
-* Sinks: math
-*    GoodSink: stronger PRNG
-*    BadSink : weak PRNG
+* CWE: 546 Suspicious Comment
+* Sinks: BUG
+*    GoodSink: does not contain suspicious comment
+*    BadSink : contains suspicious comment
 * Flow Variant: 01 Baseline
 *
 * */
 
-package testcases.CWE338_Weak_PRNG.m00;
+
 
 import testcasesupport.*;
 
-import java.security.SecureRandom;
-
-public class CWE338_Weak_PRNG__math_01 extends AbstractTestCase
+public class C005F_CWE546_Suspicious_Comment__BUG_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
 
-        /* FLAW: Math.random() is a known weak PRNG */
-        IO.writeLine("" + Math.random());
+        /* FLAW: This is the suspicious comment */
+        /* BUG: There is a bug at this location...I'm not sure why! */
+        IO.writeLine("This a test of the emergency broadcast system");
 
     }
 
@@ -37,10 +36,8 @@ public class CWE338_Weak_PRNG__math_01 extends AbstractTestCase
     private void good1() throws Throwable
     {
 
-        /* FIX: java.security.SecureRandom is considered to be a strong PRNG */
-        SecureRandom secureRandom = new SecureRandom();
-
-        IO.writeLine("" + secureRandom.nextDouble());
+        /* FIX: don't have those types of comments :) */
+        IO.writeLine("This a test of the emergency broadcast system");
 
     }
 

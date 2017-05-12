@@ -13,13 +13,13 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE615_Info_Exposure_by_Comment.s01;
+
 
 import testcasesupport.*;
 
 import javax.servlet.http.*;
 
-public class CWE615_Info_Exposure_by_Comment__Servlet_01 extends AbstractTestCaseServlet
+public class C001C_CWE615_Info_Exposure_by_Comment__Servlet_01 extends AbstractTestCaseServlet
 {
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {

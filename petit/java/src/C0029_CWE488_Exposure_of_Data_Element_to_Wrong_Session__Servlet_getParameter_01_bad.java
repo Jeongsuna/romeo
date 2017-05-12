@@ -2,7 +2,7 @@
 Filename : CWE488_Exposure_of_Data_Element_to_Wrong_Session__Servlet_getParameter_01_bad.java
 */
 
-package testcases.CWE488_Exposure_of_Data_Element_to_Wrong_Session;
+
 
 import testcasesupport.*;
 
@@ -14,7 +14,7 @@ import java.net.*;
 import javax.servlet.http.*;
 import java.io.*;
 
-public class CWE488_Exposure_of_Data_Element_to_Wrong_Session__Servlet_getParameter_01_bad extends AbstractTestCaseServlet
+public class C0029_CWE488_Exposure_of_Data_Element_to_Wrong_Session__Servlet_getParameter_01_bad extends AbstractTestCaseServlet
 {
     public String m_str_name;
 

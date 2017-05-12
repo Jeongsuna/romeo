@@ -13,7 +13,7 @@ Template File: sources-sink-01.tmpl.java
 *
 * */
 
-package testcases.CWE470_Unsafe_Reflection;
+
 
 import testcasesupport.*;
 
@@ -25,7 +25,7 @@ import java.io.IOException;
 
 import java.util.logging.Level;
 
-public class CWE470_Unsafe_Reflection__console_readLine_01 extends AbstractTestCase
+public class C0053_CWE470_Unsafe_Reflection__console_readLine_01 extends AbstractTestCase
 {
     /* uses badsource and badsink */
     public void bad() throws Throwable

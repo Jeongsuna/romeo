@@ -13,13 +13,13 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE539_Information_Exposure_Through_Persistent_Cookie;
+
 
 import testcasesupport.*;
 
 import javax.servlet.http.*;
 
-public class CWE539_Information_Exposure_Through_Persistent_Cookie__Servlet_01 extends AbstractTestCaseServlet
+public class C001B_CWE539_Information_Exposure_Through_Persistent_Cookie__Servlet_01 extends AbstractTestCaseServlet
 {
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {

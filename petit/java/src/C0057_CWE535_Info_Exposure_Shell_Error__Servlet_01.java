@@ -13,7 +13,7 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE535_Info_Exposure_Shell_Error;
+
 
 import testcasesupport.*;
 
@@ -25,7 +25,7 @@ import java.io.PrintWriter;
 
 import java.util.logging.Level;
 
-public class CWE535_Info_Exposure_Shell_Error__Servlet_01 extends AbstractTestCaseServlet
+public class C0057_CWE535_Info_Exposure_Shell_Error__Servlet_01 extends AbstractTestCaseServlet
 {
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {

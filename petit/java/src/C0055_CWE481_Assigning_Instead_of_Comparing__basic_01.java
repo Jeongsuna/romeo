@@ -13,13 +13,13 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE481_Assigning_Instead_of_Comparing;
+
 
 import testcasesupport.*;
 
 import java.security.SecureRandom;
 
-public class CWE481_Assigning_Instead_of_Comparing__basic_01 extends AbstractTestCase
+public class C0055_CWE481_Assigning_Instead_of_Comparing__basic_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {

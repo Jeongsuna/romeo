@@ -13,14 +13,14 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE497_Exposure_of_System_Data.s01;
+
 
 import testcasesupport.*;
 
 import javax.servlet.http.*;
 import java.io.*;
 
-public class CWE497_Exposure_of_System_Data__Servlet_01 extends AbstractTestCaseServlet
+public class C002B_CWE497_Exposure_of_System_Data__Servlet_01 extends AbstractTestCaseServlet
 {
 
     public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable

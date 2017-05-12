@@ -13,7 +13,7 @@ Template File: point-flaw-01.tmpl.java
 *
 * */
 
-package testcases.CWE477_Obsolete_Functions;
+
 
 import testcasesupport.*;
 
@@ -21,7 +21,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.DataInputStream;
 
-public class CWE477_Obsolete_Functions__DataInputStream_readLine_01 extends AbstractTestCase
+public class C0054_CWE477_Obsolete_Functions__DataInputStream_readLine_01 extends AbstractTestCase
 {
     public void bad() throws Throwable
     {
