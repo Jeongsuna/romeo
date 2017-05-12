@@ -1,0 +1,63 @@
+"0001_SQLI","SQL 삽입","CWE89_SQL_Injection__connect_tcp_execute_01.java",115
+"0002_PATHMANIP","경로 조작 및 자원 삽입","CWE23_Relative_Path_Traversal__connect_tcp_01.java",120
+"0003_XSS","크로스사이트 스크립트","CWE80_XSS__CWE182_Servlet_File_01.java",103
+"0004_CMDI","운영체제 명령어 삽입","CWE78_OS_Command_Injection__connect_tcp_01.java",116
+"0006_REDIRECT","신뢰되지 않는 URL 주소로 자동접속 연결","CWE601_Open_Redirect__Servlet_File_01.java",120
+"0007_XQUERYI","XQuery 삽입","CWE652_XQuery_Injection__Environment_executeQuery_01_bad.java",42
+"0008_XPATHI","XPath 삽입","CWE643_Xpath_Injection__connect_tcp_01.java",141
+"0009_LDAPI","LDAP 삽입","CWE90_LDAP_Injection__connect_tcp_17.java",119
+"000A_CSRF","크로스사이트 요청 위조","CWE352_Cross_Site_Request_Forgery__getCookiesServlet_write_01_bad.java",36
+"000B_HTTPSPLIT","HTTP 응답분할","CWE113_HTTP_Response_Splitting__Environment_addCookieServlet_01.java",39
+"000C_TYPEOVER","정수형 오버플로우","CWE190_Integer_Overflow__int_max_add_01.java",33
+"000D_RELUNTRUST","보안 기능 결정에 사용되는 부적절한 입력값","CWE807_Reliance_on_Untrusted_Inputs_in_a_Security_Decision__Servlet_basic_equals_01_bad.java",39
+"000F_FORMATI","포맷 스트링 삽입","CWE134_Uncontrolled_Format_String__connect_tcp_format_01.java",104
+"0010_MISSAUTH","적절한 인증없는 중요 기능 허용","CWE306_Missing_Authentication_for_Critical_Function__Servlet_getParameterServlet_equals_01_bad.java",78
+"0011_IMPRAUTH","부적절한 인가","CWE285_Improper_Authorization__Servlet_getParameter_01_bad.java",41
+"0012_WRONGPERM","중요한 자원에 대한 잘못된 권한설정","CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01_bad.java",27
+"0013_BROKNCRYPT","취약한 암호화 알고리즘 사용","CWE327_Use_Broken_Crypto__3DES_01.java",41
+"0014_STORECLEAR","중요정보 평문저장","CWE315_Plaintext_Storage_in_Cookie__Servlet_01.java",43
+"0015_SENDCLEAR","중요정보 평문전송","CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_01.java",100
+"0016_HARDPASS","하드코드된 비밀번호","CWE259_Hard_Coded_Password__driverManager_01.java",44
+"0017_KEYLEN","충분하지 않은 키 길이 사용","CWE310_Cryptographic_Issues__basic_initialize_01_bad.java",31
+"0018_RANDOM","적절하지 않은 난수 값 사용","CWE338_Weak_PRNG__math_01.java",28
+"0019_HARDKEY","하드코드된 암호화 키","CWE321_Hard_Coded_Cryptographic_Key__basic_01.java",44
+"001A_WEAKPASS","취약한 비밀번호 허용","CWE521_Weak_Password_Requirements__Servlet_2_getParameter_01_bad.java",38
+"001B_PERSCOOKIE","사용자 하드디스크에 저장되는 쿠키를 통한 정보노출","CWE539_Information_Exposure_Through_Persistent_Cookie__Servlet_01.java",30
+"001C_LEAKCOM","주석문 안에 포함된 패스워드 등 시스템 주요정보","CWE615_Info_Exposure_by_Comment__Servlet_01.java",28
+"001D_ONEWAYHASH","솔트 없이 일방향 해쉬 함수 사용","CWE759_Unsalted_One_Way_Hash__basic_01.java",31
+"001E_DOWNCODE","무결성 검사없는 코드 다운로드","CWE494_Download_of_Code_Without_Integrity_Check__Environment_URLClassLoader_01_bad.java",46
+"001F_EXCEAUTH","반복된 인증시도 제한 기능 부재","CWE307_Improper_Restriction_Of_Excessive_Authentication_Attempts__Servlet_Captcha_01_bad.java",26
+"0020_TOCTOU","경쟁조건: 검사시점과 사용시점(TOCTOU)","CWE367_TOC_TOU__basic_canRead_01_bad.java",46
+"0022_LEAKMSG","오류메시지 통한 정보 노출","CWE209_Information_Leak_Error__printStackTrace_01.java",31
+"0023_NOACTION","오류상황 대응 부재","CWE390_Error_Without_Action__mkdirs_01.java",41
+"0024_NOCHKERR","부적절한 예외 처리","CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions.java",110
+"0025_USENULL","널(Null) 포인터 역참조","CWE476_NULL_Pointer_Dereference__Integer_01.java",32
+"0029_LEAKSESS","잘못된 세션에 의한 데이터 정보 노출","CWE488_Exposure_of_Data_Element_to_Wrong_Session__Servlet_getParameter_01_bad.java",31
+"002A_DEBUGCODE","제거되지 않고 남은 디버그 코드","CWE489_Leftover_Debug_Code__Servlet_01.java",38
+"002B_SYSTEMLEAK","시스템 데이터 정보노출","CWE497_Exposure_of_System_Data__Servlet_01.java",30
+"002C_RETPRIVA","Public 메소드로부터 반환된 Private 배열","CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__basic_return_01_bad.java",17
+"002D_ASSTOPRIVA","Private 배열에 Public 데이터 할당","CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Environment_2_assign_01_bad.java",31
+"002E_DNSLOOKUP","DNS lookup에 의존한 보안결정","CWE247_Reliance_on_DNS_Lookups_in_a_Security_Decision__Servlet_Socket_01_bad.java",39
+"002F_DANGERAPI","취약한 API 사용","CWE676_Use_of_Potentially_Dangerous_Function__basic_ThreadRun_01_bad.java",15
+"0031_ALLOCSIZE","Invalid malloc","CWE789_Uncontrolled_Mem_Alloc__Environment_ArrayList_01.java",52
+"0033_TYPEUNDER","Type underrun","CWE191_Integer_Underflow__int_min_sub_01.java",33
+"0034_DIVBY0","Divide by zero","CWE369_Divide_by_Zero__int_zero_divide_01.java",33
+"0044_NOFINSTFLD","Public Static Field Not Marked Final","CWE582_Array_Public_Final_Static__basic_01_bad.java",14
+"004A_SYSI","External Control of System or Configuration Setting","CWE15_External_Control_of_System_or_Configuration_Setting__console_readLine_01.java",94
+"004B_SYSTEMEXIT","J2EE Bad Practices: Use of System.exit()","CWE382_Use_of_System_Exit__Servlet_System_01.java",28
+"004C_CATCHNULL","Use of NullPointerException Catch to Detect NULL Pointer Dereference","CWE395_Catch_NullPointerException__basic_01.java",35
+"004D_COMPCLASS","Comparison of Classes by Name","CWE486_Compare_Classes_by_Name__basic_01.java",38
+"004E_SUPERFINAL","finalize() Method Without super.finalize()","CWE568_Finalize_Without_Super__empty_01_bad.java",54
+"004F_SUPERCLONE","clone Method Without super.clone","CWE580_Clone_Without_Super__clone_01_bad.java",24
+"0050_SYNCEMPTY","Empty Synchronized Block","CWE585_Empty_Sync_Block__Thread_01.java",18
+"0051_FINALIZE","Explicit Call to Finalize","CWE586_Explicit_Call_to_Finalize__basic_01.java",39
+"0052_THROWBROAD","Declaration of Throws for Generic Exception","CWE397_Throw_Generic__throw_Exception_01.java",15
+"0053_REFLECTI","Unsafe Reflection","CWE470_Unsafe_Reflection__console_readLine_01.java",84
+"0054_OBSOLETE","Obsolete Functions","CWE477_Obsolete_Functions__DataInputStream_readLine_01.java",33
+"0055_ASSIGNCOMP","Assigning instead of Comparing","CWE481_Assigning_Instead_of_Comparing__basic_01.java",31
+"0056_LEAKDEBUG","Info Exposure Debug Log","CWE534_Info_Exposure_Debug_Log__Servlet_01.java",40
+"0057_LEAKSHELL","Info Exposure Shell Error","CWE535_Info_Exposure_Shell_Error__Servlet_01.java",48
+"0059_COMPSTR","Use of Wrong Operator in String Comparison","CWE597_Wrong_Operator_String_Comparison__basic_01.java",48
+"005A_SESEXPIRE","Insufficient Session Expiration","CWE613_Insufficient_Session_Expiration__Servlet_01.java",30
+"005B_TRUE","Expression always true","CWE571_Expression_Always_True__true_01.java",15
+"005C_FALSE","Expression always false","CWE570_Expression_Always_False__false_01.java",15
