@@ -4,7 +4,7 @@ Filename : C0017_CWE310_Cryptographic_Issues__w32_opensslcrypt_01_bad.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "std_testcase.h"
-#include   "krdopenssl.h"
+#include "ropenssl.h"
 
 EVP_PKEY *RSAKey() {
 	EVP_PKEY *pkey;

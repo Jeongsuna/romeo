@@ -89,7 +89,7 @@ static void goodB2G()
 
     {
 		char q[512] = {0,};
-        char * sz_id = "kisa";
+        char * sz_id = "user";
 		int count = 0;
 		MYSQL *conn;
 

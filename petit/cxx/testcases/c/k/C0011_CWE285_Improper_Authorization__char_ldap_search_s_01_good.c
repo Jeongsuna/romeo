@@ -34,8 +34,8 @@ Filename : C0011_CWE285_Improper_Authorization__char_ldap_search_s_01_good.c
 #define MY_PORT 19201
 #define MY_SEARCHBASE "ou=People,dc=example,dc=com"
 #define MY_FILTER "(manager=John)"
-#define USERNAME "KISA"
-#define PASSWORD "KISA!@#"
+#define USERNAME "USER"
+#define PASSWORD "PASS!@#"
 
 
 #ifndef OMITGOOD

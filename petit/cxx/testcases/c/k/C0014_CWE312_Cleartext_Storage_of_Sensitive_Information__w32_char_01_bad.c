@@ -10,7 +10,7 @@ Filename : C0014_CWE312_Cleartext_Storage_of_Sensitive_Information__w32_char_01_
 #pragma comment(lib, "advapi32")
 #pragma comment(lib, "crypt32.lib")
 
-#define PASSWORD "KISAABCD"
+#define PASSWORD "PASSABCD"
 #define HASH_INPUT "ABCDEFG123456" /* INCIDENTAL: Hardcoded crypto */
 
 #ifndef OMITBAD

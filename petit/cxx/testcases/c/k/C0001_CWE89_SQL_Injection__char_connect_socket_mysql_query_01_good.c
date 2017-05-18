@@ -1,10 +1,5 @@
 /*
 Filename : C0001_CWE89_SQL_Injection__char_connect_socket_mysql_query_01_good.c
-CWEID    : CWE89
-sinkname : mysql_query
-sinkline : 62,
-makedate : 2012 12 24
-license  : Copyright KISA.
 */
 
 #include "std_testcase.h"

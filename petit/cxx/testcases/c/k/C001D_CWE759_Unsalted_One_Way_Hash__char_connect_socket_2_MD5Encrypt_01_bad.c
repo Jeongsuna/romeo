@@ -28,7 +28,7 @@ Filename : C001D_CWE759_Unsalted_One_Way_Hash__char_connect_socket_2_MD5Encrypt_
 
 
 
-#include <krdcryptutil.h>
+#include <rcryptutil.h>
 
 #pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "user32.lib")
@@ -86,7 +86,7 @@ void C001D_CWE759_Unsalted_One_Way_Hash__char_connect_socket_2_MD5Encrypt_01_bad
     {
         char * p_enc = NULL;
         /* FLAW */
-        p_enc = KrdMD5Encrypt(data, NULL);
+        p_enc = RMD5Encrypt(data, NULL);
         printLine(p_enc);
     }
 

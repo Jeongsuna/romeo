@@ -8,8 +8,8 @@ Filename : C001F_CWE307_Improper_Restriction_of_Excessive_Authentication_Attempt
 #include <windows.h>
 #ifndef OMITGOOD
 
-#define ID "kisa"
-#define PWD "kisa1234"
+#define ID "user"
+#define PWD "pass1234"
 
 static void good1()
 {

@@ -28,7 +28,7 @@ Filename : C001D_CWE759_Unsalted_One_Way_Hash__char_connect_socket_2_MD5Encrypt_
 
 
 
-#include <krdcryptutil.h>
+#include <rcryptutil.h>
 
 #pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "user32.lib")
@@ -89,7 +89,7 @@ static void goodB2G()
 
     {
         char * p_enc = NULL;
-        p_enc = KrdMD5Encrypt(data, "$1$/iSaq7rB$EoUw5jJPPvAPECNaaWzMK/");
+        p_enc = RMD5Encrypt(data, "$1$/iSaq7rB$EoUw5jJPPvAPECNaaWzMK/");
         printLine(p_enc);
     }
 
