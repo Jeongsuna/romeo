@@ -15,6 +15,7 @@ Template File: point-flaw-01.tmpl.c
 
 #include "std_testcase.h"
 
+#include <windows.h>
 #include <winsock2.h>
 #pragma comment(lib, "ws2_32")
 

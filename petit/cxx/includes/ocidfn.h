@@ -1,0 +1,1 @@
+#define SQLT_STR  5                                /* zero terminated string */

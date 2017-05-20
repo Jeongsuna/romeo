@@ -14,6 +14,7 @@ Template File: point-flaw-01.tmpl.c
  * */
 
 #include "std_testcase.h"
+#include <windows.h>
 
 #define INPUT_SZ 100
 
