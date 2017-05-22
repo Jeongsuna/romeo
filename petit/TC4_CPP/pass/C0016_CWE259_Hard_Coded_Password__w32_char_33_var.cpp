@@ -31,13 +31,11 @@ namespace CWE259_Hard_Coded_Password__w32_char_33
 void bad()
 {
     char * password;
-    char * &passwordRef = password;
     char passwordBuffer[100] = "";
     password = passwordBuffer;
     /* FLAW: Use a hardcoded password */
     strcpy(password, PASSWORD);
     {
-        char * password = passwordRef;
         {
             HANDLE pHandle;
             char * username = "User";

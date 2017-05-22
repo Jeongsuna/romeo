@@ -26,14 +26,12 @@ namespace CWE124_Buffer_Underwrite__char_alloca_cpy_33
 void bad()
 {
     char * data;
-    char * &dataRef = data;
     char * dataBuffer = (char *)ALLOCA(100*sizeof(char));
     memset(dataBuffer, 'A', 100-1);
     dataBuffer[100-1] = '\0';
     /* FLAW: Set data pointer to before the allocated memory buffer */
     data = dataBuffer - 8;
     {
-        char * data = dataRef;
         {
             char source[100];
             memset(source, 'C', 100-1); /* fill with 'C's */

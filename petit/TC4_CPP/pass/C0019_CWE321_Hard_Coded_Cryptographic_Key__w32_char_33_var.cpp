@@ -32,13 +32,11 @@ namespace CWE321_Hard_Coded_Cryptographic_Key__w32_char_33
 void bad()
 {
     char * cryptoKey;
-    char * &cryptoKeyRef = cryptoKey;
     char cryptoKeyBuffer[100] = "";
     cryptoKey = cryptoKeyBuffer;
     /* FLAW: Use a hardcoded value for the hash input causing a hardcoded crypto key in the sink */
     strcpy(cryptoKey, CRYPTO_KEY);
     {
-        char * cryptoKey = cryptoKeyRef;
         {
             HCRYPTPROV hCryptProv;
             HCRYPTKEY hKey;

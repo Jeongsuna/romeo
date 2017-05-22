@@ -1,25 +1,23 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_33.cpp
-Label Definition File: CWE789_Uncontrolled_Mem_Alloc__malloc.label.xml
+Filename: CWE369_Divide_by_Zero__float_connect_socket_33.cpp
+Label Definition File: CWE369_Divide_by_Zero__float.label.xml
 Template File: sources-sinks-33.tmpl.cpp
 */
 /*
  * @description
- * CWE: 789 Uncontrolled Memory Allocation
+ * CWE: 369 Divide by Zero
  * BadSource: connect_socket Read data using a connect socket (client side)
- * GoodSource: Small number greater than zero
+ * GoodSource: A hardcoded non-zero number (two)
  * Sinks:
- *    GoodSink: Allocate memory with malloc() and check the size of the memory to be allocated
- *    BadSink : Allocate memory with malloc(), but incorrectly check the size of the memory to be allocated
+ *    GoodSink: Check value of or near zero before dividing
+ *    BadSink : Divide a constant by data
  * Flow Variant: 33 Data flow: use of a C++ reference to data within the same function
  *
  * */
 
 #include "std_testcase.h"
 
-#ifndef _WIN32
-#include <wchar.h>
-#endif
+#include <math.h>
 
 #ifdef _WIN32
 #include <winsock2.h>
@@ -40,22 +38,19 @@ Template File: sources-sinks-33.tmpl.cpp
 #endif
 
 #define TCP_PORT 27015
+#define CHAR_ARRAY_SIZE 20
 #define IP_ADDRESS "127.0.0.1"
-#define CHAR_ARRAY_SIZE (3 * sizeof(data) + 2)
 
-#define HELLO_STRING "hello"
-
-namespace CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_33
+namespace CWE369_Divide_by_Zero__float_connect_socket_33
 {
 
 #ifndef OMITBAD
 
 void bad()
 {
-    size_t data;
-    size_t &dataRef = data;
+    float data;
     /* Initialize data */
-    data = 0;
+    data = 0.0F;
     {
 #ifdef _WIN32
         WSADATA wsaData;
@@ -74,7 +69,6 @@ void bad()
             }
             wsaDataInit = 1;
 #endif
-            /* POTENTIAL FLAW: Read data using a connect socket */
             connectSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
             if (connectSocket == INVALID_SOCKET)
             {
@@ -90,15 +84,16 @@ void bad()
             }
             /* Abort on error or the connection was closed, make sure to recv one
              * less char than is in the recv_buf in order to append a terminator */
+            /* POTENTIAL FLAW: Use a value input from the network */
             recvResult = recv(connectSocket, inputBuffer, CHAR_ARRAY_SIZE - 1, 0);
             if (recvResult == SOCKET_ERROR || recvResult == 0)
             {
                 break;
             }
-            /* NUL-terminate the string */
+            /* NUL-terminate string */
             inputBuffer[recvResult] = '\0';
-            /* Convert to unsigned int */
-            data = strtoul(inputBuffer, NULL, 0);
+            /* Convert to float */
+            data = (float)atof(inputBuffer);
         }
         while (0);
         if (connectSocket != INVALID_SOCKET)
@@ -113,24 +108,10 @@ void bad()
 #endif
     }
     {
-        size_t data = dataRef;
         {
-            char * myString;
-            /* POTENTIAL FLAW: No MAXIMUM limitation for memory allocation, but ensure data is large enough
-             * for the strcpy() function to not cause a buffer overflow */
-            /* INCIDENTAL FLAW: The source could cause a type overrun in data or in the memory allocation */
-            if (data > strlen(HELLO_STRING))
-            {
-                myString = (char *)malloc(data*sizeof(char));
-                /* Copy a small string into myString */
-                strcpy(myString, HELLO_STRING);
-                printLine(myString);
-                free(myString);
-            }
-            else
-            {
-                printLine("Input is less than the length of the source string");
-            }
+            /* POTENTIAL FLAW: Possibly divide by zero */
+            int result = (int)(100.0 / data);
+            printIntLine(result);
         }
     }
 }
@@ -142,31 +123,18 @@ void bad()
 /* goodG2B() uses the GoodSource with the BadSink */
 static void goodG2B()
 {
-    size_t data;
-    size_t &dataRef = data;
+    float data;
+    float &dataRef = data;
     /* Initialize data */
-    data = 0;
-    /* FIX: Use a relatively small number for memory allocation */
-    data = 20;
+    data = 0.0F;
+    /* FIX: Use a hardcoded number that won't a divide by zero */
+    data = 2.0F;
     {
-        size_t data = dataRef;
+        float data = dataRef;
         {
-            char * myString;
-            /* POTENTIAL FLAW: No MAXIMUM limitation for memory allocation, but ensure data is large enough
-             * for the strcpy() function to not cause a buffer overflow */
-            /* INCIDENTAL FLAW: The source could cause a type overrun in data or in the memory allocation */
-            if (data > strlen(HELLO_STRING))
-            {
-                myString = (char *)malloc(data*sizeof(char));
-                /* Copy a small string into myString */
-                strcpy(myString, HELLO_STRING);
-                printLine(myString);
-                free(myString);
-            }
-            else
-            {
-                printLine("Input is less than the length of the source string");
-            }
+            /* POTENTIAL FLAW: Possibly divide by zero */
+            int result = (int)(100.0 / data);
+            printIntLine(result);
         }
     }
 }
@@ -174,10 +142,10 @@ static void goodG2B()
 /* goodB2G() uses the BadSource with the GoodSink */
 static void goodB2G()
 {
-    size_t data;
-    size_t &dataRef = data;
+    float data;
+    float &dataRef = data;
     /* Initialize data */
-    data = 0;
+    data = 0.0F;
     {
 #ifdef _WIN32
         WSADATA wsaData;
@@ -196,7 +164,6 @@ static void goodB2G()
             }
             wsaDataInit = 1;
 #endif
-            /* POTENTIAL FLAW: Read data using a connect socket */
             connectSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
             if (connectSocket == INVALID_SOCKET)
             {
@@ -212,15 +179,16 @@ static void goodB2G()
             }
             /* Abort on error or the connection was closed, make sure to recv one
              * less char than is in the recv_buf in order to append a terminator */
+            /* POTENTIAL FLAW: Use a value input from the network */
             recvResult = recv(connectSocket, inputBuffer, CHAR_ARRAY_SIZE - 1, 0);
             if (recvResult == SOCKET_ERROR || recvResult == 0)
             {
                 break;
             }
-            /* NUL-terminate the string */
+            /* NUL-terminate string */
             inputBuffer[recvResult] = '\0';
-            /* Convert to unsigned int */
-            data = strtoul(inputBuffer, NULL, 0);
+            /* Convert to float */
+            data = (float)atof(inputBuffer);
         }
         while (0);
         if (connectSocket != INVALID_SOCKET)
@@ -235,24 +203,16 @@ static void goodB2G()
 #endif
     }
     {
-        size_t data = dataRef;
+        float data = dataRef;
+        /* FIX: Check for value of or near zero before dividing */
+        if(fabs(data) > 0.000001)
         {
-            char * myString;
-            /* FIX: Include a MAXIMUM limitation for memory allocation and a check to ensure data is large enough
-             * for the strcpy() function to not cause a buffer overflow */
-            /* INCIDENTAL FLAW: The source could cause a type overrun in data or in the memory allocation */
-            if (data > strlen(HELLO_STRING) && data < 100)
-            {
-                myString = (char *)malloc(data*sizeof(char));
-                /* Copy a small string into myString */
-                strcpy(myString, HELLO_STRING);
-                printLine(myString);
-                free(myString);
-            }
-            else
-            {
-                printLine("Input is less than the length of the source string or too large");
-            }
+            int result = (int)(100.0 / data);
+            printIntLine(result);
+        }
+        else
+        {
+            printLine("This would result in a divide by zero");
         }
     }
 }
@@ -273,7 +233,7 @@ void good()
    application, which is how source code analysis tools are tested. */
 #ifdef INCLUDEMAIN
 
-using namespace CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_33; /* so that we can use good and bad easily */
+using namespace CWE369_Divide_by_Zero__float_connect_socket_33; /* so that we can use good and bad easily */
 
 int main(int argc, char * argv[])
 {
