@@ -1,0 +1,1 @@
+#define _O_RDWR         0x0002  /* open for reading and writing */

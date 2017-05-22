@@ -1,0 +1,1 @@
+typedef struct st_mysql {} MYSQL;
