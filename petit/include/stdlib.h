@@ -16,3 +16,4 @@ extern void free(void *__ptr);
 
 extern int rand (void);
 extern void srand (unsigned int __seed);
+extern char* getenv (const char* name);
