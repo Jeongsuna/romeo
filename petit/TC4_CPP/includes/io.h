@@ -1,1 +1,0 @@
-int _close(int fd);

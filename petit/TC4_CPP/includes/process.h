@@ -1,1 +1,0 @@
-intptr_t _execl(char const* _FileName, char const* _Arguments, ...);
