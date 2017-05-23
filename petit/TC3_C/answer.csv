@@ -1,0 +1,20 @@
+"0003_XSS","크로스사이트 스크립트","C0003_CWE80_Basic_XSS__char_connect_socket_cgiFormString_01_bad.c",92
+"0004_CMDI","운영체제 명령어 삽입","C0004_CWE78_OS_Command_Injection__char_connect_socket_execl_01.c",139
+"0009_LDAPI","LDAP 삽입","C0009_CWE90_LDAP_Injection__w32_char_connect_socket_01.c",138
+"000C_TYPEOVER","정수형 오버플로우","C000C_CWE190_Integer_Overflow__char_max_add_01.c",30
+"000F_FORMATI","포맷 스트링 삽입","C000F_CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01.c",120
+"0015_SENDCLEAR","중요정보 평문전송","C0015_CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_01.c",105
+"0016_HARDPASS","하드코드된 비밀번호","C0016_CWE259_Hard_Coded_Password__w32_char_01.c",43
+"0018_RANDOM","적절하지 않은 난수 값 사용","C0018_CWE338_Weak_PRNG__w32_01.c",28
+"0019_HARDKEY","하드코드된 암호화 키","C0019_CWE321_Hard_Coded_Cryptographic_Key__w32_char_01.c",74
+"001C_LEAKCOM","주석문 안에 포함된 패스워드 등 시스템 주요정보","C001C_CWE615_Info_Exposure_by_Comment__w32_01.c",41
+"0020_TOCTOU","경쟁조건: 검사시점과 사용시점(TOCTOU)","C0020_CWE367_TOC_TOU__access_01.c",64
+"0021_NONTERM","종료되지 않는 반복문 또는 재귀 함수","C0021_CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c",13
+"0023_NOACTION","오류상황 대응 부재","C0023_CWE390_Error_Without_Action__fgets_char_01.c",30
+"0025_USENULL","널(Null) 포인터 역참조","C0025_CWE476_NULL_Pointer_Dereference__char_01.c",31
+"0026_RESLEAK","부적절한 자원 해제","C0026_CWE404_Improper_Resource_Shutdown__fopen_w32_close_01.c",27
+"0027_USEFREED","해제된 자원 사용","C0027_CWE416_Use_After_Free__malloc_free_char_01.c",35
+"0028_UNINIT","초기화되지 않은 변수 사용","C0028_CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c",30
+"002A_DEBUGCODE","제거되지 않고 남은 디버그 코드","C002A_CWE489_Leftover_Debug_Code__basic_01.c",32
+"002E_DNSLOOKUP","DNS lookup에 의존한 보안결정","C002E_CWE247_Reliance_on_DNS_Lookups_in_Security_Decision__w32_01.c",85
+"002F_DANGERAPI","취약한 API 사용","C002F_CWE676_Dangerous_Function__basic_gets_01_bad.c",19
