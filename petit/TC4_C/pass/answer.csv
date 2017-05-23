@@ -1,0 +1,58 @@
+"0001_SQLI","SQL 삽입","C0001_CWE89_SQL_Injection__char_connect_socket_mysql_query_01_bad.c",92
+"0002_PATHMANIP","경로 조작 및 자원 삽입","C0002_CWE23_Relative_Path_Traversal__char_fromFile_fopen_01_bad.c",58
+"0003_XSS","크로스사이트 스크립트","C0003_CWE80_Basic_XSS__char_connect_socket_cgiFormString_01_bad.c",92
+"0004_CMDI","운영체제 명령어 삽입","C0004_CWE78_OS_Command_Injection__char_connect_socket_execl_01.c",139
+"0009_LDAPI","LDAP 삽입","C0009_CWE90_LDAP_Injection__w32_char_connect_socket_01.c",138
+"000C_TYPEOVER","정수형 오버플로우","C000C_CWE190_Integer_Overflow__char_max_add_01.c",30
+"000D_RELUNTRUST","보안 기능 결정에 사용되는 부적절한 입력값","C000D_CWE807_Reliance_on_Untrusted_Inputs_in_a_Security_Decision__char_connect_socket_strncmp_01_bad.c",99
+"000E_BUFOVER","메모리 버퍼 오버플로우","C000E_CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c",38
+"000F_FORMATI","포맷 스트링 삽입","C000F_CWE134_Uncontrolled_Format_String__char_connect_socket_fprintf_01.c",120
+"0011_IMPRAUTH","부적절한 인가","C0011_CWE285_Improper_Authorization__char_ldap_search_s_01_bad.c",74
+"0012_WRONGPERM","중요한 자원에 대한 잘못된 권한설정","C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__char_connect_socket_fopen_01_bad.c",101
+"0013_BROKNCRYPT","취약한 암호화 알고리즘 사용","C0013_CWE327_Use_Broken_Crypto__basic_EVP_EncryptInit_01_bad.c",17
+"0014_STORECLEAR","중요정보 평문저장","C0014_CWE312_Cleartext_Storage_of_Sensitive_Information__w32_char_01_bad.c",53
+"0015_SENDCLEAR","중요정보 평문전송","C0015_CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_01.c",105
+"0016_HARDPASS","하드코드된 비밀번호","C0016_CWE259_Hard_Coded_Password__w32_char_01.c",40
+"0017_KEYLEN","충분하지 않은 키 길이 사용","C0017_CWE310_Cryptographic_Issues__basic_RSA512_01_bad.c",13
+"0018_RANDOM","적절하지 않은 난수 값 사용","C0018_CWE338_Weak_PRNG__w32_01.c",28
+"0019_HARDKEY","하드코드된 암호화 키","C0019_CWE321_Hard_Coded_Cryptographic_Key__w32_char_01.c",74
+"001A_WEAKPASS","취약한 비밀번호 허용","C001A_CWE521_Weak_Password_Requirements__char_connect_socket_2_mysql_01_bad.c",96
+"001C_LEAKCOM","주석문 안에 포함된 패스워드 등 시스템 주요정보","C001C_CWE615_Info_Exposure_by_Comment__w32_01.c",41
+"001D_ONEWAYHASH","솔트 없이 일방향 해쉬 함수 사용","C001D_CWE759_Unsalted_One_Way_Hash__char_connect_socket_2_MD5Encrypt_01_bad.c",89
+"001E_DOWNCODE","무결성 검사없는 코드 다운로드","C001E_CWE494_Download_of_Code_Without_Integrity_Check__char_fromConsole_MD5_01_bad.c",87
+"001F_EXCEAUTH","반복된 인증시도 제한 기능 부재","C001F_CWE307_Improper_Restriction__fromConsole_strcmp_01_bad.c",22
+"0020_TOCTOU","경쟁조건: 검사시점과 사용시점(TOCTOU)","C0020_CWE367_TOC_TOU__access_01.c",64
+"0021_NONTERM","종료되지 않는 반복문 또는 재귀 함수","C0021_CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c",13
+"0022_LEAKMSG","오류메시지 통한 정보 노출","C0022_CWE209_Information_Leak_Error__getenv_fprintf_01.c",6
+"0023_NOACTION","오류상황 대응 부재","C0023_CWE390_Error_Without_Action__fgets_char_01.c",30
+"0024_NOCHKERR","부적절한 예외 처리","C0024_CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__char_fscanf_char_fscanf_0101_bad.c",17
+"0025_USENULL","널(Null) 포인터 역참조","C0025_CWE476_NULL_Pointer_Dereference__char_01.c",31
+"0026_RESLEAK","부적절한 자원 해제","C0026_CWE404_Improper_Resource_Shutdown__fopen_w32_close_01.c",31
+"0027_USEFREED","해제된 자원 사용","C0027_CWE416_Use_After_Free__malloc_free_char_01.c",35
+"0028_UNINIT","초기화되지 않은 변수 사용","C0028_CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c",30
+"002A_DEBUGCODE","제거되지 않고 남은 디버그 코드","C002A_CWE489_Leftover_Debug_Code__basic_01.c",32
+"002B_SYSTEMLEAK","시스템 데이터 정보노출","C002B_CWE497_Exposure_of_System_Data_to_an_Unauthorized_Control_Sphere__fromConsole_printf_01_bad.c",57
+"002E_DNSLOOKUP","DNS lookup에 의존한 보안결정","C002E_CWE247_Reliance_on_DNS_Lookups_in_Security_Decision__w32_01.c",85
+"002F_DANGERAPI","취약한 API 사용","C002F_CWE676_Dangerous_Function__basic_gets_01_bad.c",19
+"0030_BUFUNDER","Buffer underrun","C0030_CWE124_Buffer_Underwrite__CWE839_fgets_01.c",49
+"0031_ALLOCSIZE","Invalid malloc","C0031_CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c",55
+"0033_TYPEUNDER","Type underrun","C0033_CWE191_Integer_Underflow__char_min_sub_01.c",30
+"0034_DIVBY0","Divide by zero","C0034_CWE369_Divide_by_Zero__int_zero_divide_01.c",30
+"0035_SHIFTNEG","Negative shift amount","C0035_CERT_INT34_C__Negative_shift_amount.c",11
+"0036_SHIFTBIG","Shift more bit than width","C0036_CERT_INT34_C__Shift_more_bit_than_width.c",11
+"0038_FREENULL","Free null pointer","C0038_CWE763_Free_Null_Pointer__char_01.c",14
+"0039_FREELOCAL","Free local","C0039_CWE590_Free_Memory_Not_on_Heap__free_long_static_01.c",41
+"003A_DOUBLEFREE","Double free","C003A_CWE415_Double_Free__malloc_free_char_01.c",33
+"003B_RETLOCAL","Return pointer to local","C003B_CWE562_Return_of_Stack_Variable_Address__return_buf_01.c",17
+"003C_RETFREED","Return freed","C003C_CWE416_Use_After_Free__return_freed_ptr_01.c",34
+"003D_MEMLEAK","Memory leak","C003D_CWE401_Memory_Leak__char_calloc_01.c",32
+"0043_CRYPTMISS","Missing Required Cryptographic Step","C0043_CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_01.c",49
+"0046_RELCLRMEM","Improper Clearing of Heap Memory Before Release ('Heap Inspection')","C0046_CWE244_Heap_Inspection__w32_char_free_01.c",63
+"0047_BADPTRSCL","Incorrect Pointer Scaling","C0047_CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c",27
+"0048_MISSBREAK","Omitted Break Statement in Switch","C0048_CWE484_Omitted_Break_Statement_in_Switch__basic_01.c",29
+"0049_ADDRTOPTR","Assignment of a Fixed Address to a Pointer","C0049_CWE587_Assignment_of_Fixed_Address_to_Pointer__basic_01.c",24
+"004A_SYSI","External Control of System or Configuration Setting","C004A_CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c",104
+"005B_TRUE","Expression always true","C005B_CWE571_Expression_Always_True__global_01_var.c",13
+"005C_FALSE","Expression always false","C005C_CWE570_Expression_Always_False__global_01_var.c",13
+"005F_COMMENTBAD","Suspicious Comment","C005F_CWE546_Suspicious_Comment__BUG_01.c",22
+"0066_SIZEOFPTR","Use of sizeof on Pointer Type","C0066_CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c",25
