@@ -1,0 +1,30 @@
+"0001_SQLI","SQL 삽입","C0001_CWE89_SQL_Injection__SqlDataAdapter_01.cs",20
+"0002_PATHMANIP","경로 조작 및 자원 삽입","C0002_CWE23_Relative_Path_Traversal__simple_01.cs",26
+"0004_CMDI","운영체제 명령어 삽입","C0004_CWE78_OS_Command_Injection__Process__01.cs",16
+"0006_REDIRECT","신뢰되지 않는 URL 주소로 자동접속 연결","C0006_CWE601_Open_Redirect__Simple_01__Bad.cs",15
+"0008_XPATHI","XPath 삽입","C0008_CWE643_Xpath_Injection__Simple_01.cs",15
+"0009_LDAPI","LDAP 삽입","C0009_CWE90_LDAP_Injection__simple_01.cs",23
+"000C_TYPEOVER","정수형 오버플로우","C000C_CWE190_Integer_Overflow__Int_Divide_Wraparound_01.cs",14
+"0012_WRONGPERM","중요한 자원에 대한 잘못된 권한설정","C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_everyone_01.cs",18
+"0013_BROKNCRYPT","취약한 암호화 알고리즘 사용","C0013_CWE327_Use_Broken_Crypto__MD5_01.cs",24
+"0016_HARDPASS","하드코드된 비밀번호","C0016_CWE259_Hard_Coded_Password__equals_01.cs",17
+"0017_KEYLEN","충분하지 않은 키 길이 사용","C0017_CWE310_Cryptographic_Issues__RSA_01.cs",18
+"0018_RANDOM","적절하지 않은 난수 값 사용","C0018_CWE330_Insufficiently_Random_Values__Random_01.cs",14
+"0019_HARDKEY","하드코드된 암호화 키","C0019_CWE321_Hard_Coded_Cryptographic_Key__Equals_01.cs",14
+"001C_LEAKCOM","주석문 안에 포함된 패스워드 등 시스템 주요정보","C001C_CWE615_Info_Exposure_by_Comment__Simple_01.cs",14
+"0022_LEAKMSG","오류메시지 통한 정보 노출","C0022_CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs",42
+"0023_NOACTION","오류상황 대응 부재","C0023_CWE390_Error_Without_Action__Empty_Catch_01.cs",18
+"0024_NOCHKERR","부적절한 예외 처리","C0024_CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__StreamReader_read_01.cs",25
+"0026_RESLEAK","부적절한 자원 해제","C0026_CWE404_Improper_Resource_Shutdown_or_Release__Simple_01.cs",20
+"002B_SYSTEMLEAK","시스템 데이터 정보노출","C002B_CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere__Sqlconnection_Writeline_01.cs",18
+"002C_RETPRIVA","Public 메소드로부터 반환된 Private 배열","C002C_CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs",14
+"002D_ASSTOPRIVA","Private 배열에 Public 데이터 할당","C002D_CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs",14
+"002E_DNSLOOKUP","DNS lookup에 의존한 보안결정","C002E_CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action__Simple_01.cs",19
+"0034_DIVBY0","Divide by zero","C0034_CWE369_Divide_By_Zero__Simple_01.cs",13
+"0045_PRIVBYPUBM","public 메소드를 사용하여 중요한 private 멤버 변수 접근","C0045_CWE767_Access_to_Critical_Private_Variable_via_Public_Method__simple_01.cs",15
+"0052_THROWBROAD","Declaration of Throws for Generic Exception","C0052_CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs",14
+"0054_OBSOLETE","Obsolete Functions","C0054_CWE477_Use_of_Obsolete_Functions__Obsolete_Attribute_Method_01.cs",14
+"0055_ASSIGNCOMP","Assigning instead of Comparing","C0055_CWE481_Assigning_instead_of_Comparing__Simple_01.cs",13
+"005B_TRUE","Expression always true","C005B_CWE571_Expression_Always_True__Always_True_Cond_01.cs",32
+"0062_DBLCHKLOCK","Double-Checked Locking","C0062_CWE609_Double_Checked_Locking__Double_Null_Check_01.cs",20
+"0063_COMPOBJREF","Comparison of Object References Instead of Object Contents","C0063_CWE595_Comparison_of_Object_References_Instead_of_Object_Contents__simple_01.cs",27
