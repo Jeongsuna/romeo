@@ -2,6 +2,7 @@
 "0002_PATHMANIP","경로 조작 및 자원 삽입","C0002_CWE022_CWE023_Relative_Path_Traversal__connect_tcp_01.java",120
 "0003_XSS","크로스사이트 스크립트","C0003_CWE080_XSS__CWE182_Servlet_File_01.java",103
 "0004_CMDI","운영체제 명령어 삽입","C0004_CWE078_OS_Command_Injection__connect_tcp_01.java",116
+"0005_FILEUPLOAD","위험한 형식 파일 업로드","C0005_CWE434_Unrestricted_Upload_of_File_with_Dangerous_Type__Servlet_basic_fileItem_01_bad.java",57
 "0006_REDIRECT","신뢰되지 않는 URL 주소로 자동접속 연결","C0006_CWE601_Open_Redirect__Servlet_File_01.java",120
 "0007_XQUERYI","XQuery 삽입","C0007_CWE652_XQuery_Injection__Environment_executeQuery_01_bad.java",42
 "0008_XPATHI","XPath 삽입","C0008_CWE643_Xpath_Injection__connect_tcp_01.java",141
