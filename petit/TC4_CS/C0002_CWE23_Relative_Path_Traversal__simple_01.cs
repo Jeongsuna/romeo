@@ -8,7 +8,7 @@ using System.Web;
 
 namespace Romeo.CWE23_Relative_Path_Traversal
 {
-    class CWE23_Relative_Path_Traversal__simple_01_good : IHttpHandler
+    class CWE23_Relative_Path_Traversal__simple_01_bad : IHttpHandler
     {
         public bool IsReusable
         {
@@ -28,7 +28,7 @@ namespace Romeo.CWE23_Relative_Path_Traversal
 
     }
 
-    class CWE23_Relative_Path_Traversal__simple_01_bad : IHttpHandler
+    class CWE23_Relative_Path_Traversal__simple_01_good : IHttpHandler
     {
         public bool IsReusable
         {
