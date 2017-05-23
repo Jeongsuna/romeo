@@ -11,6 +11,8 @@ FILE* stdin;
 FILE* stdout;
 FILE* stderr;
 
+typedef int size_t;
+
 extern FILE *fopen (const char* __filename, const char* __modes);
 extern int fclose (FILE* __stream);
 extern size_t fwrite(const void* __ptr, size_t __size, size_t __n, FILE* __s);
