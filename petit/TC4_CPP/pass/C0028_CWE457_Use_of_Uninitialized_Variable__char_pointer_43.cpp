@@ -22,7 +22,6 @@ Template File: sources-sinks-43.tmpl.cpp
 namespace CWE457_Use_of_Uninitialized_Variable__char_pointer_43
 {
 
-#ifndef OMITBAD
 
 static void badSource(char * &data)
 {
@@ -38,48 +37,6 @@ void bad()
     printLine(data);
 }
 
-#endif /* OMITBAD */
-
-#ifndef OMITGOOD
-
-/* goodG2B() uses the GoodSource with the BadSink */
-static void goodG2BSource(char * &data)
-{
-    /* FIX: Initialize data */
-    data = "string";
-}
-
-static void goodG2B()
-{
-    char * data;
-    goodG2BSource(data);
-    /* POTENTIAL FLAW: Use data without initializing it */
-    printLine(data);
-}
-
-/* goodB2G() uses the BadSource with the GoodSink */
-static void goodB2GSource(char * &data)
-{
-    /* POTENTIAL FLAW: Don't initialize data */
-    ; /* empty statement needed for some flow variants */
-}
-
-static void goodB2G()
-{
-    char * data;
-    goodB2GSource(data);
-    /* FIX: Ensure data is initialized before use */
-    data = "string";
-    printLine(data);
-}
-
-void good()
-{
-    goodG2B();
-    goodB2G();
-}
-
-#endif /* OMITGOOD */
 
 } /* close namespace */
 
@@ -96,16 +53,9 @@ int main(int argc, char * argv[])
 {
     /* seed randomness */
     srand( (unsigned)time(NULL) );
-#ifndef OMITGOOD
-    printLine("Calling good()...");
-    good();
-    printLine("Finished good()");
-#endif /* OMITGOOD */
-#ifndef OMITBAD
     printLine("Calling bad()...");
     bad();
     printLine("Finished bad()");
-#endif /* OMITBAD */
     return 0;
 }
 

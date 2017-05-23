@@ -19,8 +19,6 @@ Template File: source-sinks-33.tmpl.cpp
 namespace CWE404_Improper_Resource_Shutdown__fopen_w32_close_33
 {
 
-#ifndef OMITBAD
-
 void bad()
 {
     FILE * data;
@@ -39,36 +37,6 @@ void bad()
     }
 }
 
-#endif /* OMITBAD */
-
-#ifndef OMITGOOD
-
-/* goodB2G() uses the BadSource with the GoodSink */
-static void goodB2G()
-{
-    FILE * data;
-    FILE * &dataRef = data;
-    /* Initialize data */
-    data = NULL;
-    /* POTENTIAL FLAW: Open a file - need to make sure it is closed properly in the sink */
-    data = fopen("BadSource_fopen.txt", "w+");
-    {
-        FILE * data = dataRef;
-        if (data != NULL)
-        {
-            /* FIX: Close the file using fclose() */
-            fclose(data);
-        }
-    }
-}
-
-void good()
-{
-    goodB2G();
-}
-
-#endif /* OMITGOOD */
-
 } /* close namespace */
 
 /* Below is the main(). It is only used when building this testcase on
@@ -83,16 +51,9 @@ int main(int argc, char * argv[])
 {
     /* seed randomness */
     srand( (unsigned)time(NULL) );
-#ifndef OMITGOOD
-    printLine("Calling good()...");
-    good();
-    printLine("Finished good()");
-#endif /* OMITGOOD */
-#ifndef OMITBAD
     printLine("Calling bad()...");
     bad();
     printLine("Finished bad()");
-#endif /* OMITBAD */
     return 0;
 }
 

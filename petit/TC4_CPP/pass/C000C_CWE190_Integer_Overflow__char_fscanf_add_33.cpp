@@ -41,57 +41,6 @@ void bad()
 
 #endif /* OMITBAD */
 
-#ifndef OMITGOOD
-
-/* goodG2B() uses the GoodSource with the BadSink */
-static void goodG2B()
-{
-    char data;
-    char &dataRef = data;
-    data = ' ';
-    /* FIX: Use a small, non-zero value that will not cause an overflow in the sinks */
-    data = 2;
-    {
-        char data = dataRef;
-        {
-            /* POTENTIAL FLAW: Adding 1 to data could cause an overflow */
-            char result = data + 1;
-            printHexCharLine(result);
-        }
-    }
-}
-
-/* goodB2G() uses the BadSource with the GoodSink */
-static void goodB2G()
-{
-    char data;
-    char &dataRef = data;
-    data = ' ';
-    /* POTENTIAL FLAW: Use a value input from the console */
-    fscanf (stdin, "%c", &data);
-    {
-        char data = dataRef;
-        /* FIX: Add a check to prevent an overflow from occurring */
-        if (data < CHAR_MAX)
-        {
-            char result = data + 1;
-            printHexCharLine(result);
-        }
-        else
-        {
-            printLine("data value is too large to perform arithmetic safely.");
-        }
-    }
-}
-
-void good()
-{
-    goodG2B();
-    goodB2G();
-}
-
-#endif /* OMITGOOD */
-
 } /* close namespace */
 
 /* Below is the main(). It is only used when building this testcase on
@@ -106,11 +55,6 @@ int main(int argc, char * argv[])
 {
     /* seed randomness */
     srand( (unsigned)time(NULL) );
-#ifndef OMITGOOD
-    printLine("Calling good()...");
-    good();
-    printLine("Finished good()");
-#endif /* OMITGOOD */
 #ifndef OMITBAD
     printLine("Calling bad()...");
     bad();

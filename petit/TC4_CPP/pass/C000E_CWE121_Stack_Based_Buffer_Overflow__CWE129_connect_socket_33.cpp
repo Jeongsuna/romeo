@@ -42,7 +42,6 @@ Template File: sources-sinks-33.tmpl.cpp
 namespace CWE121_Stack_Based_Buffer_Overflow__CWE129_connect_socket_33
 {
 
-#ifndef OMITBAD
 
 void bad()
 {
@@ -130,137 +129,6 @@ void bad()
     }
 }
 
-#endif /* OMITBAD */
-
-#ifndef OMITGOOD
-
-/* goodG2B() uses the GoodSource with the BadSink */
-static void goodG2B()
-{
-    int data;
-    int &dataRef = data;
-    /* Initialize data */
-    data = -1;
-    /* FIX: Use a value greater than 0, but less than 10 to avoid attempting to
-     * access an index of the array in the sink that is out-of-bounds */
-    data = 7;
-    {
-        int data = dataRef;
-        {
-            int i;
-            int buffer[10] = { 0 };
-            /* POTENTIAL FLAW: Attempt to write to an index of the array that is above the upper bound
-            * This code does check to see if the array index is negative */
-            if (data >= 0)
-            {
-                buffer[data] = 1;
-                /* Print the array values */
-                for(i = 0; i < 10; i++)
-                {
-                    printIntLine(buffer[i]);
-                }
-            }
-            else
-            {
-                printLine("ERROR: Array index is negative.");
-            }
-        }
-    }
-}
-
-/* goodB2G() uses the BadSource with the GoodSink */
-static void goodB2G()
-{
-    int data;
-    int &dataRef = data;
-    /* Initialize data */
-    data = -1;
-    {
-#ifdef _WIN32
-        WSADATA wsaData;
-        int wsaDataInit = 0;
-#endif
-        int recvResult;
-        struct sockaddr_in service;
-        SOCKET connectSocket = INVALID_SOCKET;
-        char inputBuffer[CHAR_ARRAY_SIZE];
-        do
-        {
-#ifdef _WIN32
-            if (WSAStartup(MAKEWORD(2,2), &wsaData) != NO_ERROR)
-            {
-                break;
-            }
-            wsaDataInit = 1;
-#endif
-            /* POTENTIAL FLAW: Read data using a connect socket */
-            connectSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-            if (connectSocket == INVALID_SOCKET)
-            {
-                break;
-            }
-            memset(&service, 0, sizeof(service));
-            service.sin_family = AF_INET;
-            service.sin_addr.s_addr = inet_addr(IP_ADDRESS);
-            service.sin_port = htons(TCP_PORT);
-            if (connect(connectSocket, (struct sockaddr*)&service, sizeof(service)) == SOCKET_ERROR)
-            {
-                break;
-            }
-            /* Abort on error or the connection was closed, make sure to recv one
-             * less char than is in the recv_buf in order to append a terminator */
-            recvResult = recv(connectSocket, inputBuffer, CHAR_ARRAY_SIZE - 1, 0);
-            if (recvResult == SOCKET_ERROR || recvResult == 0)
-            {
-                break;
-            }
-            /* NUL-terminate the string */
-            inputBuffer[recvResult] = '\0';
-            /* Convert to int */
-            data = atoi(inputBuffer);
-        }
-        while (0);
-        if (connectSocket != INVALID_SOCKET)
-        {
-            CLOSE_SOCKET(connectSocket);
-        }
-#ifdef _WIN32
-        if (wsaDataInit)
-        {
-            WSACleanup();
-        }
-#endif
-    }
-    {
-        int data = dataRef;
-        {
-            int i;
-            int buffer[10] = { 0 };
-            /* FIX: Properly validate the array index and prevent a buffer overflow */
-            if (data >= 0 && data < (10))
-            {
-                buffer[data] = 1;
-                /* Print the array values */
-                for(i = 0; i < 10; i++)
-                {
-                    printIntLine(buffer[i]);
-                }
-            }
-            else
-            {
-                printLine("ERROR: Array index is out-of-bounds");
-            }
-        }
-    }
-}
-
-void good()
-{
-    goodG2B();
-    goodB2G();
-}
-
-#endif /* OMITGOOD */
 
 } /* close namespace */
 
@@ -276,16 +144,10 @@ int main(int argc, char * argv[])
 {
     /* seed randomness */
     srand( (unsigned)time(NULL) );
-#ifndef OMITGOOD
-    printLine("Calling good()...");
-    good();
-    printLine("Finished good()");
-#endif /* OMITGOOD */
-#ifndef OMITBAD
+
     printLine("Calling bad()...");
     bad();
     printLine("Finished bad()");
-#endif /* OMITBAD */
     return 0;
 }
 

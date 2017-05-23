@@ -20,7 +20,6 @@ Template File: sources-sinks-33.tmpl.cpp
 namespace CWE191_Integer_Underflow__char_fscanf_multiply_33
 {
 
-#ifndef OMITBAD
 
 void bad()
 {
@@ -40,62 +39,6 @@ void bad()
     }
 }
 
-#endif /* OMITBAD */
-
-#ifndef OMITGOOD
-
-/* goodG2B() uses the GoodSource with the BadSink */
-static void goodG2B()
-{
-    char data;
-    char &dataRef = data;
-    data = ' ';
-    /* FIX: Use a small, non-zero value that will not cause an underflow in the sinks */
-    data = -2;
-    {
-        char data = dataRef;
-        if(data < 0) /* ensure we won't have an overflow */
-        {
-            /* POTENTIAL FLAW: if (data * 2) < CHAR_MIN, this will underflow */
-            char result = data * 2;
-            printHexCharLine(result);
-        }
-    }
-}
-
-/* goodB2G() uses the BadSource with the GoodSink */
-static void goodB2G()
-{
-    char data;
-    char &dataRef = data;
-    data = ' ';
-    /* POTENTIAL FLAW: Use a value input from the console */
-    fscanf (stdin, "%c", &data);
-    {
-        char data = dataRef;
-        if(data < 0) /* ensure we won't have an overflow */
-        {
-            /* FIX: Add a check to prevent an underflow from occurring */
-            if (data > (CHAR_MIN/2))
-            {
-                char result = data * 2;
-                printHexCharLine(result);
-            }
-            else
-            {
-                printLine("data value is too small to perform multiplication.");
-            }
-        }
-    }
-}
-
-void good()
-{
-    goodG2B();
-    goodB2G();
-}
-
-#endif /* OMITGOOD */
 
 } /* close namespace */
 
@@ -111,16 +54,9 @@ int main(int argc, char * argv[])
 {
     /* seed randomness */
     srand( (unsigned)time(NULL) );
-#ifndef OMITGOOD
-    printLine("Calling good()...");
-    good();
-    printLine("Finished good()");
-#endif /* OMITGOOD */
-#ifndef OMITBAD
     printLine("Calling bad()...");
     bad();
     printLine("Finished bad()");
-#endif /* OMITBAD */
     return 0;
 }
 
