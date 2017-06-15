@@ -1,7 +1,7 @@
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-public class C006B_SQLMATCH_bad 
+public class C006B_SQLMATCH
 {
     public void good(Connection con) throws Throwable
     {
