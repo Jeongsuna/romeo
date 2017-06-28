@@ -1,8 +1,7 @@
 package testcases.C0048_MISSBREAK;
 
 public class C0048_MISSBREAK_01 {
-	public void bad() {
-		int a = 0;
+	public void bad(int a) {
 		switch (a) {
 		case 1:
 		case 2:
@@ -20,6 +19,15 @@ public class C0048_MISSBREAK_01 {
 		case 7:
 			if (a == 0);
 			break;
+		case 8: { // FLAW
+			if (a == 0)
+				break;
+		}
+		case 9: {
+			if (a == 0)
+				break;
+		}
+		break;
 		default:
 			a = -1;
 		}
