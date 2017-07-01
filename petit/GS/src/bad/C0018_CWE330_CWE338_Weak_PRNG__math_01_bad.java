@@ -1,0 +1,43 @@
+/* TEMPLATE GENERATED TESTCASE FILE
+Filename: CWE338_Weak_PRNG__math_01.java
+Label Definition File: CWE338_Weak_PRNG.label.xml
+Template File: point-flaw-01.tmpl.java
+*/
+/*
+* @description
+* CWE: 338 Use of Cryptographically Weak PRNG
+* Sinks: math
+*    GoodSink: stronger PRNG
+*    BadSink : weak PRNG
+* Flow Variant: 01 Baseline
+*
+* */
+
+
+
+import testcasesupport.*;
+
+import java.security.SecureRandom;
+
+public class C0018_CWE330_CWE338_Weak_PRNG__math_01_bad extends AbstractTestCase
+{
+    public void bad() throws Throwable
+    {
+
+        /* FLAW: Math.random() is a known weak PRNG */
+        IO.writeLine("" + Math.random());
+
+    }
+
+    /* Below is the main(). It is only used when building this testcase on
+     * its own for testing or for building a binary to use in testing binary
+     * analysis tools. It is not used when compiling all the testcases as one
+     * application, which is how source code analysis tools are tested.
+     */
+    public static void main(String[] args) throws ClassNotFoundException,
+           InstantiationException, IllegalAccessException
+    {
+        mainFromParent(args);
+    }
+}
+
