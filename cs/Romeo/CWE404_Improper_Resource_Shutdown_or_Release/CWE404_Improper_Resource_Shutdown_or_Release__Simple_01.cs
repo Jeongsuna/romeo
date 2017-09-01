@@ -17,11 +17,13 @@ namespace Romeo.CWE404_Improper_Resource_Shutdown_or_Release
             conn.Open();
             SqlDataReader rdr = cmd.ExecuteReader();
             HarvestResults(rdr);
+            // FLAW: when conn.Close() is not reached resource leak
             conn.Close();
         }
 
         void good_using(string connString, string queryString)
         {
+            // FIX: 'using' guarantees resource closing
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(queryString);
@@ -52,6 +54,7 @@ namespace Romeo.CWE404_Improper_Resource_Shutdown_or_Release
             {
                 if(conn !=null)
                 {
+                    // FIX: resource closing at finllay clause
                     conn.Close();
                 }
             }

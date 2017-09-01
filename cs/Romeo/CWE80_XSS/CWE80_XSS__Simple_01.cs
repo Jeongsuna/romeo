@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 
-
-    public partial class CWE80_XSS__Simple_01 : System.Web.UI.Page
+public partial class CWE80_XSS__Simple_01 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+    private TextBox NameTextBox;
+    private Label MsgLabel;
+    private Label IdLabel;
+
+    protected void Page_Load(object sender, EventArgs e)
         {
             string id = Request.QueryString["id"] as string;
 
