@@ -1,3 +1,7 @@
+package testcases.CWE80_XSS.s01;
+
+import java.io.IOException;
+
 import javax.servlet.http.*;
 
 public class CWE80_XSS__Safe_01 {

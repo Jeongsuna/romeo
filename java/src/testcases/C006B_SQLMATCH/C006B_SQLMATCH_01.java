@@ -1,3 +1,5 @@
+package testcases.C006B_SQLMATCH;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 

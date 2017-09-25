@@ -50,7 +50,7 @@ public class C0048_MISSBREAK_01 {
 			if (a == 0)
 				break;
 			else
-				break // FIX
+				break; // FIX
 		case 7:
 			if (a == 0);
 			break;

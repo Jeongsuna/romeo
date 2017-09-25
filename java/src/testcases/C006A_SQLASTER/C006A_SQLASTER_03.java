@@ -1,3 +1,5 @@
+package testcases.C006A_SQLASTER;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
