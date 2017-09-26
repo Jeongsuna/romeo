@@ -7,4 +7,6 @@ String commonPath = "/";
 String imagePath = commonPath + "img/";
 String imagePath_gis = imagePath + "gis/cmm/btn/";
 %>
-<% commonPath = request.getParameter("path"); %>
+<% 
+	// FLAW:
+	commonPath = request.getParameter("path"); %>
