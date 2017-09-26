@@ -7,5 +7,7 @@
 	<classpathentry kind="lib" path="lib/hibernate3.jar"/>
 	<classpathentry kind="lib" path="lib/javamail-1.4.4.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/saxon-xqj-8.9.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/xqj-api-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
