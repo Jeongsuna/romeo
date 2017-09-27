@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 import javax.servlet.http.*;
 import java.io.*;
 
-public class C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01_bad2 extends AbstractTestCase
+public class C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_02 extends AbstractTestCase
 {
 
  
@@ -26,7 +26,7 @@ public class C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource_
     public void bad() throws Throwable
     {
     	File file = new File("/home/setup/system.ini");
-    	// FLAW
+    	/* FLAW */
 		file.setExecutable(true, false);
 		file.setReadable(true, false);
 		file.setWritable(true, false);

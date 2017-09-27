@@ -21,10 +21,10 @@
   String name = request.getParameter(""name"");
   if ( name != null ) {
     // 스크립트 생성에 사용되는 문자열을 치환하여 입력값에 악성 코드가 포함되더라도 실행되지 않는다.
-    name = name.replaceAll(""<"", ""&lt;"");
-    name = name.replaceAll("">"", ""&gt;"");
-    name = name.replaceAll(""&"", ""&amp;"");
-    name = name.replaceAll(""\"""", ""&quot;"");
+    name = name.replaceAll("<", "&lt;");
+    name = name.replaceAll(">", "&gt;");
+    name = name.replaceAll("&", "&amp;");
+    name = name.replaceAll("\"", "&quot;");
   }
   else { return; }
 %>
@@ -34,7 +34,7 @@
 <p>Address:${fn:escapeXml(m.address)}</p>
 
 <!-- 방법 3: 출력값에 JSTL Core 출력 포맷을 사용하여 텍스트로 처리 -->
-<p>Address:<c:out value=""${m.address}""/></p>
+<p>Address:<c:out value="${m.address}"/></p>
 
 // 방법 4: 외부 라이브러리를 활용하여 출력값에 필터링
 // XssFilter 사용하는 방법

@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 import javax.servlet.http.*;
 import java.io.*;
 
-public class C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01_bad extends AbstractTestCase
+public class C0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01 extends AbstractTestCase
 {
 
  

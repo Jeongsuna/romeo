@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 public class C0029_LEAKSESS__Controller_01_bad {
 	private int currentPage = 1;
 	public void doSomething(HttpServletRequest request) {
-		// FLAW:
+		/* FLAW: */
 		currentPage = Integer.parseInt(request.getParameter("page"));
 	}
 }
