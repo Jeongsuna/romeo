@@ -20,21 +20,22 @@ namespace Romeo._0002_CWE99_Resource_Injection
             SocketType.Stream, ProtocolType.Tcp);
             socket.Connect(endpoint);
         }
-
         public void Good(long address)
         {
             int port = Int32.Parse(Request["rPort"]);
+            int newPort = 3000;
             switch (port)
             {
                 case 3001:
-                    port = 3002; break;
+                    newPort = 3002; break;
                 case 3002:
-                    port = 3002; break;
+                    newPort = 3002; break;
                 case 3003:
-                    port = 3003; break;
+                    newPort = 3003; break;
                 default:
-                    port = 3000; break;
+                    newPort = 3000; break;
             }
+            port = newPort;
             IPEndPoint endpoint = new IPEndPoint(address, port);
             Socket socket = new Socket(endpoint.AddressFamily,
             SocketType.Stream, ProtocolType.Tcp);
