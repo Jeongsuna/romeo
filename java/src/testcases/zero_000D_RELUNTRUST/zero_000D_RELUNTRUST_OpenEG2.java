@@ -1,4 +1,4 @@
-package testcases.C0012_WRONGPERM;
+package testcases.zero_000D_RELUNTRUST;
 
 /*
 Filename : CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01_bad.java
@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 import javax.servlet.http.*;
 import java.io.*;
 
-public class C0012_CWE732_Incorrect_Permission_OpenEG2 extends AbstractTestCaseServletReturnString
+public class zero_000D_RELUNTRUST_OpenEG2 extends AbstractTestCaseServletReturnString
 {
 
 	@RequestMapping(value="/test/init_db.do")
