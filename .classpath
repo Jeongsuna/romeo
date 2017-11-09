@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java/src"/>
+	<classpathentry kind="src" path="petit/GS/src/bad"/>
+	<classpathentry kind="src" path="petit/GS/src/good"/>
+	<classpathentry kind="src" path="petit/old/java_ext"/>
+	<classpathentry kind="src" path="petit/TC4_JAVA/src"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/commons-codec-1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/commons-lang-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/javamail-1.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/saxon-xqj-8.9.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="java/lib/xqj-api-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/apache-commons-lang.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/cos-05Nov2002.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/javaee-api-7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/saxon-xqj-8.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/GS/lib/xqj-api-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/commons-codec-1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/commons-lang-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/commons-lang3-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/cos-05Nov2002.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/javamail-1.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/saxon-8.9.0.4-osgi.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/saxon-xqj-8.9.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="petit/TC4_JAVA/lib/xqj-api-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
