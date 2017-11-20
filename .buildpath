@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="php/0001_CWE89_SQL_Injection"/>
+	<buildpathentry kind="src" path="php/0002_CWE22_Path_Traversal"/>
+	<buildpathentry kind="src" path="php/0003_CWE80_Basic_XSS"/>
+	<buildpathentry kind="src" path="php/0004_CWE78_OS_Command_Injection"/>
+	<buildpathentry kind="src" path="php/0009_CWE90_LDAP_Injection"/>
+	<buildpathentry kind="src" path="php/0009_CWE91_XML_Injection"/>
+	<buildpathentry kind="lib" path="cs.zip"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
