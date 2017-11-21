@@ -5,14 +5,11 @@ $doc->preserveWhiteSpace = false;
 $doc->Load('book.xml');
 
 $xpath = new DOMXPath($doc);
-$query = '//book/chapter/para/informaltable/tgroup/tbody/row/entry[. = "en"]';
+$query = "//Employee[UserName/text()='" + str_replace("'","&apos;",$_GET['Username'])
+                + "' And Password / text() = '" + str_replace("'","&apos;",$_GET['Password']) + "']";
 $entries = $xpath->query($query);
 
-foreach ($entries as $entry) {
-	//use htmlspecialchars()
-    echo htmlspecialchars({$entry->previousSibling->previousSibling->nodeValue});
 
-}
 
 ?>
 
