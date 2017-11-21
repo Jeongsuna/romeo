@@ -1,8 +1,14 @@
 <?php
 
-$name = $_GET["name"];
-$checkedName = preg_replace("/[ #\&\+\-%@=\/\\\:;,\.'\"\^`~\_|\!\?\*$#<>()\[\]\{\}]/i", "", $name);
+function clean($string) {
+   $string = str_replace(' ', '-', $string); 
 
+   return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
+}
+
+$name = $_GET["name"];
+
+$checkedName = clean($name);
 $conn = db2_connect("sample", $result1, $result2);
 
 $sql = "SELECT * FROM ".$checkedName;

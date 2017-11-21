@@ -6,7 +6,7 @@ $profilePath = $dataPath . "/" . $username.".txt";
 
 
 // check directory path using str_replace
-$checkedPath = str_replace("/","",profilePath);
+$profilePath = $string = preg_replace("/[ #\&\+\-%@=\/\\\:;,\.'\"\^`~\_|\!\?\*$#<>()\[\]\{\}]/i", "", $profilePath);
 
 
 $myfile = fopen($profilePath, "r") or die("Unable to open file : " . $profilePath);
