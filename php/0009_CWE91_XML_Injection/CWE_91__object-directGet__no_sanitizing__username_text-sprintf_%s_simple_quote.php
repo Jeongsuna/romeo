@@ -1,9 +1,9 @@
 <?php
 /* 
 Unsafe sample
-input : reads the field UserData from the variable $_GET
+input : get the field userData from the variable $_GET via an object
 sanitize : none
-construction : concatenation with simple quote
+construction : use of sprintf via a %s with simple quote
 */
 
 
@@ -42,14 +42,25 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = $_GET['UserData'];
+class Input{
+  public function getInput(){
+    return $_GET['UserData'] ;
+  }
+}
+
+$temp = new Input();
+$tainted =  $temp->getInput();
 
 //no_sanitizing
 
-$query = "cat '". $tainted . "'";
+$query = sprintf("//User[username/text()='%s']", $tainted);
 
 //flaw
-$ret = system($query);
+$xml = simplexml_load_file("users.xml");//file load
+echo "query : ". $query ."<br /><br />" ;
 
+$res=$xml->xpath($query);//execution
+print_r($res);
+echo "<br />" ;
 
 ?>

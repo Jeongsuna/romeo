@@ -1,9 +1,9 @@
 <?php
 /* 
 Safe sample
-input : reads the field UserData from the variable $_GET
-sanitize : use of the function addslashes
-construction : concatenation with simple quote
+input : backticks interpretation, reading the file /tmp/tainted.txt
+SANITIZE : use in_array to check if $tainted is in the white list
+construction : use of sprintf via a %s with simple quote
 */
 
 
@@ -42,13 +42,20 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = $_GET['UserData'];
+$tainted = `cat /tmp/tainted.txt`;
 
-$tainted = addslashes($tainted);
+$legal_table = array("safe1", "safe2");
+if (in_array($tainted, $legal_table, true)) {
+  $tainted = $tainted;
+} else {
+  $tainted = $legal_table[0];
+}
 
-$query = "cat '". $tainted . "'";
+$query = sprintf("(&(objectCategory=person)(objectClass=user)(mail='%s'))", $tainted);
 
-$ret = system($query);
-
+$ds=ldap_connect("localhost"); 
+$r=ldap_bind($ds);
+$sr=ldap_search($ds,"o=My Company, c=US", $query);  
+ldap_close($ds);
 
 ?>
