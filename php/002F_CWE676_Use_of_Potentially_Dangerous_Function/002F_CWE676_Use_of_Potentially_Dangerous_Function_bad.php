@@ -5,7 +5,8 @@
 
  $ext = array_pop(explode(".", strtolower($target)));
 
- if(@preg_match($ext, "jpg|png|gif|jpeg")){ 
+// fix
+ if(@ereg($ext, "jpg|png|gif|jpeg")){ 
 
  	if (move_uploaded_file ($_FILES [ 'uploadedfile'] [ 'tmp_name'], $target)) 
 	{

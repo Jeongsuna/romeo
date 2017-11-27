@@ -1,8 +1,8 @@
 <?php
 /* 
-Unsafe sample
+Safe sample
 input : reads the field UserData from the variable $_GET
-sanitize : none
+sanitize : use of the function addslashes
 construction : concatenation with simple quote
 */
 
@@ -44,21 +44,11 @@ MODIFICATIONS.*/
 
 $tainted = $_GET['UserData'];
 
-//no_sanitizing
+$tainted = addslashes($tainted);
 
-$query = "SELECT * FROM '". $tainted . "'";
+$query = "cat '". $tainted . "'";
 
-//flaw
-$conn = mysql_connect('localhost', 'mysql_user', 'mysql_password'); // Connection to the database (address, user, password)
-mysql_select_db('dbname') ;
-echo "query : ". $query ."<br /><br />" ;
+$ret = system($query);
 
-$res = mysql_query($query); //execution
-
-while($data =mysql_fetch_array($res)){
-print_r($data) ;
-echo "<br />" ;
-} 
-mysql_close($conn);
 
 ?>
