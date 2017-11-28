@@ -1,7 +1,8 @@
 <?php
 $user = $_GET["user"];
-//use urlencode
-setcookie("user", urlencode($user), time() + 3600);
+
+ /* FIX: Use a hardcoded string */
+setcookie("user", "foo", time() + 3600);
 
 
 
