@@ -1,0 +1,34 @@
+<?php
+
+
+class Input{
+  private $input;
+
+  public function getInput(){
+    return $this->input[1];
+  }
+
+  public  function __construct(){
+    $this->input = array();
+    $this->input[0]= 'safe' ;
+    $this->input[1]= $_GET['UserData'] ;
+    $this->input[2]= 'safe' ;
+  }
+}
+
+function clean($string) {
+   $string = str_replace(' ', '-', $string); 
+
+   return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
+}
+
+$temp = new Input();
+$name =  $temp->getInput();
+
+$checkedName = clean($name);
+
+//flaw
+setcookie("TestCookie", $checkedName);
+
+
+?> 
