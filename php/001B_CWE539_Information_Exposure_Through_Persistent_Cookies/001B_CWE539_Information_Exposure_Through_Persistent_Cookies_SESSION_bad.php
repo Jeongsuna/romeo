@@ -1,9 +1,11 @@
 <?php
 
-$name = $_SESSION["name"];
+$time = $_SESSION["time"];
 
 
-//flaw
-setcookie("TestCookie", $name);
+$value = 'something from somewhere';
+
+// flaw
+setcookie("TestCookie", $value, $time);
 
 ?> 

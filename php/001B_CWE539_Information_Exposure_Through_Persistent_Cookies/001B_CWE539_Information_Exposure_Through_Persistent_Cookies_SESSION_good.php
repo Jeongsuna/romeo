@@ -2,18 +2,21 @@
 
 
 
-$name = $_SESSION["name"];
+$time = $_SESSION["time"];
 
-$legal_table = array("safe1", "safe2");
+$legal_table = array(43200, 86400);
 
-if (in_array($name, $legal_table, true)) {
-  $name = $name;
+if (in_array($time, $legal_table, true)) {
+  $time = $time;
 } else {
-  $name = $legal_table[0];
+  $time = $legal_table[0];
 }
 
 
 
 
-setcookie("TestCookie", $name);
+$value = 'something from somewhere';
+
+// fix : write whilte list
+setcookie("TestCookie", $value, $time);
 ?> 

@@ -3,16 +3,18 @@
 $handle = @fopen("/tmp/tainted.txt", "r");
 
 if ($handle) {
-  if(($name = fgets($handle, 4096)) == false) {
-    $name = "";
+  if(($time = fgets($handle, 4096)) == false) {
+    $time = "";
   }
   fclose($handle);
 } else {
-  $name = "";
+  $time = "";
 }
 
 
-//flaw
-setcookie("TestCookie", $name);
+$value = 'something from somewhere';
+
+// flaw
+setcookie("TestCookie", $value, $time);
 
 ?> 

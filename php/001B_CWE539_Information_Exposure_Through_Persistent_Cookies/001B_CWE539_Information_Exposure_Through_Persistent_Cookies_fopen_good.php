@@ -4,24 +4,25 @@
 $handle = @fopen("/tmp/tainted.txt", "r");
 
 if ($handle) {
-  if(($name = fgets($handle, 4096)) == false) {
-    $name = "";
+  if(($time = fgets($handle, 4096)) == false) {
+    $time = "";
   }
   fclose($handle);
 } else {
-  $name = "";
+  $time = "";
 }
 
-$legal_table = array("safe1", "safe2");
+$legal_table = array(43200, 86400);
 
-if (in_array($name, $legal_table, true)) {
-  $name = $name;
+if (in_array($time, $legal_table, true)) {
+  $time = $time;
 } else {
-  $name = $legal_table[0];
+  $time = $legal_table[0];
 }
 
 
+$value = 'something from somewhere';
 
-
-setcookie("TestCookie", $name);
+// fix : write whilte list
+setcookie("TestCookie", $value, $time);
 ?> 

@@ -1,8 +1,10 @@
 <?php
 
-$name = $_POST["name"];
+$time = $_POST["time"];
 
-//flaw
-setcookie("TestCookie", $name);
+$value = 'something from somewhere';
+
+// flaw
+setcookie("TestCookie", $value, $time);
 
 ?> 

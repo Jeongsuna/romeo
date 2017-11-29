@@ -1,8 +1,9 @@
 <?php
 
-$name = $_GET["name"];
+$time = $_GET["time"];
+$value = 'something from somewhere';
 
-//flaw
-setcookie("TestCookie", $name);
+// flaw
+setcookie("TestCookie", $value, $time);
 
 ?> 

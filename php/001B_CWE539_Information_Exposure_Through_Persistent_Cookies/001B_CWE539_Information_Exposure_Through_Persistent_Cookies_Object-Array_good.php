@@ -11,7 +11,7 @@ class Input{
   public  function __construct(){
     $this->input = array();
     $this->input[0]= 'safe' ;
-    $this->input[1]= $_GET['UserData'] ;
+    $this->input[1]= $_GET['time'] ;
     $this->input[2]= 'safe' ;
   }
 }
@@ -19,20 +19,21 @@ class Input{
 
 
 $temp = new Input();
-$name =  $temp->getInput();
+$time =  $temp->getInput();
 
-$legal_table = array("safe1", "safe2");
+$legal_table = array(43200, 86400);
 
-if (in_array($name, $legal_table, true)) {
-  $name = $name;
+if (in_array($time, $legal_table, true)) {
+  $time = $time;
 } else {
-  $name = $legal_table[0];
+  $time = $legal_table[0];
 }
 
 
 
+$value = 'something from somewhere';
 
-setcookie("TestCookie", $name);
-
+// fix : write whilte list
+setcookie("TestCookie", $value, $time);
 
 ?> 
