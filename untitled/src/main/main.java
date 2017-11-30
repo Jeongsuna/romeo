@@ -66,7 +66,7 @@ public class main {
 */
 
 
-        String path="/home/daehyun/git/romeo/php/0002_CWE22_Path_Traversal";
+        String path="/home/daehyun/git/romeo/php/0001_CWE89_SQL_Injection";
         File dirFile=new File(path);
         File []fileList=dirFile.listFiles();
 
@@ -77,7 +77,7 @@ public class main {
             if(tempFile.isFile()) {
 
                 String tempFileName=tempFile.getName();
-                String replaced = tempFileName.replace("CWE_","CWE");
+                String replaced = tempFileName.replace("__good","_good");
 
                     File fileNew = new File( path+"/"+replaced );
                     tempFile.renameTo(fileNew);
