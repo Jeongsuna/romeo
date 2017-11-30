@@ -66,7 +66,7 @@ public class main {
 */
 
 
-        String path="/home/daehyun/git/romeo/php/0048_CWE484_Omitted_Break_Statement_in_Switch";
+        String path="/home/daehyun/git/romeo/php/0002_CWE22_Path_Traversal";
         File dirFile=new File(path);
         File []fileList=dirFile.listFiles();
 
@@ -77,7 +77,7 @@ public class main {
             if(tempFile.isFile()) {
 
                 String tempFileName=tempFile.getName();
-                String replaced = "C"+tempFileName.replace(".php","_01.php");
+                String replaced = tempFileName.replace("CWE_","CWE");
 
                     File fileNew = new File( path+"/"+replaced );
                     tempFile.renameTo(fileNew);
