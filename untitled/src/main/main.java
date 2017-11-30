@@ -66,7 +66,7 @@ public class main {
 */
 
 
-        String path="/home/daehyun/git/romeo/php/0009_CWE98_PHP_Remote_File_Inclusion";
+        String path="/home/daehyun/git/romeo/php/0048_CWE484_Omitted_Break_Statement_in_Switch";
         File dirFile=new File(path);
         File []fileList=dirFile.listFiles();
 
@@ -77,7 +77,7 @@ public class main {
             if(tempFile.isFile()) {
 
                 String tempFileName=tempFile.getName();
-                String replaced = tempFileName.replace("CWE_98","0009_CWE98_PHP_Remote_File_Inclusion");
+                String replaced = "C"+tempFileName.replace(".php","_01.php");
 
                     File fileNew = new File( path+"/"+replaced );
                     tempFile.renameTo(fileNew);
