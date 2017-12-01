@@ -48,11 +48,11 @@ $tainted = system('ls', $retval);
 
 $query = sprintf("SELECT * FROM student where id='%s'", $tainted);
 
-//flaw
 $conn = mysql_connect('localhost', 'mysql_user', 'mysql_password'); // Connection to the database (address, user, password)
 mysql_select_db('dbname') ;
 echo "query : ". $query ."<br /><br />" ;
 
+// FLAW:
 $res = mysql_query($query); //execution
 
 while($data =mysql_fetch_array($res)){

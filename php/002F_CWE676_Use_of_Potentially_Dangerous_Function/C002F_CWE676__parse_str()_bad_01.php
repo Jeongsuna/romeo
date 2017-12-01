@@ -2,6 +2,7 @@
 
 $str = "first=value&arr[]=foo+bar&arr[]=baz";
 
+// Flaw:
 parse_str($str);
 
 echo $first;  // value

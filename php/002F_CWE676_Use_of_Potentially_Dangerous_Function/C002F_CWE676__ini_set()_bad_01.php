@@ -2,6 +2,7 @@
 echo ini_get('display_errors');
 
 if (!ini_get('display_errors')) {
+	// Flaw:
     ini_set('display_errors', '1');
 }
 

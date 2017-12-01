@@ -63,7 +63,6 @@ $tainted =  $temp->getInput();
 $tainted = preg_replace('/\'/', '', $tainted);
 
 //flaw
-
 $var = fopen($tainted, "r");
 
 

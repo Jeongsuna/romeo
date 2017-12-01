@@ -59,7 +59,6 @@ if (is_resource($process)) {
 //no_sanitizing
 
 //flaw
-
 $var = http_redirect(sprintf("'%s'", $tainted));
 
 

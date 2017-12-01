@@ -4,6 +4,7 @@ function foo()
 {
     global $color;
 
+	// Flaw:
     include ('vars.php');
 
     echo "A $color $fruit";

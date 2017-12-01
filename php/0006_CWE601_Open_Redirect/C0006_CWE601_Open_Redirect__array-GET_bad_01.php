@@ -51,9 +51,6 @@ $tainted = $array[1] ;
 //no_sanitizing
 
 //flaw
-
 $var = http_redirect(sprintf("'%s'", $tainted));
-
-
 
 ?>

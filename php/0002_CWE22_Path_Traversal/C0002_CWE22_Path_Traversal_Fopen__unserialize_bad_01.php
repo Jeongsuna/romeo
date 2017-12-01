@@ -49,8 +49,7 @@ $tainted = unserialize($string);
 
 $tainted = preg_replace('/\'/', '', $tainted);
 
-//flaw
-
+//flaw:
 $var = fopen($tainted, "r");
 
 

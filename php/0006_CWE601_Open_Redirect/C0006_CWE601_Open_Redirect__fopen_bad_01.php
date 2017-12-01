@@ -56,9 +56,6 @@ if ($handle) {
 //no_sanitizing
 
 //flaw
-
 $var = http_redirect(sprintf("'%s'", $tainted));
-
-
 
 ?>

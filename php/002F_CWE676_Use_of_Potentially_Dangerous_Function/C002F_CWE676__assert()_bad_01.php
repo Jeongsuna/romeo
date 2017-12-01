@@ -17,5 +17,6 @@ function my_assert_handler($file, $line, $code, $desc = null)
 // Set up the callback
 assert_options(ASSERT_CALLBACK, 'my_assert_handler');
 
+// Flaw:
 assert('2 < 1', 'Two is less than one');
 ?>

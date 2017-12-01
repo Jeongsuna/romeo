@@ -5,6 +5,7 @@ function foo()
     global $color;
 
     //using require
+    // Flaw:
     require ('vars.php');
 
     echo "A $color $fruit";

@@ -5,6 +5,7 @@
 
 // Show just the module information.
 // phpinfo(8) yields identical results.
+// Flaw:
 phpinfo(INFO_MODULES);
 
 ?>

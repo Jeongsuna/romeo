@@ -47,9 +47,6 @@ $tainted = `cat /tmp/tainted.txt`;
 //no_sanitizing
 
 //flaw
-
 $var = http_redirect(sprintf("'%s'", $tainted));
-
-
 
 ?>

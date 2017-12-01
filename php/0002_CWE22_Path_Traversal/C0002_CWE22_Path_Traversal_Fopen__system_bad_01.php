@@ -48,7 +48,6 @@ $tainted = system('ls', $retval);
 $tainted = preg_replace('/\'/', '', $tainted);
 
 //flaw
-
 $var = fopen($tainted, "r");
 
 

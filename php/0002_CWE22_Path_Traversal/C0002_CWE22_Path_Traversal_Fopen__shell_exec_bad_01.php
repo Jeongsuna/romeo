@@ -48,7 +48,6 @@ $tainted = shell_exec('cat /tmp/tainted.txt');
 $tainted = preg_replace('/\'/', '', $tainted);
 
 //flaw
-
 $var = fopen($tainted, "r");
 
 
