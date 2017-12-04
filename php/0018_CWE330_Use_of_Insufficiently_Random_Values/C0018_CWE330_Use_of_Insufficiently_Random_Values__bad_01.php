@@ -1,6 +1,6 @@
 <?php
 
-function generateSessionID($userID){
+function generateSessionIDBad($userID){
 	
 srand($userID);
 //flaw
