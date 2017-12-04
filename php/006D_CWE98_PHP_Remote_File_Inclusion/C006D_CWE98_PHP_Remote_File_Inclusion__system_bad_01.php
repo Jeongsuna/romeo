@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : Uses popen to read the file /tmp/tainted.txt using cat command
+input : execute a ls command using the function system, and put the last result in $tainted
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,14 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$handle = popen('/bin/cat /tmp/tainted.txt', 'r');
-$tainted = fread($handle, 4096);
-pclose($handle);
+$tainted = system('ls', $retval);
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

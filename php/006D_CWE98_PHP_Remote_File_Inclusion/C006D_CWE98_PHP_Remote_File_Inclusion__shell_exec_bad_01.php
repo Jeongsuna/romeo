@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : get the field userData from the variable $_GET via an object, which store it in a array
+input : use shell_exec to cat /tmp/tainted.txt
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,27 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-class Input{
-  private $input;
-
-  public function getInput(){
-    return $this->input['realOne'];
-  }
-
-  public  function __construct(){
-    $this->input = array();
-    $this->input['test']= 'safe' ;
-    $this->input['realOne']= $_GET['UserData'] ;
-    $this->input['trap']= 'safe' ;
-  }
-}
-$temp = new Input();
-$tainted =  $temp->getInput();
+$tainted = shell_exec('cat /tmp/tainted.txt');
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

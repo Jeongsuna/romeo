@@ -51,9 +51,9 @@ $tainted = $result[0];
 
 $query = sprintf("(&(objectCategory=person)(objectClass=user)(mail='%s'))", $tainted);
 
-//flaw
 $ds=ldap_connect("localhost"); 
 $r=ldap_bind($ds);
+//flaw
 $sr=ldap_search($ds,"o=My Company, c=US", $query);  
 ldap_close($ds);
 

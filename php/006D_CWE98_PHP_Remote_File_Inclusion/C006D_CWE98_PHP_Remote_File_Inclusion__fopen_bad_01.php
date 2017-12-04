@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : execute a ls command using the function system, and put the last result in $tainted
+input : use fopen to read /tmp/tainted.txt and put the first line in $tainted
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,12 +42,20 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = system('ls', $retval);
+$handle = @fopen("/tmp/tainted.txt", "r");
+
+if ($handle) {
+  if(($tainted = fgets($handle, 4096)) == false) {
+    $tainted = "";
+  }
+  fclose($handle);
+} else {
+  $tainted = "";
+}
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

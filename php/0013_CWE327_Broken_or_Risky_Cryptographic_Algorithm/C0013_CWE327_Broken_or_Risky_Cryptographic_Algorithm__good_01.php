@@ -1,6 +1,6 @@
 <?php
 
-function encryptPassword($password){
+function encryptPasswordGood($password){
 	// using AES algorithm
 $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_CBC);
 $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);

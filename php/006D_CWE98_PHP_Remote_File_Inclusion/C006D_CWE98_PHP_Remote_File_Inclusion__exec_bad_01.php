@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : get the field UserData from the variable $_POST
+input : use exec to execute the script /tmp/tainted.php and store the output in $tainted
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,12 +42,14 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = $_POST['UserData'];
+$script = "/tmp/tainted.php";
+exec($script, $result, $return);
+
+$tainted = $result[0];
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

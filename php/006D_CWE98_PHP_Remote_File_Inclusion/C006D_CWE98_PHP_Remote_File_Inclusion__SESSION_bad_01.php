@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : use exec to execute the script /tmp/tainted.php and store the output in $tainted
+input : get the UserData field of $_SESSION
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,15 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$script = "/tmp/tainted.php";
-exec($script, $result, $return);
-
-$tainted = $result[0];
+$tainted = $_SESSION['UserData'];
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

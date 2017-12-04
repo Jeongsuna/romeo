@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : reads the field UserData from the variable $_GET
+input : get the field UserData from the variable $_POST
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,12 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = $_GET['UserData'];
+$tainted = $_POST['UserData'];
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : get the UserData field of $_SESSION
+input : backticks interpretation, reading the file /tmp/tainted.txt
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,12 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = $_SESSION['UserData'];
+$tainted = `cat /tmp/tainted.txt`;
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

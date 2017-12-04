@@ -49,7 +49,6 @@ $tainted = unserialize($string);
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

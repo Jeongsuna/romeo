@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : backticks interpretation, reading the file /tmp/tainted.txt
+input : Uses popen to read the file /tmp/tainted.txt using cat command
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,12 +42,13 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$tainted = `cat /tmp/tainted.txt`;
+$handle = popen('/bin/cat /tmp/tainted.txt', 'r');
+$tainted = fread($handle, 4096);
+pclose($handle);
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : get the field userData from the variable $_GET via an object, which store it in a array
+input : get the $_GET['userData'] in an array
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,27 +42,15 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-class Input{
-  private $input;
-
-  public function getInput(){
-    return $this->input[1];
-  }
-
-  public  function __construct(){
-    $this->input = array();
-    $this->input[0]= 'safe' ;
-    $this->input[1]= $_GET['UserData'] ;
-    $this->input[2]= 'safe' ;
-  }
-}
-$temp = new Input();
-$tainted =  $temp->getInput();
+$array = array();
+$array[] = 'safe' ;
+$array[] = $_GET['userData'] ;
+$array[] = 'safe' ;
+$tainted = $array[1] ;
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

@@ -43,18 +43,22 @@ MODIFICATIONS.*/
 
 
 class Input{
+  private $input;
+
   public function getInput(){
-    return $_GET['UserData'] ;
+    return $this->input;
+  }
+
+  public  function __construct(){
+   $this->input = $_GET['UserData'] ;
   }
 }
-
 $temp = new Input();
 $tainted =  $temp->getInput();
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 

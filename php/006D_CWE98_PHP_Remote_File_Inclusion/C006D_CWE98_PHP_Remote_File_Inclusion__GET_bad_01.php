@@ -1,7 +1,7 @@
 <?php
 /* 
 Unsafe sample
-input : use fopen to read /tmp/tainted.txt and put the first line in $tainted
+input : reads the field UserData from the variable $_GET
 sanitize : none
 construction : use of sprintf via a %s with simple quote
 */
@@ -42,21 +42,11 @@ OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
 MODIFICATIONS.*/
 
 
-$handle = @fopen("/tmp/tainted.txt", "r");
-
-if ($handle) {
-  if(($tainted = fgets($handle, 4096)) == false) {
-    $tainted = "";
-  }
-  fclose($handle);
-} else {
-  $tainted = "";
-}
+$tainted = $_GET['UserData'];
 
 //no_sanitizing
 
 //flaw
-
 $var = require(sprintf("'%s'.php", $tainted));
 
 
