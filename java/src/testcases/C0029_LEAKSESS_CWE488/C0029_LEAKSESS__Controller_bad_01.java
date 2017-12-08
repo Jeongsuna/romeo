@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class C0029_LEAKSESS__Controller_bad_01 {
 	private int currentPage = 1;
-	public void doSomethingBad(HttpServletRequest request) {
+	public void doSomething(HttpServletRequest request) {
 		/* FLAW: */
 		currentPage = Integer.parseInt(request.getParameter("page"));
 	}
