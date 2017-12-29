@@ -3,3 +3,6 @@
 **/special.log
 /.metadata/
 /bin/
+**/UserInterfaceState.xcuserstate
+**/xcdebugger
+**/xcuserdata
