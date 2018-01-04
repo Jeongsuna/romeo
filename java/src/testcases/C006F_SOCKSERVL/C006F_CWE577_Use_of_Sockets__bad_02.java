@@ -22,6 +22,7 @@ public class C006F_CWE577_Use_of_Sockets__bad_02 {
 
 		public Bad() {
 			try {
+	    	//FLAW:
 				serverSocket = new ServerSocket(SOCKET_PORT);
 			} catch (IOException ex) { int action; }
 			listening = true;
@@ -33,6 +34,7 @@ public class C006F_CWE577_Use_of_Sockets__bad_02 {
 		public BigDecimal getStockValue(String symbol) { return new BigDecimal("1.0"); }
 		public void run() {
 			try {
+	    	//FLAW:
 				clientSocket = serverSocket.accept();
 			} catch (IOException e) { int action; }
 		}

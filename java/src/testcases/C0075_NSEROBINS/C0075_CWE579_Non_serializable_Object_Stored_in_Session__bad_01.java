@@ -17,6 +17,7 @@ public class C0075_CWE579_Non_serializable_Object_Stored_in_Session__bad_01 {
 		String globName;
 		String globValue;
 		public void bad(HttpSession session) {
+			// FLAW:
 			session.setAttribute("glob", this);
 		}
 	}
@@ -24,6 +25,7 @@ public class C0075_CWE579_Non_serializable_Object_Stored_in_Session__bad_01 {
 		String globName;
 		String globValue;
 		public void bad(HttpSession session) {
+			// FLAW:
 			session.setAttribute("glob", DataGlobBad.class);
 		}
 	}

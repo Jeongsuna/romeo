@@ -6,7 +6,9 @@ public class C0079_CWE105_Form_Field_Without_Validator__01 {
 		private String city;
 		private String state;
 		private String zipcode;
+		// FLAW:
 		private String phone;
+		// FLAW:
 		private String email;
 
 		public RegistrationFormBad() {  super();  }

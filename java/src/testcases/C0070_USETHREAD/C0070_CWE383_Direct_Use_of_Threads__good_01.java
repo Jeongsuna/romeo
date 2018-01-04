@@ -15,5 +15,6 @@ public class C006E_CWE383_Direct_Use_of_Threads__good_01 extends HttpServlet{
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Perform servlet tasks.
 		// Do not create thread
+		int action;
 	}
 }

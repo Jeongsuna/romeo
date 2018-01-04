@@ -30,6 +30,7 @@ public class C0074_CWE578_Use_of_Class_Loader__bad_01 {
 			try {
 				// get XML document from the local filesystem as an input stream
 				// using the ClassLoader for this class
+				// FLAW:
 				ClassLoader loader = this.getClass().getClassLoader();
 				InputStream in = loader.getResourceAsStream(INTEREST_RATE_FILE);
 

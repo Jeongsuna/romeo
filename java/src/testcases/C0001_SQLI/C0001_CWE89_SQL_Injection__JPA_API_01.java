@@ -19,13 +19,16 @@ public class C0001_CWE89_SQL_Injection__JPA_API_01 {
    private static EntityManager em = emFactory.createEntityManager();
 
    public void bad(HttpServletRequest req) {
-      // #1 flaw
+      // #1
+      //FLAW:
       String orderId = java.lang.System.getProperty("path");
       List results = em.createQuery("Select order from Orders order where order.id = " + orderId).getResultList();
-      // #2 flaw
+      // #2
+      //FLAW:
       String author = req.getParameter("author");
       List results2 = em.createNativeQuery("Select * from Books where author = " + author).getResultList();
-      // #3 flaw
+      // #3
+      //FLAW:
       String itemId = req.getParameter("itemId");
       int resultCode = em.createNativeQuery("Delete from Cart where itemId = " + itemId).executeUpdate();
    }

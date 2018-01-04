@@ -22,6 +22,7 @@ public class C006F_CWE246_Direct_Use_of_Sockets__bad_01 extends HttpServlet {
 
 	public void bad(Socket s){
 		try{
+    	//FLAW:
 			s = new Socket(remoteHostname, 3000);
 			// Do something with the socket.
 			// ...

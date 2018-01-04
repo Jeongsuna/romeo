@@ -18,6 +18,7 @@ public class C006E_CWE383_Direct_Use_of_Threads__bad_01 extends HttpServlet{
 		Runnable r = new Runnable() {
 			public void run() { int action; }  // Process and store request statistics.
 		};
+		// FLAW:
 		new Thread(r).start();
 	}
 }

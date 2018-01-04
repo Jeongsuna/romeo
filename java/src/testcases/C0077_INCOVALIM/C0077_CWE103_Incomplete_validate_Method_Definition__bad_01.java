@@ -14,6 +14,7 @@ public class C00_CWE103_Incomplete_validate_Method_Definition__01 {
 		private String email;
 		public RegistrationFormBad() {  super();  }
 		public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
+			// FLAW:
 			ActionErrors errors = new ActionErrors();
 			if (getName() == null || getName().length() < 1)
 				errors.add("name", new ActionMessage("error.name.required"));

@@ -28,6 +28,7 @@ public class C006E_CWE576_Use_of_JAVA_IO__bad_01 {
 		public InterestRateBeanBad() throws ParserConfigurationException, SAXException {
 			try {
 				/* get XML document from the local filesystem */
+				// FLAW:
 				interestRateFile = new File(INTEREST_RATE_FILE);
 				if (interestRateFile.exists()) {
 					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();

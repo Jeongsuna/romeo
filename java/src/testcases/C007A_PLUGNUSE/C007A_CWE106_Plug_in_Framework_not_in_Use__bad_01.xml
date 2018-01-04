@@ -27,4 +27,5 @@ public class RegistrationForm extends org.apache.struts.action.ActionForm {
 	</form-beans>
 	...
 	<!-- ========================= Not Validator plugin ================================= -->
+	<!-- FLAW: -->
 </struts-config>

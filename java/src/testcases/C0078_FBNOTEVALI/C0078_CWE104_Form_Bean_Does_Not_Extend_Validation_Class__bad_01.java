@@ -7,6 +7,7 @@ public class C00_CWE104_Form_Bean_Does_Not_Extend_Validation_Class__bad_01 {
 	/*
 	## In the following Java example the class RegistrationForm is a Struts framework ActionForm Bean that will maintain user information from a registration webpage for an online business site. The user will enter registration data and through the Struts framework the RegistrationForm bean will maintain the user data.
 	*/
+	// FLAW:
 	public class RegistrationFormBad extends org.apache.struts.action.ActionForm {
 		// private variables for registration form
 		private String name;

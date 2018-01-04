@@ -14,6 +14,7 @@ public class C004B_CWE382_Use_of_System_exit__bad_01 {
 	*/
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int action;
+    //FLAW:
 		System.exit(1);
 	}
 

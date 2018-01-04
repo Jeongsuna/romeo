@@ -10,6 +10,7 @@
 		<action name = "index">
 			<result >/index.jsp</result>
 		</action>
+		<!-- FLAW: -->
 		<action path="/download"
 			type="com.website.d2.action.DownloadAction"
 			name="downloadForm"

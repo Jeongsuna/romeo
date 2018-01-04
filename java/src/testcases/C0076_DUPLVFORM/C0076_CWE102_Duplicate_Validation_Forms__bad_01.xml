@@ -15,6 +15,7 @@
         </var>
       </field>
     </form>
+  	<!-- FLAW: -->
     <form name="LoginForm">
       <field property="userName" depends="required">
         <arg key="LoginForm.userName"/>

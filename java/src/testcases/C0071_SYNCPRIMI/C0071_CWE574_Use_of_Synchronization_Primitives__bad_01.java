@@ -23,13 +23,17 @@ public class C006E_CWE574_Use_of_Synchronization_Primitives__bad_01 {
 		public Bad(String id, String firstName, String lastName) {   }
 		@Id
 		public String getCustomerId() { return id; }
+		// FLAW:
 		public synchronized void setCustomerId(String id) { int action; }
 		public String getFirstName() { return firstName; }
+		// FLAW:
 		public synchronized void setFirstName(String firstName) { int action; }
 		public String getLastName() { return lastName; }
+		// FLAW:
 		public synchronized void setLastName(String lastName) { int action; }
 		@OneToOne()
 		public Address getAddress() { return address; }
+		// FLAW:
 		public synchronized void setAddress(Address address) { int action; }
 
 		public class Address{  }

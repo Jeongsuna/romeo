@@ -30,6 +30,7 @@ public class DateRangeForm extends ValidatorForm {
 			<field property="endDate" depends="date">
 				<arg0 key="end.date"/>
 			</field>
+			<!-- FLAW: -->
 			<field property="scale" depends="integer">
 				<arg0 key="range.scale"/>
 			</field>

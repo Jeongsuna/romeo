@@ -19,9 +19,11 @@ public class C006F_CWE577_Use_of_Sockets__bad_01 {
 
 		public Bad() {
 			try {
+	    	//FLAW:
 				serverSocket = new ServerSocket(SOCKET_PORT);
 			} catch (IOException ex) { int action; }
 			try {
+	    	//FLAW:
 				clientSocket = serverSocket.accept();
 			} catch (IOException e) { int action; }
 		}

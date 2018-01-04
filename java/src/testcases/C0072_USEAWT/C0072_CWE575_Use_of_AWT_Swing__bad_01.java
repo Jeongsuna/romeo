@@ -17,14 +17,17 @@ public class C006E_CWE575_Use_of_AWT_Swing__bad_01 {
 	violates the restriction of the EJB specification against using AWT or Swing within an EJB but also	violates the intended use of Enterprise JavaBeans to separate business logic from presentation logic.
 	*/
 	@Stateless
+	// FLAW:
 	public class ConverterSessionBeanBad extends Component implements KeyListener, ConverterSessionRemote {
 		/* member variables for receiving keyboard input using AWT API */
 		private StringBuffer enteredText = new StringBuffer();
 		/* conversion rate on US dollars to Yen */
 		private BigDecimal yenRate = new BigDecimal("115.3100");
 		public ConverterSessionBeanBad() {
+			// FLAW:
 			super();
 			/* method calls for setting up AWT Component for receiving keyboard input */
+			// FLAW:
 			addKeyListener(this);
 		}
 		public BigDecimal dollarToYen(BigDecimal dollars) {

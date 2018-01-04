@@ -3,13 +3,15 @@
 
 <mapper namespace="org.apache.ibatis.submitted.rounding.Mapper">
 <!-- Bad -->
+<!-- FLAW: -->
 <select id="boardSearch" parameterType="map" resultType="BoardDto">
-select * from tbl_board where title like '%${keyword}%' order by pos asc
+  select * from tbl_board where title like '%${keyword}%' order by pos asc
 </select>
 <!-- Bad -->
+<!-- FLAW: -->
 <delete id="delStudent" parameterType="Student">
-DELETE STUDENTS
-WHERE NUM = #num# AND Name = '$name$'
+  DELETE STUDENTS
+  WHERE NUM = #num# AND Name = '$name$'
 </delete>
 
 <!-- Good -->

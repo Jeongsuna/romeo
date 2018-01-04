@@ -22,6 +22,7 @@ public class C006E_CWE245_Direct_Management_of_Connections__bad_01 {
 
 		public void bad() {
 			try {
+	    	//FLAW:
 				conn = DriverManager.getConnection(CONNECT_STRING);
 			} catch (SQLException ex) { int action; }
 		}

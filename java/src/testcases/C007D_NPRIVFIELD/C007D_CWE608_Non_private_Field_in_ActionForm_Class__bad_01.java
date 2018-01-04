@@ -9,7 +9,9 @@ public class C00_CWE608_Non_private_Field_in_ActionForm_Class__bad_01 {
 	*/
 	public class RegistrationFormBad extends org.apache.struts.validator.ValidatorForm {
 		// variables for registration form
+		// FLAW:
 		public String name;
+		// FLAW:
 		public String email;
 		public RegistrationFormBad() {  super();  }
 		public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) { return null; }

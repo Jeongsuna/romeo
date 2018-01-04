@@ -13,6 +13,7 @@ public class C0074_CWE578_Use_of_Class_Loader__bad_02 {
 	@Stateless
 	public class Bad implements LoaderSessionRemote {
 		public Bad() throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException{
+			// FLAW:
 			ClassLoader loader = new CustomClassLoader();
 			Class c = loader.loadClass("someClass");
 			Object obj = c.newInstance();

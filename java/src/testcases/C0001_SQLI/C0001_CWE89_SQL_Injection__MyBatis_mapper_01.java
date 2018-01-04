@@ -17,10 +17,15 @@ import org.apache.ibatis.annotations.Update;
 
 public interface C0001_CWE000_x__MyBatis_mapper_01 {
    //bad
+   //FLAW:
    final String getById = "SELECT * FROM STUDENT WHERE ID = ${id}";
+   //FLAW:
    final String deleteById = "DELETE from STUDENT WHERE ID = ${id}";
+   //FLAW:
    final String insert = "INSERT INTO STUDENT (NAME, BRANCH, PERCENTAGE, PHONE, EMAIL ) VALUES (${name}, ${branch}, ${percentage}, ${phone}, ${email})";
+   //FLAW:
    final String update = "UPDATE STUDENT SET EMAIL = ${email}, NAME = ${name}, BRANCH = ${branch}, PERCENTAGE = ${percentage}, PHONE = ${phone} WHERE ID = ${id}";
+
    //good
    final String getAll = "SELECT * FROM STUDENT";
    final String getById2 = "SELECT * FROM STUDENT WHERE ID = #{id}";
@@ -51,4 +56,15 @@ public interface C0001_CWE000_x__MyBatis_mapper_01 {
    @Insert(insert)
    @Options(useGeneratedKeys = true, keyProperty = "id")
    void insert(Student student);
+
+   //good annotations
+   @Select(getById2)
+   Student getById2(int id);
+   @Update(update2)
+   void update2(Student student);
+   @Delete(deleteById2)
+   void delete(int id);
+   @Insert(insert2)
+   void insert2(Student student);
+
 }

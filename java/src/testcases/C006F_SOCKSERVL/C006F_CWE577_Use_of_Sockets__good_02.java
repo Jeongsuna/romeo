@@ -18,11 +18,13 @@ public class C006F_CWE577_Use_of_Sockets__good_02 {
 
 		public Good() {
 			//Use other interface
+			int action;
 		}
 		public String getStockSymbol(String name) { return "s"; }
 		public BigDecimal getStockValue(String symbol) { return new BigDecimal("1.0"); }
 		public void run() {
 			//Use other interface
+			int action;
 		}
 	}
 

@@ -15,16 +15,16 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-//annotation과는 factory 생성 차이 
+//annotation과는 factory 생성 차이
 //factory = new AnnotationConfiguration().configure().addAnnotatedClass(Employee.class).buildSessionFactory();
 public class C0001_CWE564_SQL_Injection__Hibernate_API_01 {
 	private static final SessionFactory factory;
 	private static Session session = null;
-	
+
 	static {
 		try{
 			factory = new Configuration().configure().buildSessionFactory();
-		} catch (Throwable ex){
+		} catch (IOException ex){
 			System.err.println("Failed to create sessionFactory object." + ex);
 			throw new ExceptionInInitializerError(ex);
 		}
@@ -32,9 +32,11 @@ public class C0001_CWE564_SQL_Injection__Hibernate_API_01 {
 	}
 	public void bad(HttpServletRequest req){
 		//#1
+    //FLAW:
 		String currentOrder = req.getParameter("order");
 		List results = session.createQuery("from Orders as orders where orders.id = " + currentOrder).list();
 		//#2
+    //FLAW:
 		String author = java.lang.System.getenv("USER");
 		List results2 = session.createSQLQuery("Select * from Books where author = " + author).list();  // SQLASTER
 	}
@@ -46,7 +48,7 @@ public class C0001_CWE564_SQL_Injection__Hibernate_API_01 {
 		Query hqlQuery2 = session.createQuery("from Employees as emp where emp.incentive > :incentive");
 		List results2 = hqlQuery.setLong("incentive", new Long(10000)).list();
 		//#3  named parameter list in HQL
-		List items = new ArrayList(); 
+		List items = new ArrayList();
 		items.add("book"); items.add("clock"); items.add("ink");
 		List results3 = session.createQuery("from Cart as cart where cart.item in (:itemList)").setParameterList("itemList", items).list();
 		//#4  JavaBean in HQL
