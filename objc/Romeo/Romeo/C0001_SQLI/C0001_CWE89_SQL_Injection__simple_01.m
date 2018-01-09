@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.h>
+
+#import "C0001_CWE89_SQL_Injection__simple_01.h"
 
 @implementation C0001_CWE89_SQL_Injection__simple_01 : NSObject
 
-+(void) bad:(sqlite3 *)db atId:(NSString *)atId {
+-(void) bad:(sqlite3 *)db atId:(NSString *)atId {
     NSString *docsDir;
     NSArray *dirPaths;
     
@@ -44,7 +45,7 @@
     }
 }
 
-+(void) good:(sqlite3 *)db atId:(NSString *)atId {
+-(void) good:(sqlite3 *)db atId:(NSString *)atId {
     sqlite3_stmt *sql_statement;
     
     const char *sql = "SELECT name FROM products WHERE id = ?";

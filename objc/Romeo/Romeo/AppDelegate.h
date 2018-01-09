@@ -2,13 +2,15 @@
 //  AppDelegate.h
 //  Romeo
 //
-//  Created by Jemin Kim on 2017. 12. 27..
-//  Copyright © 2017년 Jemin Kim. All rights reserved.
+//  Created by Jemin Kim on 2018. 1. 2..
+//  Copyright © 2018년 Jemin Kim. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
