@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2E11202008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */; };
+		1B2E11212008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */; };
+		1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */; };
+		1B2E112820088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */; };
 		1B7D27C31FFB7A910079B442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C21FFB7A910079B442 /* main.m */; };
 		1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C51FFB7A910079B442 /* AppDelegate.m */; };
 		1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C81FFB7A910079B442 /* ViewController.m */; };
@@ -23,11 +27,12 @@
 		1B7D28041FFDE9850079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D28031FFDE9850079B442 /* ViewController.m */; };
 		1B7D28061FFDE9850079B442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28051FFDE9850079B442 /* Assets.xcassets */; };
 		1B7D28091FFDE9850079B442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28071FFDE9850079B442 /* Main.storyboard */; };
-		1B7D28101FFDE9C30079B442 /* C0004_CMDI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D280F1FFDE9C30079B442 /* C0004_CMDI__simple_01.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B44561D2003318B00966CB2 /* C0004_CMDI__simple_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0004_CMDI__simple_01.h; sourceTree = "<group>"; };
+		1B2E111E2008760C004FB697 /* C0004_CMDI__simple_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0004_CMDI__simple_01.h; path = Romeo_ios/C0004_CMDI/C0004_CMDI__simple_01.h; sourceTree = SOURCE_ROOT; };
+		1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0004_CMDI__simple_01.m; path = Romeo_ios/C0004_CMDI/C0004_CMDI__simple_01.m; sourceTree = SOURCE_ROOT; };
+		1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001B_PERSCOOKIE__simple_01.m; sourceTree = "<group>"; };
 		1B7D27BE1FFB7A910079B442 /* Romeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Romeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D27C21FFB7A910079B442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B7D27C41FFB7A910079B442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +60,6 @@
 		1B7D28051FFDE9850079B442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7D28081FFDE9850079B442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B7D280A1FFDE9850079B442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B7D280F1FFDE9C30079B442 /* C0004_CMDI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0004_CMDI__simple_01.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +82,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2E11192008758D004FB697 /* C0006_REDIRECT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C0006_REDIRECT;
+			sourceTree = "<group>";
+		};
+		1B2E112320087664004FB697 /* C0006_REDIRECT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = C0006_REDIRECT;
+			path = Romeo_ios/C0006_REDIRECT;
+			sourceTree = SOURCE_ROOT;
+		};
+		1B2E112420088777004FB697 /* C001B_PERSCOOKIE */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */,
+			);
+			name = C001B_PERSCOOKIE;
+			path = Romeo_ios/C001B_PERSCOOKIE;
+			sourceTree = SOURCE_ROOT;
+		};
+		1B2E1125200887AD004FB697 /* C001B_PERSCOOKIE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = C001B_PERSCOOKIE;
+			path = Romeo_ios/C001B_PERSCOOKIE;
+			sourceTree = SOURCE_ROOT;
+		};
 		1B7D27B51FFB7A910079B442 = {
 			isa = PBXGroup;
 			children = (
-				1B7D27C01FFB7A910079B442 /* Romeo */,
+				1B7D27C01FFB7A910079B442 /* Romeo_ios */,
 				1B7D27FB1FFDE9850079B442 /* Romeo_macos */,
 				1B7D27BF1FFB7A910079B442 /* Products */,
 				1B7D27E01FFB7B600079B442 /* Frameworks */,
@@ -97,13 +133,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B7D27C01FFB7A910079B442 /* Romeo */ = {
+		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
 				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
 				1B7D27DC1FFB7AC60079B442 /* C0002_PATHMANIP */,
 				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
-				1B7D27E91FFDE27C0079B442 /* C0004_CMDI */,
+				1B2E11192008758D004FB697 /* C0006_REDIRECT */,
+				1B2E112420088777004FB697 /* C001B_PERSCOOKIE */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
 				1B7D27C71FFB7A910079B442 /* ViewController.h */,
@@ -114,7 +151,7 @@
 				1B7D27D21FFB7A910079B442 /* Info.plist */,
 				1B7D27C11FFB7A910079B442 /* Supporting Files */,
 			);
-			path = Romeo;
+			path = Romeo_ios;
 			sourceTree = "<group>";
 		};
 		1B7D27C11FFB7A910079B442 /* Supporting Files */ = {
@@ -161,17 +198,12 @@
 			path = C0003_XSS;
 			sourceTree = "<group>";
 		};
-		1B7D27E91FFDE27C0079B442 /* C0004_CMDI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = C0004_CMDI;
-			sourceTree = "<group>";
-		};
 		1B7D27FB1FFDE9850079B442 /* Romeo_macos */ = {
 			isa = PBXGroup;
 			children = (
 				1B7D280E1FFDE9A00079B442 /* C0004_CMDI */,
+				1B2E112320087664004FB697 /* C0006_REDIRECT */,
+				1B2E1125200887AD004FB697 /* C001B_PERSCOOKIE */,
 				1B7D27FC1FFDE9850079B442 /* AppDelegate.h */,
 				1B7D27FD1FFDE9850079B442 /* AppDelegate.m */,
 				1B7D28021FFDE9850079B442 /* ViewController.h */,
@@ -195,8 +227,8 @@
 		1B7D280E1FFDE9A00079B442 /* C0004_CMDI */ = {
 			isa = PBXGroup;
 			children = (
-				1B7D280F1FFDE9C30079B442 /* C0004_CMDI__simple_01.m */,
-				1B44561D2003318B00966CB2 /* C0004_CMDI__simple_01.h */,
+				1B2E111E2008760C004FB697 /* C0004_CMDI__simple_01.h */,
+				1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */,
 			);
 			name = C0004_CMDI;
 			path = Romeo/C0004_CMDI;
@@ -308,7 +340,9 @@
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
 				1B7D27DF1FFB7AC60079B442 /* C0002_PATHMAINP__simple_01.m in Sources */,
+				1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
+				1B2E11202008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7D28041FFDE9850079B442 /* ViewController.m in Sources */,
-				1B7D28101FFDE9C30079B442 /* C0004_CMDI__simple_01.m in Sources */,
+				1B2E112820088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
 				1B7D28011FFDE9850079B442 /* main.m in Sources */,
 				1B7D27FE1FFDE9850079B442 /* AppDelegate.m in Sources */,
+				1B2E11212008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

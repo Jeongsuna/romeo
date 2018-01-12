@@ -11,13 +11,13 @@
 
 @implementation C0004_CMDI__simple_01 : NSObject
 
--(void) bad {
-    char input[20];
-    scanf("input: %s", input);
-    NSString *str = [NSString stringWithCString:input encoding:NSASCIIStringEncoding];
+-(void) bad:(NSString*) cmd {
+//    char input[20];
+//    scanf("input: %s", input);
+//    NSString *str = [NSString stringWithCString:input encoding:NSASCIIStringEncoding];
     NSTask *task = [[NSTask alloc] init];
     // Flaw:
-    [task setLaunchPath:str];
+    [task setLaunchPath:cmd];
     [task setArguments:@[ @"-c", @"10"]];
     
     [task launch];

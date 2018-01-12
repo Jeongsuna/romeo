@@ -10,7 +10,7 @@
 #define C0004_CMDI__simple_01_h
 
 @interface C0004_CMDI__simple_01 : NSObject
--(void) bad;
+-(void) bad: (NSString*) cmd;
 @end
 
 #endif /* C0004_CMDI__simple_01_h */

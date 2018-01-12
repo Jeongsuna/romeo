@@ -7,8 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "C0004_CMDI__simple_01.h"
 
 @interface ViewController : NSViewController
+@property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSButton *button;
 
 
 @end

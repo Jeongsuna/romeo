@@ -18,6 +18,7 @@
     NSFileManager *filemgr;
     NSData *buffer;
     filemgr = [NSFileManager defaultManager];
+	// Flaw:
     buffer = [filemgr contentsAtPath:sourcePath];
     NSString *contents = [[NSString alloc] initWithData:buffer encoding:NSUTF8StringEncoding];
 }

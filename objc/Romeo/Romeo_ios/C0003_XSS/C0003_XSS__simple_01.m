@@ -13,6 +13,7 @@
 
 -(void) bad:(UIWebView*) webView arg:(NSString *) arg {
     NSString *javascript = [[NSString alloc] initWithFormat:@"var myvar=\"%@\";", arg];
+	// Flaw:
     NSLog(@"%@", [webView stringByEvaluatingJavaScriptFromString:javascript]);
 }
 

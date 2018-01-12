@@ -22,6 +22,11 @@
 
     // Update the view, if already loaded.
 }
+- (IBAction)fire:(id)sender {
+	NSString *textBoxContents = [_textField stringValue];
+	C0004_CMDI__simple_01* c0004 = [[C0004_CMDI__simple_01 alloc] init];
+	[c0004 bad:textBoxContents];
+}
 
 
 @end
