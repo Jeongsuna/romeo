@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.h>
+
+#import "C0001_CWE89_SQL_Injection__simple_01.h"
 
 @implementation C0001_CWE89_SQL_Injection__simple_01 : NSObject
 
-+(void) bad:(sqlite3 *)db atId:(NSString *)atId {
+-(void) bad:(sqlite3 *)db atId:(NSString *)atId {
+	
     NSString *docsDir;
-    NSArray *dirPaths;
+	NSArray *dirPaths;
     
     dirPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     docsDir = dirPaths[0];
@@ -34,7 +36,7 @@
             const char *query = [sql UTF8String];
             
             // Flaw:
-            if(sqlite3_exec(db, query, NULL, NULL, &errMsg) != SQLITE_OK)
+            if(sqlite3_exec(db, query, 0, 0, &errMsg) != SQLITE_OK)
             {
                 printf("msg1: %s", errMsg);
             }
@@ -43,8 +45,8 @@
         }
     }
 }
-
-+(void) good:(sqlite3 *)db atId:(NSString *)atId {
+/*
+-(void) good:(sqlite3 *)db atId:(NSString *)atId {
     sqlite3_stmt *sql_statement;
     
     const char *sql = "SELECT name FROM products WHERE id = ?";
@@ -60,5 +62,5 @@
     }
     sqlite3_close(db);
 }
-
+*/
 @end
