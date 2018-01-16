@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import "C0004_CMDI__simple_01.h"
+#import "C0007_XQUERYI__simple_01.h"
+#import "C0008_XPATHI__simple_01.h"
 
 @interface ViewController : NSViewController
 @property (weak) IBOutlet NSTextField *textField;

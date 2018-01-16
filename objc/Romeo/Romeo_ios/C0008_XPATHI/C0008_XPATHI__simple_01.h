@@ -11,7 +11,7 @@
 
 @interface C0008_XPATHI__simple_01 : NSObject
 
-
+-(NSArray*) bad: (NSString*) query xmlfile:(NSString*) xmlfile;
 @end
 
 #endif /* C0008_XPATHI__simple_01_h */
