@@ -11,6 +11,14 @@
 		1B2E11212008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */; };
 		1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */; };
 		1B2E112820088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */; };
+		1B2E112B2008AD3E004FB697 /* C0027_USEFREED__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112A2008AD3E004FB697 /* C0027_USEFREED__simple_01.m */; };
+		1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112D200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m */; };
+		1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E112F200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m */; };
+		1B2E1133200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E1132200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m */; };
+		1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E113B200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m */; };
+		1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E113D200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m */; };
+		1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E113F200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m */; };
+		1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E1141200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m */; };
 		1B7D27C31FFB7A910079B442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C21FFB7A910079B442 /* main.m */; };
 		1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C51FFB7A910079B442 /* AppDelegate.m */; };
 		1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C81FFB7A910079B442 /* ViewController.m */; };
@@ -33,6 +41,19 @@
 		1B2E111E2008760C004FB697 /* C0004_CMDI__simple_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0004_CMDI__simple_01.h; path = Romeo_ios/C0004_CMDI/C0004_CMDI__simple_01.h; sourceTree = SOURCE_ROOT; };
 		1B2E111F2008760C004FB697 /* C0004_CMDI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0004_CMDI__simple_01.m; path = Romeo_ios/C0004_CMDI/C0004_CMDI__simple_01.m; sourceTree = SOURCE_ROOT; };
 		1B2E112620088867004FB697 /* C001B_PERSCOOKIE__simple_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001B_PERSCOOKIE__simple_01.m; sourceTree = "<group>"; };
+		1B2E112A2008AD3E004FB697 /* C0027_USEFREED__simple_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0027_USEFREED__simple_01.m; sourceTree = "<group>"; };
+		1B2E112D200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0013_BROKNCRYPT__DES_01.m; sourceTree = "<group>"; };
+		1B2E112F200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0013_BROKNCRYPT__MD5_01.m; sourceTree = "<group>"; };
+		1B2E1132200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C000F_FORMATI__NSLog_01.m; sourceTree = "<group>"; };
+		1B2E1135200C7599004FB697 /* C000F_FORMATI__NSLog_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C000F_FORMATI__NSLog_01.h; sourceTree = "<group>"; };
+		1B2E113B200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C000F_FORMATI__stringWithFormat_01.m; sourceTree = "<group>"; };
+		1B2E113D200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C000F_FORMATI__stringByAppendingFormat_01.m; sourceTree = "<group>"; };
+		1B2E113F200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C000F_FORMATI__initWithFormat_01.m; sourceTree = "<group>"; };
+		1B2E1141200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C000F_FORMATI__appendFormat_01.m; sourceTree = "<group>"; };
+		1B2E1143200C7DD9004FB697 /* C000F_FORMATI__stringWithFormat_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C000F_FORMATI__stringWithFormat_01.h; sourceTree = "<group>"; };
+		1B2E1144200C7E24004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C000F_FORMATI__stringByAppendingFormat_01.h; sourceTree = "<group>"; };
+		1B2E1145200C7E81004FB697 /* C000F_FORMATI__initWithFormat_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C000F_FORMATI__initWithFormat_01.h; sourceTree = "<group>"; };
+		1B2E1146200C7EBC004FB697 /* C000F_FORMATI__appendFormat_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C000F_FORMATI__appendFormat_01.h; sourceTree = "<group>"; };
 		1B7D27BE1FFB7A910079B442 /* Romeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Romeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D27C21FFB7A910079B442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B7D27C41FFB7A910079B442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +135,40 @@
 			path = Romeo_ios/C001B_PERSCOOKIE;
 			sourceTree = SOURCE_ROOT;
 		};
+		1B2E11292008AD12004FB697 /* C0027_USEFREED */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E112A2008AD3E004FB697 /* C0027_USEFREED__simple_01.m */,
+			);
+			path = C0027_USEFREED;
+			sourceTree = "<group>";
+		};
+		1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E112D200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m */,
+				1B2E112F200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m */,
+			);
+			path = C0013_BROKNCRYPT;
+			sourceTree = "<group>";
+		};
+		1B2E1131200C72CB004FB697 /* C000F_FORMATI */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E1132200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m */,
+				1B2E1135200C7599004FB697 /* C000F_FORMATI__NSLog_01.h */,
+				1B2E113B200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m */,
+				1B2E1143200C7DD9004FB697 /* C000F_FORMATI__stringWithFormat_01.h */,
+				1B2E113D200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m */,
+				1B2E1144200C7E24004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.h */,
+				1B2E113F200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m */,
+				1B2E1145200C7E81004FB697 /* C000F_FORMATI__initWithFormat_01.h */,
+				1B2E1141200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m */,
+				1B2E1146200C7EBC004FB697 /* C000F_FORMATI__appendFormat_01.h */,
+			);
+			path = C000F_FORMATI;
+			sourceTree = "<group>";
+		};
 		1B7D27B51FFB7A910079B442 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +196,9 @@
 				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
 				1B2E11192008758D004FB697 /* C0006_REDIRECT */,
 				1B2E112420088777004FB697 /* C001B_PERSCOOKIE */,
+				1B2E11292008AD12004FB697 /* C0027_USEFREED */,
+				1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */,
+				1B2E1131200C72CB004FB697 /* C000F_FORMATI */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
 				1B7D27C71FFB7A910079B442 /* ViewController.h */,
@@ -337,13 +395,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7D27E71FFDCA0A0079B442 /* C0003_XSS__simple_01.m in Sources */,
+				1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
+				1B2E112B2008AD3E004FB697 /* C0027_USEFREED__simple_01.m in Sources */,
+				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
 				1B7D27DF1FFB7AC60079B442 /* C0002_PATHMAINP__simple_01.m in Sources */,
+				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
+				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
 				1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
 				1B2E11202008760D004FB697 /* C0004_CMDI__simple_01.m in Sources */,
+				1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */,
+				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
+				1B2E1133200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
