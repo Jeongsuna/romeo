@@ -14,7 +14,9 @@
 #import "C000F_FORMATI__stringByAppendingFormat_01.h"
 #import "C000F_FORMATI__initWithFormat_01.h"
 #import "C000F_FORMATI__appendFormat_01.h"
-
+#import "C0053_REFLECTI__performSelector_01.h"
+#import "C0053_REFLECTI__performSelector_02.h"
+#import "C0053_REFLECTI__performSelector_03.h"
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *textBox;

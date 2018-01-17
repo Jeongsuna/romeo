@@ -38,6 +38,9 @@
 		= [[C000F_FORMATI__initWithFormat_01 alloc] init];
 	C000F_FORMATI__appendFormat_01 *c000F_05
 		= [[C000F_FORMATI__appendFormat_01 alloc] init];
+	C0053_REFLECTI__performSelector_01 *c0053_01 = [[C0053_REFLECTI__performSelector_01 alloc] init];
+	C0053_REFLECTI__performSelector_02 *c0053_02 = [[C0053_REFLECTI__performSelector_02 alloc] init];
+	C0053_REFLECTI__performSelector_03 *c0053_03 = [[C0053_REFLECTI__performSelector_03 alloc] init];
     sqlite3* sqlite = NULL;
     [c0001 bad:sqlite atId:textBoxStr];
     [c0002 bad: textBoxStr];
@@ -47,7 +50,9 @@
 	[c000F_03 bad: textBoxStr additional: @"arg2"];
 	[c000F_04 bad: textBoxStr additional: @"arg2"];
 	[c000F_05 bad: textBoxStr additional: @"arg2"];
-	
+	[c0053_01 bad: textBoxStr obj: @"arg1"];
+	[c0053_02 bad: textBoxStr obj: @"arg1" obj: @"arg2"];
+	[c0053_03 bad: textBoxStr];
 //	UIApplication* xxx = [[UIApplication alloc] init];
 //	[xxx openURL:url];
 }
