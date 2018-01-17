@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "C0016_HARDPASS.h"
+#import "C001C_LEAKCOM.h"
 
-@implementation C0016_HARDPASS_bad : NSObject
+@implementation C001C_LEAKCOM_bad : NSObject
 
 -(void) bad:(NSString *) example{
   
