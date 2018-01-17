@@ -25,7 +25,7 @@
 	bzero(iv, kCCBlockSizeDES * sizeof(unsigned char));
 	NSString *key = ENCRYPT_KEY;
 	const void *vkey = (const void *) [key UTF8String];
-	
+
 	CCCryptorStatus err = CCCrypt(kCCEncrypt,
 								  kCCAlgorithmDES,
 								  kCCOptionPKCS7Padding | kCCOptionECBMode,
