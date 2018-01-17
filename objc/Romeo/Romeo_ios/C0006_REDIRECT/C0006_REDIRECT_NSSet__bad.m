@@ -7,22 +7,33 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0006_REDIRECT_NSSet__bad.h"
+#import "C0006_REDIRECT_NSSet.h"
 
-@implementation C0006_REDIRECT_NSSet__bad: NSObject
+@implementation C0006_REDIRECT_NSSet_bad: NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
 
     NSSet *result = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
-    NSString *url ;
+    
+    NSURL *url ;
 
     if(result){
-        url = [result valueForKey:@"url"];
-        if(url) {
-            //flaw: using untrusted value
-            [request setURL:url];
+       NSString *urlString = [result valueForKey:@"url"];
+        if(urlString) {
+            url = [NSURL URLWithString:urlString];
         }
     }
+    
+    
+    if(url) {
+        
+        //flaw: using untrusted value
+        response =[response initWithURL:url
+                               MIMEType:response.MIMEType
+                  expectedContentLength:response.expectedContentLength
+                       textEncodingName:response.textEncodingName];
+    }
+    
     return response;
 }
 

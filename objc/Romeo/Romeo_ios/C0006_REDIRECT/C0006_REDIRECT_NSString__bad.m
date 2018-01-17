@@ -7,17 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0006_REDIRECT_NSString__bad.h"
+#import "C0006_REDIRECT_NSString.h"
 
-@implementation C0006_REDIRECT_NSString__bad : NSObject
+@implementation C0006_REDIRECT_NSString_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
-    
-        if(urlStr) {
-            //flaw: using untrusted value
-            [request setURL:urlStr];
-        }
+    NSURL *url =[NSURL URLWithString:urlStr];
+      
+    if(url) {
+        
+        //flaw: using untrusted value
+        response =[response initWithURL:url
+                               MIMEType:response.MIMEType
+                  expectedContentLength:response.expectedContentLength
+                       textEncodingName:response.textEncodingName];
+    }
     
     return response;
 }

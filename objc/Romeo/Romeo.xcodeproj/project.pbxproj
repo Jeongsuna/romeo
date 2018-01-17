@@ -39,6 +39,16 @@
 		1B7D28041FFDE9850079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D28031FFDE9850079B442 /* ViewController.m */; };
 		1B7D28061FFDE9850079B442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28051FFDE9850079B442 /* Assets.xcassets */; };
 		1B7D28091FFDE9850079B442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28071FFDE9850079B442 /* Main.storyboard */; };
+		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
+		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
+		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
+		E3ED3FE9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE2200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m */; };
+		E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FEC200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m */; };
+		E3ED3FF3200EE8460049FAB3 /* C0006_REDIRECT_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FEE200EE8450049FAB3 /* C0006_REDIRECT_NSSet__good.m */; };
+		E3ED3FF4200EE8460049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FEF200EE8450049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m */; };
+		E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FF0200EE8450049FAB3 /* C0006_REDIRECT_NSArray__good.m */; };
+		E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FF1200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m */; };
+		E3ED3FF7200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FF2200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +102,21 @@
 		1B7D28051FFDE9850079B442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7D28081FFDE9850079B442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B7D280A1FFDE9850079B442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
+		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
+		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
+		E3ED3FDD200EC7F60049FAB3 /* C0006_REDIRECT_NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSString.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString.h; sourceTree = SOURCE_ROOT; };
+		E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSMutableArray__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray__bad.m; sourceTree = SOURCE_ROOT; };
+		E3ED3FE0200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSDictionary.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSDictionary.h; sourceTree = SOURCE_ROOT; };
+		E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSDictionary__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSDictionary__bad.m; sourceTree = SOURCE_ROOT; };
+		E3ED3FE2200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSSet__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet__bad.m; sourceTree = SOURCE_ROOT; };
+		E3ED3FEB200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0006_REDIRECT_NSArray.h; sourceTree = "<group>"; };
+		E3ED3FEC200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSArray__bad.m; sourceTree = "<group>"; };
+		E3ED3FEE200EE8450049FAB3 /* C0006_REDIRECT_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSSet__good.m; sourceTree = "<group>"; };
+		E3ED3FEF200EE8450049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSMutableArray__good.m; sourceTree = "<group>"; };
+		E3ED3FF0200EE8450049FAB3 /* C0006_REDIRECT_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSArray__good.m; sourceTree = "<group>"; };
+		E3ED3FF1200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSString__good.m; sourceTree = "<group>"; };
+		E3ED3FF2200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0006_REDIRECT_NSDictionary__good.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +145,21 @@
 		1B2E11192008758D004FB697 /* C0006_REDIRECT */ = {
 			isa = PBXGroup;
 			children = (
+				E3ED3FEC200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m */,
+				E3ED3FF0200EE8450049FAB3 /* C0006_REDIRECT_NSArray__good.m */,
+				E3ED3FEB200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray.h */,
+				E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */,
+				E3ED3FF2200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m */,
+				E3ED3FE0200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary.h */,
+				E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */,
+				E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */,
+				E3ED3FEF200EE8450049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m */,
+				E3ED3FE2200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m */,
+				E3ED3FEE200EE8450049FAB3 /* C0006_REDIRECT_NSSet__good.m */,
+				E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */,
+				E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */,
+				E3ED3FF1200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m */,
+				E3ED3FDD200EC7F60049FAB3 /* C0006_REDIRECT_NSString.h */,
 			);
 			path = C0006_REDIRECT;
 			sourceTree = "<group>";
@@ -435,19 +475,29 @@
 			files = (
 				1B7D27E71FFDCA0A0079B442 /* C0003_XSS__simple_01.m in Sources */,
 				1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */,
+				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
+				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
 				1B2E112B2008AD3E004FB697 /* C0027_USEFREED__simple_01.m in Sources */,
+				E3ED3FF4200EE8460049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m in Sources */,
 				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
 				1B7D27DF1FFB7AC60079B442 /* C0002_PATHMAINP__simple_01.m in Sources */,
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
 				1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
+				E3ED3FF7200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
 				1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */,
+				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
 				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
 				1B2E1133200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m in Sources */,
+				E3ED3FE9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m in Sources */,
+				E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */,
+				E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */,
+				E3ED3FF3200EE8460049FAB3 /* C0006_REDIRECT_NSSet__good.m in Sources */,
+				E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
