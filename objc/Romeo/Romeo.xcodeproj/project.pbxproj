@@ -78,7 +78,8 @@
 		E31EB94B2010931C002D5E66 /* C0038_FREENULL__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9492010931B002D5E66 /* C0038_FREENULL__bad.m */; };
 		E31EB95120109757002D5E66 /* C0016_HARDPASS__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */; };
 		E31EB95320109AC3002D5E66 /* C0016_HARDPASS__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */; };
-		E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK__bad.m */; };
+		E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m */; };
+		E31EB9992010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9982010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m */; };
 		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
 		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
 		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
@@ -198,7 +199,8 @@
 		E31EB94F20109757002D5E66 /* C0016_HARDPASS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0016_HARDPASS.h; sourceTree = "<group>"; };
 		E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__bad.m; sourceTree = "<group>"; };
 		E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__good.m; sourceTree = "<group>"; };
-		E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002B_SYSTEMLEAK__bad.m; sourceTree = "<group>"; };
+		E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002B_SYSTEMLEAK_DeviceInfo__bad.m; sourceTree = "<group>"; };
+		E31EB9982010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002B_SYSTEMLEAK_NSException__bad.m; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -608,7 +610,8 @@
 		E31EB9922010A05F002D5E66 /* C002B_SYSTEMLEAK */ = {
 			isa = PBXGroup;
 			children = (
-				E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK__bad.m */,
+				E31EB9982010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m */,
+				E31EB9942010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m */,
 			);
 			path = C002B_SYSTEMLEAK;
 			sourceTree = "<group>";
@@ -717,7 +720,7 @@
 			files = (
 				1B2E1178200EDCFC004FB697 /* C0053_REFLECTI__performSelector_02.m in Sources */,
 				1B7D27E71FFDCA0A0079B442 /* C0003_XSS__simple_01.m in Sources */,
-				E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK__bad.m in Sources */,
+				E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m in Sources */,
 				E31EB94A2010931C002D5E66 /* C0038_FREENULL__good.m in Sources */,
 				1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */,
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
@@ -755,6 +758,7 @@
 				1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */,
 				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
 				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
+				E31EB9992010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m in Sources */,
 				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
 				1B2E1195200F3A3B004FB697 /* C0017_KEYLEN__Blowfish_01.m in Sources */,
 				1B2E1173200ED4F9004FB697 /* C0053_REFLECTI__performSelector_01.m in Sources */,
