@@ -76,6 +76,8 @@
 		E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB941201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m */; };
 		E31EB94A2010931C002D5E66 /* C0038_FREENULL__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9482010931B002D5E66 /* C0038_FREENULL__good.m */; };
 		E31EB94B2010931C002D5E66 /* C0038_FREENULL__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9492010931B002D5E66 /* C0038_FREENULL__bad.m */; };
+		E31EB95120109757002D5E66 /* C0016_HARDPASS__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */; };
+		E31EB95320109AC3002D5E66 /* C0016_HARDPASS__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */; };
 		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
 		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
 		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
@@ -192,6 +194,9 @@
 		E31EB942201085D3002D5E66 /* C001C_LEAKCOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C001C_LEAKCOM.h; sourceTree = "<group>"; };
 		E31EB9482010931B002D5E66 /* C0038_FREENULL__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL__good.m; sourceTree = "<group>"; };
 		E31EB9492010931B002D5E66 /* C0038_FREENULL__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL__bad.m; sourceTree = "<group>"; };
+		E31EB94F20109757002D5E66 /* C0016_HARDPASS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0016_HARDPASS.h; sourceTree = "<group>"; };
+		E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__bad.m; sourceTree = "<group>"; };
+		E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__good.m; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -428,6 +433,7 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E31EB94E20109757002D5E66 /* C0016_HARDPASS */,
 				E31EB9472010931B002D5E66 /* C0038_FREENULL */,
 				E31EB93D201085D3002D5E66 /* C001C_LEAKCOM */,
 				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
@@ -586,6 +592,16 @@
 			path = C0038_FREENULL;
 			sourceTree = "<group>";
 		};
+		E31EB94E20109757002D5E66 /* C0016_HARDPASS */ = {
+			isa = PBXGroup;
+			children = (
+				E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */,
+				E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */,
+				E31EB94F20109757002D5E66 /* C0016_HARDPASS.h */,
+			);
+			path = C0016_HARDPASS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -698,6 +714,7 @@
 				1B2E119F20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m in Sources */,
 				E31EB91D201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m in Sources */,
 				1B2E1198200F3C7C004FB697 /* C0017_KEYLEN__RSA_01.m in Sources */,
+				E31EB95120109757002D5E66 /* C0016_HARDPASS__bad.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
 				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
 				E31EB934201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m in Sources */,
@@ -713,6 +730,7 @@
 				1B7D27DF1FFB7AC60079B442 /* C0002_PATHMAINP__simple_01.m in Sources */,
 				1B2E118D200F3A02004FB697 /* C0017_KEYLEN__AES_01.m in Sources */,
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
+				E31EB95320109AC3002D5E66 /* C0016_HARDPASS__good.m in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
 				E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */,
 				E31EB945201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m in Sources */,

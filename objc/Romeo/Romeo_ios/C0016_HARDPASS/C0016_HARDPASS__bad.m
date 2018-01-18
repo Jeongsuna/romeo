@@ -7,24 +7,36 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MySQL.h"
+#import "C0016_HARDPASS.h"
 
 
-@implementation C0019_HARDPASS__bad : NSObject
+@implementation SQLSettings
 
--(void) bad:(NSString *) str {
-    
-    
-	
-    mysql = [[MySQL alloc] init];
-    if ([mysql connectTo:@"SERVER" username:@"USER" password:@"PWD" database:@"DATABASE"]){
+- (instancetype)init {
+    self = [super init];
+    if (self) {
         
-        [mysql runQuery:@"SELECT * FROM test01 LIMIT 10"];
-        NSArray *result = [mysql fetchResult];
-        NSLog(@"%@", result);
-        [mysql close];
+        /* FLAW: Set data to a hardcoded string */
+        _server = @"localhost";
+        _username = @"username";
+        _password = @"password";
+        _database = @"database";
     }
-	
+    return self;
+}
+
++ (instancetype)settings {
+    return [[self alloc] init];
+}
+
++ (instancetype)defaultSettings {
+    static SQLSettings *defaultSettings;
+    @synchronized(self) {
+        if (!defaultSettings) {
+            defaultSettings = [SQLSettings settings];
+        }
+        return defaultSettings;
+    }
 }
 
 @end
