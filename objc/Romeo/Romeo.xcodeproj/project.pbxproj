@@ -53,6 +53,23 @@
 		1B7D28041FFDE9850079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D28031FFDE9850079B442 /* ViewController.m */; };
 		1B7D28061FFDE9850079B442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28051FFDE9850079B442 /* Assets.xcassets */; };
 		1B7D28091FFDE9850079B442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28071FFDE9850079B442 /* Main.storyboard */; };
+		E31EB91D201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB919201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m */; };
+		E31EB91E201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB91A201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m */; };
+		E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB91C201083C2002D5E66 /* C0018_RANDOM_rand__bad.m */; };
+		E31EB92F201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB921201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m */; };
+		E31EB930201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB922201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m */; };
+		E31EB931201083DD002D5E66 /* C0028_UNINIT_int__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB923201083DD002D5E66 /* C0028_UNINIT_int__bad.m */; };
+		E31EB932201083DD002D5E66 /* C0028_UNINIT_int__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB924201083DD002D5E66 /* C0028_UNINIT_int__good.m */; };
+		E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB925201083DD002D5E66 /* C0028_UNINIT_double__good.m */; };
+		E31EB934201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB926201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m */; };
+		E31EB935201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB927201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m */; };
+		E31EB936201083DD002D5E66 /* C0028_UNINIT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB928201083DD002D5E66 /* C0028_UNINIT_NSDictionary__bad.m */; };
+		E31EB937201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB929201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m */; };
+		E31EB938201083DD002D5E66 /* C0028_UNINIT_char__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92A201083DD002D5E66 /* C0028_UNINIT_char__bad.m */; };
+		E31EB939201083DD002D5E66 /* C0028_UNINIT_double__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92B201083DD002D5E66 /* C0028_UNINIT_double__bad.m */; };
+		E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */; };
+		E31EB93B201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92D201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m */; };
+		E31EB93C201083DD002D5E66 /* C0028_UNINIT_char__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */; };
 		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
 		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
 		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
@@ -144,6 +161,24 @@
 		1B7D28051FFDE9850079B442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7D28081FFDE9850079B442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B7D280A1FFDE9850079B442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31EB919201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0018_RANDOM_arc4random_uniform__good.m; sourceTree = "<group>"; };
+		E31EB91A201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0018_RANDOM_arc4random__bad.m; sourceTree = "<group>"; };
+		E31EB91B201083C2002D5E66 /* C0018_RANDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0018_RANDOM.h; sourceTree = "<group>"; };
+		E31EB91C201083C2002D5E66 /* C0018_RANDOM_rand__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0018_RANDOM_rand__bad.m; sourceTree = "<group>"; };
+		E31EB921201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSArray__bad.m; sourceTree = "<group>"; };
+		E31EB922201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSDictionary__good.m; sourceTree = "<group>"; };
+		E31EB923201083DD002D5E66 /* C0028_UNINIT_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_int__bad.m; sourceTree = "<group>"; };
+		E31EB924201083DD002D5E66 /* C0028_UNINIT_int__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_int__good.m; sourceTree = "<group>"; };
+		E31EB925201083DD002D5E66 /* C0028_UNINIT_double__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_double__good.m; sourceTree = "<group>"; };
+		E31EB926201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSSet__good.m; sourceTree = "<group>"; };
+		E31EB927201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSMutableArray__bad.m; sourceTree = "<group>"; };
+		E31EB928201083DD002D5E66 /* C0028_UNINIT_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSDictionary__bad.m; sourceTree = "<group>"; };
+		E31EB929201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSMutableArray__good.m; sourceTree = "<group>"; };
+		E31EB92A201083DD002D5E66 /* C0028_UNINIT_char__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_char__bad.m; sourceTree = "<group>"; };
+		E31EB92B201083DD002D5E66 /* C0028_UNINIT_double__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_double__bad.m; sourceTree = "<group>"; };
+		E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSSet__bad.m; sourceTree = "<group>"; };
+		E31EB92D201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSArray__good.m; sourceTree = "<group>"; };
+		E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_char__good.m; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -380,6 +415,8 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
+				E31EB918201083C2002D5E66 /* C0018_RANDOM */,
 				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
 				1B7D27DC1FFB7AC60079B442 /* C0002_PATHMANIP */,
 				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
@@ -479,6 +516,38 @@
 				1B7D28001FFDE9850079B442 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E31EB918201083C2002D5E66 /* C0018_RANDOM */ = {
+			isa = PBXGroup;
+			children = (
+				E31EB919201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m */,
+				E31EB91A201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m */,
+				E31EB91B201083C2002D5E66 /* C0018_RANDOM.h */,
+				E31EB91C201083C2002D5E66 /* C0018_RANDOM_rand__bad.m */,
+			);
+			path = C0018_RANDOM;
+			sourceTree = "<group>";
+		};
+		E31EB920201083DD002D5E66 /* C0028_UNINIT */ = {
+			isa = PBXGroup;
+			children = (
+				E31EB921201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m */,
+				E31EB922201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m */,
+				E31EB923201083DD002D5E66 /* C0028_UNINIT_int__bad.m */,
+				E31EB924201083DD002D5E66 /* C0028_UNINIT_int__good.m */,
+				E31EB925201083DD002D5E66 /* C0028_UNINIT_double__good.m */,
+				E31EB926201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m */,
+				E31EB927201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m */,
+				E31EB928201083DD002D5E66 /* C0028_UNINIT_NSDictionary__bad.m */,
+				E31EB929201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m */,
+				E31EB92A201083DD002D5E66 /* C0028_UNINIT_char__bad.m */,
+				E31EB92B201083DD002D5E66 /* C0028_UNINIT_double__bad.m */,
+				E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */,
+				E31EB92D201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m */,
+				E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */,
+			);
+			path = C0028_UNINIT;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,19 +657,29 @@
 				1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */,
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B2E117F200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m in Sources */,
+				E31EB91E201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m in Sources */,
 				1B2E119F20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m in Sources */,
+				E31EB91D201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m in Sources */,
 				1B2E1198200F3C7C004FB697 /* C0017_KEYLEN__RSA_01.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
 				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
+				E31EB934201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m in Sources */,
 				1B2E112B2008AD3E004FB697 /* C0027_USEFREED__simple_01.m in Sources */,
+				E31EB930201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m in Sources */,
 				E3ED3FF4200EE8460049FAB3 /* C0006_REDIRECT_NSMutableArray__good.m in Sources */,
 				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
+				E31EB932201083DD002D5E66 /* C0028_UNINIT_int__good.m in Sources */,
+				E31EB931201083DD002D5E66 /* C0028_UNINIT_int__bad.m in Sources */,
+				E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */,
+				E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
 				1B7D27DF1FFB7AC60079B442 /* C0002_PATHMAINP__simple_01.m in Sources */,
 				1B2E118D200F3A02004FB697 /* C0017_KEYLEN__AES_01.m in Sources */,
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
+				E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */,
 				1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
+				E31EB93C201083DD002D5E66 /* C0028_UNINIT_char__good.m in Sources */,
 				E3ED3FF7200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
 				1B2E1182200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m in Sources */,
@@ -609,17 +688,24 @@
 				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
 				1B2E1195200F3A3B004FB697 /* C0017_KEYLEN__Blowfish_01.m in Sources */,
 				1B2E1173200ED4F9004FB697 /* C0053_REFLECTI__performSelector_01.m in Sources */,
+				E31EB937201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m in Sources */,
+				E31EB92F201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
 				1B2E1170200DF76C004FB697 /* C0024_NOCHKERR__simple_01.m in Sources */,
+				E31EB935201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m in Sources */,
 				1B2E1193200F3A2C004FB697 /* C0017_KEYLEN__RC4_01.m in Sources */,
 				1B2E1191200F3A1F004FB697 /* C0017_KEYLEN__CAST_01.m in Sources */,
 				1B2E119C20103B74004FB697 /* C0023_NOACTION__writeToURL_01.m in Sources */,
 				1B2E1133200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m in Sources */,
 				1B2E118F200F3A12004FB697 /* C0017_KEYLEN__DES_01.m in Sources */,
+				E31EB938201083DD002D5E66 /* C0028_UNINIT_char__bad.m in Sources */,
+				E31EB93B201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m in Sources */,
 				1B2E117A200EDD4B004FB697 /* C0053_REFLECTI__performSelector_03.m in Sources */,
+				E31EB936201083DD002D5E66 /* C0028_UNINIT_NSDictionary__bad.m in Sources */,
 				E3ED3FE9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet__bad.m in Sources */,
 				E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */,
 				E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */,
+				E31EB939201083DD002D5E66 /* C0028_UNINIT_double__bad.m in Sources */,
 				E3ED3FF3200EE8460049FAB3 /* C0006_REDIRECT_NSSet__good.m in Sources */,
 				E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */,
 			);
