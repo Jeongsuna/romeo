@@ -24,18 +24,20 @@
 	[keyPairAttr setObject:[NSNumber numberWithInt:1024]
 					forKey:(__bridge id)kSecAttrKeySizeInBits];
 	
-	[privateKeyAttr setObject:[NSNumber numberWithBool:YES] forKey:(__bridge id)kSecAttrIsPermanent];
+//	[privateKeyAttr setObject:[NSNumber numberWithBool:YES] forKey:(__bridge id)kSecAttrIsPermanent];
 	[privateKeyAttr setObject:privateTag forKey:(__bridge id)kSecAttrApplicationTag];
-	
-	[publicKeyAttr setObject:[NSNumber numberWithBool:YES] forKey:(__bridge id)kSecAttrIsPermanent];
+
+	//[publicKeyAttr setObject:[NSNumber numberWithBool:YES] forKey:(__bridge id)kSecAttrIsPermanent];
 	[publicKeyAttr setObject:publicTag forKey:(__bridge id)kSecAttrApplicationTag];
-	
+
 	[keyPairAttr setObject:privateKeyAttr forKey:(__bridge id)kSecPrivateKeyAttrs];
 	[keyPairAttr setObject:publicKeyAttr forKey:(__bridge id)kSecPublicKeyAttrs];
-	
+
 	// Flaw:
 	OSStatus err = SecKeyGeneratePair((__bridge CFDictionaryRef)keyPairAttr, &publicKey, &privateKey);
+	
 }
+/*
 -(void) good: (NSData *)publicTag private: (NSData *)privateTag{
 	NSMutableDictionary *privateKeyAttr = [[NSMutableDictionary alloc] init];
 	NSMutableDictionary *publicKeyAttr = [[NSMutableDictionary alloc] init];
@@ -62,4 +64,5 @@
 	// Fix:
 	OSStatus err = SecKeyGeneratePair((__bridge CFDictionaryRef)keyPairAttr, &publicKey, &privateKey);
 }
+ */
 @end
