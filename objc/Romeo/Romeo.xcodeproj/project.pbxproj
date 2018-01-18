@@ -70,6 +70,10 @@
 		E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */; };
 		E31EB93B201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92D201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m */; };
 		E31EB93C201083DD002D5E66 /* C0028_UNINIT_char__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */; };
+		E31EB943201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB93E201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m */; };
+		E31EB944201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB93F201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m */; };
+		E31EB945201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB940201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m */; };
+		E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB941201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m */; };
 		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
 		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
 		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
@@ -179,6 +183,11 @@
 		E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSSet__bad.m; sourceTree = "<group>"; };
 		E31EB92D201083DD002D5E66 /* C0028_UNINIT_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_NSArray__good.m; sourceTree = "<group>"; };
 		E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0028_UNINIT_char__good.m; sourceTree = "<group>"; };
+		E31EB93E201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C001C_LEAKCOM_pw__bad.m; sourceTree = "<group>"; };
+		E31EB93F201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C001C_LEAKCOM_k_password__bad.m; sourceTree = "<group>"; };
+		E31EB940201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C001C_LEAKCOM_password__bad.m; sourceTree = "<group>"; };
+		E31EB941201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C001C_LEAKCOM_k_pw__bad.m; sourceTree = "<group>"; };
+		E31EB942201085D3002D5E66 /* C001C_LEAKCOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C001C_LEAKCOM.h; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -415,6 +424,7 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E31EB93D201085D3002D5E66 /* C001C_LEAKCOM */,
 				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
 				E31EB918201083C2002D5E66 /* C0018_RANDOM */,
 				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
@@ -550,6 +560,18 @@
 			path = C0028_UNINIT;
 			sourceTree = "<group>";
 		};
+		E31EB93D201085D3002D5E66 /* C001C_LEAKCOM */ = {
+			isa = PBXGroup;
+			children = (
+				E31EB93E201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m */,
+				E31EB93F201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m */,
+				E31EB940201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m */,
+				E31EB941201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m */,
+				E31EB942201085D3002D5E66 /* C001C_LEAKCOM.h */,
+			);
+			path = C001C_LEAKCOM;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -678,16 +700,20 @@
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
 				E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */,
+				E31EB945201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m in Sources */,
 				1B2E112720088867004FB697 /* C001B_PERSCOOKIE__simple_01.m in Sources */,
 				E31EB93C201083DD002D5E66 /* C0028_UNINIT_char__good.m in Sources */,
 				E3ED3FF7200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
+				E31EB943201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m in Sources */,
 				1B2E1182200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m in Sources */,
 				1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */,
 				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
+				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
 				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
 				1B2E1195200F3A3B004FB697 /* C0017_KEYLEN__Blowfish_01.m in Sources */,
 				1B2E1173200ED4F9004FB697 /* C0053_REFLECTI__performSelector_01.m in Sources */,
+				E31EB944201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m in Sources */,
 				E31EB937201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m in Sources */,
 				E31EB92F201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,

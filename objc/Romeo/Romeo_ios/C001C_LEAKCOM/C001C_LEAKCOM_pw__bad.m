@@ -16,7 +16,7 @@
     
     //flaw : using Hard-coded Password
     // id : 123121212
-    // ps : 10dadf1!23
+    // pw : 10dadf1!23
     
 }
 
