@@ -16,7 +16,7 @@
     
     NSMutableArray *mArrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     
-   //flaw: Interger overflow
+   //flaw: Interger Underflow
    int result = [[mArrResult objectAtIndex:0] integerValue]-1;
     
     return response;
