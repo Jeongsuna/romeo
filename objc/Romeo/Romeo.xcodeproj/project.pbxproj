@@ -248,6 +248,25 @@
 		E30E678F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30E66E3201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.mm */; };
 		E30E6790201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30E66E4201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.mm */; };
 		E30E6791201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_01_bad.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30E66E5201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_01_bad.mm */; };
+		E30E67952011917F004A3768 /* C0004_CMDI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67932011917F004A3768 /* C0004_CMDI__simple_01.m */; };
+		E30E6799201191AA004A3768 /* C0007_XQUERYI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E6797201191AA004A3768 /* C0007_XQUERYI__simple_01.m */; };
+		E30E679D201191BB004A3768 /* C0008_XPATHI__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E679C201191BB004A3768 /* C0008_XPATHI__simple_01.m */; };
+		E30E67A5201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E679F201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m */; };
+		E30E67A6201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67A0201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m */; };
+		E30E67A7201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67A1201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m */; };
+		E30E67A8201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67A2201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m */; };
+		E30E67A9201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67A3201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m */; };
+		E30E67AA201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67A4201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m */; };
+		E30E67B7201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67AC201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m */; };
+		E30E67B8201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67AD201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m */; };
+		E30E67B9201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67AE201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m */; };
+		E30E67BA201191EA004A3768 /* C0034_DIVBY0_int__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67AF201191EA004A3768 /* C0034_DIVBY0_int__bad.m */; };
+		E30E67BB201191EA004A3768 /* C0034_DIVBY0_int__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B0201191EA004A3768 /* C0034_DIVBY0_int__good.m */; };
+		E30E67BC201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B2201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m */; };
+		E30E67BD201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B3201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m */; };
+		E30E67BE201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B4201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m */; };
+		E30E67BF201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B5201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m */; };
+		E30E67C0201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E67B6201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m */; };
 		E31EB91D201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB919201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m */; };
 		E31EB91E201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB91A201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m */; };
 		E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB91C201083C2002D5E66 /* C0018_RANDOM_rand__bad.m */; };
@@ -571,6 +590,29 @@
 		E30E66E3201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.mm; sourceTree = "<group>"; };
 		E30E66E4201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.mm; sourceTree = "<group>"; };
 		E30E66E5201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_01_bad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE762_Mismatched_Memory_Management_Routines__new_free_01_bad.mm; sourceTree = "<group>"; };
+		E30E67932011917F004A3768 /* C0004_CMDI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0004_CMDI__simple_01.m; sourceTree = "<group>"; };
+		E30E67942011917F004A3768 /* C0004_CMDI__simple_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0004_CMDI__simple_01.h; sourceTree = "<group>"; };
+		E30E6797201191AA004A3768 /* C0007_XQUERYI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0007_XQUERYI__simple_01.m; sourceTree = "<group>"; };
+		E30E6798201191AA004A3768 /* C0007_XQUERYI__simple_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0007_XQUERYI__simple_01.h; sourceTree = "<group>"; };
+		E30E679B201191BB004A3768 /* C0008_XPATHI__simple_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0008_XPATHI__simple_01.h; sourceTree = "<group>"; };
+		E30E679C201191BB004A3768 /* C0008_XPATHI__simple_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0008_XPATHI__simple_01.m; sourceTree = "<group>"; };
+		E30E679F201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01_NSSet__bad.m; sourceTree = "<group>"; };
+		E30E67A0201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01__bad.m; sourceTree = "<group>"; };
+		E30E67A1201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01_NSString__bad.m; sourceTree = "<group>"; };
+		E30E67A2201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01_NSDictionary__bad.m; sourceTree = "<group>"; };
+		E30E67A3201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01_NSArray__bad.m; sourceTree = "<group>"; };
+		E30E67A4201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0019_HARDKEY__DES_01_NSMutableArray__bad.m; sourceTree = "<group>"; };
+		E30E67AC201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSMutableArray__good.m; sourceTree = "<group>"; };
+		E30E67AD201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSArray__good.m; sourceTree = "<group>"; };
+		E30E67AE201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSSet__good.m; sourceTree = "<group>"; };
+		E30E67AF201191EA004A3768 /* C0034_DIVBY0_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_int__bad.m; sourceTree = "<group>"; };
+		E30E67B0201191EA004A3768 /* C0034_DIVBY0_int__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_int__good.m; sourceTree = "<group>"; };
+		E30E67B1201191EA004A3768 /* C0034_DIVBY0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0034_DIVBY0.h; sourceTree = "<group>"; };
+		E30E67B2201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSDictionary__good.m; sourceTree = "<group>"; };
+		E30E67B3201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSMutableArray__bad.m; sourceTree = "<group>"; };
+		E30E67B4201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSDictionary__bad.m; sourceTree = "<group>"; };
+		E30E67B5201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSArray__bad.m; sourceTree = "<group>"; };
+		E30E67B6201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0034_DIVBY0_NSSet__bad.m; sourceTree = "<group>"; };
 		E31EB919201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0018_RANDOM_arc4random_uniform__good.m; sourceTree = "<group>"; };
 		E31EB91A201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0018_RANDOM_arc4random__bad.m; sourceTree = "<group>"; };
 		E31EB91B201083C2002D5E66 /* C0018_RANDOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0018_RANDOM.h; sourceTree = "<group>"; };
@@ -859,39 +901,44 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
-				E30E6632201190DE004A3768 /* C0037_MEMMISMAT */,
-				E30E661920116EDA004A3768 /* C0033_TYPEUNDER */,
-				E30E660320116C21004A3768 /* C000C_TYPEOVER */,
-				E31EB9922010A05F002D5E66 /* C002B_SYSTEMLEAK */,
-				E31EB94E20109757002D5E66 /* C0016_HARDPASS */,
-				E31EB9472010931B002D5E66 /* C0038_FREENULL */,
-				E31EB93D201085D3002D5E66 /* C001C_LEAKCOM */,
-				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
-				E31EB918201083C2002D5E66 /* C0018_RANDOM */,
-				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
-				1B7D27DC1FFB7AC60079B442 /* C0002_PATHMANIP */,
-				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
-				1B2E11192008758D004FB697 /* C0006_REDIRECT */,
-				1B2E112420088777004FB697 /* C001B_PERSCOOKIE */,
-				1B2E11292008AD12004FB697 /* C0027_USEFREED */,
-				1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */,
-				1B2E1131200C72CB004FB697 /* C000F_FORMATI */,
-				1B2E116D200DF732004FB697 /* C0024_NOCHKERR */,
-				1B2E1171200ED4D0004FB697 /* C0053_REFLECTI */,
-				1B2E117B200F2898004FB697 /* C003D_MEMLEAK */,
-				1B2E117C200F28A2004FB697 /* C0017_KEYLEN */,
-				1B2E119920103AD4004FB697 /* C0023_NOACTION */,
-				1B67A2AE2010905C00B1296D /* C001D_ONEWAYHASH */,
-				1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */,
+				E30E67AB201191EA004A3768 /* C0034_DIVBY0 */,
+				E30E679E201191D3004A3768 /* C0019_HARDKEY */,
+				E30E679A201191BB004A3768 /* C0008_XPATHI */,
+				E30E6796201191AA004A3768 /* C0007_XQUERYI */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
+				1B7D27CD1FFB7A910079B442 /* Assets.xcassets */,
+				E30E67922011917F004A3768 /* C0004_CMDI */,
+				E30E660320116C21004A3768 /* C000C_TYPEOVER */,
+				1B2E1131200C72CB004FB697 /* C000F_FORMATI */,
+				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
+				1B2E112420088777004FB697 /* C001B_PERSCOOKIE */,
+				E31EB93D201085D3002D5E66 /* C001C_LEAKCOM */,
+				1B67A2AE2010905C00B1296D /* C001D_ONEWAYHASH */,
+				1B7D27DC1FFB7AC60079B442 /* C0002_PATHMANIP */,
+				E31EB9922010A05F002D5E66 /* C002B_SYSTEMLEAK */,
+				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
+				1B2E117B200F2898004FB697 /* C003D_MEMLEAK */,
+				1B2E11192008758D004FB697 /* C0006_REDIRECT */,
+				1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */,
+				1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */,
+				E31EB94E20109757002D5E66 /* C0016_HARDPASS */,
+				1B2E117C200F28A2004FB697 /* C0017_KEYLEN */,
+				E31EB918201083C2002D5E66 /* C0018_RANDOM */,
+				1B2E119920103AD4004FB697 /* C0023_NOACTION */,
+				1B2E116D200DF732004FB697 /* C0024_NOCHKERR */,
+				1B2E11292008AD12004FB697 /* C0027_USEFREED */,
+				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
+				E30E661920116EDA004A3768 /* C0033_TYPEUNDER */,
+				E30E6632201190DE004A3768 /* C0037_MEMMISMAT */,
+				E31EB9472010931B002D5E66 /* C0038_FREENULL */,
+				1B2E1171200ED4D0004FB697 /* C0053_REFLECTI */,
+				1B7D27D21FFB7A910079B442 /* Info.plist */,
+				1B7D27CF1FFB7A910079B442 /* LaunchScreen.storyboard */,
+				1B7D27CA1FFB7A910079B442 /* Main.storyboard */,
+				1B7D27C11FFB7A910079B442 /* Supporting Files */,
 				1B7D27C71FFB7A910079B442 /* ViewController.h */,
 				1B7D27C81FFB7A910079B442 /* ViewController.m */,
-				1B7D27CA1FFB7A910079B442 /* Main.storyboard */,
-				1B7D27CD1FFB7A910079B442 /* Assets.xcassets */,
-				1B7D27CF1FFB7A910079B442 /* LaunchScreen.storyboard */,
-				1B7D27D21FFB7A910079B442 /* Info.plist */,
-				1B7D27C11FFB7A910079B442 /* Supporting Files */,
 			);
 			path = Romeo_ios;
 			sourceTree = "<group>";
@@ -1214,6 +1261,64 @@
 			path = s01;
 			sourceTree = "<group>";
 		};
+		E30E67922011917F004A3768 /* C0004_CMDI */ = {
+			isa = PBXGroup;
+			children = (
+				E30E67932011917F004A3768 /* C0004_CMDI__simple_01.m */,
+				E30E67942011917F004A3768 /* C0004_CMDI__simple_01.h */,
+			);
+			path = C0004_CMDI;
+			sourceTree = "<group>";
+		};
+		E30E6796201191AA004A3768 /* C0007_XQUERYI */ = {
+			isa = PBXGroup;
+			children = (
+				E30E6797201191AA004A3768 /* C0007_XQUERYI__simple_01.m */,
+				E30E6798201191AA004A3768 /* C0007_XQUERYI__simple_01.h */,
+			);
+			path = C0007_XQUERYI;
+			sourceTree = "<group>";
+		};
+		E30E679A201191BB004A3768 /* C0008_XPATHI */ = {
+			isa = PBXGroup;
+			children = (
+				E30E679B201191BB004A3768 /* C0008_XPATHI__simple_01.h */,
+				E30E679C201191BB004A3768 /* C0008_XPATHI__simple_01.m */,
+			);
+			path = C0008_XPATHI;
+			sourceTree = "<group>";
+		};
+		E30E679E201191D3004A3768 /* C0019_HARDKEY */ = {
+			isa = PBXGroup;
+			children = (
+				E30E679F201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m */,
+				E30E67A0201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m */,
+				E30E67A1201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m */,
+				E30E67A2201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m */,
+				E30E67A3201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m */,
+				E30E67A4201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m */,
+			);
+			path = C0019_HARDKEY;
+			sourceTree = "<group>";
+		};
+		E30E67AB201191EA004A3768 /* C0034_DIVBY0 */ = {
+			isa = PBXGroup;
+			children = (
+				E30E67AC201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m */,
+				E30E67AD201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m */,
+				E30E67AE201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m */,
+				E30E67AF201191EA004A3768 /* C0034_DIVBY0_int__bad.m */,
+				E30E67B0201191EA004A3768 /* C0034_DIVBY0_int__good.m */,
+				E30E67B1201191EA004A3768 /* C0034_DIVBY0.h */,
+				E30E67B2201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m */,
+				E30E67B3201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m */,
+				E30E67B4201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m */,
+				E30E67B5201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m */,
+				E30E67B6201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m */,
+			);
+			path = C0034_DIVBY0;
+			sourceTree = "<group>";
+		};
 		E31EB918201083C2002D5E66 /* C0018_RANDOM */ = {
 			isa = PBXGroup;
 			children = (
@@ -1404,6 +1509,7 @@
 				E30E6723201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_bad.mm in Sources */,
 				E30E6779201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_wchar_t_01.mm in Sources */,
 				E30E671D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_45.mm in Sources */,
+				E30E67BA201191EA004A3768 /* C0034_DIVBY0_int__bad.m in Sources */,
 				E30E6764201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_realloc_01.mm in Sources */,
 				E30E677D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_01_bad.mm in Sources */,
 				E30E6709201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_42.mm in Sources */,
@@ -1413,8 +1519,10 @@
 				E30E6761201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_class_01.mm in Sources */,
 				E30E6788201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_01_bad.mm in Sources */,
 				E30E6727201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52b.mm in Sources */,
+				E30E67C0201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m in Sources */,
 				E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m in Sources */,
 				E30E66FE201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_08.mm in Sources */,
+				E30E67B9201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m in Sources */,
 				E31EB94A2010931C002D5E66 /* C0038_FREENULL__good.m in Sources */,
 				E30E6701201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62b.mm in Sources */,
 				E30E677E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_01_good1.mm in Sources */,
@@ -1425,6 +1533,7 @@
 				E30E670C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_43.mm in Sources */,
 				E30E66EA201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72b.mm in Sources */,
 				E30E6711201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_goodB2G.mm in Sources */,
+				E30E67BB201191EA004A3768 /* C0034_DIVBY0_int__good.m in Sources */,
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B2E117F200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m in Sources */,
 				E30E6787201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__calloc_delete_01_bad.mm in Sources */,
@@ -1432,6 +1541,7 @@
 				E30E6757201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_calloc_01.mm in Sources */,
 				E30E6747201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_struct_malloc_01.mm in Sources */,
 				E30E678F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_good1.mm in Sources */,
+				E30E679D201191BB004A3768 /* C0008_XPATHI__simple_01.m in Sources */,
 				E30E6771201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_class_malloc_01.mm in Sources */,
 				E31EB91E201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m in Sources */,
 				1B2E119F20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m in Sources */,
@@ -1448,6 +1558,7 @@
 				E30E660F20116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m in Sources */,
 				E30E6748201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_realloc_01.mm in Sources */,
 				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
+				E30E67B7201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m in Sources */,
 				E31EB99B2010BAE1002D5E66 /* C0024_NOCHKERR__good.m in Sources */,
 				E30E6746201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_char_realloc_01.mm in Sources */,
 				E30E66FB201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54d.mm in Sources */,
@@ -1463,6 +1574,7 @@
 				E30E6768201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_free_wchar_t_01.mm in Sources */,
 				E30E6734201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53c.mm in Sources */,
 				E30E6714201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.mm in Sources */,
+				E30E67B8201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m in Sources */,
 				E30E6732201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_67a.mm in Sources */,
 				E30E673C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_realloc_01.mm in Sources */,
 				E30E6743201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int64_t_realloc_01.mm in Sources */,
@@ -1471,6 +1583,7 @@
 				E30E6700201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_63b.mm in Sources */,
 				E30E6705201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_07.mm in Sources */,
 				E30E671A201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_31.mm in Sources */,
+				E30E67BF201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m in Sources */,
 				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
 				E31EB932201083DD002D5E66 /* C0028_UNINIT_int__good.m in Sources */,
 				E30E6706201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_81_goodB2G.mm in Sources */,
@@ -1481,6 +1594,7 @@
 				E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */,
 				E30E6750201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_char_01.mm in Sources */,
 				E30E6785201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__calloc_delete_array_01_good1.mm in Sources */,
+				E30E67A8201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m in Sources */,
 				E30E662820116EDA004A3768 /* C0033_TYPEUNDER_NSDictionary__good.m in Sources */,
 				E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
@@ -1497,13 +1611,16 @@
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
 				E31EB95320109AC3002D5E66 /* C0016_HARDPASS__good.m in Sources */,
 				E30E6730201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_68b.mm in Sources */,
+				E30E6799201191AA004A3768 /* C0007_XQUERYI__simple_01.m in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
+				E30E67A9201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m in Sources */,
 				E30E6721201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_10.mm in Sources */,
 				E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */,
 				E30E674A201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_long_calloc_01.mm in Sources */,
 				E30E6790201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_bad.mm in Sources */,
 				E30E674F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_long_realloc_01.mm in Sources */,
 				E30E674C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_char_realloc_01.mm in Sources */,
+				E30E67952011917F004A3768 /* C0004_CMDI__simple_01.m in Sources */,
 				E31EB945201085D3002D5E66 /* C001C_LEAKCOM_password__bad.m in Sources */,
 				E30E6769201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_wchar_t_01.mm in Sources */,
 				E30E662920116EDA004A3768 /* C0033_TYPEUNDER_NSSet__good.m in Sources */,
@@ -1513,6 +1630,7 @@
 				E30E6710201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_32.mm in Sources */,
 				E30E66F2201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65b.mm in Sources */,
 				E30E66FD201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52a.mm in Sources */,
+				E30E67A5201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m in Sources */,
 				E30E672C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62a.mm in Sources */,
 				E30E673E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_int_01.mm in Sources */,
 				E30E6753201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_int64_t_calloc_01.mm in Sources */,
@@ -1564,6 +1682,7 @@
 				E30E674D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_class_calloc_01.mm in Sources */,
 				E30E675E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.mm in Sources */,
 				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
+				E30E67A6201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m in Sources */,
 				E30E6717201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_44.mm in Sources */,
 				E31EB9992010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m in Sources */,
 				E30E677F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_01_bad.mm in Sources */,
@@ -1591,6 +1710,7 @@
 				E30E676E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_wchar_t_01.mm in Sources */,
 				E30E6780201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_good1.mm in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
+				E30E67BE201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m in Sources */,
 				E30E6738201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int_01.mm in Sources */,
 				E30E661420116C21004A3768 /* C000C_TYPEOVER_NSSet__bad.m in Sources */,
 				E30E670E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_16.mm in Sources */,
@@ -1602,6 +1722,7 @@
 				E30E6715201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_21.mm in Sources */,
 				1B2E1193200F3A2C004FB697 /* C0017_KEYLEN__RC4_01.m in Sources */,
 				E30E661820116C21004A3768 /* C000C_TYPEOVER_NSDictionary__bad.m in Sources */,
+				E30E67BC201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m in Sources */,
 				1B2E1191200F3A1F004FB697 /* C0017_KEYLEN__CAST_01.m in Sources */,
 				1B2E119C20103B74004FB697 /* C0023_NOACTION__writeToURL_01.m in Sources */,
 				1B2E1133200C72EF004FB697 /* C000F_FORMATI__NSLog_01.m in Sources */,
@@ -1633,10 +1754,13 @@
 				E30E673D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_struct_01.mm in Sources */,
 				E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */,
 				E30E676F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_char_01.mm in Sources */,
+				E30E67BD201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m in Sources */,
 				E30E674E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_int_realloc_01.mm in Sources */,
 				E30E671E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_goodB2G.mm in Sources */,
 				E31EB939201083DD002D5E66 /* C0028_UNINIT_double__bad.m in Sources */,
 				E30E670D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_02.mm in Sources */,
+				E30E67AA201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m in Sources */,
+				E30E67A7201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m in Sources */,
 				E30E662720116EDA004A3768 /* C0033_TYPEUNDER_int__bad.m in Sources */,
 				E30E678A201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_01_bad.mm in Sources */,
 				E30E66E9201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82a.mm in Sources */,
