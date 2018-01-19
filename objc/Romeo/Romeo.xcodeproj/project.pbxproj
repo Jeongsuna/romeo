@@ -37,6 +37,9 @@
 		1B2E1198200F3C7C004FB697 /* C0017_KEYLEN__RSA_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E1197200F3C7C004FB697 /* C0017_KEYLEN__RSA_01.m */; };
 		1B2E119C20103B74004FB697 /* C0023_NOACTION__writeToURL_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E119B20103B74004FB697 /* C0023_NOACTION__writeToURL_01.m */; };
 		1B2E119F20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2E119E20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m */; };
+		1B67A2B12010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B02010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m */; };
+		1B67A2B42010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */; };
+		1B67A2B82010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */; };
 		1B7D27C31FFB7A910079B442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C21FFB7A910079B442 /* main.m */; };
 		1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C51FFB7A910079B442 /* AppDelegate.m */; };
 		1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C81FFB7A910079B442 /* ViewController.m */; };
@@ -134,6 +137,12 @@
 		1B2E119B20103B74004FB697 /* C0023_NOACTION__writeToURL_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0023_NOACTION__writeToURL_01.m; sourceTree = "<group>"; };
 		1B2E119D20103D86004FB697 /* C0023_NOACTION__empty_catch_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0023_NOACTION__empty_catch_01.h; sourceTree = "<group>"; };
 		1B2E119E20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0023_NOACTION__empty_catch_01.m; sourceTree = "<group>"; };
+		1B67A2AF2010907A00B1296D /* C001D_ONEWAYHASH__simple_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C001D_ONEWAYHASH__simple_01.h; sourceTree = "<group>"; };
+		1B67A2B02010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001D_ONEWAYHASH__simple_01.m; sourceTree = "<group>"; };
+		1B67A2B22010925800B1296D /* C001D_ONEWAYHASH__simple_02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C001D_ONEWAYHASH__simple_02.h; sourceTree = "<group>"; };
+		1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001D_ONEWAYHASH__simple_02.m; sourceTree = "<group>"; };
+		1B67A2B62010BA4400B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0010_MISSAUTH__LocalAuthentication_bank_01.h; sourceTree = "<group>"; };
+		1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0010_MISSAUTH__LocalAuthentication_bank_01.m; sourceTree = "<group>"; };
 		1B7D27BE1FFB7A910079B442 /* Romeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Romeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D27C21FFB7A910079B442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B7D27C41FFB7A910079B442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -393,6 +402,26 @@
 			path = C0023_NOACTION;
 			sourceTree = "<group>";
 		};
+		1B67A2AE2010905C00B1296D /* C001D_ONEWAYHASH */ = {
+			isa = PBXGroup;
+			children = (
+				1B67A2AF2010907A00B1296D /* C001D_ONEWAYHASH__simple_01.h */,
+				1B67A2B02010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m */,
+				1B67A2B22010925800B1296D /* C001D_ONEWAYHASH__simple_02.h */,
+				1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */,
+			);
+			path = C001D_ONEWAYHASH;
+			sourceTree = "<group>";
+		};
+		1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */ = {
+			isa = PBXGroup;
+			children = (
+				1B67A2B62010BA4400B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.h */,
+				1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */,
+			);
+			path = C0010_MISSAUTH;
+			sourceTree = "<group>";
+		};
 		1B7D27B51FFB7A910079B442 = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +459,8 @@
 				1B2E117B200F2898004FB697 /* C003D_MEMLEAK */,
 				1B2E117C200F28A2004FB697 /* C0017_KEYLEN */,
 				1B2E119920103AD4004FB697 /* C0023_NOACTION */,
+				1B67A2AE2010905C00B1296D /* C001D_ONEWAYHASH */,
+				1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
 				1B7D27C71FFB7A910079B442 /* ViewController.h */,
@@ -654,6 +685,7 @@
 			files = (
 				1B2E1178200EDCFC004FB697 /* C0053_REFLECTI__performSelector_02.m in Sources */,
 				1B7D27E71FFDCA0A0079B442 /* C0003_XSS__simple_01.m in Sources */,
+				1B67A2B12010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m in Sources */,
 				1B2E1140200C7B86004FB697 /* C000F_FORMATI__initWithFormat_01.m in Sources */,
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B2E117F200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m in Sources */,
@@ -670,6 +702,7 @@
 				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
 				E31EB932201083DD002D5E66 /* C0028_UNINIT_int__good.m in Sources */,
 				E31EB931201083DD002D5E66 /* C0028_UNINIT_int__bad.m in Sources */,
+				1B67A2B42010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m in Sources */,
 				E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */,
 				E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
@@ -683,6 +716,7 @@
 				E3ED3FF7200EE8460049FAB3 /* C0006_REDIRECT_NSDictionary__good.m in Sources */,
 				1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */,
 				1B2E1182200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m in Sources */,
+				1B67A2B82010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m in Sources */,
 				1B2E112E200C2963004FB697 /* C0013_BROKNCRYPT__DES_01.m in Sources */,
 				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
 				1B2E113E200C7B6F004FB697 /* C000F_FORMATI__stringByAppendingFormat_01.m in Sources */,
