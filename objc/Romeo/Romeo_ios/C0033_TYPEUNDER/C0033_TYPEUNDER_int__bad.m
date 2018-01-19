@@ -14,7 +14,7 @@
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
 
-    //flaw: Interger overflow 
+    //flaw: Interger Underflow
     int result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] -1;
     
    

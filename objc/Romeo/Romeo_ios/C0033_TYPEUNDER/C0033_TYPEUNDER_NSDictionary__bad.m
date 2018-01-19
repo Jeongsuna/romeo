@@ -16,7 +16,7 @@
     
     NSDictionary *dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     
-    //flaw: Interger overflow
+    //flaw: Interger Underflow
     int result = [[dicResult valueForKey:@"result"] integerValue] -1;
     
     return response;

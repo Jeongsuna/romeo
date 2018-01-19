@@ -16,7 +16,7 @@
     
     NSArray *arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
 
-    //flaw: Interger overflow
+    //flaw: Interger Underflow
     int result = [[arrResult objectAtIndex:0] integerValue]-1;
 
     
