@@ -14,7 +14,8 @@ int main(int argc, const char * argv[]) {
      NSString* deviceID = [[UIDevice currentDevice] name];
     
      /* FLAW: exposure of system data to an unauthorized control sphere */
-     [deviceID writeToFile:@"/dev/stderr" atomically:NO encoding:NSUTF8StringEncoding error:nil];
+//     [deviceID writeToFile:@"/dev/stderr" atomically:NO encoding:NSUTF8StringEncoding error:nil];
+	[deviceID writeToFile:@"/dev/stderr" atomically:NO encoding:NSUTF8StringEncoding error:0];
 
     return 0;
 }

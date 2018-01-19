@@ -40,6 +40,8 @@
 		1B67A2B12010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B02010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m */; };
 		1B67A2B42010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */; };
 		1B67A2B82010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */; };
+		1B6A248D2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */; };
+		1B6A248F2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */; };
 		1B7D27C31FFB7A910079B442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C21FFB7A910079B442 /* main.m */; };
 		1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C51FFB7A910079B442 /* AppDelegate.m */; };
 		1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C81FFB7A910079B442 /* ViewController.m */; };
@@ -346,6 +348,9 @@
 		1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001D_ONEWAYHASH__simple_02.m; sourceTree = "<group>"; };
 		1B67A2B62010BA4400B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0010_MISSAUTH__LocalAuthentication_bank_01.h; sourceTree = "<group>"; };
 		1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0010_MISSAUTH__LocalAuthentication_bank_01.m; sourceTree = "<group>"; };
+		1B6A248B2011AA9300574118 /* C0016_HARDPASS__NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0016_HARDPASS__NSURLCredential.h; sourceTree = "<group>"; };
+		1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__NSURLCredential_01.m; sourceTree = "<group>"; };
+		1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__NSURLCredential_02.m; sourceTree = "<group>"; };
 		1B7D27BE1FFB7A910079B442 /* Romeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Romeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D27C21FFB7A910079B442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B7D27C41FFB7A910079B442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1273,6 +1278,9 @@
 				E31EB95020109757002D5E66 /* C0016_HARDPASS__bad.m */,
 				E31EB95220109AC3002D5E66 /* C0016_HARDPASS__good.m */,
 				E31EB94F20109757002D5E66 /* C0016_HARDPASS.h */,
+				1B6A248B2011AA9300574118 /* C0016_HARDPASS__NSURLCredential.h */,
+				1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */,
+				1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */,
 			);
 			path = C0016_HARDPASS;
 			sourceTree = "<group>";
@@ -1399,6 +1407,7 @@
 				E30E6712201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83_goodG2B.mm in Sources */,
 				E30E675B201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_int_malloc_01.mm in Sources */,
 				E30E677C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_free_01_bad.mm in Sources */,
+				1B6A248D2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m in Sources */,
 				1B67A2B12010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m in Sources */,
 				E30E6704201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_17.mm in Sources */,
 				E30E6723201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_bad.mm in Sources */,
@@ -1591,6 +1600,7 @@
 				E30E676E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_wchar_t_01.mm in Sources */,
 				E30E6780201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__malloc_delete_array_01_good1.mm in Sources */,
 				1B7D27C31FFB7A910079B442 /* main.m in Sources */,
+				1B6A248F2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m in Sources */,
 				E30E6738201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int_01.mm in Sources */,
 				E30E661420116C21004A3768 /* C000C_TYPEOVER_NSSet__bad.m in Sources */,
 				E30E670E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_16.mm in Sources */,
