@@ -1,0 +1,46 @@
+//
+//  C0027_USEFREED_int__bad.m
+//  Romeo
+//
+//  Created by HyoBeom on 2018. 1. 22..
+//  Copyright © 2018년 Jemin Kim. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@implementation C0027_USEFREED_bad : NSObject
+
+-(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
+    
+    
+    int result = 0;
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        
+        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] < INT_MAX-1 ){
+            result =
+            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
+        }
+    }
+    
+    /*...
+     
+     
+     
+     ...*/
+    
+    free(result);
+    
+    
+    //flaw:
+    int result2 = result;
+    
+    
+    
+    
+    
+    
+    return response;
+}
+
+@end
+
