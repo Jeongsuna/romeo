@@ -421,6 +421,16 @@
 		E36926A42015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926282015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m */; };
 		E36926A52015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926292015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m */; };
 		E36926A62015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E369262A2015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m */; };
+		E36926B32015827000EFE55A /* C000E_BUFOVER_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */; };
+		E36926B42015827000EFE55A /* C000E_BUFOVER_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */; };
+		E36926B52015827000EFE55A /* C000E_BUFOVER_int__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AA2015826F00EFE55A /* C000E_BUFOVER_int__bad.m */; };
+		E36926B62015827000EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */; };
+		E36926B72015827000EFE55A /* C000E_BUFOVER_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */; };
+		E36926B82015827000EFE55A /* C000E_BUFOVER_int__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AD2015826F00EFE55A /* C000E_BUFOVER_int__good.m */; };
+		E36926B92015827000EFE55A /* C000E_BUFOVER_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */; };
+		E36926BA2015827000EFE55A /* C000E_BUFOVER_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */; };
+		E36926BB2015827000EFE55A /* C000E_BUFOVER_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */; };
+		E36926BC2015827000EFE55A /* C000E_BUFOVER_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */; };
 		E3ED3FE5200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */; };
 		E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FDF200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m */; };
 		E3ED3FE8200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED3FE1200EC7F60049FAB3 /* C0006_REDIRECT_NSDictionary__bad.m */; };
@@ -901,6 +911,17 @@
 		E36926282015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LLONG_MAX__bad.m; sourceTree = "<group>"; };
 		E36926292015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_CHAR_MIN__bad.m; sourceTree = "<group>"; };
 		E369262A2015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LONG_MIN__bad.m; sourceTree = "<group>"; };
+		E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__bad.m; sourceTree = "<group>"; };
+		E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__good.m; sourceTree = "<group>"; };
+		E36926AA2015826F00EFE55A /* C000E_BUFOVER_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_int__bad.m; sourceTree = "<group>"; };
+		E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__bad.m; sourceTree = "<group>"; };
+		E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__good.m; sourceTree = "<group>"; };
+		E36926AD2015826F00EFE55A /* C000E_BUFOVER_int__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_int__good.m; sourceTree = "<group>"; };
+		E36926AE2015826F00EFE55A /* C000E_BUFOVER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C000E_BUFOVER.h; sourceTree = "<group>"; };
+		E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__good.m; sourceTree = "<group>"; };
+		E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__bad.m; sourceTree = "<group>"; };
+		E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__bad.m; sourceTree = "<group>"; };
+		E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__good.m; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -1158,15 +1179,10 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
-				E36925A72015806700EFE55A /* C0039_FREELOCAL */,
-				E30E67AB201191EA004A3768 /* C0034_DIVBY0 */,
-				E30E679E201191D3004A3768 /* C0019_HARDKEY */,
-				E30E679A201191BB004A3768 /* C0008_XPATHI */,
-				E30E6796201191AA004A3768 /* C0007_XQUERYI */,
+				E36926A72015826F00EFE55A /* C000E_BUFOVER */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
 				1B7D27CD1FFB7A910079B442 /* Assets.xcassets */,
-				E30E67922011917F004A3768 /* C0004_CMDI */,
 				E30E660320116C21004A3768 /* C000C_TYPEOVER */,
 				1B2E1131200C72CB004FB697 /* C000F_FORMATI */,
 				1B7D27D81FFB7AB60079B442 /* C0001_SQLI */,
@@ -1177,19 +1193,25 @@
 				E31EB9922010A05F002D5E66 /* C002B_SYSTEMLEAK */,
 				1B7D27E51FFDC9DC0079B442 /* C0003_XSS */,
 				1B2E117B200F2898004FB697 /* C003D_MEMLEAK */,
+				E30E67922011917F004A3768 /* C0004_CMDI */,
 				1B2E11192008758D004FB697 /* C0006_REDIRECT */,
+				E30E6796201191AA004A3768 /* C0007_XQUERYI */,
+				E30E679A201191BB004A3768 /* C0008_XPATHI */,
 				1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */,
 				1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */,
 				E31EB94E20109757002D5E66 /* C0016_HARDPASS */,
 				1B2E117C200F28A2004FB697 /* C0017_KEYLEN */,
 				E31EB918201083C2002D5E66 /* C0018_RANDOM */,
+				E30E679E201191D3004A3768 /* C0019_HARDKEY */,
 				1B2E119920103AD4004FB697 /* C0023_NOACTION */,
 				1B2E116D200DF732004FB697 /* C0024_NOCHKERR */,
 				1B2E11292008AD12004FB697 /* C0027_USEFREED */,
 				E31EB920201083DD002D5E66 /* C0028_UNINIT */,
 				E30E661920116EDA004A3768 /* C0033_TYPEUNDER */,
+				E30E67AB201191EA004A3768 /* C0034_DIVBY0 */,
 				E30E6632201190DE004A3768 /* C0037_MEMMISMAT */,
 				E31EB9472010931B002D5E66 /* C0038_FREENULL */,
+				E36925A72015806700EFE55A /* C0039_FREELOCAL */,
 				1B2E1171200ED4D0004FB697 /* C0053_REFLECTI */,
 				1B7D27D21FFB7A910079B442 /* Info.plist */,
 				1B7D27CF1FFB7A910079B442 /* LaunchScreen.storyboard */,
@@ -1811,6 +1833,24 @@
 			path = objectiveC;
 			sourceTree = "<group>";
 		};
+		E36926A72015826F00EFE55A /* C000E_BUFOVER */ = {
+			isa = PBXGroup;
+			children = (
+				E36926AA2015826F00EFE55A /* C000E_BUFOVER_int__bad.m */,
+				E36926AD2015826F00EFE55A /* C000E_BUFOVER_int__good.m */,
+				E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */,
+				E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */,
+				E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */,
+				E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */,
+				E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */,
+				E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */,
+				E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */,
+				E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */,
+				E36926AE2015826F00EFE55A /* C000E_BUFOVER.h */,
+			);
+			path = C000E_BUFOVER;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1959,6 +1999,7 @@
 				E30E67C0201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m in Sources */,
 				E36926722015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int_declare_01.mm in Sources */,
 				E36926372015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_72a.mm in Sources */,
+				E36926B72015827000EFE55A /* C000E_BUFOVER_NSArray__good.m in Sources */,
 				E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m in Sources */,
 				E36926602015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_81a.mm in Sources */,
 				E30E66FE201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_08.mm in Sources */,
@@ -1971,6 +2012,7 @@
 				E30E670B201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_12.mm in Sources */,
 				E369268E2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_static_01.mm in Sources */,
 				E369265D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_72b.mm in Sources */,
+				E36926B32015827000EFE55A /* C000E_BUFOVER_NSSet__bad.m in Sources */,
 				E30E6707201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_33.mm in Sources */,
 				E30E670C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_43.mm in Sources */,
 				E30E66EA201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72b.mm in Sources */,
@@ -1979,6 +2021,7 @@
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B2E117F200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m in Sources */,
 				E30E6787201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__calloc_delete_01_bad.mm in Sources */,
+				E36926B92015827000EFE55A /* C000E_BUFOVER_NSDictionary__good.m in Sources */,
 				E36926982015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm in Sources */,
 				E30E673F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_class_realloc_01.mm in Sources */,
 				E30E6757201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_calloc_01.mm in Sources */,
@@ -2000,6 +2043,7 @@
 				E31EB95120109757002D5E66 /* C0016_HARDPASS__bad.m in Sources */,
 				E30E670F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_06.mm in Sources */,
 				E36926712015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_declare_01.mm in Sources */,
+				E36926B62015827000EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */,
 				E30E66EC201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83a.mm in Sources */,
 				E30E662B20116EDA004A3768 /* C0033_TYPEUNDER_NSArray__good.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
@@ -2008,6 +2052,7 @@
 				E36926342015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_73a.mm in Sources */,
 				E36926482015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_14.mm in Sources */,
 				E30E660F20116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m in Sources */,
+				E36926B82015827000EFE55A /* C000E_BUFOVER_int__good.m in Sources */,
 				E30E6748201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_realloc_01.mm in Sources */,
 				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
 				E30E67B7201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m in Sources */,
@@ -2031,6 +2076,7 @@
 				E36926972015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_static_01.mm in Sources */,
 				E30E67B8201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m in Sources */,
 				E30E6732201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_67a.mm in Sources */,
+				E36926B42015827000EFE55A /* C000E_BUFOVER_NSSet__good.m in Sources */,
 				E369267F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_struct_alloca_01.mm in Sources */,
 				E36926312015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_63a.mm in Sources */,
 				E36926752015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int_declare_01.mm in Sources */,
@@ -2186,6 +2232,7 @@
 				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
 				E30E674D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_class_calloc_01.mm in Sources */,
 				E36926582015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54a.mm in Sources */,
+				E36926BB2015827000EFE55A /* C000E_BUFOVER_NSDictionary__bad.m in Sources */,
 				E30E675E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.mm in Sources */,
 				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
 				E30E67A6201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m in Sources */,
@@ -2224,6 +2271,7 @@
 				E30E66F3201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54e.mm in Sources */,
 				E30E66F5201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_09.mm in Sources */,
 				E30E6758201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_char_01.mm in Sources */,
+				E36926BA2015827000EFE55A /* C000E_BUFOVER_NSArray__bad.m in Sources */,
 				E369269B2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m in Sources */,
 				E30E6751201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_struct_01.mm in Sources */,
 				E30E6728201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_61a.mm in Sources */,
@@ -2298,6 +2346,7 @@
 				E30E671E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_goodB2G.mm in Sources */,
 				E31EB939201083DD002D5E66 /* C0028_UNINIT_double__bad.m in Sources */,
 				E30E670D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_02.mm in Sources */,
+				E36926BC2015827000EFE55A /* C000E_BUFOVER_NSMutableArray__good.m in Sources */,
 				E36926912015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_declare_01.mm in Sources */,
 				E30E67AA201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m in Sources */,
 				E30E67A7201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m in Sources */,
@@ -2315,6 +2364,7 @@
 				E30E6781201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_bad.mm in Sources */,
 				E30E662520116EDA004A3768 /* C0033_TYPEUNDER_NSArray__bad.m in Sources */,
 				E36926902015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_static_01.mm in Sources */,
+				E36926B52015827000EFE55A /* C000E_BUFOVER_int__bad.m in Sources */,
 				E36926A02015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m in Sources */,
 				E30E6733201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65a.mm in Sources */,
 				E369268A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_alloca_01.mm in Sources */,
