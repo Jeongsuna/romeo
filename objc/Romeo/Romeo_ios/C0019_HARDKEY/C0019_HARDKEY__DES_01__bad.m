@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonCrypto.h>
+#import "C0019_HARDKEY__DES_01.h"
 
 //flaw using hard-coded cryptographic Key
 #define ENCRYPT_KEY @"key39B0F"
+
 
 @implementation C0019_HARDKEY__DES_01 : NSObject
 

@@ -19,7 +19,7 @@
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
         
         //flaw: Interger overflow
-        result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
+        result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] +1;
     }
 
     

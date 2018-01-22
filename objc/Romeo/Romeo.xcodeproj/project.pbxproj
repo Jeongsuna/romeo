@@ -961,6 +961,7 @@
 		E36926EA2015C09E00EFE55A /* C003C_RETFREED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C003C_RETFREED.h; sourceTree = "<group>"; };
 		E36926EB2015C09E00EFE55A /* C003C_RETFREED_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C003C_RETFREED_int__bad.m; sourceTree = "<group>"; };
 		E36926EC2015C09E00EFE55A /* C003C_RETFREED_char__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C003C_RETFREED_char__bad.m; sourceTree = "<group>"; };
+		E36926EF2015C59500EFE55A /* C0019_HARDKEY__DES_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0019_HARDKEY__DES_01.h; sourceTree = "<group>"; };
 		E3ED3FD9200EC7F60049FAB3 /* C0006_REDIRECT_NSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSSet.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSSet.h; sourceTree = SOURCE_ROOT; };
 		E3ED3FDA200EC7F60049FAB3 /* C0006_REDIRECT_NSString__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C0006_REDIRECT_NSString__bad.m; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSString__bad.m; sourceTree = SOURCE_ROOT; };
 		E3ED3FDB200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C0006_REDIRECT_NSMutableArray.h; path = Romeo_ios/C0006_REDIRECT/C0006_REDIRECT_NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -1622,6 +1623,7 @@
 				E30E67A2201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m */,
 				E30E67A3201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m */,
 				E30E67A4201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m */,
+				E36926EF2015C59500EFE55A /* C0019_HARDKEY__DES_01.h */,
 			);
 			path = C0019_HARDKEY;
 			sourceTree = "<group>";

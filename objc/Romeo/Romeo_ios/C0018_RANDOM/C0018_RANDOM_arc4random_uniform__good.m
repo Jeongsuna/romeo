@@ -12,7 +12,7 @@
 
 @implementation C0018_RANDOM_good : NSObject
 
--(void) bad:(NSString *) example{
+-(void) good:(NSString *) example{
     
     int a;
 
