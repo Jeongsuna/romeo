@@ -14,7 +14,12 @@
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSDictionary *dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    NSDictionary *dicResult = [NSDictionary new];
+    
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    }
+    
     
     //fix: check INT_MAX
     

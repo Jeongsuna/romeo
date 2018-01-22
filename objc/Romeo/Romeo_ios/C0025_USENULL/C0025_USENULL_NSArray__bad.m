@@ -7,17 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C000E_BUFOVER.h"
+#import "C0025_USENULL.h"
 
-@implementation C000E_BUFOVER_bad : NSObject
+@implementation C0025_USENULL_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
+    /* flaw: NULL Pointer Dereference */
+    NSArray *arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
 
-    //flaw: char overflow 
-    char result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue] +1;
-    
-   
+
     
     return response;
 }

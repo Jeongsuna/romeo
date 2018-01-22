@@ -14,8 +14,15 @@
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSArray *arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
-
+    NSArray *arrResult = [NSArray new];
+    
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request]
+       != NULL){
+        
+        arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+        
+    }
+    
     //flaw: Interger overflow
     int result = [[arrResult objectAtIndex:0] integerValue]+1;
 

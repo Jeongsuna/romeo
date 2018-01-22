@@ -14,10 +14,14 @@
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSSet *setResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    NSSet *setResult = [NSSet new];
+    
+    /* check NULL */
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    }
     
     //fix: check INT_MAX
-    
     if([[setResult valueForKey:@"result"] integerValue] < INT_MAX-1){
         
         int result =  [[setResult valueForKey:@"result"] integerValue]+1;

@@ -13,15 +13,18 @@
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
+
+
+    char result =' ';
     
-    NSMutableArray *mArrResult = [NSMutableArray new];
-    
-    if( [NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        mArrResult =  [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        
+        //flaw: buffer overflow 
+        result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
+        
     }
     
-   //flaw: buffer overflow
-   char result = [[mArrResult objectAtIndex:0] charValue];
+   
     
     return response;
 }

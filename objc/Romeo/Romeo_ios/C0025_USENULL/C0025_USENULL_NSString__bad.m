@@ -7,21 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C000C_TYPEOVER.h"
+#import "C0025_USENULL.h"
 
-@implementation C000C_TYPEOVER_bad : NSObject
+@implementation C0025_USENULL_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
 
-    int result=0;
-    
-    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        
-        //flaw: Interger overflow
-        result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
-    }
-
+    /* flaw: NULL Pointer Dereference */
+    NSString *result = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     
    
     

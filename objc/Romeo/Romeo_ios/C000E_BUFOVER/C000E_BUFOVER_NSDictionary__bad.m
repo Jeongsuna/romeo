@@ -14,7 +14,13 @@
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSDictionary *dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    NSDictionary *dicResult = [NSDictionary new];
+    
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        
+        dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+        
+    }
     
     //flaw: buffer overflow
     char result = [[dicResult valueForKey:@"result"] charValue];

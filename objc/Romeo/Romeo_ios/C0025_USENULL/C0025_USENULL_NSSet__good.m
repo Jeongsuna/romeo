@@ -7,24 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C000C_TYPEOVER.h"
+#import "C0025_USENULL.h"
 
-@implementation C000C_TYPEOVER_good : NSObject
+@implementation C0025_USENULL_good : NSObject
 
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    //fix: check INT_MAX
-  
-    int result = 0;
-    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
- 
-        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] < INT_MAX-1 ){
-            result =
-            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
-            }
-    }
+    NSSet *setResult = [NSSet new];
     
+    /* check NULL */
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    }
+
     return response;
 }
 

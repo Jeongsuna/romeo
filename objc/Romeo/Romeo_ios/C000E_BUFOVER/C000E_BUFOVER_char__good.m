@@ -13,22 +13,27 @@
 
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
-    
-    NSDictionary *dicResult = [NSDictionary new];
+ 
+    char result = ' ';
     
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
-    }
-    
-    
-    //fix: check CHAR_MAX & CHAR_MIN
-    
-    if(  CHAR_MIN < [[dicResult valueForKey:@"result"] charValue]
-       && [[dicResult valueForKey:@"result"] charValue] < CHAR_MAX ){
         
-        char result =  [[dicResult valueForKey:@"result"] charValue];
+        //fix: check CHAR_MAX & CHAR_MIN
+        
+        if(  CHAR_MIN <
+           [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue]
+           && [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue]
+           < CHAR_MAX ){
+            
+            result =
+            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
+            
+        }
+        
         
     }
+
+
     
     return response;
 }

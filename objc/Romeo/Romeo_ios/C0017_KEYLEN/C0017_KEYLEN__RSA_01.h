@@ -8,13 +8,12 @@
 
 #ifndef C0017_KEYLEN__RSA_01_h
 #define C0017_KEYLEN__RSA_01_h
+
 @interface C0017_KEYLEN__RSA_01 : NSObject
--(void) bad {
-	
-}
--(void) good {
-	
-}
+
+-(void) bad: (NSData *)publicTag private: (NSData *)privateTag;
+
 @end
+
 
 #endif /* C0017_KEYLEN__RSA_01_h */

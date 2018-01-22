@@ -9,13 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "C000C_TYPEOVER.h"
 
-@implementation C000C_TYPEOVER : NSObject
+@implementation C000C_TYPEOVER_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSSet *setResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    NSSet *setResult = [NSSet new];
     
+    /* check NULL */
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
+        setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    }
     //flaw: Interger overflow
     int result = [[setResult valueForKey:@"result"] integerValue]+1;
     

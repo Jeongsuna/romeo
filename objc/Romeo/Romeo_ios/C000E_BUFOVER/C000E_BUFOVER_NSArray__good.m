@@ -14,11 +14,16 @@
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSArray *arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+    NSArray *arrResult = [NSArray new];
     
+    if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request]
+        != NULL){
+        
+        arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+        
+    }
 
     //fix: check CHAR_MAX & CHAR_MIN
-    
     if(  CHAR_MIN < [[arrResult objectAtIndex:0] charValue]
        && [[arrResult objectAtIndex:0] charValue] < CHAR_MAX ){
         
