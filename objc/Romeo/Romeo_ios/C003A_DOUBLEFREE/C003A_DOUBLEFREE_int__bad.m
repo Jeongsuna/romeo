@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0027_USEFREED.h"
+#import "C003A_DOUBLEFREE.h"
 
-@implementation C0027_USEFREED_bad : NSObject
+@implementation C003A_DOUBLEFREE_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
     
@@ -21,6 +21,7 @@
             result =
             [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
         }
+        free(result);
     }
     
     /*...
@@ -29,16 +30,9 @@
      
      ...*/
     
-    free(result);
-    
-    
+
     //flaw:
-    int *result2 = result;
-    
-    
-    
-    
-    
+    free(result);
     
     return response;
 }

@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-#import "C0027_USEFREED.h"
+#import "C003A_DOUBLEFREE.h"
 
-@implementation C0027_USEFREED_bad : NSObject
+@implementation C003A_DOUBLEFREE_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
     
     
-    char *result = malloc(CHAR_BIT);
+    char *result = malloc(sizeof(char));
     
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
         
@@ -30,6 +30,7 @@
             [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
             
         }
+        free(result);
     }
     
     /*...
@@ -38,16 +39,8 @@
      
      ...*/
     
-    free(result);
-    
-    
     //flaw:
-    char *result2 = result;
-    
-    
-    
-    
-    
+    free(result);
     
     return response;
 }
