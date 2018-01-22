@@ -26,7 +26,7 @@
            && [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue]
            < CHAR_MAX ){
         
-            result =
+            *result =
             [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
             
         }

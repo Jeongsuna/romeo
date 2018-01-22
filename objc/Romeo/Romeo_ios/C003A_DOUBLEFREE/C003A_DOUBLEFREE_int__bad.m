@@ -17,9 +17,9 @@
     int *result = malloc(sizeof(int));
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
         
-        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] < INT_MAX-1 ){
-            result =
-            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] +1;
+        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] < INT_MAX-1 ){
+            *result =
+            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] +1;
         }
         free(result);
     }

@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "C003B_RETLOCAL.h"
+#import "C003C_RETFREED.h"
 
-@implementation C003B_RETLOCAL_char_bad : NSObject
+@implementation C003C_RETFREED_char_bad : NSObject
 
--(char *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
+-(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
     
     
     char *result = malloc(sizeof(char));
@@ -26,12 +26,14 @@
         
             *result =
             [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
-            
+            free(result);
         }
     }
     
     //flaw:
-    return result;
+    NSLog(@"%c",*result);
+    
+    return response;
 }
 
 @end
