@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0031_ALLOCSIZE.h"
+#import "C0030_BUFUNDER.h"
 
-@implementation C0031_ALLOCSIZE_bad : NSObject
+@implementation C0030_BUFUNDER_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
@@ -25,8 +25,9 @@
             }
     }
     
+    int numList[6] = {5,1,2,3,1,7};
     //flaw:
-    char *data = (char*)malloc(result);
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

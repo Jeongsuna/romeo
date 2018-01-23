@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "C0031_ALLOCSIZE.h"
 
-@implementation C0031_ALLOCSIZE_bad : NSObject
+@implementation C0031_ALLOCSIZE_good : NSObject
 
--(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
+-(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
     //fix: check INT_MAX
@@ -25,8 +25,12 @@
             }
     }
     
-    //flaw:
-    char *data = (char*)malloc(result);
+   
+    char *data ='';
+    
+    //fix:
+    if( 0 < result < sizeof(char)) (char*)malloc(result) ;
+
     
     return response;
 }

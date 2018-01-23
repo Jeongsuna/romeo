@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0031_ALLOCSIZE.h"
+#import "C0030_BUFUNDER.h"
 
-@implementation C0031_ALLOCSIZE_bad : NSObject
+@implementation C0030_BUFUNDER_good : NSObject
 
--(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
+-(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
     NSMutableArray *mArrResult = [NSMutableArray new];
@@ -20,8 +20,7 @@
         mArrResult =  [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
     
-    
-    int result = 0;
+    int result =0;
     
     if([[mArrResult objectAtIndex:0] integerValue] < INT_MAX-1){
         
@@ -29,8 +28,12 @@
         
     }
 
-    //flaw:
-    char *data = (char*)malloc(result);
+    int numList[6] = {5,1,2,3,1,7};
+
+    //fix:
+    if(result < 0 || result > 5)  result =0;
+    
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

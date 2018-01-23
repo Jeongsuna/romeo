@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0031_ALLOCSIZE.h"
+#import "C0030_BUFUNDER.h"
 
-@implementation C0031_ALLOCSIZE_bad : NSObject
+@implementation C0030_BUFUNDER_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
@@ -22,8 +22,8 @@
         arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
         
     }
-    
-    int result = 0;
+ 
+    int result =0;
     
     if([[arrResult objectAtIndex:0] integerValue] < INT_MAX-1 ){
         
@@ -31,8 +31,9 @@
         
     }
 
+    int numList[6] = {5,1,2,3,1,7};
     //flaw:
-    char *data = (char*)malloc(result);
+    NSLog(@"%d/n",numList[result]);
     
 
     

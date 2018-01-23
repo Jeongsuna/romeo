@@ -7,31 +7,33 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C0031_ALLOCSIZE.h"
+#import "C0030_BUFUNDER.h"
 
-@implementation C0031_ALLOCSIZE_bad : NSObject
+@implementation C0030_BUFUNDER_bad : NSObject
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
     
-    NSDictionary *dicResult = [NSDictionary new];
+    NSSet *setResult = [NSSet new];
     
+    /* check NULL */
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
+        setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
-    
     
     int result = 0;
     
-    if([[dicResult valueForKey:@"result"] integerValue] < INT_MAX-1 ){
+    if([[setResult valueForKey:@"result"] integerValue] < INT_MAX-1){
         
-        result =  [[dicResult valueForKey:@"result"] integerValue] +1;
+        result =  [[setResult valueForKey:@"result"] integerValue]+1;
         
     }
-
-    //flaw:
-    char *data = (char*)malloc(result);
     
+    int numList[6] = {5,1,2,3,1,7};
+    //flaw:
+    NSLog(@"%d/n",numList[result]);
+    
+
     return response;
 }
 

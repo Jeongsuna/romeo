@@ -298,6 +298,7 @@
 		E31EB9992010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB9982010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m */; };
 		E31EB99B2010BAE1002D5E66 /* C0024_NOCHKERR__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB99A2010BAE0002D5E66 /* C0024_NOCHKERR__good.m */; };
 		E32BB6A3201719E1005700A4 /* C0031_ALLOCSIZE in Resources */ = {isa = PBXBuildFile; fileRef = E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */; };
+		E32BB6A520172407005700A4 /* C0030_BUFUNDER in Resources */ = {isa = PBXBuildFile; fileRef = E32BB6A420172407005700A4 /* C0030_BUFUNDER */; };
 		E369262B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925A92015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm */; };
 		E369262C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925AA2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm */; };
 		E369262D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925AB2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm */; };
@@ -812,6 +813,7 @@
 		E31EB9982010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002B_SYSTEMLEAK_NSException__bad.m; sourceTree = "<group>"; };
 		E31EB99A2010BAE0002D5E66 /* C0024_NOCHKERR__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0024_NOCHKERR__good.m; sourceTree = "<group>"; };
 		E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = C0031_ALLOCSIZE; sourceTree = "<group>"; };
+		E32BB6A420172407005700A4 /* C0030_BUFUNDER */ = {isa = PBXFileReference; lastKnownFileType = folder; path = C0030_BUFUNDER; sourceTree = "<group>"; };
 		E36925A92015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm; sourceTree = "<group>"; };
 		E36925AA2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm; sourceTree = "<group>"; };
 		E36925AB2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm; sourceTree = "<group>"; };
@@ -1243,6 +1245,7 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E32BB6A420172407005700A4 /* C0030_BUFUNDER */,
 				E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
@@ -2070,6 +2073,7 @@
 				1B7D27D11FFB7A910079B442 /* LaunchScreen.storyboard in Resources */,
 				1B7D27CE1FFB7A910079B442 /* Assets.xcassets in Resources */,
 				1B7D27CC1FFB7A910079B442 /* Main.storyboard in Resources */,
+				E32BB6A520172407005700A4 /* C0030_BUFUNDER in Resources */,
 				E32BB6A3201719E1005700A4 /* C0031_ALLOCSIZE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
