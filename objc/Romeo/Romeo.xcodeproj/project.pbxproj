@@ -411,18 +411,6 @@
 		E36926982015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36926192015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm */; };
 		E36926992015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E369261A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm */; };
 		E369269A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E369261C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm */; };
-		E369269B2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E369261F2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m */; };
-		E369269C2015806700EFE55A /* C0039_FREELOCAL_INT_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926202015806700EFE55A /* C0039_FREELOCAL_INT_MIN__bad.m */; };
-		E369269D2015806700EFE55A /* C0039_FREELOCAL_ULLONG_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926212015806700EFE55A /* C0039_FREELOCAL_ULLONG_MAX__bad.m */; };
-		E369269E2015806700EFE55A /* C0039_FREELOCAL_ULONG_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926222015806700EFE55A /* C0039_FREELOCAL_ULONG_MAX__bad.m */; };
-		E369269F2015806700EFE55A /* C0039_FREELOCAL_CHAR_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926232015806700EFE55A /* C0039_FREELOCAL_CHAR_MAX__bad.m */; };
-		E36926A02015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926242015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m */; };
-		E36926A12015806700EFE55A /* C0039_FREELOCAL_LONG_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926252015806700EFE55A /* C0039_FREELOCAL_LONG_MAX__bad.m */; };
-		E36926A22015806700EFE55A /* C0039_FREELOCAL_SHRT_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926262015806700EFE55A /* C0039_FREELOCAL_SHRT_MAX__bad.m */; };
-		E36926A32015806700EFE55A /* C0039_FREELOCAL_SHRT_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926272015806700EFE55A /* C0039_FREELOCAL_SHRT_MIN__bad.m */; };
-		E36926A42015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926282015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m */; };
-		E36926A52015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926292015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m */; };
-		E36926A62015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E369262A2015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m */; };
 		E36926B32015827000EFE55A /* C000E_BUFOVER_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */; };
 		E36926B42015827000EFE55A /* C000E_BUFOVER_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */; };
 		E36926B52015827000EFE55A /* C000E_BUFOVER_char__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AA2015826F00EFE55A /* C000E_BUFOVER_char__bad.m */; };
@@ -929,19 +917,6 @@
 		E369261A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm; sourceTree = "<group>"; };
 		E369261B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWE590_Free_Memory_Not_on_Heap.h; sourceTree = "<group>"; };
 		E369261C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm; sourceTree = "<group>"; };
-		E369261E2015806700EFE55A /* C0039_FREELOCAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0039_FREELOCAL.h; sourceTree = "<group>"; };
-		E369261F2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_INT_MAX__bad.m; sourceTree = "<group>"; };
-		E36926202015806700EFE55A /* C0039_FREELOCAL_INT_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_INT_MIN__bad.m; sourceTree = "<group>"; };
-		E36926212015806700EFE55A /* C0039_FREELOCAL_ULLONG_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_ULLONG_MAX__bad.m; sourceTree = "<group>"; };
-		E36926222015806700EFE55A /* C0039_FREELOCAL_ULONG_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_ULONG_MAX__bad.m; sourceTree = "<group>"; };
-		E36926232015806700EFE55A /* C0039_FREELOCAL_CHAR_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_CHAR_MAX__bad.m; sourceTree = "<group>"; };
-		E36926242015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LLONG_MIN__bad.m; sourceTree = "<group>"; };
-		E36926252015806700EFE55A /* C0039_FREELOCAL_LONG_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LONG_MAX__bad.m; sourceTree = "<group>"; };
-		E36926262015806700EFE55A /* C0039_FREELOCAL_SHRT_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_SHRT_MAX__bad.m; sourceTree = "<group>"; };
-		E36926272015806700EFE55A /* C0039_FREELOCAL_SHRT_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_SHRT_MIN__bad.m; sourceTree = "<group>"; };
-		E36926282015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LLONG_MAX__bad.m; sourceTree = "<group>"; };
-		E36926292015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_CHAR_MIN__bad.m; sourceTree = "<group>"; };
-		E369262A2015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_LONG_MIN__bad.m; sourceTree = "<group>"; };
 		E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__bad.m; sourceTree = "<group>"; };
 		E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__good.m; sourceTree = "<group>"; };
 		E36926AA2015826F00EFE55A /* C000E_BUFOVER_char__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_char__bad.m; sourceTree = "<group>"; };
@@ -1753,7 +1728,6 @@
 			children = (
 				E36925A82015806700EFE55A /* m00 */,
 				E36925EA2015806700EFE55A /* m01 */,
-				E369261D2015806700EFE55A /* objectiveC */,
 			);
 			path = C0039_FREELOCAL;
 			sourceTree = "<group>";
@@ -1885,26 +1859,6 @@
 				E369261C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm */,
 			);
 			path = m01;
-			sourceTree = "<group>";
-		};
-		E369261D2015806700EFE55A /* objectiveC */ = {
-			isa = PBXGroup;
-			children = (
-				E369261E2015806700EFE55A /* C0039_FREELOCAL.h */,
-				E369261F2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m */,
-				E36926202015806700EFE55A /* C0039_FREELOCAL_INT_MIN__bad.m */,
-				E36926212015806700EFE55A /* C0039_FREELOCAL_ULLONG_MAX__bad.m */,
-				E36926222015806700EFE55A /* C0039_FREELOCAL_ULONG_MAX__bad.m */,
-				E36926232015806700EFE55A /* C0039_FREELOCAL_CHAR_MAX__bad.m */,
-				E36926242015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m */,
-				E36926252015806700EFE55A /* C0039_FREELOCAL_LONG_MAX__bad.m */,
-				E36926262015806700EFE55A /* C0039_FREELOCAL_SHRT_MAX__bad.m */,
-				E36926272015806700EFE55A /* C0039_FREELOCAL_SHRT_MIN__bad.m */,
-				E36926282015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m */,
-				E36926292015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m */,
-				E369262A2015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m */,
-			);
-			path = objectiveC;
 			sourceTree = "<group>";
 		};
 		E36926A72015826F00EFE55A /* C000E_BUFOVER */ = {
@@ -2120,9 +2074,7 @@
 				E30E67BA201191EA004A3768 /* C0034_DIVBY0_int__bad.m in Sources */,
 				E36926352015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_67a.mm in Sources */,
 				E369262E2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54c.mm in Sources */,
-				E369269E2015806700EFE55A /* C0039_FREELOCAL_ULONG_MAX__bad.m in Sources */,
 				E30E6764201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_realloc_01.mm in Sources */,
-				E36926A12015806700EFE55A /* C0039_FREELOCAL_LONG_MAX__bad.m in Sources */,
 				E30E677D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_01_bad.mm in Sources */,
 				E36926422015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_11.mm in Sources */,
 				E36926822015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int64_t_static_01.mm in Sources */,
@@ -2138,7 +2090,6 @@
 				E36927062015CB0600EFE55A /* C002F_DANGERAPI_snprintf__good.m in Sources */,
 				E30E6761201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_class_01.mm in Sources */,
 				E30E6788201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_01_bad.mm in Sources */,
-				E369269D2015806700EFE55A /* C0039_FREELOCAL_ULLONG_MAX__bad.m in Sources */,
 				E30E6727201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52b.mm in Sources */,
 				E30E67C0201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m in Sources */,
 				E36926722015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int_declare_01.mm in Sources */,
@@ -2262,9 +2213,7 @@
 				E30E67A8201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m in Sources */,
 				E36926302015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_81_bad.mm in Sources */,
 				E30E662820116EDA004A3768 /* C0033_TYPEUNDER_NSDictionary__good.m in Sources */,
-				E36926A62015806700EFE55A /* C0039_FREELOCAL_LONG_MIN__bad.m in Sources */,
 				E36926542015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_12.mm in Sources */,
-				E369269C2015806700EFE55A /* C0039_FREELOCAL_INT_MIN__bad.m in Sources */,
 				E36926962015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_alloca_01.mm in Sources */,
 				E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */,
 				E36926762015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_declare_01.mm in Sources */,
@@ -2282,7 +2231,6 @@
 				E30E6774201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_malloc_01.mm in Sources */,
 				E36926832015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int_alloca_01.mm in Sources */,
 				E36926CE20159C9600EFE55A /* C0025_USENULL_NSMutableArray__bad.m in Sources */,
-				E369269F2015806700EFE55A /* C0039_FREELOCAL_CHAR_MAX__bad.m in Sources */,
 				E30E672E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72a.mm in Sources */,
 				1B2E118D200F3A02004FB697 /* C0017_KEYLEN__AES_01.m in Sources */,
 				E369265F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54e.mm in Sources */,
@@ -2392,7 +2340,6 @@
 				E30E67A6201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m in Sources */,
 				E30E6717201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_44.mm in Sources */,
 				E369265E2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_64b.mm in Sources */,
-				E36926A32015806700EFE55A /* C0039_FREELOCAL_SHRT_MIN__bad.m in Sources */,
 				E31EB9992010B192002D5E66 /* C002B_SYSTEMLEAK_NSException__bad.m in Sources */,
 				E36926522015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_02.mm in Sources */,
 				E36926E22015BC0A00EFE55A /* C003B_RETLOCAL_int__bad.m in Sources */,
@@ -2431,7 +2378,6 @@
 				E30E66F5201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_09.mm in Sources */,
 				E30E6758201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_char_01.mm in Sources */,
 				E36926BA2015827000EFE55A /* C000E_BUFOVER_NSArray__bad.m in Sources */,
-				E369269B2015806700EFE55A /* C0039_FREELOCAL_INT_MAX__bad.m in Sources */,
 				E30E6751201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_struct_01.mm in Sources */,
 				E30E6728201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_61a.mm in Sources */,
 				E30E676E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_wchar_t_01.mm in Sources */,
@@ -2441,7 +2387,6 @@
 				1B6A248F2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m in Sources */,
 				E30E67BE201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m in Sources */,
 				E30E6738201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int_01.mm in Sources */,
-				E36926A52015806700EFE55A /* C0039_FREELOCAL_CHAR_MIN__bad.m in Sources */,
 				E30E661420116C21004A3768 /* C000C_TYPEOVER_NSSet__bad.m in Sources */,
 				E30E670E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_16.mm in Sources */,
 				E30E662D20116EDA004A3768 /* C0033_TYPEUNDER_NSMutableArray__good.m in Sources */,
@@ -2503,7 +2448,6 @@
 				E36926812015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_wchar_t_alloca_01.mm in Sources */,
 				E30E661220116C21004A3768 /* C000C_TYPEOVER_NSDictionary__good.m in Sources */,
 				E30E673D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_struct_01.mm in Sources */,
-				E36926A22015806700EFE55A /* C0039_FREELOCAL_SHRT_MAX__bad.m in Sources */,
 				E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */,
 				E30E676F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_char_01.mm in Sources */,
 				E36926E32015BC0A00EFE55A /* C003B_RETLOCAL_char__bad.m in Sources */,
@@ -2533,11 +2477,9 @@
 				E30E662520116EDA004A3768 /* C0033_TYPEUNDER_NSArray__bad.m in Sources */,
 				E36926902015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_static_01.mm in Sources */,
 				E36926B52015827000EFE55A /* C000E_BUFOVER_char__bad.m in Sources */,
-				E36926A02015806700EFE55A /* C0039_FREELOCAL_LLONG_MIN__bad.m in Sources */,
 				E30E6733201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65a.mm in Sources */,
 				E369268A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_alloca_01.mm in Sources */,
 				E30E676D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_char_calloc_01.mm in Sources */,
-				E36926A42015806700EFE55A /* C0039_FREELOCAL_LLONG_MAX__bad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
