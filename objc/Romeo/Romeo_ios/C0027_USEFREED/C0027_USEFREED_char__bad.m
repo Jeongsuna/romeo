@@ -39,7 +39,7 @@
      ...*/
     
     free(result);
-    
+   
     
     //flaw:
     char *result2 = result;
