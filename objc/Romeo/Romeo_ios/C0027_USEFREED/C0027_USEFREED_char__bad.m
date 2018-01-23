@@ -42,7 +42,7 @@
    
     
     //flaw:
-    char *result2 = result;
+    NSLog(@"%s",result);
     
     
     

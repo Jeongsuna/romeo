@@ -16,11 +16,19 @@
     
     //fix: check INT_MIN
   
+     /*
     if(INT_MIN +1 < [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue]){
         
         int result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] integerValue] -1;
         
     }
+      */
+    
+    int a = INT_MIN;
+    
+    //fix:
+    if(a > INT_MIN ) a= a-1;
+    
  
     
     

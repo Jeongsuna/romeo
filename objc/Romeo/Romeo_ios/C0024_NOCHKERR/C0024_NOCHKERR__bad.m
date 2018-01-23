@@ -18,7 +18,7 @@
             NSString *result = [NSString stringWithFormat: @"%@", [arr objectAtIndex:11]];
         
         }
-        @catch (NSException * e) {
+        @catch (NSException *e) {
     
             /* FLAW: unprecise Exception Handling */
             NSString *result = @"defaultString";

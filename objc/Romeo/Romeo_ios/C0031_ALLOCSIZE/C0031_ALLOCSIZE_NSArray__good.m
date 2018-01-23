@@ -34,7 +34,7 @@
     char *data ='';
     
     //fix:
-    if( 0 < result < sizeof(char)) (char*)malloc(result) ;
+    if( 0 < result ) data = (char*)malloc(sizeof(char) *result) ;
     
 
     

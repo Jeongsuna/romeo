@@ -32,7 +32,7 @@
     free(result);
     
     //flaw:
-    int *result2 = result;
+    NSLog(@"%d",*result);
     
     
     
