@@ -14,7 +14,7 @@
 -(int *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
     
     
-    int *result = alloc(sizeof(int));
+    int *result = malloc(sizeof(int));
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
         
         if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] < INT_MAX-1 ){
