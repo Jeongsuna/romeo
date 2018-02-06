@@ -22,7 +22,7 @@
         arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
 
-    NSLog(@"%@",result);
+    NSLog(@"%lu",[arrResult count]);
     
     return response;
 }

@@ -16,7 +16,7 @@
     /* flaw: NULL Pointer Dereference */
     NSSet *setResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     
-    NSLog(@"%@",result);
+    NSLog(@"%lu",[setResult count]);
     
     return response;
 }
