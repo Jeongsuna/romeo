@@ -15,7 +15,9 @@
  
     /* flaw: NULL Pointer Dereference */
     NSDictionary *dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
-     
+    
+    NSLog(@"%@",result);
+    
     return response;
 }
 

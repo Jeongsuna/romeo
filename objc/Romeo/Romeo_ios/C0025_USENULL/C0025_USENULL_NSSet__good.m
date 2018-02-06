@@ -21,6 +21,8 @@
         setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
 
+    NSLog(@"%@",result);
+    
     return response;
 }
 

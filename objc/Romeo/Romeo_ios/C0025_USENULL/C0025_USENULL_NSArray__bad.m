@@ -16,7 +16,7 @@
     /* flaw: NULL Pointer Dereference */
     NSArray *arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
 
-
+    NSLog(@"%@",result);
     
     return response;
 }
