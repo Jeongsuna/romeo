@@ -17,6 +17,9 @@
     /* flaw: NULL Pointer Dereference */
     NSString *result = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     
+    NSLog(@"%@",[result capitalizedString]);
+    
+    
    
     
     return response;

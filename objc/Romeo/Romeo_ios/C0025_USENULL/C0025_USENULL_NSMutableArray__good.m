@@ -21,6 +21,7 @@
         mArrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
 
+    NSLog(@"%lu",[mArrResult count]);
     
     return response;
 }

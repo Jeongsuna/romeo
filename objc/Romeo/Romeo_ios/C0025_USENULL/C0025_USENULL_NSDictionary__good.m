@@ -21,6 +21,8 @@
         dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
     
+    NSLog(@"%lu",[dicResult count]);
+    
     return response;
 }
 
