@@ -7,3 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+	
+	/* FIX: Ensure data is initialized before use */
+	NSSet *data = [[NSSet alloc]init];
+	
+	@autoreleasepool {
+		
+		NSLog(@"%@",data);
+	}
+	
+	[data dealloc];
+	return 0;
+}
