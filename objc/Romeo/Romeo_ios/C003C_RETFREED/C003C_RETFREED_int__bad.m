@@ -27,8 +27,7 @@
     }
     
     //flaw:
-    NSLog(@"%d",*result);
-    return response;
+    return result;
 }
 
 @end
