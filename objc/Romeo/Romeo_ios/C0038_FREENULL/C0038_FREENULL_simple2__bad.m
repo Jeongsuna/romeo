@@ -10,9 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     
-
-    char *str =NULL;
-
+    char *str;
+    Boolean isExist= true;
+    str = (char*)malloc(20*sizeof(char));
+ 
+    if(isExist) str =NULL;
+    
     //flaw:
     free(str);
 
