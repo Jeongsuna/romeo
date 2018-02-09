@@ -26,10 +26,10 @@
     }
     
    
-    char *data ='';
+    char *data ="";
     
     //fix:
-    if( 0 < result ) data = (char*)malloc(sizeof(char) *result) ;
+    if( 0 < result && result < 1000 ) data = (char*)malloc(sizeof(char) *result) ;
 
     
     return response;
