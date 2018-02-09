@@ -20,14 +20,20 @@
         mArrResult =  [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
     
-    //fix: check CHAR_MAX & CHAR_MIN
-    if(  CHAR_MIN < [[mArrResult objectAtIndex:0] charValue]
-       && [[mArrResult objectAtIndex:0] charValue] < CHAR_MAX ){
+    int result =0;
+    
+    if([[mArrResult objectAtIndex:0] integerValue] < INT_MAX-1){
         
-        char result =  [[mArrResult objectAtIndex:0] charValue];
+        result =  [[mArrResult objectAtIndex:0] integerValue] +1;
         
     }
 
+    int numList[6] = {5,1,2,3,1,7};
+
+    //fix:
+    if(result < 0 || result > 5)  result =0;
+    
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

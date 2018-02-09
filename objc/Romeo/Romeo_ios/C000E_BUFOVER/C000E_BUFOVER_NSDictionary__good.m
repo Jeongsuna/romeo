@@ -21,14 +21,20 @@
     }
     
     
-    //fix: check CHAR_MAX & CHAR_MIN
+    int result =0;
     
-    if(  CHAR_MIN < [[dicResult valueForKey:@"result"] charValue]
-       && [[dicResult valueForKey:@"result"] charValue] < CHAR_MAX ){
+    if([[dicResult valueForKey:@"result"] integerValue] < INT_MAX-1 ){
         
-        char result =  [[dicResult valueForKey:@"result"] charValue];
+        result =  [[dicResult valueForKey:@"result"] integerValue] +1;
         
     }
+
+    int numList[6] = {5,1,2,3,1,7};
+
+    //fix:
+    if(result < 0 || result > 5)  result =0;
+    
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

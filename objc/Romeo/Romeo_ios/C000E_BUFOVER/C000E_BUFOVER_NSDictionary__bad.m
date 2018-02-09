@@ -17,13 +17,21 @@
     NSDictionary *dicResult = [NSDictionary new];
     
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        
         dicResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
-        
     }
     
-    //flaw: buffer overflow
-    char result = [[dicResult valueForKey:@"result"] charValue];
+    
+    int result =0;
+    
+    if([[dicResult valueForKey:@"result"] integerValue] < INT_MAX-1 ){
+        
+        result =  [[dicResult valueForKey:@"result"] integerValue] +1;
+        
+    }
+
+    int numList[6] = {5,1,2,3,1,7};
+    //flaw:
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

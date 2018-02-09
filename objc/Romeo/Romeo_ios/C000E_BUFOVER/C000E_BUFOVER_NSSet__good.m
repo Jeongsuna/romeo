@@ -21,13 +21,21 @@
         setResult =[NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
     
-    //fix: check CHAR_MAX & CHAR_MIN
-    if(  CHAR_MIN < [[setResult valueForKey:@"result"] charValue]
-         && [[setResult valueForKey:@"result"] charValue] < CHAR_MAX ){
+    int result = 0;
+    
+    if([[setResult valueForKey:@"result"] integerValue] < INT_MAX-1){
         
-        char result =  [[setResult valueForKey:@"result"] charValue];
+        result =  [[setResult valueForKey:@"result"] integerValue]+1;
         
     }
+    
+    int numList[6] = {5,1,2,3,1,7};
+
+    //fix:
+    if(result < 0 || result > 5)  result =0;
+    
+    NSLog(@"%d/n",numList[result]);
+    
 
     return response;
 }
