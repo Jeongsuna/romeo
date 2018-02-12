@@ -9,8 +9,12 @@
 #import <Foundation/Foundation.h>
 
 int good(int *arg) {
-	int *x;
-	x = arg;
+	int x = 3;
+	int *p = &x;
 	
+	if(*p > 0) {
+		// Flaw:
+		free(p);
+	}
 	return 0;
 }

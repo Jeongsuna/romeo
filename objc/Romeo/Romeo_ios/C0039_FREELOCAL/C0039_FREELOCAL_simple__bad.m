@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-int bad(int* arg) {
-	int *x;
-	x = arg;
-	if(arg > 0) {
+int bad() {
+	int x = 3;
+	int *p = &x;
+	
+	if(*p > 0) {
 		// Flaw:
-		free(x);
+		free(p);
 	}
 	return 0;
 }
