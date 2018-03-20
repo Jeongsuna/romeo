@@ -40,8 +40,14 @@
 		1B67A2B12010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B02010908C00B1296D /* C001D_ONEWAYHASH__simple_01.m */; };
 		1B67A2B42010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */; };
 		1B67A2B82010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */; };
+		1B69C48620313294006098A1 /* C0039_FREELOCAL_simple__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B69C48520313294006098A1 /* C0039_FREELOCAL_simple__bad.m */; };
+		1B69C48820313371006098A1 /* C0039_FREELOCAL_simple__good.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B69C48720313371006098A1 /* C0039_FREELOCAL_simple__good.m */; };
 		1B6A248D2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */; };
 		1B6A248F2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */; };
+		1B6E9E2A202D816A0093A179 /* C003D_MEMLEAK__NSSet_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E9E29202D816A0093A179 /* C003D_MEMLEAK__NSSet_bad.m */; };
+		1B6E9E2C202D81800093A179 /* C003D_MEMLEAK__NSSet_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E9E2B202D81800093A179 /* C003D_MEMLEAK__NSSet_good.m */; };
+		1B6F7AF920317369009341DB /* C0039_FREELOCAL_record__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F7AF820317369009341DB /* C0039_FREELOCAL_record__bad.m */; };
+		1B6F7AFB20317378009341DB /* C0039_FREELOCAL_record__good.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F7AFA20317378009341DB /* C0039_FREELOCAL_record__good.m */; };
 		1B7D27C31FFB7A910079B442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C21FFB7A910079B442 /* main.m */; };
 		1B7D27C61FFB7A910079B442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C51FFB7A910079B442 /* AppDelegate.m */; };
 		1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D27C81FFB7A910079B442 /* ViewController.m */; };
@@ -60,14 +66,24 @@
 		1B7D28091FFDE9850079B442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D28071FFDE9850079B442 /* Main.storyboard */; };
 		E302A9512017577F008CF96F /* CWE367_TOC_TOU__access_01__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9472017577F008CF96F /* CWE367_TOC_TOU__access_01__bad.m */; };
 		E302A9522017577F008CF96F /* CWE367_TOC_TOU__access_01__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9482017577F008CF96F /* CWE367_TOC_TOU__access_01__good.m */; };
-		E302A9532017577F008CF96F /* CWE367_TOC_TOU__access_05_good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05_good.m */; };
+		E302A9532017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m */; };
 		E302A9542017577F008CF96F /* CWE367_TOC_TOU__access_02__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94A2017577F008CF96F /* CWE367_TOC_TOU__access_02__good.m */; };
-		E302A9552017577F008CF96F /* CWE367_TOC_TOU__access_03_good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03_good.m */; };
-		E302A9562017577F008CF96F /* CWE367_TOC_TOU__access_03_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03_bad.m */; };
+		E302A9552017577F008CF96F /* CWE367_TOC_TOU__access_03__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03__good.m */; };
+		E302A9562017577F008CF96F /* CWE367_TOC_TOU__access_03__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03__bad.m */; };
 		E302A9572017577F008CF96F /* CWE367_TOC_TOU__access_02__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94D2017577F008CF96F /* CWE367_TOC_TOU__access_02__bad.m */; };
-		E302A9582017577F008CF96F /* CWE367_TOC_TOU__access_04_good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04_good.m */; };
-		E302A9592017577F008CF96F /* CWE367_TOC_TOU__access_05_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05_bad.m */; };
-		E302A95A20175780008CF96F /* CWE367_TOC_TOU__access_04_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04_bad.m */; };
+		E302A9582017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m */; };
+		E302A9592017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m */; };
+		E302A95A20175780008CF96F /* CWE367_TOC_TOU__access_04__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04__bad.m */; };
+		E30CFAB220181639001F4623 /* C002E_DNSLOOKUP_05__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAA820181639001F4623 /* C002E_DNSLOOKUP_05__bad.m */; };
+		E30CFAB320181639001F4623 /* C002E_DNSLOOKUP_03__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAA920181639001F4623 /* C002E_DNSLOOKUP_03__good.m */; };
+		E30CFAB420181639001F4623 /* C002E_DNSLOOKUP_02__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAA20181639001F4623 /* C002E_DNSLOOKUP_02__good.m */; };
+		E30CFAB520181639001F4623 /* C002E_DNSLOOKUP_03__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAB20181639001F4623 /* C002E_DNSLOOKUP_03__bad.m */; };
+		E30CFAB620181639001F4623 /* C002E_DNSLOOKUP_01__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAC20181639001F4623 /* C002E_DNSLOOKUP_01__bad.m */; };
+		E30CFAB720181639001F4623 /* C002E_DNSLOOKUP_01__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAD20181639001F4623 /* C002E_DNSLOOKUP_01__good.m */; };
+		E30CFAB820181639001F4623 /* C002E_DNSLOOKUP_04__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAE20181639001F4623 /* C002E_DNSLOOKUP_04__good.m */; };
+		E30CFAB920181639001F4623 /* C002E_DNSLOOKUP_04__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAAF20181639001F4623 /* C002E_DNSLOOKUP_04__bad.m */; };
+		E30CFABA20181639001F4623 /* C002E_DNSLOOKUP_05__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAB020181639001F4623 /* C002E_DNSLOOKUP_05__good.m */; };
+		E30CFABB20181639001F4623 /* C002E_DNSLOOKUP_02__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30CFAB120181639001F4623 /* C002E_DNSLOOKUP_02__bad.m */; };
 		E30E660F20116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E660420116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m */; };
 		E30E661020116C21004A3768 /* C000C_TYPEOVER_int__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E660520116C21004A3768 /* C000C_TYPEOVER_int__good.m */; };
 		E30E661120116C21004A3768 /* C000C_TYPEOVER_int__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E30E660620116C21004A3768 /* C000C_TYPEOVER_int__bad.m */; };
@@ -309,6 +325,20 @@
 		E31EB99B2010BAE1002D5E66 /* C0024_NOCHKERR__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EB99A2010BAE0002D5E66 /* C0024_NOCHKERR__good.m */; };
 		E32BB6A3201719E1005700A4 /* C0031_ALLOCSIZE in Resources */ = {isa = PBXBuildFile; fileRef = E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */; };
 		E32BB6A520172407005700A4 /* C0030_BUFUNDER in Resources */ = {isa = PBXBuildFile; fileRef = E32BB6A420172407005700A4 /* C0030_BUFUNDER */; };
+		E32FC4BE202D43570069463D /* C0038_FREENULL_simple__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4BC202D43570069463D /* C0038_FREENULL_simple__bad.m */; };
+		E32FC4BF202D43570069463D /* C0038_FREENULL_simple__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4BD202D43570069463D /* C0038_FREENULL_simple__good.m */; };
+		E32FC4C2202D6B280069463D /* C0038_FREENULL_simple2__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C0202D6B270069463D /* C0038_FREENULL_simple2__bad.m */; };
+		E32FC4C3202D6B280069463D /* C0038_FREENULL_simple2__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C1202D6B280069463D /* C0038_FREENULL_simple2__good.m */; };
+		E32FC4CF202D6C3B0069463D /* C000E_BUFOVER_int__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C4202D6C3A0069463D /* C000E_BUFOVER_int__good.m */; };
+		E32FC4D0202D6C3B0069463D /* C000E_BUFOVER_int__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C5202D6C3A0069463D /* C000E_BUFOVER_int__bad.m */; };
+		E32FC4D1202D6C3B0069463D /* C000E_BUFOVER_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C6202D6C3A0069463D /* C000E_BUFOVER_NSSet__bad.m */; };
+		E32FC4D2202D6C3B0069463D /* C000E_BUFOVER_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C7202D6C3A0069463D /* C000E_BUFOVER_NSArray__good.m */; };
+		E32FC4D3202D6C3B0069463D /* C000E_BUFOVER_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C8202D6C3A0069463D /* C000E_BUFOVER_NSSet__good.m */; };
+		E32FC4D4202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4C9202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__bad.m */; };
+		E32FC4D5202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4CA202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__good.m */; };
+		E32FC4D6202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4CB202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__good.m */; };
+		E32FC4D7202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4CD202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__bad.m */; };
+		E32FC4D8202D6C3B0069463D /* C000E_BUFOVER_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E32FC4CE202D6C3B0069463D /* C000E_BUFOVER_NSArray__bad.m */; };
 		E369262B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925A92015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm */; };
 		E369262C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925AA2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm */; };
 		E369262D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36925AB2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm */; };
@@ -421,16 +451,6 @@
 		E36926982015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E36926192015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm */; };
 		E36926992015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E369261A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm */; };
 		E369269A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm in Sources */ = {isa = PBXBuildFile; fileRef = E369261C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm */; };
-		E36926B32015827000EFE55A /* C000E_BUFOVER_NSSet__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */; };
-		E36926B42015827000EFE55A /* C000E_BUFOVER_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */; };
-		E36926B52015827000EFE55A /* C000E_BUFOVER_char__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AA2015826F00EFE55A /* C000E_BUFOVER_char__bad.m */; };
-		E36926B62015827000EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */; };
-		E36926B72015827000EFE55A /* C000E_BUFOVER_NSArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */; };
-		E36926B82015827000EFE55A /* C000E_BUFOVER_char__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AD2015826F00EFE55A /* C000E_BUFOVER_char__good.m */; };
-		E36926B92015827000EFE55A /* C000E_BUFOVER_NSDictionary__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */; };
-		E36926BA2015827000EFE55A /* C000E_BUFOVER_NSArray__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */; };
-		E36926BB2015827000EFE55A /* C000E_BUFOVER_NSDictionary__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */; };
-		E36926BC2015827000EFE55A /* C000E_BUFOVER_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */; };
 		E36926C920159C9600EFE55A /* C0025_USENULL_NSSet__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926BF20159C9500EFE55A /* C0025_USENULL_NSSet__good.m */; };
 		E36926CA20159C9600EFE55A /* C0025_USENULL_NSMutableArray__good.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926C020159C9500EFE55A /* C0025_USENULL_NSMutableArray__good.m */; };
 		E36926CB20159C9600EFE55A /* C0025_USENULL_NSString__bad.m in Sources */ = {isa = PBXBuildFile; fileRef = E36926C120159C9500EFE55A /* C0025_USENULL_NSString__bad.m */; };
@@ -528,9 +548,15 @@
 		1B67A2B32010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C001D_ONEWAYHASH__simple_02.m; sourceTree = "<group>"; };
 		1B67A2B62010BA4400B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0010_MISSAUTH__LocalAuthentication_bank_01.h; sourceTree = "<group>"; };
 		1B67A2B72010BA4F00B1296D /* C0010_MISSAUTH__LocalAuthentication_bank_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0010_MISSAUTH__LocalAuthentication_bank_01.m; sourceTree = "<group>"; };
+		1B69C48520313294006098A1 /* C0039_FREELOCAL_simple__bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_simple__bad.m; sourceTree = "<group>"; };
+		1B69C48720313371006098A1 /* C0039_FREELOCAL_simple__good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_simple__good.m; sourceTree = "<group>"; };
 		1B6A248B2011AA9300574118 /* C0016_HARDPASS__NSURLCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0016_HARDPASS__NSURLCredential.h; sourceTree = "<group>"; };
 		1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__NSURLCredential_01.m; sourceTree = "<group>"; };
 		1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS__NSURLCredential_02.m; sourceTree = "<group>"; };
+		1B6E9E29202D816A0093A179 /* C003D_MEMLEAK__NSSet_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C003D_MEMLEAK__NSSet_bad.m; sourceTree = "<group>"; };
+		1B6E9E2B202D81800093A179 /* C003D_MEMLEAK__NSSet_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C003D_MEMLEAK__NSSet_good.m; sourceTree = "<group>"; };
+		1B6F7AF820317369009341DB /* C0039_FREELOCAL_record__bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_record__bad.m; sourceTree = "<group>"; };
+		1B6F7AFA20317378009341DB /* C0039_FREELOCAL_record__good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0039_FREELOCAL_record__good.m; sourceTree = "<group>"; };
 		1B7D27BE1FFB7A910079B442 /* Romeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Romeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D27C21FFB7A910079B442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B7D27C41FFB7A910079B442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -560,14 +586,24 @@
 		1B7D280A1FFDE9850079B442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E302A9472017577F008CF96F /* CWE367_TOC_TOU__access_01__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_01__bad.m; sourceTree = "<group>"; };
 		E302A9482017577F008CF96F /* CWE367_TOC_TOU__access_01__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_01__good.m; sourceTree = "<group>"; };
-		E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05_good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_05_good.m; sourceTree = "<group>"; };
+		E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_05__good.m; sourceTree = "<group>"; };
 		E302A94A2017577F008CF96F /* CWE367_TOC_TOU__access_02__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_02__good.m; sourceTree = "<group>"; };
-		E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03_good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_03_good.m; sourceTree = "<group>"; };
-		E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03_bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_03_bad.m; sourceTree = "<group>"; };
+		E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_03__good.m; sourceTree = "<group>"; };
+		E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_03__bad.m; sourceTree = "<group>"; };
 		E302A94D2017577F008CF96F /* CWE367_TOC_TOU__access_02__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_02__bad.m; sourceTree = "<group>"; };
-		E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04_good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_04_good.m; sourceTree = "<group>"; };
-		E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05_bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_05_bad.m; sourceTree = "<group>"; };
-		E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04_bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_04_bad.m; sourceTree = "<group>"; };
+		E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_04__good.m; sourceTree = "<group>"; };
+		E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_05__bad.m; sourceTree = "<group>"; };
+		E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWE367_TOC_TOU__access_04__bad.m; sourceTree = "<group>"; };
+		E30CFAA820181639001F4623 /* C002E_DNSLOOKUP_05__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_05__bad.m; sourceTree = "<group>"; };
+		E30CFAA920181639001F4623 /* C002E_DNSLOOKUP_03__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_03__good.m; sourceTree = "<group>"; };
+		E30CFAAA20181639001F4623 /* C002E_DNSLOOKUP_02__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_02__good.m; sourceTree = "<group>"; };
+		E30CFAAB20181639001F4623 /* C002E_DNSLOOKUP_03__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_03__bad.m; sourceTree = "<group>"; };
+		E30CFAAC20181639001F4623 /* C002E_DNSLOOKUP_01__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_01__bad.m; sourceTree = "<group>"; };
+		E30CFAAD20181639001F4623 /* C002E_DNSLOOKUP_01__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_01__good.m; sourceTree = "<group>"; };
+		E30CFAAE20181639001F4623 /* C002E_DNSLOOKUP_04__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_04__good.m; sourceTree = "<group>"; };
+		E30CFAAF20181639001F4623 /* C002E_DNSLOOKUP_04__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_04__bad.m; sourceTree = "<group>"; };
+		E30CFAB020181639001F4623 /* C002E_DNSLOOKUP_05__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_05__good.m; sourceTree = "<group>"; };
+		E30CFAB120181639001F4623 /* C002E_DNSLOOKUP_02__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C002E_DNSLOOKUP_02__bad.m; sourceTree = "<group>"; };
 		E30E660420116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000C_TYPEOVER_NSArray__bad.m; sourceTree = "<group>"; };
 		E30E660520116C21004A3768 /* C000C_TYPEOVER_int__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000C_TYPEOVER_int__good.m; sourceTree = "<group>"; };
 		E30E660620116C21004A3768 /* C000C_TYPEOVER_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000C_TYPEOVER_int__bad.m; sourceTree = "<group>"; };
@@ -822,6 +858,21 @@
 		E31EB99A2010BAE0002D5E66 /* C0024_NOCHKERR__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0024_NOCHKERR__good.m; sourceTree = "<group>"; };
 		E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = C0031_ALLOCSIZE; sourceTree = "<group>"; };
 		E32BB6A420172407005700A4 /* C0030_BUFUNDER */ = {isa = PBXFileReference; lastKnownFileType = folder; path = C0030_BUFUNDER; sourceTree = "<group>"; };
+		E32FC4BC202D43570069463D /* C0038_FREENULL_simple__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL_simple__bad.m; sourceTree = "<group>"; };
+		E32FC4BD202D43570069463D /* C0038_FREENULL_simple__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL_simple__good.m; sourceTree = "<group>"; };
+		E32FC4C0202D6B270069463D /* C0038_FREENULL_simple2__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL_simple2__bad.m; sourceTree = "<group>"; };
+		E32FC4C1202D6B280069463D /* C0038_FREENULL_simple2__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0038_FREENULL_simple2__good.m; sourceTree = "<group>"; };
+		E32FC4C4202D6C3A0069463D /* C000E_BUFOVER_int__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_int__good.m; sourceTree = "<group>"; };
+		E32FC4C5202D6C3A0069463D /* C000E_BUFOVER_int__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_int__bad.m; sourceTree = "<group>"; };
+		E32FC4C6202D6C3A0069463D /* C000E_BUFOVER_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__bad.m; sourceTree = "<group>"; };
+		E32FC4C7202D6C3A0069463D /* C000E_BUFOVER_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__good.m; sourceTree = "<group>"; };
+		E32FC4C8202D6C3A0069463D /* C000E_BUFOVER_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__good.m; sourceTree = "<group>"; };
+		E32FC4C9202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__bad.m; sourceTree = "<group>"; };
+		E32FC4CA202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__good.m; sourceTree = "<group>"; };
+		E32FC4CB202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__good.m; sourceTree = "<group>"; };
+		E32FC4CC202D6C3B0069463D /* C000E_BUFOVER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C000E_BUFOVER.h; sourceTree = "<group>"; };
+		E32FC4CD202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__bad.m; sourceTree = "<group>"; };
+		E32FC4CE202D6C3B0069463D /* C000E_BUFOVER_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__bad.m; sourceTree = "<group>"; };
 		E36925A92015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_52b.mm; sourceTree = "<group>"; };
 		E36925AA2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm; sourceTree = "<group>"; };
 		E36925AB2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm; sourceTree = "<group>"; };
@@ -937,17 +988,6 @@
 		E369261A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_array_class_static_01.mm; sourceTree = "<group>"; };
 		E369261B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWE590_Free_Memory_Not_on_Heap.h; sourceTree = "<group>"; };
 		E369261C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm; sourceTree = "<group>"; };
-		E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__bad.m; sourceTree = "<group>"; };
-		E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSSet__good.m; sourceTree = "<group>"; };
-		E36926AA2015826F00EFE55A /* C000E_BUFOVER_char__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_char__bad.m; sourceTree = "<group>"; };
-		E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__bad.m; sourceTree = "<group>"; };
-		E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__good.m; sourceTree = "<group>"; };
-		E36926AD2015826F00EFE55A /* C000E_BUFOVER_char__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_char__good.m; sourceTree = "<group>"; };
-		E36926AE2015826F00EFE55A /* C000E_BUFOVER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C000E_BUFOVER.h; sourceTree = "<group>"; };
-		E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__good.m; sourceTree = "<group>"; };
-		E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSArray__bad.m; sourceTree = "<group>"; };
-		E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSDictionary__bad.m; sourceTree = "<group>"; };
-		E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C000E_BUFOVER_NSMutableArray__good.m; sourceTree = "<group>"; };
 		E36926BE20159C9500EFE55A /* C0025_USENULL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C0025_USENULL.h; sourceTree = "<group>"; };
 		E36926BF20159C9500EFE55A /* C0025_USENULL_NSSet__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0025_USENULL_NSSet__good.m; sourceTree = "<group>"; };
 		E36926C020159C9500EFE55A /* C0025_USENULL_NSMutableArray__good.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0025_USENULL_NSMutableArray__good.m; sourceTree = "<group>"; };
@@ -1164,6 +1204,8 @@
 				1B2E117E200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m */,
 				1B2E1180200F2DA2004FB697 /* C003D_MEMLEAK__simple_good.h */,
 				1B2E1181200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m */,
+				1B6E9E29202D816A0093A179 /* C003D_MEMLEAK__NSSet_bad.m */,
+				1B6E9E2B202D81800093A179 /* C003D_MEMLEAK__NSSet_good.m */,
 			);
 			path = C003D_MEMLEAK;
 			sourceTree = "<group>";
@@ -1240,6 +1282,7 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E30CFAA720181639001F4623 /* C002E_DNSLOOKUP */,
 				E302A9462017577F008CF96F /* C0020_TOCTOU */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
@@ -1374,14 +1417,31 @@
 				E302A9482017577F008CF96F /* CWE367_TOC_TOU__access_01__good.m */,
 				E302A94D2017577F008CF96F /* CWE367_TOC_TOU__access_02__bad.m */,
 				E302A94A2017577F008CF96F /* CWE367_TOC_TOU__access_02__good.m */,
-				E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03_bad.m */,
-				E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03_good.m */,
-				E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04_bad.m */,
-				E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04_good.m */,
-				E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05_bad.m */,
-				E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05_good.m */,
+				E302A94C2017577F008CF96F /* CWE367_TOC_TOU__access_03__bad.m */,
+				E302A94B2017577F008CF96F /* CWE367_TOC_TOU__access_03__good.m */,
+				E302A9502017577F008CF96F /* CWE367_TOC_TOU__access_04__bad.m */,
+				E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m */,
+				E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m */,
+				E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m */,
 			);
 			path = C0020_TOCTOU;
+			sourceTree = "<group>";
+		};
+		E30CFAA720181639001F4623 /* C002E_DNSLOOKUP */ = {
+			isa = PBXGroup;
+			children = (
+				E30CFAA820181639001F4623 /* C002E_DNSLOOKUP_05__bad.m */,
+				E30CFAA920181639001F4623 /* C002E_DNSLOOKUP_03__good.m */,
+				E30CFAAA20181639001F4623 /* C002E_DNSLOOKUP_02__good.m */,
+				E30CFAAB20181639001F4623 /* C002E_DNSLOOKUP_03__bad.m */,
+				E30CFAAC20181639001F4623 /* C002E_DNSLOOKUP_01__bad.m */,
+				E30CFAAD20181639001F4623 /* C002E_DNSLOOKUP_01__good.m */,
+				E30CFAAE20181639001F4623 /* C002E_DNSLOOKUP_04__good.m */,
+				E30CFAAF20181639001F4623 /* C002E_DNSLOOKUP_04__bad.m */,
+				E30CFAB020181639001F4623 /* C002E_DNSLOOKUP_05__good.m */,
+				E30CFAB120181639001F4623 /* C002E_DNSLOOKUP_02__bad.m */,
+			);
+			path = C002E_DNSLOOKUP;
 			sourceTree = "<group>";
 		};
 		E30E660320116C21004A3768 /* C000C_TYPEOVER */ = {
@@ -1700,6 +1760,8 @@
 		E31EB920201083DD002D5E66 /* C0028_UNINIT */ = {
 			isa = PBXGroup;
 			children = (
+				E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */,
+				E31EB926201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m */,
 				E31EB92A201083DD002D5E66 /* C0028_UNINIT_char__bad.m */,
 				E31EB92E201083DD002D5E66 /* C0028_UNINIT_char__good.m */,
 				E31EB92B201083DD002D5E66 /* C0028_UNINIT_double__bad.m */,
@@ -1712,8 +1774,6 @@
 				E31EB922201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m */,
 				E31EB927201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m */,
 				E31EB929201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m */,
-				E31EB92C201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m */,
-				E31EB926201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m */,
 			);
 			path = C0028_UNINIT;
 			sourceTree = "<group>";
@@ -1733,6 +1793,10 @@
 		E31EB9472010931B002D5E66 /* C0038_FREENULL */ = {
 			isa = PBXGroup;
 			children = (
+				E32FC4C0202D6B270069463D /* C0038_FREENULL_simple2__bad.m */,
+				E32FC4C1202D6B280069463D /* C0038_FREENULL_simple2__good.m */,
+				E32FC4BC202D43570069463D /* C0038_FREENULL_simple__bad.m */,
+				E32FC4BD202D43570069463D /* C0038_FREENULL_simple__good.m */,
 				E31EB9482010931B002D5E66 /* C0038_FREENULL__good.m */,
 				E31EB9492010931B002D5E66 /* C0038_FREENULL__bad.m */,
 			);
@@ -1766,6 +1830,10 @@
 			children = (
 				E36925A82015806700EFE55A /* m00 */,
 				E36925EA2015806700EFE55A /* m01 */,
+				1B69C48520313294006098A1 /* C0039_FREELOCAL_simple__bad.m */,
+				1B69C48720313371006098A1 /* C0039_FREELOCAL_simple__good.m */,
+				1B6F7AF820317369009341DB /* C0039_FREELOCAL_record__bad.m */,
+				1B6F7AFA20317378009341DB /* C0039_FREELOCAL_record__good.m */,
 			);
 			path = C0039_FREELOCAL;
 			sourceTree = "<group>";
@@ -1902,17 +1970,17 @@
 		E36926A72015826F00EFE55A /* C000E_BUFOVER */ = {
 			isa = PBXGroup;
 			children = (
-				E36926AA2015826F00EFE55A /* C000E_BUFOVER_char__bad.m */,
-				E36926AD2015826F00EFE55A /* C000E_BUFOVER_char__good.m */,
-				E36926B02015826F00EFE55A /* C000E_BUFOVER_NSArray__bad.m */,
-				E36926AC2015826F00EFE55A /* C000E_BUFOVER_NSArray__good.m */,
-				E36926B12015826F00EFE55A /* C000E_BUFOVER_NSDictionary__bad.m */,
-				E36926AF2015826F00EFE55A /* C000E_BUFOVER_NSDictionary__good.m */,
-				E36926AB2015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m */,
-				E36926B22015826F00EFE55A /* C000E_BUFOVER_NSMutableArray__good.m */,
-				E36926A82015826F00EFE55A /* C000E_BUFOVER_NSSet__bad.m */,
-				E36926A92015826F00EFE55A /* C000E_BUFOVER_NSSet__good.m */,
-				E36926AE2015826F00EFE55A /* C000E_BUFOVER.h */,
+				E32FC4C5202D6C3A0069463D /* C000E_BUFOVER_int__bad.m */,
+				E32FC4C4202D6C3A0069463D /* C000E_BUFOVER_int__good.m */,
+				E32FC4CE202D6C3B0069463D /* C000E_BUFOVER_NSArray__bad.m */,
+				E32FC4C7202D6C3A0069463D /* C000E_BUFOVER_NSArray__good.m */,
+				E32FC4C9202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__bad.m */,
+				E32FC4CB202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__good.m */,
+				E32FC4CD202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__bad.m */,
+				E32FC4CA202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__good.m */,
+				E32FC4C6202D6C3A0069463D /* C000E_BUFOVER_NSSet__bad.m */,
+				E32FC4C8202D6C3A0069463D /* C000E_BUFOVER_NSSet__good.m */,
+				E32FC4CC202D6C3B0069463D /* C000E_BUFOVER.h */,
 			);
 			path = C000E_BUFOVER;
 			sourceTree = "<group>";
@@ -2094,6 +2162,7 @@
 				E30E6789201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__calloc_delete_array_01_bad.mm in Sources */,
 				E36926922015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_alloca_01.mm in Sources */,
 				1B2E1178200EDCFC004FB697 /* C0053_REFLECTI__performSelector_02.m in Sources */,
+				1B69C48820313371006098A1 /* C0039_FREELOCAL_simple__good.m in Sources */,
 				E36926892015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_wchar_t_static_01.mm in Sources */,
 				E369266D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_placement_new_01.mm in Sources */,
 				1B7D27E71FFDCA0A0079B442 /* C0003_XSS__simple_01.m in Sources */,
@@ -2126,17 +2195,19 @@
 				E36926472015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_45.mm in Sources */,
 				E30E66E6201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83_bad.mm in Sources */,
 				E36927062015CB0600EFE55A /* C002F_DANGERAPI_snprintf__good.m in Sources */,
+				E30CFAB420181639001F4623 /* C002E_DNSLOOKUP_02__good.m in Sources */,
 				E30E6761201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_class_01.mm in Sources */,
 				E30E6788201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_01_bad.mm in Sources */,
 				E30E6727201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52b.mm in Sources */,
 				E30E67C0201191EA004A3768 /* C0034_DIVBY0_NSSet__bad.m in Sources */,
 				E36926722015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int_declare_01.mm in Sources */,
 				E36926372015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_72a.mm in Sources */,
-				E36926B72015827000EFE55A /* C000E_BUFOVER_NSArray__good.m in Sources */,
 				E31EB9972010A05F002D5E66 /* C002B_SYSTEMLEAK_DeviceInfo__bad.m in Sources */,
 				E36926602015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_81a.mm in Sources */,
 				E30E66FE201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_08.mm in Sources */,
+				E32FC4C2202D6B280069463D /* C0038_FREENULL_simple2__bad.m in Sources */,
 				E30E67B9201191EA004A3768 /* C0034_DIVBY0_NSSet__good.m in Sources */,
+				E32FC4D7202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */,
 				E31EB94A2010931C002D5E66 /* C0038_FREENULL__good.m in Sources */,
 				E36926CD20159C9600EFE55A /* C0025_USENULL_NSArray__good.m in Sources */,
 				E30E6701201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62b.mm in Sources */,
@@ -2146,8 +2217,8 @@
 				E30E670B201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_12.mm in Sources */,
 				E369268E2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_static_01.mm in Sources */,
 				E369265D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_72b.mm in Sources */,
-				E36926B32015827000EFE55A /* C000E_BUFOVER_NSSet__bad.m in Sources */,
 				E30E6707201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_33.mm in Sources */,
+				1B69C48620313294006098A1 /* C0039_FREELOCAL_simple__bad.m in Sources */,
 				E30E670C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_43.mm in Sources */,
 				E30E66EA201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72b.mm in Sources */,
 				E36927022015CB0600EFE55A /* C002F_DANGERAPI_strncpy__good.m in Sources */,
@@ -2156,7 +2227,6 @@
 				E3ED3FF6200EE8460049FAB3 /* C0006_REDIRECT_NSString__good.m in Sources */,
 				1B2E117F200F291A004FB697 /* C003D_MEMLEAK__simple_bad.m in Sources */,
 				E30E6787201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__calloc_delete_01_bad.mm in Sources */,
-				E36926B92015827000EFE55A /* C000E_BUFOVER_NSDictionary__good.m in Sources */,
 				E36926982015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_alloca_01.mm in Sources */,
 				E30E673F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_class_realloc_01.mm in Sources */,
 				E30E6757201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_calloc_01.mm in Sources */,
@@ -2169,16 +2239,17 @@
 				E36926952015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_alloca_01.mm in Sources */,
 				E31EB91E201083C2002D5E66 /* C0018_RANDOM_arc4random__bad.m in Sources */,
 				1B2E119F20103D97004FB697 /* C0023_NOACTION__empty_catch_01.m in Sources */,
+				E30CFAB720181639001F4623 /* C002E_DNSLOOKUP_01__good.m in Sources */,
 				E31EB91D201083C2002D5E66 /* C0018_RANDOM_arc4random_uniform__good.m in Sources */,
 				E369262D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53b.mm in Sources */,
 				E36926942015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_struct_declare_01.mm in Sources */,
 				1B2E1198200F3C7C004FB697 /* C0017_KEYLEN__RSA_01.m in Sources */,
 				E36926882015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int_static_01.mm in Sources */,
+				E30CFAB620181639001F4623 /* C002E_DNSLOOKUP_01__bad.m in Sources */,
 				E30E6752201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_long_01.mm in Sources */,
 				E31EB95120109757002D5E66 /* C0016_HARDPASS__bad.m in Sources */,
 				E30E670F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_06.mm in Sources */,
 				E36926712015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_declare_01.mm in Sources */,
-				E36926B62015827000EFE55A /* C000E_BUFOVER_NSMutableArray__bad.m in Sources */,
 				E30E66EC201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83a.mm in Sources */,
 				E30E662B20116EDA004A3768 /* C0033_TYPEUNDER_NSArray__good.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
@@ -2187,7 +2258,6 @@
 				E36926342015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_73a.mm in Sources */,
 				E36926482015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_14.mm in Sources */,
 				E30E660F20116C21004A3768 /* C000C_TYPEOVER_NSArray__bad.m in Sources */,
-				E36926B82015827000EFE55A /* C000E_BUFOVER_char__good.m in Sources */,
 				E30E6748201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_realloc_01.mm in Sources */,
 				E3ED3FF5200EE8460049FAB3 /* C0006_REDIRECT_NSArray__good.m in Sources */,
 				E30E67B7201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__good.m in Sources */,
@@ -2212,7 +2282,6 @@
 				E36926972015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int64_t_static_01.mm in Sources */,
 				E30E67B8201191EA004A3768 /* C0034_DIVBY0_NSArray__good.m in Sources */,
 				E30E6732201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_67a.mm in Sources */,
-				E36926B42015827000EFE55A /* C000E_BUFOVER_NSSet__good.m in Sources */,
 				E369267F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_struct_alloca_01.mm in Sources */,
 				E36926312015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_63a.mm in Sources */,
 				E36926752015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int_declare_01.mm in Sources */,
@@ -2240,9 +2309,12 @@
 				E369264D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_17.mm in Sources */,
 				E30E6740201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_wchar_t_calloc_01.mm in Sources */,
 				E36926332015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_68b.mm in Sources */,
-				E302A95A20175780008CF96F /* CWE367_TOC_TOU__access_04_bad.m in Sources */,
+				E30CFAB520181639001F4623 /* C002E_DNSLOOKUP_03__bad.m in Sources */,
+				E302A95A20175780008CF96F /* CWE367_TOC_TOU__access_04__bad.m in Sources */,
 				1B67A2B42010926A00B1296D /* C001D_ONEWAYHASH__simple_02.m in Sources */,
+				E30CFAB220181639001F4623 /* C002E_DNSLOOKUP_05__bad.m in Sources */,
 				E30E6702201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_51a.mm in Sources */,
+				E30CFAB320181639001F4623 /* C002E_DNSLOOKUP_03__good.m in Sources */,
 				E31EB93A201083DD002D5E66 /* C0028_UNINIT_NSSet__bad.m in Sources */,
 				E30E6750201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_char_01.mm in Sources */,
 				E36926D62015AF7F00EFE55A /* C0027_USEFREED_int__bad.m in Sources */,
@@ -2252,7 +2324,10 @@
 				E30E67A8201191D3004A3768 /* C0019_HARDKEY__DES_01_NSDictionary__bad.m in Sources */,
 				E36926302015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_81_bad.mm in Sources */,
 				E30E662820116EDA004A3768 /* C0033_TYPEUNDER_NSDictionary__good.m in Sources */,
+				E30CFABA20181639001F4623 /* C002E_DNSLOOKUP_05__good.m in Sources */,
 				E36926542015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_12.mm in Sources */,
+				E30CFABB20181639001F4623 /* C002E_DNSLOOKUP_02__bad.m in Sources */,
+				E32FC4D2202D6C3B0069463D /* C000E_BUFOVER_NSArray__good.m in Sources */,
 				E36926962015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_alloca_01.mm in Sources */,
 				E31EB91F201083C2002D5E66 /* C0018_RANDOM_rand__bad.m in Sources */,
 				E36926762015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_declare_01.mm in Sources */,
@@ -2268,10 +2343,12 @@
 				E30E678C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_array_01_bad.mm in Sources */,
 				E30E6741201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_calloc_01.mm in Sources */,
 				E30E6774201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_long_malloc_01.mm in Sources */,
-				E302A9562017577F008CF96F /* CWE367_TOC_TOU__access_03_bad.m in Sources */,
+				E302A9562017577F008CF96F /* CWE367_TOC_TOU__access_03__bad.m in Sources */,
 				E36926832015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int_alloca_01.mm in Sources */,
+				E32FC4BF202D43570069463D /* C0038_FREENULL_simple__good.m in Sources */,
 				E36926CE20159C9600EFE55A /* C0025_USENULL_NSMutableArray__bad.m in Sources */,
 				E30E672E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_72a.mm in Sources */,
+				1B6E9E2C202D81800093A179 /* C003D_MEMLEAK__NSSet_good.m in Sources */,
 				1B2E118D200F3A02004FB697 /* C0017_KEYLEN__AES_01.m in Sources */,
 				E369265F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54e.mm in Sources */,
 				1B2E1130200C4BE6004FB697 /* C0013_BROKNCRYPT__MD5_01.m in Sources */,
@@ -2282,6 +2359,7 @@
 				E369268F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_placement_new_01.mm in Sources */,
 				1B2E1142200C7B9B004FB697 /* C000F_FORMATI__appendFormat_01.m in Sources */,
 				E369269A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_static_01.mm in Sources */,
+				E32FC4D3202D6C3B0069463D /* C000E_BUFOVER_NSSet__good.m in Sources */,
 				E30E67A9201191D3004A3768 /* C0019_HARDKEY__DES_01_NSArray__bad.m in Sources */,
 				E30E6721201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_10.mm in Sources */,
 				E31EB933201083DD002D5E66 /* C0028_UNINIT_double__good.m in Sources */,
@@ -2304,6 +2382,7 @@
 				E30E66F2201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65b.mm in Sources */,
 				E30E66FD201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_52a.mm in Sources */,
 				E30E67A5201191D3004A3768 /* C0019_HARDKEY__DES_01_NSSet__bad.m in Sources */,
+				E32FC4BE202D43570069463D /* C0038_FREENULL_simple__bad.m in Sources */,
 				E369268C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_long_static_01.mm in Sources */,
 				E30E672C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_62a.mm in Sources */,
 				E30E673E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_int_01.mm in Sources */,
@@ -2313,7 +2392,7 @@
 				E369264A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_13.mm in Sources */,
 				E30E6767201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_int64_t_realloc_01.mm in Sources */,
 				E30E6708201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_13.mm in Sources */,
-				E302A9582017577F008CF96F /* CWE367_TOC_TOU__access_04_good.m in Sources */,
+				E302A9582017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m in Sources */,
 				E31EB93C201083DD002D5E66 /* C0028_UNINIT_char__good.m in Sources */,
 				E36926682015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_18.mm in Sources */,
 				E30E671C201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_14.mm in Sources */,
@@ -2355,9 +2434,11 @@
 				E36926702015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_declare_01.mm in Sources */,
 				E30E661620116C21004A3768 /* C000C_TYPEOVER_NSMutableArray__bad.m in Sources */,
 				E36926492015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_03.mm in Sources */,
+				E32FC4D0202D6C3B0069463D /* C000E_BUFOVER_int__bad.m in Sources */,
 				E36926392015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_64a.mm in Sources */,
 				E30E6725201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53b.mm in Sources */,
 				E30E66F8201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84a.mm in Sources */,
+				1B6F7AF920317369009341DB /* C0039_FREELOCAL_record__bad.m in Sources */,
 				E31EB943201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m in Sources */,
 				E30E6776201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_struct_01.mm in Sources */,
 				1B2E1182200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m in Sources */,
@@ -2376,9 +2457,9 @@
 				E3ED3FE7200EC7F60049FAB3 /* C0006_REDIRECT_NSMutableArray__bad.m in Sources */,
 				E30E674D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_class_calloc_01.mm in Sources */,
 				E36926582015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54a.mm in Sources */,
-				E36926BB2015827000EFE55A /* C000E_BUFOVER_NSDictionary__bad.m in Sources */,
 				E30E675E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.mm in Sources */,
 				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
+				E32FC4C3202D6B280069463D /* C0038_FREENULL_simple2__good.m in Sources */,
 				E30E67A6201191D3004A3768 /* C0019_HARDKEY__DES_01__bad.m in Sources */,
 				E30E6717201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_44.mm in Sources */,
 				E369265E2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_64b.mm in Sources */,
@@ -2406,14 +2487,17 @@
 				E30E6777201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_malloc_01.mm in Sources */,
 				E30E6749201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_struct_malloc_01.mm in Sources */,
 				E30E6762201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_wchar_t_01.mm in Sources */,
+				1B6F7AFB20317378009341DB /* C0039_FREELOCAL_record__good.m in Sources */,
 				E30E6775201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_char_calloc_01.mm in Sources */,
 				E369267A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_01.mm in Sources */,
 				E31EB944201085D3002D5E66 /* C001C_LEAKCOM_k_password__bad.m in Sources */,
+				E32FC4CF202D6C3B0069463D /* C000E_BUFOVER_int__good.m in Sources */,
 				E36927012015CB0600EFE55A /* C002F_DANGERAPI_strcpy__bad.m in Sources */,
 				E369262C2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_74a.mm in Sources */,
 				E30E6737201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_goodG2B.mm in Sources */,
 				E369263B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53c.mm in Sources */,
 				E31EB937201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__good.m in Sources */,
+				1B6E9E2A202D816A0093A179 /* C003D_MEMLEAK__NSSet_bad.m in Sources */,
 				E369263D2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_31.mm in Sources */,
 				E36926642015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_53a.mm in Sources */,
 				E31EB92F201083DD002D5E66 /* C0028_UNINIT_NSArray__bad.m in Sources */,
@@ -2421,7 +2505,6 @@
 				E30E66F5201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_09.mm in Sources */,
 				E302A9512017577F008CF96F /* CWE367_TOC_TOU__access_01__bad.m in Sources */,
 				E30E6758201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_char_01.mm in Sources */,
-				E36926BA2015827000EFE55A /* C000E_BUFOVER_NSArray__bad.m in Sources */,
 				E30E6751201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_struct_01.mm in Sources */,
 				E30E6728201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_61a.mm in Sources */,
 				E30E676E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_wchar_t_01.mm in Sources */,
@@ -2430,7 +2513,9 @@
 				E36926852015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_int_alloca_01.mm in Sources */,
 				1B6A248F2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m in Sources */,
 				E30E67BE201191EA004A3768 /* C0034_DIVBY0_NSDictionary__bad.m in Sources */,
+				E32FC4D6202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__good.m in Sources */,
 				E30E6738201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_int_01.mm in Sources */,
+				E32FC4D5202D6C3B0069463D /* C000E_BUFOVER_NSMutableArray__good.m in Sources */,
 				E30E661420116C21004A3768 /* C000C_TYPEOVER_NSSet__bad.m in Sources */,
 				E30E670E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_16.mm in Sources */,
 				E30E662D20116EDA004A3768 /* C0033_TYPEUNDER_NSMutableArray__good.m in Sources */,
@@ -2446,9 +2531,10 @@
 				E31EB935201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m in Sources */,
 				E369265B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_66b.mm in Sources */,
 				E30E6715201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_21.mm in Sources */,
-				E302A9532017577F008CF96F /* CWE367_TOC_TOU__access_05_good.m in Sources */,
+				E302A9532017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m in Sources */,
 				1B2E1193200F3A2C004FB697 /* C0017_KEYLEN__RC4_01.m in Sources */,
 				E30E661820116C21004A3768 /* C000C_TYPEOVER_NSDictionary__bad.m in Sources */,
+				E32FC4D1202D6C3B0069463D /* C000E_BUFOVER_NSSet__bad.m in Sources */,
 				E30E67BC201191EA004A3768 /* C0034_DIVBY0_NSDictionary__good.m in Sources */,
 				E36926512015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_16.mm in Sources */,
 				1B2E1191200F3A1F004FB697 /* C0017_KEYLEN__CAST_01.m in Sources */,
@@ -2493,24 +2579,27 @@
 				E30E672B201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_51b.mm in Sources */,
 				E36926812015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_wchar_t_alloca_01.mm in Sources */,
 				E30E661220116C21004A3768 /* C000C_TYPEOVER_NSDictionary__good.m in Sources */,
+				E32FC4D8202D6C3B0069463D /* C000E_BUFOVER_NSArray__bad.m in Sources */,
 				E30E673D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_struct_01.mm in Sources */,
 				E3ED3FED200ECFEF0049FAB3 /* C0006_REDIRECT_NSArray__bad.m in Sources */,
 				E30E676F201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__strdup_delete_array_char_01.mm in Sources */,
 				E36926E32015BC0A00EFE55A /* C003B_RETLOCAL_char__bad.m in Sources */,
+				E30CFAB820181639001F4623 /* C002E_DNSLOOKUP_04__good.m in Sources */,
 				E30E67BD201191EA004A3768 /* C0034_DIVBY0_NSMutableArray__bad.m in Sources */,
-				E302A9592017577F008CF96F /* CWE367_TOC_TOU__access_05_bad.m in Sources */,
+				E302A9592017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m in Sources */,
 				E30E674E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_int_realloc_01.mm in Sources */,
 				E30E671E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_goodB2G.mm in Sources */,
+				E32FC4D4202D6C3B0069463D /* C000E_BUFOVER_NSDictionary__bad.m in Sources */,
 				E31EB939201083DD002D5E66 /* C0028_UNINIT_double__bad.m in Sources */,
 				E30E670D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_02.mm in Sources */,
-				E36926BC2015827000EFE55A /* C000E_BUFOVER_NSMutableArray__good.m in Sources */,
 				E36926912015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_wchar_t_declare_01.mm in Sources */,
 				E30E67AA201191D3004A3768 /* C0019_HARDKEY__DES_01_NSMutableArray__bad.m in Sources */,
 				E30E67A7201191D3004A3768 /* C0019_HARDKEY__DES_01_NSString__bad.m in Sources */,
 				E30E662720116EDA004A3768 /* C0033_TYPEUNDER_int__bad.m in Sources */,
 				E30E678A201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_delete_array_01_bad.mm in Sources */,
+				E30CFAB920181639001F4623 /* C002E_DNSLOOKUP_04__bad.m in Sources */,
 				E369266F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_long_declare_01.mm in Sources */,
-				E302A9552017577F008CF96F /* CWE367_TOC_TOU__access_03_good.m in Sources */,
+				E302A9552017577F008CF96F /* CWE367_TOC_TOU__access_03__good.m in Sources */,
 				E30E66E9201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82a.mm in Sources */,
 				E30E6716201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_15.mm in Sources */,
 				E36927072015CB0600EFE55A /* C002F_DANGERAPI_gets__bad.m in Sources */,
@@ -2524,7 +2613,6 @@
 				E30E6781201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__realloc_delete_01_bad.mm in Sources */,
 				E30E662520116EDA004A3768 /* C0033_TYPEUNDER_NSArray__bad.m in Sources */,
 				E36926902015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_static_01.mm in Sources */,
-				E36926B52015827000EFE55A /* C000E_BUFOVER_char__bad.m in Sources */,
 				E30E6733201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_65a.mm in Sources */,
 				E369268A2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_long_alloca_01.mm in Sources */,
 				E30E676D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_char_calloc_01.mm in Sources */,

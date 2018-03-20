@@ -17,19 +17,27 @@
     NSArray *arrResult = [NSArray new];
     
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request]
-        != NULL){
+       != NULL){
         
         arrResult = [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
         
     }
-
-    //fix: check CHAR_MAX & CHAR_MIN
-    if(  CHAR_MIN < [[arrResult objectAtIndex:0] charValue]
-       && [[arrResult objectAtIndex:0] charValue] < CHAR_MAX ){
+ 
+    int result =0;
+    
+    if([[arrResult objectAtIndex:0] integerValue] < INT_MAX-1 ){
         
-        char result = [[arrResult objectAtIndex:0] charValue];
+        result = [[arrResult objectAtIndex:0] integerValue]+1;
         
     }
+
+    int numList[6] = {5,1,2,3,1,7};
+
+    //fix:
+    if(result < 0 || result > 5)  result =0;
+    
+    NSLog(@"%d/n",numList[result]);
+    
 
     
     return response;

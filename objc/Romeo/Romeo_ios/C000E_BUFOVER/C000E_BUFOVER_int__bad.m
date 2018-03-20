@@ -13,18 +13,21 @@
 
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
-
-
-    char result =' ';
     
+    //fix: check INT_MAX
+  
+    int result = 0;
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        
-        //flaw: buffer overflow 
-        result = [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
-        
+ 
+        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] < INT_MAX-1 ){
+            result =
+            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] +1;
+            }
     }
     
-   
+    int numList[6] = {5,1,2,3,1,7};
+    //flaw:
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

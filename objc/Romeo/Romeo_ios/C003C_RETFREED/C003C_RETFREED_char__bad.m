@@ -31,9 +31,7 @@
     }
     
     //flaw:
-    NSLog(@"%c",*result);
-    
-    return response;
+    return result;
 }
 
 @end

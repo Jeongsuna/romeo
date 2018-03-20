@@ -13,27 +13,24 @@
 
 -(NSHTTPURLResponse *) good:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
  
- 
-    char result = ' ';
     
+    //fix: check INT_MAX
+  
+    int result = 0;
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
-        
-        //fix: check CHAR_MAX & CHAR_MIN
-        
-        if(  CHAR_MIN <
-           [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue]
-           && [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue]
-           < CHAR_MAX ){
-            
+ 
+        if( [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] < INT_MAX-1 ){
             result =
-            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] charValue];
-            
-        }
-        
-        
+            [[NSURLProtocol propertyForKey:@"resultSet" inRequest:request] intValue] +1;
+            }
     }
+    
+    int numList[6] = {5,1,2,3,1,7};
 
+    //fix:
+    if(result < 0 || result > 5)  result =0;
 
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }

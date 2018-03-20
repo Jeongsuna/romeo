@@ -20,8 +20,17 @@
         mArrResult =  [NSURLProtocol propertyForKey:@"resultSet" inRequest:request];
     }
     
-   //flaw: buffer overflow
-   char result = [[mArrResult objectAtIndex:0] charValue];
+    int result =0;
+    
+    if([[mArrResult objectAtIndex:0] integerValue] < INT_MAX-1){
+        
+        result =  [[mArrResult objectAtIndex:0] integerValue] +1;
+        
+    }
+
+    int numList[6] = {5,1,2,3,1,7};
+    //flaw:
+    NSLog(@"%d/n",numList[result]);
     
     return response;
 }
