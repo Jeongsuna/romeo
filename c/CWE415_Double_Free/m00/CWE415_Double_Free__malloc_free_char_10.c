@@ -41,6 +41,7 @@ void CWE415_Double_Free__malloc_free_char_10_bad()
 
 #endif /* OMITBAD */
 
+#define OMITGOOD
 #ifndef OMITGOOD
 
 /* goodB2G1() - use badsource and goodsink by changing the second globalTrue to globalFalse */

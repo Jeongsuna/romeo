@@ -25,8 +25,8 @@ public class CWE476_NULL_Pointer_Dereference__Integer_05 extends AbstractTestCas
      * assigned any other value, so a tool should be able to identify that
      * reads of these will always return their initialized values.
      */
-    private boolean privateTrue = true;
-    private boolean privateFalse = false;
+    private const boolean privateTrue = true;
+    private const boolean privateFalse = false;
 
     public void bad() throws Throwable
     {
