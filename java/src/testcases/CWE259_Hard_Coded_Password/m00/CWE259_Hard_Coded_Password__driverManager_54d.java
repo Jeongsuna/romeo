@@ -16,8 +16,6 @@ Template File: sources-sink-54d.tmpl.java
 
 package testcases.CWE259_Hard_Coded_Password.m00;
 
-import testcasesupport.*;
-
 import java.util.logging.Level;
 import java.io.*;
 

@@ -15,8 +15,6 @@ Template File: sources-sink-68b.tmpl.java
 
 package testcases.CWE78_OS_Command_Injection.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 public class CWE78_OS_Command_Injection__connect_tcp_68b

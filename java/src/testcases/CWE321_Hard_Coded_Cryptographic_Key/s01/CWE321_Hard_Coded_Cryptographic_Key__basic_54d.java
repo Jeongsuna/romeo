@@ -16,8 +16,6 @@ Template File: sources-sink-54d.tmpl.java
 
 package testcases.CWE321_Hard_Coded_Cryptographic_Key.s01;
 
-import testcasesupport.*;
-
 public class CWE321_Hard_Coded_Cryptographic_Key__basic_54d
 {
     public void badSink(String data ) throws Throwable

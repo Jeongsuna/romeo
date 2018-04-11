@@ -16,7 +16,6 @@ Template File: sources-sinks-54b.tmpl.java
  * */
 
 package testcases.CWE191_Integer_Underflow.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

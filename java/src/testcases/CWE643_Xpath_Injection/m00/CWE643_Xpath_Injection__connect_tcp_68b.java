@@ -17,8 +17,6 @@ Template File: sources-sinks-68b.tmpl.java
 
 package testcases.CWE643_Xpath_Injection.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 import javax.xml.xpath.*;

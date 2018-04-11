@@ -17,8 +17,6 @@ Template File: sources-sinks-54b.tmpl.java
 
 package testcases.CWE643_Xpath_Injection.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 public class CWE643_Xpath_Injection__connect_tcp_54b

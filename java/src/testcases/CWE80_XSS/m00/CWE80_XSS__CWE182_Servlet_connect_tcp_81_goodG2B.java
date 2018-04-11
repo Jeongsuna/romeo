@@ -15,7 +15,6 @@ Template File: sources-sink-81_goodG2B.tmpl.java
  * */
 
 package testcases.CWE80_XSS.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

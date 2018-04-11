@@ -16,7 +16,6 @@ Template File: sources-sinks-81_goodB2G.tmpl.java
  * */
 
 package testcases.CWE113_HTTP_Response_Splitting.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

@@ -17,8 +17,6 @@ Template File: sources-sinks-54c.tmpl.java
 
 package testcases.CWE690_NULL_Deref_From_Return.m00;
 
-import testcasesupport.*;
-
 public class CWE690_NULL_Deref_From_Return__Class_String_54c
 {
     public void badSink(String data ) throws Throwable

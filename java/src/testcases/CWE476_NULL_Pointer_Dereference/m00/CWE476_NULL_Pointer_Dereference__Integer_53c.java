@@ -17,8 +17,6 @@ Template File: sources-sinks-53c.tmpl.java
 
 package testcases.CWE476_NULL_Pointer_Dereference.m00;
 
-import testcasesupport.*;
-
 public class CWE476_NULL_Pointer_Dereference__Integer_53c
 {
     public void badSink(Integer data ) throws Throwable

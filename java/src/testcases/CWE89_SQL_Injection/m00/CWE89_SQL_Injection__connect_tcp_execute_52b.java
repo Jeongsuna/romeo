@@ -16,7 +16,6 @@ Template File: sources-sinks-52b.tmpl.java
  * */
 
 package testcases.CWE89_SQL_Injection.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

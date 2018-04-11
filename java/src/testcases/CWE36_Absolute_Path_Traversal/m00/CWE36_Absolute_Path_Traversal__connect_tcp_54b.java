@@ -16,8 +16,6 @@ Template File: sources-sink-54b.tmpl.java
 
 package testcases.CWE36_Absolute_Path_Traversal.m00;
 
-import testcasesupport.*;
-
 import java.io.*;
 import javax.servlet.http.*;
 

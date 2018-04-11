@@ -16,8 +16,6 @@ Template File: sources-sink-52b.tmpl.java
 
 package testcases.CWE90_LDAP_Injection.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 public class CWE90_LDAP_Injection__connect_tcp_52b

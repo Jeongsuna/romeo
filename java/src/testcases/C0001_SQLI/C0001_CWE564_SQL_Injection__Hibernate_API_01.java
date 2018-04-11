@@ -1,10 +1,11 @@
-package testcases.CWE89_SQL_Injection.s01;
+package testcases.C0001_SQLI;
 /*
 
 https://www.tutorialspoint.com/hibernate/hibernate_examples.htm
 by juho
 */
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +25,7 @@ public class C0001_CWE564_SQL_Injection__Hibernate_API_01 {
 	static {
 		try{
 			factory = new Configuration().configure().buildSessionFactory();
-		} catch (IOException ex){
+		} catch (Exception ex){
 			System.err.println("Failed to create sessionFactory object." + ex);
 			throw new ExceptionInInitializerError(ex);
 		}

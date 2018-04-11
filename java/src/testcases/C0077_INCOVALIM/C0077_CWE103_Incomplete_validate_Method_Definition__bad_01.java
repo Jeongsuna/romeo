@@ -1,10 +1,12 @@
+package testcases.C0077_INCOVALIM;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
 import org.apache.struts.action.ActionMessage;
 
-public class C00_CWE103_Incomplete_validate_Method_Definition__01 {
+public class C0077_CWE103_Incomplete_validate_Method_Definition__bad_01 {
 	/*
 	## In the following Java example the class RegistrationForm is a Struts framework ActionForm Bean that will maintain user input data from a registration webpage for an online business site. The user will enter registration data and the RegistrationForm bean in the Struts framework will maintain the user data. The RegistrationForm class implements the validate method to validate the user input entered into the form.
 	*/
@@ -12,7 +14,10 @@ public class C00_CWE103_Incomplete_validate_Method_Definition__01 {
 		// private variables for registration form
 		private String name;
 		private String email;
-		public RegistrationFormBad() {  super();  }
+		public String getName() {
+			return name;
+		}
+		public RegistrationFormIBad() {  super();  }
 		public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
 			// FLAW:
 			ActionErrors errors = new ActionErrors();

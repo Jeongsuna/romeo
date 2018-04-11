@@ -16,7 +16,6 @@ Template File: sources-sinks-53c.tmpl.java
  * */
 
 package testcases.CWE369_Divide_by_Zero.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

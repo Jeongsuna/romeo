@@ -1,4 +1,4 @@
-package testcases.CWE89_SQL_Injection.s01;
+package testcases.C0001_SQLI;
 /*
 
 https://www.tutorialspoint.com/jpa/jpa_jpql.htm

@@ -16,7 +16,6 @@ Template File: sources-sinks-81_goodB2G.tmpl.java
  * */
 
 package testcases.CWE134_Uncontrolled_Format_String.m00;
-import testcasesupport.*;
 
 public class CWE134_Uncontrolled_Format_String__connect_tcp_format_81_goodB2G extends CWE134_Uncontrolled_Format_String__connect_tcp_format_81_base
 {

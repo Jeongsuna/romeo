@@ -1,3 +1,5 @@
+package testcases.C006E_DMANAG;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -6,7 +8,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-public class C006E_CWE245_Direct_Management_of_Connections__01 {
+public class C006E_CWE245_Direct_Management_of_Connections__bad_01 {
 	String DB_DATASRC_REF = "s";
 	/*
 
@@ -17,7 +19,7 @@ public class C006E_CWE245_Direct_Management_of_Connections__01 {
 
 	private static final String CONNECT_STRING = "jdbc:mysql://localhost:3306/mysqldb";
 	private Connection conn = null;
-	public C00_CWE245_Direct_Management_of_Connections__01() { int action; }
+	public C006E_CWE245_Direct_Management_of_Connections__bad_01() { int action; }
 
 	public void bad() {
 		try {

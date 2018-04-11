@@ -1,3 +1,5 @@
+package testcases.C006F_SOCKSERVL;
+
 import java.io.IOException;
 import java.math.BigDecimal;
 
@@ -16,7 +18,7 @@ public class C006F_CWE577_Use_of_Sockets__good_02 {
 	public class Bad extends Thread implements StockSymbolRemote {
 		boolean listening = false;
 
-		public Good() {
+		public Bad() {
 			//Use other interface
 			int action;
 		}

@@ -16,7 +16,6 @@ Template File: sources-sinks-54c.tmpl.java
  * */
 
 package testcases.CWE190_Integer_Overflow.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 

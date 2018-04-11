@@ -16,8 +16,6 @@ Template File: sources-sink-53b.tmpl.java
 
 package testcases.CWE601_Open_Redirect.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 public class CWE601_Open_Redirect__Servlet_connect_tcp_53b

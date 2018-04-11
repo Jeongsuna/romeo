@@ -1,3 +1,5 @@
+package testcases.C007A_PLUGNUSE;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts.action.ActionErrors;

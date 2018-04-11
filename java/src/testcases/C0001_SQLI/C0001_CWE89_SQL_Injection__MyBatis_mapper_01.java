@@ -1,4 +1,4 @@
-package testcases.CWE89_SQL_Injection.s01;
+package testcases.C0001_SQLI;
 /*
 
 https://www.tutorialspoint.com/mybatis/mybatis_delete_operation.htm
@@ -67,4 +67,6 @@ public interface C0001_CWE000_x__MyBatis_mapper_01 {
    @Insert(insert2)
    void insert2(Student student);
 
+   class Student {
+   }
 }

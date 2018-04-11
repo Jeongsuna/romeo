@@ -17,8 +17,6 @@ Template File: sources-sinks-54d.tmpl.java
 
 package testcases.CWE319_Cleartext_Tx_Sensitive_Info.m00;
 
-import testcasesupport.*;
-
 public class CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54d
 {
     public void badSink(String password ) throws Throwable

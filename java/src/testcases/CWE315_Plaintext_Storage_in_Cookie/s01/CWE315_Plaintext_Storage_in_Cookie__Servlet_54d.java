@@ -17,8 +17,6 @@ Template File: sources-sinks-54d.tmpl.java
 
 package testcases.CWE315_Plaintext_Storage_in_Cookie.s01;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 import java.security.MessageDigest;

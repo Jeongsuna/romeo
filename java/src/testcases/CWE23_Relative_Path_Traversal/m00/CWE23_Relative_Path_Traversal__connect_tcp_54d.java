@@ -16,8 +16,6 @@ Template File: sources-sink-54d.tmpl.java
 
 package testcases.CWE23_Relative_Path_Traversal.m00;
 
-import testcasesupport.*;
-
 import java.io.*;
 import javax.servlet.http.*;
 

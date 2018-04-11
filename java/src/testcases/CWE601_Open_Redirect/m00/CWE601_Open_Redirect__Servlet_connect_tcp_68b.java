@@ -15,8 +15,6 @@ Template File: sources-sink-68b.tmpl.java
 
 package testcases.CWE601_Open_Redirect.m00;
 
-import testcasesupport.*;
-
 import javax.servlet.http.*;
 
 import java.net.URI;

@@ -17,8 +17,6 @@ Template File: sources-sinks-54b.tmpl.java
 
 package testcases.CWE319_Cleartext_Tx_Sensitive_Info.s01;
 
-import testcasesupport.*;
-
 import java.io.*;
 
 public class CWE319_Cleartext_Tx_Sensitive_Info__send_54b

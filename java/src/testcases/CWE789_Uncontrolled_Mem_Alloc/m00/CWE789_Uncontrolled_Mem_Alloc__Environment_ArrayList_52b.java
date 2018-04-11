@@ -15,7 +15,6 @@ Template File: sources-sink-52b.tmpl.java
  * */
 
 package testcases.CWE789_Uncontrolled_Mem_Alloc.m00;
-import testcasesupport.*;
 
 import javax.servlet.http.*;
 
