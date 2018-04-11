@@ -1,12 +1,10 @@
-/*
+package testcases.CWE690_NULL_Deref_From_Return.m00;/*
  * @description A user function in this helper class returns null.  Calling methods should 
  *   be checking returned values against null.
  * 
  * */
 
-package testcasesupport;
-
-public class CWE690_NULL_Deref_From_Return__Class_Helper 
+public class CWE690_NULL_Deref_From_Return__Class_Helper
 {
     public static String getStringBad() 
     {

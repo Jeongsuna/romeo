@@ -15,7 +15,7 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-public interface C0001_CWE000_x__MyBatis_mapper_01 {
+public interface C0001_CWE89_SQL_Injection__MyBatis_mapper_01 {
    //bad
    //FLAW:
    final String getById = "SELECT * FROM STUDENT WHERE ID = ${id}";
@@ -63,7 +63,7 @@ public interface C0001_CWE000_x__MyBatis_mapper_01 {
    @Update(update2)
    void update2(Student student);
    @Delete(deleteById2)
-   void delete(int id);
+   void delete2(int id);
    @Insert(insert2)
    void insert2(Student student);
 

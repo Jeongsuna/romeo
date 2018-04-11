@@ -1,3 +1,5 @@
+package testcases.C0073_USEJIO;
+
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -10,7 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
-public class C006E_CWE576_Use_of_JAVA_IO__bad_01 {
+public class C0073_CWE576_Use_of_JAVA_IO__bad_01 {
 	/*
 
 	by juho 17.12.11
@@ -20,7 +22,7 @@ public class C006E_CWE576_Use_of_JAVA_IO__bad_01 {
 	## In this example, the interest rates for various points are retrieved from an XML document on the local file system, and the EJB uses the Java I/O API to retrieve the XML document from the local file system.
 	*/
 	@Stateless
-	public class InterestRateBeanBad implements InterestRateRemote {
+	public class InterestRateBeanBad implements C0073_CWE576_Use_of_JAVA_IO__good_01.InterestRateRemote {
 		private static final String INTEREST_RATE_FILE = "path";
 		private BigDecimal bd = new BigDecimal("1.0");
 		private Document interestRateXMLDocument = null;

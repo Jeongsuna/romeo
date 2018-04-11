@@ -1,9 +1,11 @@
+package testcases.C007D_NPRIVFIELD;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
 
-public class C00_CWE608_Non_private_Field_in_ActionForm_Class__good_01 {
+public class C007D_CWE608_Non_private_Field_in_ActionForm_Class__good_01 {
 	/*
 		## In the following Java example the class RegistrationForm is a Struts framework ActionForm Bean that will maintain user input data from a registration webpage for a online business site. The user will enter registration data and through the Struts framework the RegistrationForm bean will maintain the user data.
 	*/

@@ -1,3 +1,5 @@
+package testcases.C0070_USETHREAD;
+
 import java.io.IOException;
 
 import javax.ejb.Stateless;
@@ -7,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Stateless
-public class C006E_CWE383_Direct_Use_of_Threads__good_01 extends HttpServlet{
+public class C0070_CWE383_Direct_Use_of_Threads__good_01 extends HttpServlet{
 	/*
 	 * #In the following example, a new Thread object is created and invoked directly from within the body of a doGet() method in a Java servlet.
 	 *

@@ -1,10 +1,12 @@
+package testcases.C0071_SYNCPRIMI;
+
 import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 
-public class C006E_CWE574_Use_of_Synchronization_Primitives__bad_01 {
+public class C0071_CWE574_Use_of_Synchronization_Primitives__bad_01 {
 	/*
 
 	by juho 17.12.11

@@ -1,3 +1,5 @@
+package testcases.C0072_USEAWT;
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
@@ -6,7 +8,7 @@ import java.math.BigDecimal;
 
 import javax.ejb.Stateless;
 
-public class C006E_CWE575_Use_of_AWT_Swing__good_01 {
+public class C0072_CWE575_Use_of_AWT_Swing__good_01 {
 	/*
 
 	by juho 17.12.11

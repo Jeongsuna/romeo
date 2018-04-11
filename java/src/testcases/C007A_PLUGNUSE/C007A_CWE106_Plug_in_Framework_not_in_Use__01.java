@@ -5,11 +5,11 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
 
-public class C00_CWE106_Plug_in_Framework_not_in_Use__01 {
+public class C007A_CWE106_Plug_in_Framework_not_in_Use__01 {
 	/*
 	## In the following Java example the class RegistrationForm is a Struts framework ActionForm Bean that will maintain user input data from a registration webpage for an online business site. The user will enter registration data and, through the Struts framework, the RegistrationForm bean will maintain the user data.
 	*/
-	public class RegistrationFormBad extends org.apache.struts.validator.ValidationForm {
+	public class RegistrationFormBad extends org.apache.struts.validator.ValidatorForm {
 	// private variables for registration form
 		private String name;
 		private String email;

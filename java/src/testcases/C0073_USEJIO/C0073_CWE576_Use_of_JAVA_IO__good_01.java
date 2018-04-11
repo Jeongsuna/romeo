@@ -1,3 +1,5 @@
+package testcases.C0073_USEJIO;
+
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -10,7 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
-public class C006E_CWE576_Use_of_JAVA_IO__good_01 {
+public class C0073_CWE576_Use_of_JAVA_IO__good_01 {
 	/*
 
 	by juho 17.12.11
@@ -61,7 +63,7 @@ public class C006E_CWE576_Use_of_JAVA_IO__good_01 {
 		}
 		/* member function to retrieve interest rate from XML document using an XML parser API */
 
-		private BigDecimal getInterestRateFromXMLParser(Integer points) { int action; }
+		private BigDecimal getInterestRateFromXMLParser(Integer points) { int action; return null; }
 	}
 
 
