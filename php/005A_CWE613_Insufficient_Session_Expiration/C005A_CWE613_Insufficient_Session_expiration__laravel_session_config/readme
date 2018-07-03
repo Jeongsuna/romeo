@@ -1,0 +1,1 @@
+The checker should check laravel session config by checking "config/session.php" file.
