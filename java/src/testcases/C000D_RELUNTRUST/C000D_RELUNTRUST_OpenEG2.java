@@ -1,4 +1,4 @@
-package testcases.zero_000D_RELUNTRUST;
+package testcases.C000D_RELUNTRUST;
 
 /*
 Filename : CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__basic_File_01_bad.java
@@ -13,16 +13,7 @@ import javax.servlet.http.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.*;
-import java.net.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-
-import javax.servlet.http.*;
-import java.io.*;
-
-public class zero_000D_RELUNTRUST_OpenEG2 extends AbstractTestCaseServletReturnString
+public class C000D_RELUNTRUST_OpenEG2 extends AbstractTestCaseServletReturnString
 {
 
 	@RequestMapping(value="/test/init_db.do")
