@@ -10,7 +10,7 @@ public class C000E_BUFOVER__Array_02 {
     }
     public String good(HttpServletRequest request, String[] data) throws Throwable {
         int x = data.length;
-        /* FLAW:  */
+        /* FIX:  */
         return data[x-1];
     }
 }
