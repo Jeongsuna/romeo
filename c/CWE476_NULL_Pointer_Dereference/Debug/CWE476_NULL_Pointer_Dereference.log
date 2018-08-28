@@ -1,1 +1,126 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE476_NULL_Pointer_Dereference__char_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE476_NULL_Pointer_Dereference__char_01.c, m01\CWE476_NULL_Pointer_Dereference__char_01.c입니다.
+  CWE476_NULL_Pointer_Dereference__class_01.cpp
+  CWE476_NULL_Pointer_Dereference__char_82_goodG2B.cpp
+  CWE476_NULL_Pointer_Dereference__char_82_goodB2G.cpp
+  CWE476_NULL_Pointer_Dereference__char_82_bad.cpp
+  CWE476_NULL_Pointer_Dereference__char_82a.cpp
+  CWE476_NULL_Pointer_Dereference__char_81_goodG2B.cpp
+  CWE476_NULL_Pointer_Dereference__char_81_goodB2G.cpp
+  CWE476_NULL_Pointer_Dereference__char_81_bad.cpp
+  CWE476_NULL_Pointer_Dereference__char_81a.cpp
+  CWE476_NULL_Pointer_Dereference__char_74b.cpp
+  CWE476_NULL_Pointer_Dereference__char_74a.cpp
+  CWE476_NULL_Pointer_Dereference__char_73b.cpp
+  CWE476_NULL_Pointer_Dereference__char_73a.cpp
+  CWE476_NULL_Pointer_Dereference__char_72b.cpp
+  CWE476_NULL_Pointer_Dereference__char_72a.cpp
+  CWE476_NULL_Pointer_Dereference__char_33.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+  CWE476_NULL_Pointer_Dereference__deref_after_check_18.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_17.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_16.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_15.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_14.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_13.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_12.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_11.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_10.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_09.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_08.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_07.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_06.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_05.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_04.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_03.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_02.c
+  CWE476_NULL_Pointer_Dereference__deref_after_check_01.c
+  CWE476_NULL_Pointer_Dereference__binary_if_18.c
+  CWE476_NULL_Pointer_Dereference__binary_if_17.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE476_NULL_Pointer_Dereference__binary_if_16.c
+  CWE476_NULL_Pointer_Dereference__binary_if_15.c
+  CWE476_NULL_Pointer_Dereference__binary_if_14.c
+  CWE476_NULL_Pointer_Dereference__binary_if_13.c
+  CWE476_NULL_Pointer_Dereference__binary_if_12.c
+  CWE476_NULL_Pointer_Dereference__binary_if_11.c
+  CWE476_NULL_Pointer_Dereference__binary_if_10.c
+  CWE476_NULL_Pointer_Dereference__binary_if_09.c
+  CWE476_NULL_Pointer_Dereference__binary_if_08.c
+  CWE476_NULL_Pointer_Dereference__binary_if_07.c
+  CWE476_NULL_Pointer_Dereference__binary_if_06.c
+  CWE476_NULL_Pointer_Dereference__binary_if_05.c
+  CWE476_NULL_Pointer_Dereference__binary_if_04.c
+  CWE476_NULL_Pointer_Dereference__binary_if_03.c
+  CWE476_NULL_Pointer_Dereference__binary_if_02.c
+  CWE476_NULL_Pointer_Dereference__binary_if_01.c
+  CWE476_NULL_Pointer_Dereference__wchar_t_01.c
+  CWE476_NULL_Pointer_Dereference__struct_01.c
+  CWE476_NULL_Pointer_Dereference__long_01.c
+  CWE476_NULL_Pointer_Dereference__int_01.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE476_NULL_Pointer_Dereference__int64_t_01.c
+  CWE476_NULL_Pointer_Dereference__char_01.c
+  CWE476_NULL_Pointer_Dereference__char_68b.c
+  CWE476_NULL_Pointer_Dereference__char_68a.c
+  CWE476_NULL_Pointer_Dereference__char_67b.c
+  CWE476_NULL_Pointer_Dereference__char_67a.c
+  CWE476_NULL_Pointer_Dereference__char_66b.c
+  CWE476_NULL_Pointer_Dereference__char_66a.c
+  CWE476_NULL_Pointer_Dereference__char_65b.c
+  CWE476_NULL_Pointer_Dereference__char_65a.c
+  CWE476_NULL_Pointer_Dereference__char_64b.c
+  CWE476_NULL_Pointer_Dereference__char_64a.c
+  CWE476_NULL_Pointer_Dereference__char_63b.c
+  CWE476_NULL_Pointer_Dereference__char_63a.c
+  CWE476_NULL_Pointer_Dereference__char_54e.c
+  CWE476_NULL_Pointer_Dereference__char_54d.c
+  CWE476_NULL_Pointer_Dereference__char_54c.c
+  CWE476_NULL_Pointer_Dereference__char_54b.c
+  CWE476_NULL_Pointer_Dereference__char_54a.c
+  CWE476_NULL_Pointer_Dereference__char_53d.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE476_NULL_Pointer_Dereference__char_53c.c
+  CWE476_NULL_Pointer_Dereference__char_53b.c
+  CWE476_NULL_Pointer_Dereference__char_53a.c
+  CWE476_NULL_Pointer_Dereference__char_52c.c
+  CWE476_NULL_Pointer_Dereference__char_52b.c
+  CWE476_NULL_Pointer_Dereference__char_52a.c
+  CWE476_NULL_Pointer_Dereference__char_51b.c
+  CWE476_NULL_Pointer_Dereference__char_51a.c
+  CWE476_NULL_Pointer_Dereference__char_45.c
+  CWE476_NULL_Pointer_Dereference__char_44.c
+  CWE476_NULL_Pointer_Dereference__char_41.c
+  CWE476_NULL_Pointer_Dereference__char_34.c
+  CWE476_NULL_Pointer_Dereference__char_32.c
+  CWE476_NULL_Pointer_Dereference__char_31.c
+  CWE476_NULL_Pointer_Dereference__char_22b.c
+  CWE476_NULL_Pointer_Dereference__char_22a.c
+  CWE476_NULL_Pointer_Dereference__char_21.c
+  CWE476_NULL_Pointer_Dereference__char_18.c
+  CWE476_NULL_Pointer_Dereference__char_17.c
+  CWE476_NULL_Pointer_Dereference__char_16.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE476_NULL_Pointer_Dereference__char_15.c
+  CWE476_NULL_Pointer_Dereference__char_14.c
+  CWE476_NULL_Pointer_Dereference__char_13.c
+  CWE476_NULL_Pointer_Dereference__char_12.c
+  CWE476_NULL_Pointer_Dereference__char_11.c
+  CWE476_NULL_Pointer_Dereference__char_10.c
+  CWE476_NULL_Pointer_Dereference__char_09.c
+  CWE476_NULL_Pointer_Dereference__char_08.c
+  CWE476_NULL_Pointer_Dereference__char_07.c
+  CWE476_NULL_Pointer_Dereference__char_06.c
+  CWE476_NULL_Pointer_Dereference__char_05.c
+  CWE476_NULL_Pointer_Dereference__char_04.c
+  CWE476_NULL_Pointer_Dereference__char_03.c
+  CWE476_NULL_Pointer_Dereference__char_02.c
+  CWE476_NULL_Pointer_Dereference__char_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE476_NULL_Pointer_Dereference__char_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE476_NULL_Pointer_Dereference.vcxproj -> C:\git\romeo\c\Debug\CWE476_NULL_Pointer_Dereference.exe

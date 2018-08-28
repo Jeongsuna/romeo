@@ -1,0 +1,30 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE244_Heap_Inspection__w32_char_free_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE244_Heap_Inspection__w32_char_free_01.c, m01\CWE244_Heap_Inspection__w32_char_free_01.c입니다.
+  fake_main.cpp
+  CWE244_Heap_Inspection__w32_wchar_t_realloc_01.c
+  CWE244_Heap_Inspection__w32_wchar_t_free_01.c
+  CWE244_Heap_Inspection__w32_char_realloc_01.c
+  CWE244_Heap_Inspection__w32_char_free_01.c
+  CWE244_Heap_Inspection__w32_char_free_18.c
+  CWE244_Heap_Inspection__w32_char_free_17.c
+  CWE244_Heap_Inspection__w32_char_free_16.c
+  CWE244_Heap_Inspection__w32_char_free_15.c
+  CWE244_Heap_Inspection__w32_char_free_14.c
+  CWE244_Heap_Inspection__w32_char_free_13.c
+  CWE244_Heap_Inspection__w32_char_free_12.c
+  CWE244_Heap_Inspection__w32_char_free_11.c
+  CWE244_Heap_Inspection__w32_char_free_10.c
+  CWE244_Heap_Inspection__w32_char_free_09.c
+  CWE244_Heap_Inspection__w32_char_free_08.c
+  CWE244_Heap_Inspection__w32_char_free_07.c
+  CWE244_Heap_Inspection__w32_char_free_06.c
+  CWE244_Heap_Inspection__w32_char_free_05.c
+  CWE244_Heap_Inspection__w32_char_free_04.c
+  CWE244_Heap_Inspection__w32_char_free_03.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE244_Heap_Inspection__w32_char_free_02.c
+  CWE244_Heap_Inspection__w32_char_free_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE244_Heap_Inspection__w32_char_free_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE244_Heap_Inspection.vcxproj -> C:\git\romeo\c\Debug\CWE244_Heap_Inspection.exe

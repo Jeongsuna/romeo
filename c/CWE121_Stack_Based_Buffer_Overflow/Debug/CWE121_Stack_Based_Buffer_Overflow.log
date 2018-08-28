@@ -1,1 +1,89 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c, m01\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.c입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m10\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.c, m11\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.c입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m20\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c, m21\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.c입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m30\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.c, m31\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.c입니다.
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_84_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_83_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_82_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_81_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_74b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_74a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_73b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_73a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_72b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_72a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_62b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_62a.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_43.cpp
+  CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_33.cpp
+  CWE121_Stack_Based_Buffer_Overflow__placement_new_declare_01.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m11\cwe121_stack_based_buffer_overflow__placement_new_declare_01.cpp(29): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m11\cwe121_stack_based_buffer_overflow__placement_new_declare_01.cpp(55): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m11\cwe121_stack_based_buffer_overflow__placement_new_declare_01.cpp(79): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__placement_new_alloca_01.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82a.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_82a.cpp(29): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_82a.cpp(47): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_82_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81a.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_81a.cpp(29): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_81a.cpp(46): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_81_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_74b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_74a.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_74a.cpp(42): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_74a.cpp(67): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_73b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_73a.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_73a.cpp(42): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_73a.cpp(67): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_72b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_72a.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_72a.cpp(42): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_72a.cpp(67): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_33.cpp
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_33.cpp(36): warning C4101: 'dataGoodBuffer' :참조되지 않은 지역 변수입니다.
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\m10\cwe121_stack_based_buffer_overflow__cwe193_wchar_t_declare_loop_33.cpp(67): warning C4101: 'dataBadBuffer' :참조되지 않은 지역 변수입니다.
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_84_bad.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_83_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_82_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81_goodG2B.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_81_bad.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_74b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_74a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_73b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_73a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_72b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_72a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_62b.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_62a.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_43.cpp
+  CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_33.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+Debug\CWE121_Stack_Based_Buffer_Overflow__CWE806_char_declare_loop_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+Debug\CWE121_Stack_Based_Buffer_Overflow__CWE193_wchar_t_declare_loop_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+Debug\CWE121_Stack_Based_Buffer_Overflow__char_type_overrun_memcpy_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+Debug\CWE121_Stack_Based_Buffer_Overflow__src_char_alloca_cat_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE121_Stack_Based_Buffer_Overflow.vcxproj -> C:\git\romeo\c\Debug\CWE121_Stack_Based_Buffer_Overflow.exe

@@ -1,1 +1,29 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE328_Reversible_One_Way_Hash__w32_MD2_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE328_Reversible_One_Way_Hash__w32_MD2_01.c, m01\CWE328_Reversible_One_Way_Hash__w32_MD2_01.c입니다.
+  fake_main.cpp
+  CWE328_Reversible_One_Way_Hash__w32_SHA1_01.c
+  CWE328_Reversible_One_Way_Hash__w32_MD5_01.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_01.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_18.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_17.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_16.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_15.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_14.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_13.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_12.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_11.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_10.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_09.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_08.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_07.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_06.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_05.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_04.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_03.c
+  CWE328_Reversible_One_Way_Hash__w32_MD2_02.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE328_Reversible_One_Way_Hash__w32_MD2_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE328_Reversible_One_Way_Hash__w32_MD2_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE328_Reversible_One_Way_Hash.vcxproj -> C:\git\romeo\c\Debug\CWE328_Reversible_One_Way_Hash.exe

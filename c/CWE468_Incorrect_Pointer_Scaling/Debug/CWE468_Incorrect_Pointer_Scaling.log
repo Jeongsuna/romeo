@@ -1,0 +1,30 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c, m01\CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c입니다.
+  CWE468_Incorrect_Pointer_Scaling__class_01.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+  CWE468_Incorrect_Pointer_Scaling__int_01.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c
+  CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE468_Incorrect_Pointer_Scaling.vcxproj -> C:\git\romeo\c\Debug\CWE468_Incorrect_Pointer_Scaling.exe

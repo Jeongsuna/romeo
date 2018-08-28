@@ -1,1 +1,117 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c, m01\CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c입니다.
+  CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_rand_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_listen_socket_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_fscanf_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_fgets_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_wchar_t_connect_socket_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_char_rand_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_char_listen_socket_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_char_fscanf_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_char_fgets_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__new_char_connect_socket_01.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_84_goodG2B.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_84_goodB2G.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_84_bad.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_84a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_83_goodG2B.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_83_goodB2G.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_83_bad.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_83a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_82_goodG2B.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_82_goodB2G.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_82_bad.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_82a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_81_goodG2B.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_81_goodB2G.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_81_bad.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_81a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_74b.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_74a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_73b.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_73a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_72b.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_72a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_62b.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_62a.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_43.cpp
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_33.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+  CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_rand_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_listen_socket_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_fscanf_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_fgets_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_wchar_t_connect_socket_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_rand_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_listen_socket_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fscanf_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_connect_socket_01.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_68b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_68a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_67b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_67a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_66b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_66a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_65b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_65a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_64b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_64a.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_63b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_63a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_61b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_61a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_54e.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_54d.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_54c.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_54b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_54a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_53d.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_53c.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_53b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_53a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_52c.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_52b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_52a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_51b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_51a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_45.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_44.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_42.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_41.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_34.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_32.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_31.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_22b.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_22a.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_21.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_18.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_17.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_16.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_15.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_14.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_13.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_12.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_11.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_10.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_09.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_08.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_07.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_06.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_05.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_04.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_03.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_02.c
+  CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE789_Uncontrolled_Mem_Alloc__malloc_char_fgets_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE789_Uncontrolled_Mem_Alloc.vcxproj -> C:\git\romeo\c\Debug\CWE789_Uncontrolled_Mem_Alloc.exe

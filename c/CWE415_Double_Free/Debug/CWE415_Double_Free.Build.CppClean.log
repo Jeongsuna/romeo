@@ -1,118 +1,118 @@
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\vc140.pdb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\vc140.idb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_goodb2g.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_goodg2b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_class_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_array_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_class_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__new_delete_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__no_assignment_op_01_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__no_assignment_op_01_good1.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__no_copy_const_01_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__no_copy_const_01_good1.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_72a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_72b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_73a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_73b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_74a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_74b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_goodb2g.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_goodg2b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_goodb2g.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_goodg2b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_goodb2g.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_goodg2b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\fake_main.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_33.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_43.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_63a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_63b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_64a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_64b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_65a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_65b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_66a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_66b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_67a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_67b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_68a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_68b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_32.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_34.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_41.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_42.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_44.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_45.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_51a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_51b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52c.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53c.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53d.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54c.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54d.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54e.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_03.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_04.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_05.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_06.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_07.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_08.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_09.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_10.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_11.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_12.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_13.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_14.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_15.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_16.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_17.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_18.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_21.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_22a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_22b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_31.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\io.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_02.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe415_double_free.ilk
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe415_double_free.exe
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe415_double_free.pdb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.command.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.read.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.write.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.command.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.read.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.write.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\vc141.pdb
+c:\git\romeo\c\cwe415_double_free\debug\vc141.idb
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_goodb2g.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_goodg2b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_char_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_class_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_int64_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_int_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_long_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_struct_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_array_wchar_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_char_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_class_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_int64_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_int_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_long_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_struct_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__new_delete_wchar_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__no_assignment_op_01_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__no_assignment_op_01_good1.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__no_copy_const_01_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__no_copy_const_01_good1.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_72a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_72b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_73a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_73b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_74a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_74b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_goodb2g.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_81_goodg2b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_goodb2g.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_82_goodg2b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_goodb2g.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_83_goodg2b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_84_bad.obj
+c:\git\romeo\c\cwe415_double_free\debug\fake_main.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_33.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_43.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_63a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_63b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_64a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_64b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_65a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_65b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_66a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_66b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_67a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_67b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_68a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_68b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_int64_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_int_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_long_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_struct_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_wchar_t_01.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_32.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_34.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_41.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_42.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_44.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_45.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_51a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_51b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_52c.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53c.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_53d.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54c.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54d.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_54e.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_03.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_04.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_05.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_06.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_07.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_08.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_09.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_10.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_11.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_12.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_13.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_14.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_15.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_16.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_17.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_18.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_21.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_22a.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_22b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_31.obj
+c:\git\romeo\c\cwe415_double_free\debug\io.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_02.obj
+c:\git\romeo\c\debug\cwe415_double_free.ilk
+c:\git\romeo\c\debug\cwe415_double_free.exe
+c:\git\romeo\c\debug\cwe415_double_free.pdb
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.command.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.read.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.command.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.read.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.write.1.tlog

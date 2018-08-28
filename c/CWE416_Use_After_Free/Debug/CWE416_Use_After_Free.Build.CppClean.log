@@ -1,77 +1,77 @@
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\vc140.pdb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\vc140.idb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\fake_main.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_43.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_62a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_62b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_class_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_class_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_bad.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_good1.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_struct_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_wchar_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_02.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_03.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_04.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_05.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_06.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_07.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_08.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_09.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_10.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_11.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_12.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_13.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_14.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_15.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_16.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_17.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_18.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_07.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_08.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_09.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_10.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_11.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_12.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_13.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_14.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_15.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_16.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_17.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_18.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_63a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_63b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_64a.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_64b.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_int64_t_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_int_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_long_01.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\io.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_02.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_03.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_04.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_05.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_06.obj
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe416_use_after_free.ilk
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe416_use_after_free.exe
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\debug\cwe416_use_after_free.pdb
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.command.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.read.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.write.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.command.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.read.1.tlog
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.write.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\vc141.pdb
+c:\git\romeo\c\cwe416_use_after_free\debug\vc141.idb
+c:\git\romeo\c\cwe416_use_after_free\debug\fake_main.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_43.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_62a.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_62b.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_char_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_class_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_int64_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_int_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_long_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_struct_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_array_wchar_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_char_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_class_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_int64_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_int_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_long_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_struct_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_wchar_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_bad.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_good1.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_struct_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_wchar_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_02.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_03.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_04.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_05.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_06.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_07.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_08.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_09.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_10.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_11.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_12.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_13.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_14.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_15.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_16.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_17.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_18.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_07.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_08.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_09.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_10.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_11.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_12.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_13.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_14.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_15.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_16.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_17.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_18.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_63a.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_63b.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_64a.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_64b.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_int64_t_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_int_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_long_01.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\io.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_02.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_03.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_04.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_05.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_06.obj
+c:\git\romeo\c\debug\cwe416_use_after_free.ilk
+c:\git\romeo\c\debug\cwe416_use_after_free.exe
+c:\git\romeo\c\debug\cwe416_use_after_free.pdb
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.command.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.read.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.command.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.read.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.write.1.tlog

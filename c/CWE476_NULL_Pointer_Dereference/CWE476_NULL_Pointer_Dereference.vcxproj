@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -21,32 +21,32 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B0C3A7F2-B48C-43FC-BB30-0EB2162991CD}</ProjectGuid>
     <RootNamespace>CWE476_NULL_Pointer_Dereference</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -225,24 +225,6 @@
     <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__deref_after_check_16.c" />
     <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__deref_after_check_17.c" />
     <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__deref_after_check_18.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_01.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_02.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_03.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_04.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_05.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_06.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_07.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_08.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_09.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_10.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_11.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_12.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_13.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_14.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_15.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_16.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_17.c" />
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_18.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="m00\CWE476_NULL_Pointer_Dereference__char_81.h" />

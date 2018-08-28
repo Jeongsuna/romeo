@@ -1,1 +1,218 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE127_Buffer_Underread__CWE839_fgets_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE127_Buffer_Underread__CWE839_fgets_01.c, m01\CWE127_Buffer_Underread__CWE839_fgets_01.c입니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE127_Buffer_Underread__char_alloca_cpy_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m10\CWE127_Buffer_Underread__char_alloca_cpy_01.c, m11\CWE127_Buffer_Underread__char_alloca_cpy_01.c입니다.
+  CWE127_Buffer_Underread__char_alloca_cpy_82_goodG2B.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_82_bad.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_82a.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_81_goodG2B.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_81_bad.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_81a.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_74b.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_74a.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_73b.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_73a.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_72b.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_72a.cpp
+  CWE127_Buffer_Underread__char_alloca_cpy_33.cpp
+  CWE127_Buffer_Underread__new_wchar_t_ncpy_01.cpp
+  CWE127_Buffer_Underread__new_wchar_t_memmove_01.cpp
+  CWE127_Buffer_Underread__new_wchar_t_memcpy_01.cpp
+  CWE127_Buffer_Underread__new_wchar_t_loop_01.cpp
+  CWE127_Buffer_Underread__new_wchar_t_cpy_01.cpp
+  CWE127_Buffer_Underread__new_char_ncpy_01.cpp
+  CWE127_Buffer_Underread__new_char_memmove_01.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__new_char_memcpy_01.cpp
+  CWE127_Buffer_Underread__new_char_loop_01.cpp
+  CWE127_Buffer_Underread__new_char_cpy_01.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_84_goodG2B.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_84_goodB2G.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_84_bad.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_84a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_83_goodG2B.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_83_goodB2G.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_83_bad.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_83a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_82_goodG2B.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_82_goodB2G.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_82_bad.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_82a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_81_goodG2B.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_81_goodB2G.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_81_bad.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_81a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_74b.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__CWE839_fgets_74a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_73b.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_73a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_72b.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_72a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_62b.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_62a.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_43.cpp
+  CWE127_Buffer_Underread__CWE839_fgets_33.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+  CWE127_Buffer_Underread__wchar_t_declare_ncpy_01.c
+  CWE127_Buffer_Underread__wchar_t_declare_memmove_01.c
+  CWE127_Buffer_Underread__wchar_t_declare_memcpy_01.c
+  CWE127_Buffer_Underread__wchar_t_declare_loop_01.c
+  CWE127_Buffer_Underread__wchar_t_declare_cpy_01.c
+  CWE127_Buffer_Underread__wchar_t_alloca_ncpy_01.c
+  CWE127_Buffer_Underread__wchar_t_alloca_memmove_01.c
+  CWE127_Buffer_Underread__wchar_t_alloca_memcpy_01.c
+  CWE127_Buffer_Underread__wchar_t_alloca_loop_01.c
+  CWE127_Buffer_Underread__wchar_t_alloca_cpy_01.c
+  CWE127_Buffer_Underread__char_declare_ncpy_01.c
+  CWE127_Buffer_Underread__char_declare_memmove_01.c
+  CWE127_Buffer_Underread__char_declare_memcpy_01.c
+  CWE127_Buffer_Underread__char_declare_loop_01.c
+  CWE127_Buffer_Underread__char_declare_cpy_01.c
+  CWE127_Buffer_Underread__char_alloca_ncpy_01.c
+  CWE127_Buffer_Underread__char_alloca_memmove_01.c
+  CWE127_Buffer_Underread__char_alloca_memcpy_01.c
+  CWE127_Buffer_Underread__char_alloca_loop_01.c
+  CWE127_Buffer_Underread__char_alloca_cpy_01.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__char_alloca_cpy_68b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_68a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_67b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_67a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_66b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_66a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_65b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_65a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_64b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_64a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_63b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_63a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_54e.c
+  CWE127_Buffer_Underread__char_alloca_cpy_54d.c
+  CWE127_Buffer_Underread__char_alloca_cpy_54c.c
+  CWE127_Buffer_Underread__char_alloca_cpy_54b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_54a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_53d.c
+  CWE127_Buffer_Underread__char_alloca_cpy_53c.c
+  CWE127_Buffer_Underread__char_alloca_cpy_53b.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__char_alloca_cpy_53a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_52c.c
+  CWE127_Buffer_Underread__char_alloca_cpy_52b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_52a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_51b.c
+  CWE127_Buffer_Underread__char_alloca_cpy_51a.c
+  CWE127_Buffer_Underread__char_alloca_cpy_45.c
+  CWE127_Buffer_Underread__char_alloca_cpy_44.c
+  CWE127_Buffer_Underread__char_alloca_cpy_41.c
+  CWE127_Buffer_Underread__char_alloca_cpy_34.c
+  CWE127_Buffer_Underread__char_alloca_cpy_32.c
+  CWE127_Buffer_Underread__char_alloca_cpy_31.c
+  CWE127_Buffer_Underread__char_alloca_cpy_18.c
+  CWE127_Buffer_Underread__char_alloca_cpy_17.c
+  CWE127_Buffer_Underread__char_alloca_cpy_16.c
+  CWE127_Buffer_Underread__char_alloca_cpy_15.c
+  CWE127_Buffer_Underread__char_alloca_cpy_14.c
+  CWE127_Buffer_Underread__char_alloca_cpy_13.c
+  CWE127_Buffer_Underread__char_alloca_cpy_12.c
+  CWE127_Buffer_Underread__char_alloca_cpy_11.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__char_alloca_cpy_10.c
+  CWE127_Buffer_Underread__char_alloca_cpy_09.c
+  CWE127_Buffer_Underread__char_alloca_cpy_08.c
+  CWE127_Buffer_Underread__char_alloca_cpy_07.c
+  CWE127_Buffer_Underread__char_alloca_cpy_06.c
+  CWE127_Buffer_Underread__char_alloca_cpy_05.c
+  CWE127_Buffer_Underread__char_alloca_cpy_04.c
+  CWE127_Buffer_Underread__char_alloca_cpy_03.c
+  CWE127_Buffer_Underread__char_alloca_cpy_02.c
+  CWE127_Buffer_Underread__char_alloca_cpy_01.c
+  CWE127_Buffer_Underread__malloc_wchar_t_ncpy_01.c
+  CWE127_Buffer_Underread__malloc_wchar_t_memmove_01.c
+  CWE127_Buffer_Underread__malloc_wchar_t_memcpy_01.c
+  CWE127_Buffer_Underread__malloc_wchar_t_loop_01.c
+  CWE127_Buffer_Underread__malloc_wchar_t_cpy_01.c
+  CWE127_Buffer_Underread__malloc_char_ncpy_01.c
+  CWE127_Buffer_Underread__malloc_char_memmove_01.c
+  CWE127_Buffer_Underread__malloc_char_memcpy_01.c
+  CWE127_Buffer_Underread__malloc_char_loop_01.c
+  CWE127_Buffer_Underread__malloc_char_cpy_01.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__CWE839_rand_01.c
+  CWE127_Buffer_Underread__CWE839_negative_01.c
+  CWE127_Buffer_Underread__CWE839_listen_socket_01.c
+  CWE127_Buffer_Underread__CWE839_fscanf_01.c
+  CWE127_Buffer_Underread__CWE839_fgets_01.c
+  CWE127_Buffer_Underread__CWE839_connect_socket_01.c
+  CWE127_Buffer_Underread__CWE839_fgets_68b.c
+  CWE127_Buffer_Underread__CWE839_fgets_68a.c
+  CWE127_Buffer_Underread__CWE839_fgets_67b.c
+  CWE127_Buffer_Underread__CWE839_fgets_67a.c
+  CWE127_Buffer_Underread__CWE839_fgets_66b.c
+  CWE127_Buffer_Underread__CWE839_fgets_66a.c
+  CWE127_Buffer_Underread__CWE839_fgets_65b.c
+  CWE127_Buffer_Underread__CWE839_fgets_65a.c
+  CWE127_Buffer_Underread__CWE839_fgets_64b.c
+  CWE127_Buffer_Underread__CWE839_fgets_64a.c
+  CWE127_Buffer_Underread__CWE839_fgets_63b.c
+  CWE127_Buffer_Underread__CWE839_fgets_63a.c
+  CWE127_Buffer_Underread__CWE839_fgets_61b.c
+  CWE127_Buffer_Underread__CWE839_fgets_61a.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__CWE839_fgets_54e.c
+  CWE127_Buffer_Underread__CWE839_fgets_54d.c
+  CWE127_Buffer_Underread__CWE839_fgets_54c.c
+  CWE127_Buffer_Underread__CWE839_fgets_54b.c
+  CWE127_Buffer_Underread__CWE839_fgets_54a.c
+  CWE127_Buffer_Underread__CWE839_fgets_53d.c
+  CWE127_Buffer_Underread__CWE839_fgets_53c.c
+  CWE127_Buffer_Underread__CWE839_fgets_53b.c
+  CWE127_Buffer_Underread__CWE839_fgets_53a.c
+  CWE127_Buffer_Underread__CWE839_fgets_52c.c
+  CWE127_Buffer_Underread__CWE839_fgets_52b.c
+  CWE127_Buffer_Underread__CWE839_fgets_52a.c
+  CWE127_Buffer_Underread__CWE839_fgets_51b.c
+  CWE127_Buffer_Underread__CWE839_fgets_51a.c
+  CWE127_Buffer_Underread__CWE839_fgets_45.c
+  CWE127_Buffer_Underread__CWE839_fgets_44.c
+  CWE127_Buffer_Underread__CWE839_fgets_42.c
+  CWE127_Buffer_Underread__CWE839_fgets_41.c
+  CWE127_Buffer_Underread__CWE839_fgets_34.c
+  CWE127_Buffer_Underread__CWE839_fgets_32.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__CWE839_fgets_31.c
+  CWE127_Buffer_Underread__CWE839_fgets_22b.c
+  CWE127_Buffer_Underread__CWE839_fgets_22a.c
+  CWE127_Buffer_Underread__CWE839_fgets_21.c
+  CWE127_Buffer_Underread__CWE839_fgets_18.c
+  CWE127_Buffer_Underread__CWE839_fgets_17.c
+  CWE127_Buffer_Underread__CWE839_fgets_16.c
+  CWE127_Buffer_Underread__CWE839_fgets_15.c
+  CWE127_Buffer_Underread__CWE839_fgets_14.c
+  CWE127_Buffer_Underread__CWE839_fgets_13.c
+  CWE127_Buffer_Underread__CWE839_fgets_12.c
+  CWE127_Buffer_Underread__CWE839_fgets_11.c
+  CWE127_Buffer_Underread__CWE839_fgets_10.c
+  CWE127_Buffer_Underread__CWE839_fgets_09.c
+  CWE127_Buffer_Underread__CWE839_fgets_08.c
+  CWE127_Buffer_Underread__CWE839_fgets_07.c
+  CWE127_Buffer_Underread__CWE839_fgets_06.c
+  CWE127_Buffer_Underread__CWE839_fgets_05.c
+  CWE127_Buffer_Underread__CWE839_fgets_04.c
+  CWE127_Buffer_Underread__CWE839_fgets_03.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE127_Buffer_Underread__CWE839_fgets_02.c
+  CWE127_Buffer_Underread__CWE839_fgets_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE127_Buffer_Underread__CWE839_fgets_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+Debug\CWE127_Buffer_Underread__char_alloca_cpy_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE127_Buffer_Underread.vcxproj -> C:\git\romeo\c\Debug\CWE127_Buffer_Underread.exe

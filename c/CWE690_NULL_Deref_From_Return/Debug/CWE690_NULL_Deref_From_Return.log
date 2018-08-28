@@ -1,1 +1,113 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(937,5): warning MSB8027: 이름이 CWE690_NULL_Deref_From_Return__char_calloc_01.c인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 m00\CWE690_NULL_Deref_From_Return__char_calloc_01.c, m01\CWE690_NULL_Deref_From_Return__char_calloc_01.c입니다.
+  CWE690_NULL_Deref_From_Return__char_calloc_84_goodB2G.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_84_bad.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_84a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_83_goodB2G.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_83_bad.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_83a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_82_goodB2G.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_82_bad.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_82a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_81_goodB2G.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_81_bad.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_81a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_74b.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_74a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_73b.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_73a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_72b.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_72a.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_62b.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_62a.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE690_NULL_Deref_From_Return__char_calloc_43.cpp
+  CWE690_NULL_Deref_From_Return__char_calloc_33.cpp
+  fake_main.cpp
+  코드를 생성하고 있습니다...
+  CWE690_NULL_Deref_From_Return__wchar_t_realloc_01.c
+  CWE690_NULL_Deref_From_Return__wchar_t_malloc_01.c
+  CWE690_NULL_Deref_From_Return__wchar_t_calloc_01.c
+  CWE690_NULL_Deref_From_Return__w32_wfopen_01.c
+  CWE690_NULL_Deref_From_Return__struct_realloc_01.c
+  CWE690_NULL_Deref_From_Return__struct_malloc_01.c
+  CWE690_NULL_Deref_From_Return__struct_calloc_01.c
+  CWE690_NULL_Deref_From_Return__long_realloc_01.c
+  CWE690_NULL_Deref_From_Return__long_malloc_01.c
+  CWE690_NULL_Deref_From_Return__long_calloc_01.c
+  CWE690_NULL_Deref_From_Return__int_realloc_01.c
+  CWE690_NULL_Deref_From_Return__int_malloc_01.c
+  CWE690_NULL_Deref_From_Return__int_calloc_01.c
+  CWE690_NULL_Deref_From_Return__int64_t_realloc_01.c
+  CWE690_NULL_Deref_From_Return__int64_t_malloc_01.c
+  CWE690_NULL_Deref_From_Return__int64_t_calloc_01.c
+  CWE690_NULL_Deref_From_Return__fopen_01.c
+  CWE690_NULL_Deref_From_Return__char_realloc_01.c
+  CWE690_NULL_Deref_From_Return__char_malloc_01.c
+  CWE690_NULL_Deref_From_Return__char_calloc_01.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE690_NULL_Deref_From_Return__char_calloc_68b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_68a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_67b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_67a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_66b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_66a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_65b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_65a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_64b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_64a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_63b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_63a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_61b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_61a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_54e.c
+  CWE690_NULL_Deref_From_Return__char_calloc_54d.c
+  CWE690_NULL_Deref_From_Return__char_calloc_54c.c
+  CWE690_NULL_Deref_From_Return__char_calloc_54b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_54a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_53d.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE690_NULL_Deref_From_Return__char_calloc_53c.c
+  CWE690_NULL_Deref_From_Return__char_calloc_53b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_53a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_52c.c
+  CWE690_NULL_Deref_From_Return__char_calloc_52b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_52a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_51b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_51a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_45.c
+  CWE690_NULL_Deref_From_Return__char_calloc_44.c
+  CWE690_NULL_Deref_From_Return__char_calloc_42.c
+  CWE690_NULL_Deref_From_Return__char_calloc_41.c
+  CWE690_NULL_Deref_From_Return__char_calloc_34.c
+  CWE690_NULL_Deref_From_Return__char_calloc_32.c
+  CWE690_NULL_Deref_From_Return__char_calloc_31.c
+  CWE690_NULL_Deref_From_Return__char_calloc_22b.c
+  CWE690_NULL_Deref_From_Return__char_calloc_22a.c
+  CWE690_NULL_Deref_From_Return__char_calloc_21.c
+  CWE690_NULL_Deref_From_Return__char_calloc_18.c
+  CWE690_NULL_Deref_From_Return__char_calloc_17.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CWE690_NULL_Deref_From_Return__char_calloc_16.c
+  CWE690_NULL_Deref_From_Return__char_calloc_15.c
+  CWE690_NULL_Deref_From_Return__char_calloc_14.c
+  CWE690_NULL_Deref_From_Return__char_calloc_13.c
+  CWE690_NULL_Deref_From_Return__char_calloc_12.c
+  CWE690_NULL_Deref_From_Return__char_calloc_11.c
+  CWE690_NULL_Deref_From_Return__char_calloc_10.c
+  CWE690_NULL_Deref_From_Return__char_calloc_09.c
+  CWE690_NULL_Deref_From_Return__char_calloc_08.c
+  CWE690_NULL_Deref_From_Return__char_calloc_07.c
+  CWE690_NULL_Deref_From_Return__char_calloc_06.c
+  CWE690_NULL_Deref_From_Return__char_calloc_05.c
+  CWE690_NULL_Deref_From_Return__char_calloc_04.c
+  CWE690_NULL_Deref_From_Return__char_calloc_03.c
+  CWE690_NULL_Deref_From_Return__char_calloc_02.c
+  CWE690_NULL_Deref_From_Return__char_calloc_01.c
+  io.c
+  코드를 생성하고 있습니다...
+Debug\CWE690_NULL_Deref_From_Return__char_calloc_01.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+  CWE690_NULL_Deref_From_Return.vcxproj -> C:\git\romeo\c\Debug\CWE690_NULL_Deref_From_Return.exe

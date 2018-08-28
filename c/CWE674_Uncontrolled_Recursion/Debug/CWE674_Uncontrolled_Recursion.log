@@ -1,1 +1,7 @@
-﻿
+﻿  fake_main.cpp
+  CWE674_Uncontrolled_Recursion__unbounded_recursive_call_01.c
+  CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c
+  io.c
+  코드를 생성하고 있습니다...
+c:\git\romeo\c\cwe674_uncontrolled_recursion\s01\cwe674_uncontrolled_recursion__infinite_recursive_call_01.c(14): warning C4717: 'helperBad': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
+  CWE674_Uncontrolled_Recursion.vcxproj -> C:\git\romeo\c\Debug\CWE674_Uncontrolled_Recursion.exe

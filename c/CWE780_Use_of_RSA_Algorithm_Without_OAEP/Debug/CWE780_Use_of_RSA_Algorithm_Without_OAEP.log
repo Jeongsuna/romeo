@@ -19,5 +19,4 @@
   CWE780_Use_of_RSA_Algorithm_Without_OAEP__w32_01.c
   io.c
   코드를 생성하고 있습니다...
-  CWE780_Use_of_RSA_Algorithm_Without_OAEP.vcxproj -> C:\Users\robert\Documents\Visual Studio 2015\Projects\codemind_test\Debug\CWE780_Use_of_RSA_Algorithm_Without_OAEP.exe
-  CWE780_Use_of_RSA_Algorithm_Without_OAEP.vcxproj -> C:\Users\robert\Documents\Visual Studio 2015\Projects\codemind_test\Debug\CWE780_Use_of_RSA_Algorithm_Without_OAEP.pdb (Partial PDB)
+  CWE780_Use_of_RSA_Algorithm_Without_OAEP.vcxproj -> C:\git\romeo\c\Debug\CWE780_Use_of_RSA_Algorithm_Without_OAEP.exe
