@@ -1,4 +1,4 @@
-s/* TEMPLATE GENERATED TESTCASE FILE
+/* TEMPLATE GENERATED TESTCASE FILE
 Filename: CWE367_TOC_TOU__access_01.c
 Label Definition File: CWE367_TOC_TOU.label.xml
 Template File: point-flaw-01.tmpl.c
