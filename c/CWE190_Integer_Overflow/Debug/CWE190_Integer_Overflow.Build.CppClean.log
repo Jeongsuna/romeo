@@ -27,6 +27,8 @@ c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_a
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_62b.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_72a.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_72b.obj
+c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow.pdb
+c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow.idb
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__int_rand_multiply_01.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__int_rand_square_01.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__short_fscanf_add_01.obj
@@ -137,12 +139,16 @@ c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_a
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_08.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_09.obj
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_integer_overflow__char_max_add_10.obj
+c:\git\romeo\c\debug\cwe190_integer_overflow.lib
 c:\git\romeo\c\debug\cwe190_integer_overflow.ilk
 c:\git\romeo\c\debug\cwe190_integer_overflow.exe
 c:\git\romeo\c\debug\cwe190_integer_overflow.pdb
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe190_integer_overflow\debug\cwe190_i.f3f5f44b.tlog\link.write.1.tlog

@@ -1,28 +1,4 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are m00\CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c, m01\CWE457_Use_of_Uninitialized_Variable__char_pointer_01.c.
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_01.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are m10\CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_01.c, m11\CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_01.c.
-  CWE457_Use_of_Uninitialized_Variable__no_constructor_01_good1.cpp
-  CWE457_Use_of_Uninitialized_Variable__no_constructor_01_bad.cpp
-  CWE457_Use_of_Uninitialized_Variable__empty_constructor_01_good1.cpp
-  CWE457_Use_of_Uninitialized_Variable__empty_constructor_01_bad.cpp
-  CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__twointsclass_array_declare_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__twointsclass_array_alloca_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__new_struct_array_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__new_int_array_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__new_double_array_no_init_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_partial_init_62b.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_partial_init_62a.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_partial_init_43.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_62b.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_62a.cpp
-  CWE457_Use_of_Uninitialized_Variable__double_array_alloca_no_init_43.cpp
   CWE457_Use_of_Uninitialized_Variable__twointsclass_01.cpp
-  CWE457_Use_of_Uninitialized_Variable__char_pointer_62b.cpp
-  CWE457_Use_of_Uninitialized_Variable__char_pointer_62a.cpp
-  코드를 생성하고 있습니다...
-c:\users\robert\documents\visual studio 2015\projects\codemind_test\cwe457_use_of_uninitialized_variable\m01\cwe457_use_of_uninitialized_variable__twointsclass_01.cpp(31): error C4700: 초기화되지 않은 'data' 지역 변수를 사용했습니다.
-  컴파일하고 있습니다...
-  CWE457_Use_of_Uninitialized_Variable__char_pointer_43.cpp
-  fake_main.cpp
-  코드를 생성하고 있습니다...
+c:\git\romeo\c\cwe457_use_of_uninitialized_variable\m01\cwe457_use_of_uninitialized_variable__twointsclass_01.cpp(31): error C4700: 초기화되지 않은 'data' 지역 변수를 사용했습니다.

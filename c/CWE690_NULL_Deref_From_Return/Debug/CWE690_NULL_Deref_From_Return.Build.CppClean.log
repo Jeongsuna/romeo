@@ -23,6 +23,8 @@ c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\fake_main.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_33.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_43.obj
+c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return.pdb
+c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return.idb
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_01.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_malloc_01.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_realloc_01.obj
@@ -99,12 +101,16 @@ c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_14.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_15.obj
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_null_deref_from_return__char_calloc_16.obj
+c:\git\romeo\c\debug\cwe690_null_deref_from_return.lib
 c:\git\romeo\c\debug\cwe690_null_deref_from_return.ilk
 c:\git\romeo\c\debug\cwe690_null_deref_from_return.exe
 c:\git\romeo\c\debug\cwe690_null_deref_from_return.pdb
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe690_null_deref_from_return\debug\cwe690_n.5f72d5b3.tlog\link.write.1.tlog

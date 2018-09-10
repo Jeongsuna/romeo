@@ -23,6 +23,8 @@ c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\fake_main.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_33.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_43.obj
+c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown.pdb
+c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown.idb
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_63a.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_63b.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_64a.obj
@@ -87,12 +89,16 @@ c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\io.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_02.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_03.obj
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_improper_resource_shutdown__fopen_w32_close_04.obj
+c:\git\romeo\c\debug\cwe404_improper_resource_shutdown.lib
 c:\git\romeo\c\debug\cwe404_improper_resource_shutdown.ilk
 c:\git\romeo\c\debug\cwe404_improper_resource_shutdown.exe
 c:\git\romeo\c\debug\cwe404_improper_resource_shutdown.pdb
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe404_improper_resource_shutdown\debug\cwe404_i.16c3254b.tlog\link.write.1.tlog

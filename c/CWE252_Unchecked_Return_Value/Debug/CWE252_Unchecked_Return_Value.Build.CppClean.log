@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\vc141.pdb
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\vc141.idb
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\fake_main.obj
+c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value.pdb
+c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value.idb
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_w32createmutex_04.obj
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_w32createmutex_05.obj
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_w32createmutex_06.obj
@@ -70,12 +72,16 @@ c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_fgets_08.obj
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_fgets_09.obj
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_unchecked_return_value__char_fgets_10.obj
+c:\git\romeo\c\debug\cwe252_unchecked_return_value.lib
 c:\git\romeo\c\debug\cwe252_unchecked_return_value.ilk
 c:\git\romeo\c\debug\cwe252_unchecked_return_value.exe
 c:\git\romeo\c\debug\cwe252_unchecked_return_value.pdb
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe252_unchecked_return_value\debug\cwe252_u.3966fcf8.tlog\link.write.1.tlog

@@ -292,6 +292,8 @@ c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffe
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_13.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_14.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_15.obj
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow.pdb
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow.idb
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__src_char_alloca_cat_62b.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__src_char_alloca_cat_72a.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__src_char_alloca_cat_72b.obj
@@ -352,12 +354,16 @@ c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffe
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_83_bad.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_83_goodg2b.obj
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_stack_based_buffer_overflow__cwe806_char_declare_loop_84a.obj
+c:\git\romeo\c\debug\cwe121_stack_based_buffer_overflow.lib
 c:\git\romeo\c\debug\cwe121_stack_based_buffer_overflow.ilk
 c:\git\romeo\c\debug\cwe121_stack_based_buffer_overflow.exe
 c:\git\romeo\c\debug\cwe121_stack_based_buffer_overflow.pdb
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe121_stack_based_buffer_overflow\debug\cwe121_s.2ce1bc72.tlog\link.write.1.tlog

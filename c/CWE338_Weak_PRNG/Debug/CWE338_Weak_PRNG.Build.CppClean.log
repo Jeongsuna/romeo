@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe338_weak_prng\debug\vc141.pdb
 c:\git\romeo\c\cwe338_weak_prng\debug\vc141.idb
 c:\git\romeo\c\cwe338_weak_prng\debug\fake_main.obj
+c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.pdb
+c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.idb
 c:\git\romeo\c\cwe338_weak_prng\debug\io.obj
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_01.obj
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_02.obj
@@ -20,12 +22,16 @@ c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_15.obj
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_16.obj
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_17.obj
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng__w32_18.obj
+c:\git\romeo\c\debug\cwe338_weak_prng.lib
 c:\git\romeo\c\debug\cwe338_weak_prng.ilk
 c:\git\romeo\c\debug\cwe338_weak_prng.exe
 c:\git\romeo\c\debug\cwe338_weak_prng.pdb
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe338_weak_prng\debug\cwe338_weak_prng.tlog\link.write.1.tlog

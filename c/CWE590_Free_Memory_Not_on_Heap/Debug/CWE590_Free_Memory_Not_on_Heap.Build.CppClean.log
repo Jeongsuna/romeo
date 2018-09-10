@@ -112,6 +112,8 @@ c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_he
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__delete_array_char_alloca_10.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__delete_array_char_alloca_11.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__delete_array_char_alloca_12.obj
+c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap.pdb
+c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap.idb
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\io.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__free_char_alloca_01.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__free_char_declare_01.obj
@@ -131,12 +133,16 @@ c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_he
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__free_wchar_t_alloca_01.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__free_wchar_t_declare_01.obj
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_free_memory_not_on_heap__free_wchar_t_static_01.obj
+c:\git\romeo\c\debug\cwe590_free_memory_not_on_heap.lib
 c:\git\romeo\c\debug\cwe590_free_memory_not_on_heap.ilk
 c:\git\romeo\c\debug\cwe590_free_memory_not_on_heap.exe
 c:\git\romeo\c\debug\cwe590_free_memory_not_on_heap.pdb
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe590_free_memory_not_on_heap\debug\cwe590_f.0d353271.tlog\link.write.1.tlog

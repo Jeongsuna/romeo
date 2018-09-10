@@ -50,6 +50,8 @@ c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_f
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_fgets_73a.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_fgets_73b.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_fgets_74a.obj
+c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite.pdb
+c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite.idb
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__char_alloca_cpy_01.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__char_alloca_loop_01.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__char_alloca_memcpy_01.obj
@@ -191,12 +193,16 @@ c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_f
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_fgets_31.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\io.obj
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_buffer_underwrite__cwe839_fgets_02.obj
+c:\git\romeo\c\debug\cwe124_buffer_underwrite.lib
 c:\git\romeo\c\debug\cwe124_buffer_underwrite.ilk
 c:\git\romeo\c\debug\cwe124_buffer_underwrite.exe
 c:\git\romeo\c\debug\cwe124_buffer_underwrite.pdb
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe124_buffer_underwrite\debug\cwe124_b.50254562.tlog\link.write.1.tlog

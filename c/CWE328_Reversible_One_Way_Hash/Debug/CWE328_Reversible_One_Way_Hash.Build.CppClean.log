@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\vc141.pdb
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\vc141.idb
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\fake_main.obj
+c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash.pdb
+c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash.idb
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash__w32_md2_02.obj
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash__w32_md2_03.obj
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash__w32_md2_04.obj
@@ -22,12 +24,16 @@ c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_ha
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash__w32_md5_01.obj
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_reversible_one_way_hash__w32_sha1_01.obj
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\io.obj
+c:\git\romeo\c\debug\cwe328_reversible_one_way_hash.lib
 c:\git\romeo\c\debug\cwe328_reversible_one_way_hash.ilk
 c:\git\romeo\c\debug\cwe328_reversible_one_way_hash.exe
 c:\git\romeo\c\debug\cwe328_reversible_one_way_hash.pdb
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe328_reversible_one_way_hash\debug\cwe328_r.88e162fa.tlog\link.write.1.tlog

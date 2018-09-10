@@ -45,6 +45,8 @@ c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_33.
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_43.obj
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62a.obj
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_62b.obj
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free.pdb
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free.idb
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61a.obj
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_61b.obj
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_63a.obj
@@ -107,12 +109,16 @@ c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_22b
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_31.obj
 c:\git\romeo\c\cwe415_double_free\debug\io.obj
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_double_free__malloc_free_char_02.obj
+c:\git\romeo\c\debug\cwe415_double_free.lib
 c:\git\romeo\c\debug\cwe415_double_free.ilk
 c:\git\romeo\c\debug\cwe415_double_free.exe
 c:\git\romeo\c\debug\cwe415_double_free.pdb
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe415_double_free\debug\cwe415_d.82d89239.tlog\link.write.1.tlog
