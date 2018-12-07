@@ -6,10 +6,9 @@ package testcases.C005B_TRUE;
  * */
 
 
-import testcasesupport.AbstractTestCase;
-import testcasesupport.IO;
+import testcasesupport.*;
 
-public class C005B_CWE571_Expression_Always_True__true_01 extends AbstractTestCase 
+public class C005B_CWE571_Expression_Always_True__true_01 extends AbstractTestCase2
 {
     public void bad()
     {

@@ -25,7 +25,7 @@ import java.io.IOException;
 
 import java.util.logging.Level;
 
-public class C0064_CWE378_Temporary_File_Creation_With_Insecure_Perms__basic_01 extends AbstractTestCase
+public class C0064_CWE378_Temporary_File_Creation_With_Insecure_Perms__basic_01 extends AbstractTestCase2
 {
     public void bad() throws Throwable
     {

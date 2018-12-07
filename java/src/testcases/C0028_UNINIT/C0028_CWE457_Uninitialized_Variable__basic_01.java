@@ -23,32 +23,34 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
+
+// compile error
 public class C0028_CWE457_Uninitialized_Variable__basic_01 
 {
  
     private void bad(boolean check) throws Throwable
     {
 
-        String CIPHER_INPUT;
-        if(check) CIPHER_INPUT = "ABCDEFG123456";
+        // String CIPHER_INPUT;
+        // if(check) CIPHER_INPUT = "ABCDEFG123456";
 
-        KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+        // KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
 
-        /* Perform initialization of KeyGenerator */
-        keyGenerator.init(128);
+        // /* Perform initialization of KeyGenerator */
+        // keyGenerator.init(128);
 
-        SecretKey secretKey = keyGenerator.generateKey();
-        byte[] byteKey = secretKey.getEncoded();
+        // SecretKey secretKey = keyGenerator.generateKey();
+        // byte[] byteKey = secretKey.getEncoded();
 
-        /* FIX: Use a stronger crypto algorithm, AES */
-        SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "AES");
+        // /* FIX: Use a stronger crypto algorithm, AES */
+        // SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "AES");
 
-        Cipher aesCipher = Cipher.getInstance("AES");
-        aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
+        // Cipher aesCipher = Cipher.getInstance("AES");
+        // aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
 
-        byte[] encrypted = aesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));
+        // byte[] encrypted = aesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));
 
-        IO.writeLine(IO.toHex(encrypted));
+        // IO.writeLine(IO.toHex(encrypted));
 
     }
 

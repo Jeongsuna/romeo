@@ -17,7 +17,7 @@ Template File: point-flaw-01.tmpl.java
 
 import testcasesupport.*;
 
-public class C004C_CWE395_Catch_NullPointerException__basic_01 extends AbstractTestCase
+public class C004C_CWE395_Catch_NullPointerException__basic_01 extends AbstractTestCase2
 {
     public void bad() throws Throwable
     {

@@ -25,7 +25,7 @@ import java.io.IOException;
 
 import java.util.logging.Level;
 
-public class C0053_CWE470_Unsafe_Reflection__console_readLine_01 extends AbstractTestCase
+public class C0053_CWE470_Unsafe_Reflection__console_readLine_01 extends AbstractTestCase2
 {
     /* uses badsource and badsink */
     public void bad() throws Throwable

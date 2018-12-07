@@ -17,7 +17,7 @@ Template File: point-flaw-01.tmpl.java
 
 import testcasesupport.*;
 
-public class C005F_CWE546_Suspicious_Comment__BUG_01 extends AbstractTestCase
+public class C005F_CWE546_Suspicious_Comment__BUG_01 extends AbstractTestCase2
 {
     public void bad() throws Throwable
     {
