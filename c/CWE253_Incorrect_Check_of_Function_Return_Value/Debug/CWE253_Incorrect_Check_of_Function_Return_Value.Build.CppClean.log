@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\vc141.pdb
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\vc141.idb
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\fake_main.obj
+c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value.pdb
+c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value.idb
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_w32createmutex_07.obj
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_w32createmutex_08.obj
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_w32createmutex_09.obj
@@ -74,12 +76,16 @@ c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_inco
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_fgets_12.obj
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_fgets_13.obj
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_incorrect_check_of_function_return_value__char_fgets_14.obj
+c:\git\romeo\c\debug\cwe253_incorrect_check_of_function_return_value.lib
 c:\git\romeo\c\debug\cwe253_incorrect_check_of_function_return_value.ilk
 c:\git\romeo\c\debug\cwe253_incorrect_check_of_function_return_value.exe
 c:\git\romeo\c\debug\cwe253_incorrect_check_of_function_return_value.pdb
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe253_incorrect_check_of_function_return_value\debug\cwe253_i.f5d86858.tlog\link.write.1.tlog

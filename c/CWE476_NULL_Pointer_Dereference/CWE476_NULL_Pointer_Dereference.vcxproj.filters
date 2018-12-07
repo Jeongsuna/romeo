@@ -351,60 +351,6 @@
     <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__deref_after_check_18.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_03.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_04.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_05.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_06.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_07.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_08.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_09.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_10.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_11.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_12.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_13.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_14.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_15.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_16.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_17.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="s01\CWE476_NULL_Pointer_Dereference__null_check_after_deref_18.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="io.c">
       <Filter>소스 파일</Filter>
     </ClCompile>

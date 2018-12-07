@@ -42,6 +42,8 @@ c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_loop_84_bad.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\fake_main.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_loop_33.obj
+c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread.pdb
+c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread.idb
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__cwe170_char_loop_05.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__cwe170_char_loop_06.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__cwe170_char_loop_07.obj
@@ -194,12 +196,16 @@ c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_loop_12.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_loop_13.obj
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_buffer_overread__malloc_char_loop_14.obj
+c:\git\romeo\c\debug\cwe126_buffer_overread.lib
 c:\git\romeo\c\debug\cwe126_buffer_overread.ilk
 c:\git\romeo\c\debug\cwe126_buffer_overread.exe
 c:\git\romeo\c\debug\cwe126_buffer_overread.pdb
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe126_buffer_overread\debug\cwe126_b.8d874312.tlog\link.write.1.tlog

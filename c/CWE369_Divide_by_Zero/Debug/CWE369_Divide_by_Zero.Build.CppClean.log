@@ -27,6 +27,8 @@ c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divid
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_62b.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_72a.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_72b.obj
+c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero.pdb
+c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero.idb
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_68a.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_68b.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__float_connect_socket_01.obj
@@ -101,12 +103,16 @@ c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divid
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_12.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_13.obj
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_divide_by_zero__int_zero_divide_14.obj
+c:\git\romeo\c\debug\cwe369_divide_by_zero.lib
 c:\git\romeo\c\debug\cwe369_divide_by_zero.ilk
 c:\git\romeo\c\debug\cwe369_divide_by_zero.exe
 c:\git\romeo\c\debug\cwe369_divide_by_zero.pdb
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe369_divide_by_zero\debug\cwe369_d.f02e2acc.tlog\link.write.1.tlog

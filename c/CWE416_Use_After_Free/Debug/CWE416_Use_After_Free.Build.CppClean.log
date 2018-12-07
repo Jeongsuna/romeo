@@ -20,6 +20,8 @@ c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_str
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__new_delete_wchar_t_01.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_bad.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__operator_equals_01_good1.obj
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free.pdb
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free.idb
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_struct_01.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_wchar_t_01.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__return_freed_ptr_01.obj
@@ -66,12 +68,16 @@ c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_ch
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_04.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_05.obj
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_use_after_free__malloc_free_char_06.obj
+c:\git\romeo\c\debug\cwe416_use_after_free.lib
 c:\git\romeo\c\debug\cwe416_use_after_free.ilk
 c:\git\romeo\c\debug\cwe416_use_after_free.exe
 c:\git\romeo\c\debug\cwe416_use_after_free.pdb
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe416_use_after_free\debug\cwe416_u.0434adcc.tlog\link.write.1.tlog

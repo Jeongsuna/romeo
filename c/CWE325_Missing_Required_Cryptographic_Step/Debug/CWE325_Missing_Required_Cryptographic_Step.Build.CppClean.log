@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\vc141.pdb
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\vc141.idb
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\fake_main.obj
+c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step.pdb
+c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step.idb
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step__w32_cryptcreatehash_03.obj
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step__w32_cryptcreatehash_04.obj
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step__w32_cryptcreatehash_05.obj
@@ -23,12 +25,16 @@ c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_r
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step__w32_crypthashdata_01.obj
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\io.obj
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_missing_required_cryptographic_step__w32_cryptcreatehash_02.obj
+c:\git\romeo\c\debug\cwe325_missing_required_cryptographic_step.lib
 c:\git\romeo\c\debug\cwe325_missing_required_cryptographic_step.ilk
 c:\git\romeo\c\debug\cwe325_missing_required_cryptographic_step.exe
 c:\git\romeo\c\debug\cwe325_missing_required_cryptographic_step.pdb
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe325_missing_required_cryptographic_step\debug\cwe325_m.534b0dcf.tlog\link.write.1.tlog

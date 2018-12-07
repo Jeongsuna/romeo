@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe244_heap_inspection\debug\vc141.pdb
 c:\git\romeo\c\cwe244_heap_inspection\debug\vc141.idb
 c:\git\romeo\c\cwe244_heap_inspection\debug\fake_main.obj
+c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection.pdb
+c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection.idb
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_char_free_03.obj
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_char_free_04.obj
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_char_free_05.obj
@@ -23,12 +25,16 @@ c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_wchar_t_
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_wchar_t_realloc_01.obj
 c:\git\romeo\c\cwe244_heap_inspection\debug\io.obj
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_heap_inspection__w32_char_free_02.obj
+c:\git\romeo\c\debug\cwe244_heap_inspection.lib
 c:\git\romeo\c\debug\cwe244_heap_inspection.ilk
 c:\git\romeo\c\debug\cwe244_heap_inspection.exe
 c:\git\romeo\c\debug\cwe244_heap_inspection.pdb
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe244_heap_inspection\debug\cwe244_h.8c07371d.tlog\link.write.1.tlog

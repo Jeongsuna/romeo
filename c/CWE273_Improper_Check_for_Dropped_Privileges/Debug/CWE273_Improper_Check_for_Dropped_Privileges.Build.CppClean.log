@@ -1,6 +1,8 @@
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\vc141.pdb
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\vc141.idb
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\fake_main.obj
+c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges.pdb
+c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges.idb
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_impersonatenamedpipeclient_17.obj
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_impersonatenamedpipeclient_18.obj
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_rpcimpersonateclient_01.obj
@@ -38,12 +40,16 @@ c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_imprope
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_impersonatenamedpipeclient_14.obj
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_impersonatenamedpipeclient_15.obj
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_improper_check_for_dropped_privileges__w32_impersonatenamedpipeclient_16.obj
+c:\git\romeo\c\debug\cwe273_improper_check_for_dropped_privileges.lib
 c:\git\romeo\c\debug\cwe273_improper_check_for_dropped_privileges.ilk
 c:\git\romeo\c\debug\cwe273_improper_check_for_dropped_privileges.exe
 c:\git\romeo\c\debug\cwe273_improper_check_for_dropped_privileges.pdb
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe273_improper_check_for_dropped_privileges\debug\cwe273_i.3909049e.tlog\link.write.1.tlog

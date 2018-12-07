@@ -2,6 +2,8 @@ c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\vc141.pdb
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\vc141.idb
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\fake_main.obj
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__class_01.obj
+c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling.pdb
+c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling.idb
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__char_ptr_to_int_01.obj
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__char_ptr_to_int_02.obj
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__char_ptr_to_int_03.obj
@@ -22,12 +24,16 @@ c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_s
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__char_ptr_to_int_18.obj
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_incorrect_pointer_scaling__int_01.obj
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\io.obj
+c:\git\romeo\c\debug\cwe468_incorrect_pointer_scaling.lib
 c:\git\romeo\c\debug\cwe468_incorrect_pointer_scaling.ilk
 c:\git\romeo\c\debug\cwe468_incorrect_pointer_scaling.exe
 c:\git\romeo\c\debug\cwe468_incorrect_pointer_scaling.pdb
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe468_incorrect_pointer_scaling\debug\cwe468_i.2b9a192b.tlog\link.write.1.tlog

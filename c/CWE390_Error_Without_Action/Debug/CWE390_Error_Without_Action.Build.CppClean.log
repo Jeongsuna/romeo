@@ -19,6 +19,8 @@ c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__em
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__empty_catch_16.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__empty_catch_17.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__empty_catch_18.obj
+c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action.pdb
+c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action.idb
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__fgets_char_03.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__fgets_char_04.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__fgets_char_05.obj
@@ -41,12 +43,16 @@ c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__fo
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__sqrt_01.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\io.obj
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_error_without_action__fgets_char_02.obj
+c:\git\romeo\c\debug\cwe390_error_without_action.lib
 c:\git\romeo\c\debug\cwe390_error_without_action.ilk
 c:\git\romeo\c\debug\cwe390_error_without_action.exe
 c:\git\romeo\c\debug\cwe390_error_without_action.pdb
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe390_error_without_action\debug\cwe390_e.21823ad2.tlog\link.write.1.tlog

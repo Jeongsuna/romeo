@@ -27,6 +27,8 @@ c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_62b.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_72a.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_72b.obj
+c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow.pdb
+c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow.idb
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__int_connect_socket_sub_01.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__int_fgets_multiply_01.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__int_fgets_sub_01.obj
@@ -116,12 +118,16 @@ c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_07.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_08.obj
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_integer_underflow__char_min_sub_09.obj
+c:\git\romeo\c\debug\cwe191_integer_underflow.lib
 c:\git\romeo\c\debug\cwe191_integer_underflow.ilk
 c:\git\romeo\c\debug\cwe191_integer_underflow.exe
 c:\git\romeo\c\debug\cwe191_integer_underflow.pdb
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe191_integer_underflow\debug\cwe191_i.f669f68b.tlog\link.write.1.tlog

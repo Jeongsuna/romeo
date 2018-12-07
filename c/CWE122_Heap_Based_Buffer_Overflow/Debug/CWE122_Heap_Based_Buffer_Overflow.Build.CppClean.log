@@ -225,6 +225,8 @@ c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__cpp_dest_wchar_t_cat_03.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__cpp_dest_wchar_t_cat_04.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__cpp_dest_wchar_t_cat_05.obj
+c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow.pdb
+c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow.idb
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__char_type_overrun_memcpy_03.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__char_type_overrun_memcpy_04.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__char_type_overrun_memcpy_05.obj
@@ -366,12 +368,16 @@ c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\io.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__cwe131_loop_01.obj
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_heap_based_buffer_overflow__cwe131_memcpy_01.obj
+c:\git\romeo\c\debug\cwe122_heap_based_buffer_overflow.lib
 c:\git\romeo\c\debug\cwe122_heap_based_buffer_overflow.ilk
 c:\git\romeo\c\debug\cwe122_heap_based_buffer_overflow.exe
 c:\git\romeo\c\debug\cwe122_heap_based_buffer_overflow.pdb
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe122_heap_based_buffer_overflow\debug\cwe122_h.3166f4f8.tlog\link.write.1.tlog

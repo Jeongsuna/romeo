@@ -37,6 +37,8 @@ c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_81_goodg2b.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_82a.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_82_bad.obj
+c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc.pdb
+c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc.idb
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_64a.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_64b.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_65a.obj
@@ -103,12 +105,16 @@ c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_04.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_05.obj
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_uncontrolled_mem_alloc__malloc_char_fgets_06.obj
+c:\git\romeo\c\debug\cwe789_uncontrolled_mem_alloc.lib
 c:\git\romeo\c\debug\cwe789_uncontrolled_mem_alloc.ilk
 c:\git\romeo\c\debug\cwe789_uncontrolled_mem_alloc.exe
 c:\git\romeo\c\debug\cwe789_uncontrolled_mem_alloc.pdb
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\cl.command.1.tlog
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\cl.read.1.tlog
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\cl.write.1.tlog
+c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\lib-link.read.1.tlog
+c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\lib-link.write.1.tlog
+c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\lib.command.1.tlog
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\link.command.1.tlog
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\link.read.1.tlog
 c:\git\romeo\c\cwe789_uncontrolled_mem_alloc\debug\cwe789_u.26efcfca.tlog\link.write.1.tlog
