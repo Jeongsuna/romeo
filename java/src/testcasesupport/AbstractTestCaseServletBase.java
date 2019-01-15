@@ -37,7 +37,7 @@ public abstract class AbstractTestCaseServletBase extends HttpServlet
     
         Class<?> myClass = Class.forName(myClassName);
     
-        AbstractTestCase myObject = (AbstractTestCase) myClass.newInstance();
+        AbstractTestCase2 myObject = (AbstractTestCase2) myClass.newInstance();
         
         myObject.runTest(myClassName);
     }

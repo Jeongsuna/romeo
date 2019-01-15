@@ -5,10 +5,10 @@ package testcases.C0052_THROWBROAD;/*
 
 
 
-import testcasesupport.AbstractTestCase;
+import testcasesupport.*;
 import java.io.FileNotFoundException;
 
-public class C0052_CWE397_Throw_Generic__throw_Exception_01 extends AbstractTestCase 
+public class C0052_CWE397_Throw_Generic__throw_Exception_01 extends AbstractTestCase2
 {
     public void bad() throws Exception 
     {

@@ -1,14 +1,14 @@
-package testcases.C0050_SYNCEMPTY;/*
+package testcases.C0050_SYNCEMPTY;
+/*
  * @description Demonstrates a synchronized block that is empty (and therefore allowing unsynchronized updates to a shared variable). 
  * 
  * */
 
 
 
-import testcasesupport.AbstractTestCase;
-import testcasesupport.IO;
+import testcasesupport.*;
 
-public class C0050_CWE585_Empty_Sync_Block__Thread_01 extends AbstractTestCase 
+public class C0050_CWE585_Empty_Sync_Block__Thread_01 extends AbstractTestCase2 
 {
     /* bad(): Empty synchronized block */
     static private int intBad = 1;

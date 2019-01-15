@@ -52,7 +52,6 @@ public class C0015_SENDCLEAR__Socket_write_01 extends AbstractTestCaseServlet
 
     public void good(HttpServletRequest request, HttpServletResponse response) throws Throwable
     {
-    	// 패스워드를 암호화 하여 전송
     	try {
     		Socket s = new Socket("taranis", 4444);
     		PrintStream o = new PrintStream(s.getOutputStream(), true);

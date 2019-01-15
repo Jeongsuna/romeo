@@ -25,8 +25,7 @@ import java.io.IOException;
 
 import java.util.logging.Level;
 
-public class C0065_CWE379_Temporary_File_Creation_in_Insecure_Dir__basic_01 extends AbstractTestCase
-{
+public class C0065_CWE379_Temporary_File_Creation_in_Insecure_Dir__basic_01 extends AbstractTestCase2 {
     public void bad() throws Throwable
     {
 

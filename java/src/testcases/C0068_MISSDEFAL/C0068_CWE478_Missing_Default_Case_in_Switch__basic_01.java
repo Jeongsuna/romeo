@@ -1,4 +1,5 @@
-package testcases.C0068_MISSDEFAL;/* TEMPLATE GENERATED TESTCASE FILE
+package testcases.C0068_MISSDEFAL;
+/* TEMPLATE GENERATED TESTCASE FILE
 Filename: CWE478_Missing_Default_Case_in_Switch__basic_01.java
 Label Definition File: CWE478_Missing_Default_Case_in_Switch__basic.label.xml
 Template File: point-flaw-01.tmpl.java
@@ -21,7 +22,7 @@ import java.io.*;
 
 import java.security.SecureRandom;
 
-public class C0068_CWE478_Missing_Default_Case_in_Switch__basic_01 extends AbstractTestCase
+public class C0068_CWE478_Missing_Default_Case_in_Switch__basic_01 extends AbstractTestCase2
 {
     public void bad() throws Throwable
     {
