@@ -30,7 +30,9 @@ static void badSink()
     char * data = CWE401_Memory_Leak__char_calloc_45_badData;
     /* POTENTIAL FLAW: No deallocation */
     ; /* empty statement needed for some flow variants */
+    
 }
+
 
 void CWE401_Memory_Leak__char_calloc_45_bad()
 {
@@ -43,6 +45,7 @@ void CWE401_Memory_Leak__char_calloc_45_bad()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_45_badData = data;
     badSink();
+    CWE401_Memory_Leak__char_calloc_45_badData = NULL; 
 }
 
 #endif /* OMITBAD */
@@ -68,6 +71,7 @@ static void goodG2B()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_45_goodG2BData = data;
     goodG2BSink();
+    CWE401_Memory_Leak__char_calloc_45_goodG2BData = NULL;
 }
 
 /* goodB2G() uses the BadSource with the GoodSink */
@@ -89,6 +93,7 @@ static void goodB2G()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_45_goodB2GData = data;
     goodB2GSink();
+    CWE401_Memory_Leak__char_calloc_45_goodB2GData = NULL;
 }
 
 void CWE401_Memory_Leak__char_calloc_45_good()

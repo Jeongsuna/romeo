@@ -39,6 +39,7 @@ void CWE401_Memory_Leak__char_calloc_68_bad()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_68_badData = data;
     CWE401_Memory_Leak__char_calloc_68b_badSink();
+    CWE401_Memory_Leak__char_calloc_68_badData = NULL;
 }
 
 #endif /* OMITBAD */
@@ -61,6 +62,7 @@ static void goodG2B()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_68_goodG2BData = data;
     CWE401_Memory_Leak__char_calloc_68b_goodG2BSink();
+    CWE401_Memory_Leak__char_calloc_68_goodG2BData = NULL;
 }
 
 /* goodB2G uses the BadSource with the GoodSink */
@@ -75,6 +77,7 @@ static void goodB2G()
     printLine(data);
     CWE401_Memory_Leak__char_calloc_68_goodB2GData = data;
     CWE401_Memory_Leak__char_calloc_68b_goodB2GSink();
+    CWE401_Memory_Leak__char_calloc_68_goodB2GData = NULL;
 }
 
 void CWE401_Memory_Leak__char_calloc_68_good()

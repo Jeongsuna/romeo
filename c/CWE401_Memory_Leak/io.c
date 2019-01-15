@@ -6,6 +6,8 @@
 #include <wchar.h>
 #endif
 
+/*** ---- commented out for better audit: oukseh
+
 void printLine (const char * line)
 {
     if(line != NULL) 
@@ -59,8 +61,6 @@ void printHexCharLine (char charHex)
 
 void printWcharLine(wchar_t wideChar) 
 {
-    /* ISO standard dictates wchar_t can be ref'd only with %ls, so we must make a
-     * string to print a wchar */
     wchar_t s[2];
         s[0] = wideChar;
         s[1] = L'\0';
@@ -94,8 +94,10 @@ void printBytesLine(const unsigned char * bytes, size_t numBytes)
     {
         printf("%02x", bytes[i]);
     }
-    puts("");	/* output newline */
+    puts("");	
 }
+
+*/
 
 /* Decode a string of hex characters into the bytes they represent.  The second
  * parameter specifies the length of the output buffer.  The number of bytes
