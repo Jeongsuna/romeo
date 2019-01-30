@@ -26,6 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)fire:(id)sender url:(NSURL*) url {
+	// FIXME: Place following 2 lines of code in proper location
+	UITextField *_textBox;
+	UIWebView *_webView;
     NSString * textBoxStr = [_textBox text];
     C0001_CWE89_SQL_Injection__simple_01* c0001 = [[C0001_CWE89_SQL_Injection__simple_01 alloc] init];
     C0002_PATHMANIP__simple_01* c0002 = [[C0002_PATHMANIP__simple_01 alloc] init];
