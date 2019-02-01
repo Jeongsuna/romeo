@@ -3,7 +3,7 @@ using System.Xml;
 
 namespace Romeo.CWE643_Xpath_Injection
 {
-    class CWE643_Xpath_Injection__Simple_01
+    class CWE643_Xpath_Injection__Simple_01 : System.Web.UI.Page
     {
         void bad()
         {
@@ -12,8 +12,11 @@ namespace Romeo.CWE643_Xpath_Injection
             doc.Load("employees.xml");
             XmlNode root = doc.DocumentElement;
 
-            String FindUserXPath = "//Employee[UserName/text()='" + Request("Username")
-                + "' And Password / text() = '" + Request("Password") + "']";
+            String username = Request["Username"];
+            String password = Request["Password"];
+
+            String FindUserXPath = "//Employee[UserName/text()='" + username
+                + "' And Password / text() = '" + password + "']";
             var user = root.SelectNodes(FindUserXPath);
 
             foreach(var u in user)
@@ -29,8 +32,11 @@ namespace Romeo.CWE643_Xpath_Injection
             doc.Load("employees.xml");
             XmlNode root = doc.DocumentElement;
 
-            String FindUserXPath = "//Employee[UserName/text()='" + Request("Username").Replace("'", "&apos;")
-                + "' And Password / text() = '" + Request("Password").Replace("'", "&apos;") + "']";
+            String username = Request["Username"];
+            String password = Request["Password"];
+
+            String FindUserXPath = "//Employee[UserName/text()='" + username.Replace("'", "&apos;")
+                + "' And Password / text() = '" + password.Replace("'", "&apos;") + "']";
             var user = root.SelectNodes(FindUserXPath);
 
             foreach (var u in user)
@@ -38,10 +44,6 @@ namespace Romeo.CWE643_Xpath_Injection
                 Console.WriteLine(u);
             }
         }
-
-        private string Request(string param)
-        {
-            return "";
-        }
+        
     }
 }
