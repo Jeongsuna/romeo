@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86ee604b-87b8-43be-96d1-d0e994d09773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0001_SQLI/C0001_SQLI__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0001_SQLI/C0001_SQLI__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0002_PATHMANIP/C0002_PATHMANIP__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0002_PATHMANIP/C0002_PATHMANIP__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0002_PATHMANIP/C0002_PATHMANIP_no_arg_func__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0003_XSS/C0003_XSS__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0003_XSS/C0003_XSS__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0003_XSS/C0003_XSS_no_arg_func__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0004_CMDI/C0004_CMDI__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0004_CMDI/C0004_CMDI__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0004_CMDI/C0004_CMDI_no_arg_func__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0006_REDIRECT/C0006_REDIRECT__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0006_REDIRECT/C0006_REDIRECT__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C000B_HTTPSPLIT/C000B_HTTPSPLIT__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C000B_HTTPSPLIT/C000B_HTTPSPLIT__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0016_HARDPASS/C0016_HARDPASS__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0016_HARDPASS/C0016_HARDPASS__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0018_RANDOM/C0018_RANDOM__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0018_RANDOM/C0018_RANDOM__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C001B_PERSCOOKIE/C001B_PERSCOOKIE__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C001B_PERSCOOKIE/C001B_PERSCOOKIE__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C001B_PERSCOOKIE/C001B_PERSCOOKIE_no_arg_func__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C001C_LEAKCOM/C001C_LEAKCOM__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C001C_LEAKCOM/C001C_LEAKCOM__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0022_LEAKMSG/C0022_LEAKMSG__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0022_LEAKMSG/C0022_LEAKMSG__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0023_NOACTION/C0023_NOACTION__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0023_NOACTION/C0023_NOACTION__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0024_NOCHKERR/C0024_NOCHKERR__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0024_NOCHKERR/C0024_NOCHKERR__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0025_USENULL/C0025_USENULL__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0025_USENULL/C0025_USENULL__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0028_UNINIT/C0028_UNINIT__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0028_UNINIT/C0028_UNINIT__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0029_LEAKSESS/C0029_LEAKSESS__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0029_LEAKSESS/C0029_LEAKSESS__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C002F_DANGERAPI/C002F_DANGERAPI__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C002F_DANGERAPI/C002F_DANGERAPI__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0034_DIVBY0/C0034_DIVBY0__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0034_DIVBY0/C0034_DIVBY0__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0048_MISSBREAK/C0048_MISSBREAK__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0048_MISSBREAK/C0048_MISSBREAK__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0052_THROWBROAD/C0052_THROWBROAD__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0052_THROWBROAD/C0052_THROWBROAD__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0055_ASSIGNCOMP/C0055_ASSIGNCOMP__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0055_ASSIGNCOMP/C0055_ASSIGNCOMP__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0058_RETINFINAL/C0058_RETINFINAL__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0058_RETINFINAL/C0058_RETINFINAL__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0059_COMPSTR/C0059_COMPSTR__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0059_COMPSTR/C0059_COMPSTR__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005A_SESEXPIRE/C005A_SESEXPIRE__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005A_SESEXPIRE/C005A_SESEXPIRE__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005B_TRUE/C005B_TRUE__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005B_TRUE/C005B_TRUE__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005C_FALSE/C005C_FALSE__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005C_FALSE/C005C_FALSE__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005F_COMMENTBAD/C005F_COMMENTBAD__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C005F_COMMENTBAD/C005F_COMMENTBAD__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0060_BLOCKEMPTY/C0060_BLOCKEMPTY__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0060_BLOCKEMPTY/C0060_BLOCKEMPTY__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0064_TEMPFILE/C0064_TEMPFILE__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0064_TEMPFILE/C0064_TEMPFILE__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0065_TEMPDIR/C0065_TEMPDIR__bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0065_TEMPDIR/C0065_TEMPDIR__good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0068_MISSDEFAL/C0068_MISSDEFAL_bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C0068_MISSDEFAL/C0068_MISSDEFAL_good.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C0016_HRARDPASS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C002A_DEBUGCODE.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0058_RETINFINAL.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0068_MISSDEFAL.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0088_EMPTYPASS.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0089_PRECEDENCE.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0090_NONUNIQUENAME.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0091_USEWITH.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Javascript.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C0092_ALTER.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/C0016_HRARDPASS.js" />
+        <option value="$PROJECT_DIR$/C0018_RANDOM.js" />
+        <option value="$PROJECT_DIR$/C008B_BLOCKSCOPE.js" />
+        <option value="$PROJECT_DIR$/C008A_COMPASSIGN.js" />
+        <option value="$PROJECT_DIR$/C002A_DEBUGCODE.js" />
+        <option value="$PROJECT_DIR$/C001C_LEAKCOM.js" />
+        <option value="$PROJECT_DIR$/C0092_ALTER.js" />
+        <option value="$PROJECT_DIR$/C0089_PRECEDENCE.js" />
+        <option value="$PROJECT_DIR$/C008D_SWITCHCASEOR.js" />
+        <option value="$PROJECT_DIR$/C008E_USERESERVED.js" />
+        <option value="$PROJECT_DIR$/C008F_SELFASSIGN.js" />
+        <option value="$PROJECT_DIR$/C0090_NONUNIQUENAME.js" />
+        <option value="$PROJECT_DIR$/C0058_RETINFINAL.js" />
+        <option value="$PROJECT_DIR$/C005C_FALSE.js" />
+        <option value="$PROJECT_DIR$/C005B_TRUE.js" />
+        <option value="$PROJECT_DIR$/C0091_USEWITH.js" />
+        <option value="$PROJECT_DIR$/C008C_SUSPCOM.js" />
+        <option value="$PROJECT_DIR$/C0048_MISSBREAK.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="79" />
+    <option name="width" value="1848" />
+    <option name="height" value="1167" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551261651109" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86ee604b-87b8-43be-96d1-d0e994d09773" name="Default Changelist" comment="" />
+      <created>1551241514354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551241514354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="79" y="0" width="1848" height="1167" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27432126" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/C001C_LEAKCOM.js" />
+    <entry file="file://$PROJECT_DIR$/C005B_TRUE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C005C_FALSE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008A_COMPASSIGN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008B_BLOCKSCOPE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008C_SUSPCOM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008D_SWITCHCASEOR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008E_USERESERVED.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C008F_SELFASSIGN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0018_RANDOM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0048_MISSBREAK.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0055_ASSIGNCOMP.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0058_RETINFINAL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0068_MISSDEFAL.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0088_EMPTYPASS.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0089_PRECEDENCE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0090_NONUNIQUENAME.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0091_USEWITH.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0092_ALTER.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C002A_DEBUGCODE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C0016_HRARDPASS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
