@@ -1,10 +1,10 @@
 function f(myVariable) {
     switch (myVariable) {
-      case 1:
-      case 2:
+      case 11:
+      case 12:
         foo();
         break;
-      case 3:  // Both 'doSomething()' and 'doSomethingElse()' will be executed. Is it on purpose ?
+      case 13:  // Both 'doSomething()' and 'doSomethingElse()' will be executed. Is it on purpose ?
         doSomething();
       default:
         doSomethingElse();
