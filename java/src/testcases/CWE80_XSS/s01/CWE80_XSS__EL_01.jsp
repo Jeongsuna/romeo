@@ -46,3 +46,8 @@ Out.append(filter.doFilter(name));
     name = ESAPI.encoder().encodeForHTML(name);
 %>
 <p>Name:<%=name%></p>
+
+<!-- flaw: -->
+<!-- ${param.id} -->
+<!-- safe: -->
+<%-- ${param.pw} --%>
