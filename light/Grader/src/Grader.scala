@@ -73,7 +73,14 @@ object Grader {
   }
 
   def printGrades() = {
-    scoreSheet.foreach{case (canon, Grade(correct, total)) => {
+    println()
+    scoreSheet.toList.sortWith{ case ((a,_),(b,_)) => {
+      val splitA = a.split("_")
+      val splitB = b.split("_")
+      val aValue = Integer.parseInt(splitA(0), 16)
+      val bValue = Integer.parseInt(splitB(0), 16)
+      aValue < bValue
+    }}.foreach{case (canon, Grade(correct, total)) => {
       println(s"${canon} : ${correct}/${total} | ${correct * 100.0 / total}%")
     }}
   }
