@@ -12,8 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../../cs/RomeoCS.VC.VC.opendb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cs/special.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cs/special.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Grader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Grader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grader/solution/RomeoLightJava__murph_fa8ae467_romeo_1908765a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grader/src/Grader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Grader/src/Grader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../python/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../python/0006_REDIRECT/0006_REDIRECT__send_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/0006_REDIRECT/0006_REDIRECT__send_header.py" afterDir="false" />
     </list>
@@ -92,8 +91,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="106" />
+    <option name="x" value="1960" />
+    <option name="y" value="349" />
     <option name="width" value="1841" />
     <option name="height" value="1047" />
   </component>
@@ -1052,7 +1051,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554252448469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554339841883" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_121/bin/jvisualvm.exe" />
   </component>
   <component name="RecentsManager">
@@ -1087,16 +1086,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="106" width="1841" height="1047" extended-state="0" />
+    <frame x="1960" y="349" width="1841" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32565975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32565975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" visible="true" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Thumbnails" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" />

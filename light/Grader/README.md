@@ -7,7 +7,6 @@
 ## 실행법
 1st argument: 답안지.csv
 2nd argument: 정답지.csv
-3rd argument: delimiter
 
 ## 답안지 포맷
 * cooper의 보고서 파트에서 생성되는 CSV 형태를 따를 것(현재 murph fa8ae467 기준)

@@ -11,17 +11,14 @@ object Grader {
   // solutionSheet ex) "0001_SQLI" -> [("CWE259_Hard_Coded_Password\m00\CWE259_Hard_Coded_Password__driverManager_01.java", 100)]
 
   var scoreSheet: Map[String, Grade] = Map()  // canon -> Grade(correct, total)
-  def loadAnswer(answerSheetCSV: String, delimiter: String): Unit = {
+  def loadAnswer(answerSheetCSV: String): Unit = {
     val ir = new InputStreamReader(new FileInputStream(answerSheetCSV), "euc-kr")
     val entries = Csv.parse(ir)
     var first = true
     entries.forEach( record => {
       if(!first) {
         val canon = record.at(1)// column B
-        val fileLong = record.at(6) // column G
-        val idx = fileLong.indexOf(delimiter) + delimiter.size
-        print(fileLong + ":" + idx)
-        val file = fileLong.substring(idx)
+        val file = record.at(6) // column G
         val lineNo = record.at(7).toInt// column H
         answerSheet.get(canon) match {
           case Some(fileToLine) => {
@@ -37,16 +34,14 @@ object Grader {
     })
   }
 
-  def loadSolution(solutionSheetCSV: String, delimiter: String) = {
+  def loadSolution(solutionSheetCSV: String) = {
     val ir = new InputStreamReader(new FileInputStream(solutionSheetCSV))
     val entries = Csv.parse(ir)
     var first = true
     entries.forEach(record => {
       if(!first) {
         val canon = record.at(0)// column A
-        val fileLong = record.at(9) // column J
-        val idx = fileLong.indexOf(delimiter) + delimiter.size
-        val file = fileLong.substring(idx)
+        val file = record.at(9) // column J
         val lineNo = record.at(11).toInt// column L
         solutionSheet.get(canon) match {
           case Some(lst) => solutionSheet += (canon -> ((file, lineNo)::lst))
@@ -61,10 +56,14 @@ object Grader {
     solutionSheet.foreach(canonToIssues => {
       val cor = answerSheet.get(canonToIssues._1).fold(0)(ans =>  {
         val corrects = canonToIssues._2.foldLeft(0){case (corrects,(file, line)) => {
-          ans.get(file) match {
-            case Some(ansLines) => if(ansLines.contains(line)) corrects + 1 else corrects
-            case None => corrects
-          }
+          ans.filter{case (answerFile, ansLines) => {
+            answerFile.contains(file)
+          }}.foldLeft(corrects) {case (acc, (answerFile, ansLines)) => {
+            if(ansLines.contains(line))
+              acc + 1
+            else
+              acc
+          }}
         }}
         corrects
       })
@@ -91,14 +90,8 @@ object Grader {
   def main(args: Array[String]): Unit = {
     val answerSheetCSV = args(0)
     val solutionSheetCSV = args(1)
-    val delimiter =
-      if(args.length != 3) {
-        s"romeo${File.separator}light"
-      } else {
-        args(2) // ex) romeo\light\java
-      }
-    loadSolution(solutionSheetCSV, delimiter)
-    loadAnswer(answerSheetCSV, delimiter)
+    loadSolution(solutionSheetCSV)
+    loadAnswer(answerSheetCSV)
     doGrading
     printGrades
   }
