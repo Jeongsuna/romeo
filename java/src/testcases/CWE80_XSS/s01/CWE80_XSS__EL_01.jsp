@@ -11,11 +11,13 @@
   // 스크립트 코드가 입력되면 공격자에게 피해자의 쿠키정보가 전송될 수 있다.
   String name = request.getParameter("name");
 %>
+<!-- Flaw: 1. -->
 <p>Name:<%=name%></p>
 </body>
 </html>
 
 <jsp:useBean id="m" scope="application" class="mypkg.MyLocales"/>
+<!-- Flaw: 2. maybe.... but deep anal is needed -->
 <p>Address: ${m.address}</p>
 <%
   String name = request.getParameter(""name"");
@@ -28,11 +30,14 @@
   }
   else { return; }
 %>
+<!-- Safe: 1. -->
 <p>Name:<%=name%></p>
 
+<!-- Safe: 2. -->
 <!-- 방법 2: 출력값에 JSTL HTML 인코딩 -->
 <p>Address:${fn:escapeXml(m.address)}</p>
 
+<!-- Safe: 3. -->
 <!-- 방법 3: 출력값에 JSTL Core 출력 포맷을 사용하여 텍스트로 처리 -->
 <p>Address:<c:out value="${m.address}"/></p>
 
@@ -45,9 +50,13 @@ Out.append(filter.doFilter(name));
 <%
     name = ESAPI.encoder().encodeForHTML(name);
 %>
+<!-- Safe: 4. -->
 <p>Name:<%=name%></p>
 
-<!-- flaw: -->
+<!-- flaw: 3.-->
 <!-- ${param.id} -->
-<!-- safe: -->
+<!-- safe: 5.-->
 <%-- ${param.pw} --%>
+
+<!-- safe: 6.-->
+<c:if test="${param.c}">hi</c:if>
