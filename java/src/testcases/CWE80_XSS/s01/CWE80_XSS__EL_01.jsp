@@ -60,3 +60,19 @@ Out.append(filter.doFilter(name));
 
 <!-- safe: 6.-->
 <c:if test="${param.c}">hi</c:if>
+<!-- safe: 7.-->
+<c:if test="${param.fromStatusAt ne 'Y'}">safe7</c:if>
+<!-- safe: 8.-->
+<c:if test="${sessionScope.cart.numberOfItems > 0}">safe8</c:if>
+<!-- safe: 9.-->
+<c:if test="${empty param.abc}">safe9<c:if>
+<!-- safe: 10.-->
+<c:if test="${empty param.p_id}">safe10<c:if>
+<!-- safe: 11.-->
+<c:if test="${param.abc == ''}">safe11<c:if>
+<!-- safe: 12.-->
+<c:if test="${param.p_id == ''}">safe12<c:if>			
+			
+			
+			
+			
