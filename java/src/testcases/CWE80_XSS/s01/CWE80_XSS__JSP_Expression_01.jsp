@@ -20,9 +20,9 @@
 	    addr = addr.replaceAll("\"","&quot;");
 	  }
 %>
-<!-- bad -->
+<!-- Flaw: -->
 <p>Name:<%=name%></p>
-<!-- good -->
+<!-- Safe -->
 <p>Addr:<%=addr%></p>
 
 </body>

@@ -27,6 +27,7 @@ String name = URLDecoder.decode(request.getParameter("RealName"),"UTF-8");
 	<input type="hidden" name="sex" value="<s:property value='%{sex}'/>" />
 	<input type="hidden" name="nationalInfo" value="<s:property value='%{nationalInfo}'/>" />
 	<input type="hidden" name="authInfo" value="<s:property value='%{authInfo}'/>" />
+	<!-- Safe: -->
 	<input type="hidden" name="realName" value="<%=name %>" />
      <div id="join">
        <p class="join">
@@ -46,6 +47,7 @@ String name = URLDecoder.decode(request.getParameter("RealName"),"UTF-8");
         
          <p class="join_home">        
           <label for="name">이름 :</label>
+		  <!-- Safe: -->
           <%=name %>
          </p> 
         <p class="join_home">        

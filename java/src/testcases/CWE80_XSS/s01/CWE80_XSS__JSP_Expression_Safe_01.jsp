@@ -42,7 +42,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<!-- safe -->
+							<!-- Safe: 4 safes -->
 							<td class="noPd" colspan="2"><iframe marginwidth="0"
 									marginheight="0" name="imglist" class="W100p"
 									style="height: 397px;" frameborder="0"
