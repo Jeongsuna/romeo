@@ -20,6 +20,7 @@
      *
      */
 %>
+<!-- Safe: -->
 <input type="hidden" id="currentDay" value="<c:out value='${sysDate}'/>">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tbody>
@@ -55,6 +56,7 @@
 	                    </td>
 	                </tr>
 	                </c:if>
+					<!-- Safe: -->
 	                <c:if test="${not empty reportDtl.resultDtl}"><!-- 결과보고서 상세보기 경우 -->
 	                <tr>
 	                    <th class="search_th_c">소속</th>
@@ -109,6 +111,7 @@
 										<abs:Calendar calId="rcalNotifyDe" name="notifyDe" type="img" readonly="true" refEnId="currentDay" value="${reportDtl.ocReport.notifyDe}"/>
 										<select id="rcalNotifyTime" name="notifyTime">
 											<c:forEach begin="0" end="24" varStatus="status">
+												<!-- Safe: -->
 				                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" 
 												<c:if test="${reportDtl.ocReport.notifyTime eq status.index }"> selected="selected"</c:if>>
 													<!-- Safe: 10.-->
@@ -249,6 +252,7 @@
 									</colgroup>
 									<tbody>
 										<c:choose>
+											<!-- Safe: -->
 											<c:when test="${empty reportDtl.resultDtl}"><!-- 결과보고서 최초등록인 경우 -->
 												<tr>
 			                                          <th class="search_th_c" rowspan="3">발생지역<span class="f_r01 bold"> *</span></th>
@@ -285,6 +289,7 @@
 			                                      <%--         <input type="text" id="rtxtDoAddr1" name="doAddr1" value="충청북도 청주시 흥덕구 오송읍 오송생명로" style="width: 40%;" readonly="readonly">
 			                                              <input type="text" id="rtxtDoAddr2" name="doAddr2" value="186" style="width: 40%;" maxlength="65">
 			                                              <input type="text" id="rtxtDoAddr3" name="doAddr3" value="" style="width: 12%;" readonly="readonly">
+														  <!-- Safe: -->
 			                                              <input type="hidden" id="phidDoNo" name="doNo" value="<c:out value='${reportDtl.ocReport.doNo}'/>"> --%>
 			                                          </td>
 			                                      </tr>
@@ -344,14 +349,22 @@
 								                        <abs:Calendar calId="rcalFcOccrDe" name="fcOccrDe" value="${reportDtl.ocReport.fcOccrDe}" type="img" readonly="true" refEnId="currentDay"/>
 														<select id="rcalFcOccrTime" name="fcOccrTime">
 															<c:forEach begin="0" end="24" varStatus="status">
-								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcOccrTime eq status.index }"> selected="selected"</c:if>>
+																<!-- Safe: -->
+								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" 
+																<!-- Safe: -->
+																<c:if test="${reportDtl.ocReport.fcOccrTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcalFcOccrMin" name="fcOccrMin">
 															<c:forEach begin="0" end="24" varStatus="status">
-								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcOccrMin eq status.index }"> selected="selected"</c:if>>
+																<!-- Safe: -->
+								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" 
+																<!-- Safe: -->
+																<c:if test="${reportDtl.ocReport.fcOccrMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
@@ -359,30 +372,42 @@
 								                    </td>
 								                    <th class="search_th_c">증 상</th>
 								                    <td class="search_td" colspan="2">
+														<!-- Safe: -->
 								                    	<input type="text" id="rtxtFcMajSymptom" name="fcMajSymptom" value="<c:out value='${reportDtl.ocReport.fcMajSymptom}'/>" style="width: 80%;" maxlength="100">
 								                    </td>
 								                </tr>
 								                <tr>
 								                    <th class="search_th_c">환자구분</th>
 								                    <td class="search_td" colspan="3">
+														<!-- Safe: -->
 								                        <input type="checkbox" id="rcmbFcPatiClassi1" name="fcPatiClassi" value="1" <c:if test="${reportDtl.ocReport.fcPatiClassi == '1'}">checked</c:if>/>
 														<label for="rcmbFcPatiClassi1">환자</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcPatiClassi2" name="fcPatiClassi" value="2" <c:if test="${reportDtl.ocReport.fcPatiClassi == '2'}">checked</c:if>/>
 														<label for="rcmbFcPatiClassi2">의사환자</label>
 								                    </td>
 								                    <th class="search_th_c">신고일</th>
 								                    <td class="search_td" colspan="2">
+														<!-- Safe: -->
 								                        <abs:Calendar calId="rcalFcNotifyDe" name="fcNotifyDe" value="${reportDtl.ocReport.fcNotifyDe}" type="img" readonly="true" refEnId="currentDay"/>
 														<select id="rcalFcNotifyTime" name="fcNotifyTime">
 															<c:forEach begin="0" end="24" varStatus="status">
-								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcNotifyTime eq status.index }"> selected="selected"</c:if>>
+																<!-- Safe: -->
+								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" 
+																	<!-- Safe: -->
+																	<c:if test="${reportDtl.ocReport.fcNotifyTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcalFcNotifyMin" name="fcNotifyMin">
 															<c:forEach begin="0" end="24" varStatus="status">
-								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcNotifyMin eq status.index }"> selected="selected"</c:if>>
+																<!-- Safe: -->
+								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" 
+																	<!-- Safe: -->
+																	<c:if test="${reportDtl.ocReport.fcNotifyMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
@@ -394,27 +419,35 @@
 								                    <th class="search_th_c" colspan="2">인후도찰 배양검사</th>
 								                    <td class="search_td" colspan="4">
 														시행일:
+															<!-- Safe: -->
 														<abs:Calendar calId="rcalFcThroatInspctDe" name="fcThroatInspctDe" value="${reportDtl.ocReport.fcThroatInspctDe}" type="img" readonly="true" refEnId="currentDay"/>
 														<select id="rcalFcThroatInspctTime" name="fcThroatInspctTime">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcThroatInspctTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcalFcThroatInspctMin" name="fcThroatInspctMin">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcThroatInspctMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 분
 														<br/>
 														결과 : 
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcThroatInspctChk1" name="fcThroatInspctChk" value="1" <c:if test="${reportDtl.ocReport.fcThroatInspctChk == '1'}">checked</c:if>/>
 														<label for="rcmbFcThroatInspctChk1">양성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcThroatInspctChk2" name="fcThroatInspctChk" value="2" <c:if test="${reportDtl.ocReport.fcThroatInspctChk == '2'}">checked</c:if>/>
 														<label for="rcmbFcThroatInspctChk2">음성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcThroatInspctChk3" name="fcThroatInspctChk" value="3" <c:if test="${reportDtl.ocReport.fcThroatInspctChk == '3'}">checked</c:if>/>
 														<label for="rcmbFcThroatInspctChk3">미시행</label>
 								                    </td>
@@ -423,27 +456,35 @@
 								                	<th class="search_th_c" colspan="2">신속항원검출검사</th>
 								                    <td class="search_td" colspan="4">
 						                        		시행일:
+														<!-- Safe: -->
 														<abs:Calendar calId="rcmbFcRadtDe" name="fcRadtDe" type="img" value="${reportDtl.ocReport.fcRadtDe}" readonly="true" refEnId="currentDay"/>
 														<select id="rcmbFcRadtTime" name="fcRadtTime">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcRadtTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcmbFcRadtMin" name="fcRadtMin">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcRadtMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 분
 														<br/>
-														결과 : 
+														결과 :
+															<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcRadtChk1" name="fcRadtChk" value="1" <c:if test="${reportDtl.ocReport.fcRadtChk == '1'}">checked</c:if>/>
 														<label for="rcmbFcRadtChk1">양성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcRadtChk2" name="fcRadtChk" value="2" <c:if test="${reportDtl.ocReport.fcRadtChk == '2'}">checked</c:if>/>
 														<label for="rcmbFcRadtChk2">음성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcRadtChk3" name="fcRadtChk" value="3" <c:if test="${reportDtl.ocReport.fcRadtChk == '3'}">checked</c:if>/>
 														<label for="rcmbFcRadtChk3">미시행</label>
 								                    </td>
@@ -452,27 +493,35 @@
 								                	<th class="search_th_c" colspan="2">기타 검사</th>
 								                    <td class="search_td" colspan="4">
 						                        		시행일:
+														<!-- Safe: -->
 														<abs:Calendar calId="rcmbFcEtcDe" name="fcEtcDe" type="img" value="${reportDtl.ocReport.fcEtcDe}" readonly="true" refEnId="currentDay"/>
 														<select id="rcmbFcEtcTime" name="fcEtcTime">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcEtcTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcmbFcEtcMin" name="fcEtcMin">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcEtcMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 분
 														<br/>
 														결과 : 
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcEtcChk1" name="fcEtcChk" value="1" <c:if test="${reportDtl.ocReport.fcEtcChk == '1'}">checked</c:if>/>
 														<label for="rcmbFcEtcChk1">양성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcEtcChk2" name="fcEtcChk" value="2" <c:if test="${reportDtl.ocReport.fcEtcChk == '2'}">checked</c:if>/>
 														<label for="rcmbFcEtcChk2">음성</label>
+														<!-- Safe: -->
 														<input type="checkbox" id="rcmbFcEtcChk3" name="fcEtcChk" value="3" <c:if test="${reportDtl.ocReport.fcEtcChk == '3'}">checked</c:if>/>
 														<label for="rcmbFcEtcChk3">미시행</label>
 								                    </td>
@@ -480,17 +529,22 @@
 								                <tr>
 								                	<th class="search_th_c" colspan="2">예방･관리 시작일</th>
 								                    <td class="search_td" colspan="6">
+														<!-- Safe: -->
 								                        <abs:Calendar calId="rcmbFcPrevCrDe" name="fcPrevCrDe" value="${reportDtl.ocReport.fcPrevCrDe}" type="img" readonly="true" refEnId="currentDay"/>
 														<select id="rcmbFcPrevCrTime" name="fcPrevCrTime">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcPrevCrTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcmbFcPrevCrMin" name="fcPrevCrMin">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.ocReport.fcPrevCrMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
@@ -500,17 +554,22 @@
 								                <tr>
 								                	<th class="search_th_c" colspan="2">마지막사례발생일</th>
 								                    <td class="search_td" colspan="2">
+														<!-- Safe: -->
 								                        <abs:Calendar calId="rcmbFcLastSymptomCsDe" name="fcLastSymptomCsDe" value="${reportDtl.resultDtl.fcLastSymptomCsDe}" type="img" readonly="true" refEnId="currentDay"/>
 														<select id="rcmbFcLastSymptomCsTime" name="fcLastSymptomCsTime">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.resultDtl.fcLastSymptomCsTime eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
 														</select> 시
 														<select id="rcmbFcLastSymptomCsMin" name="fcLastSymptomCsMin">
 															<c:forEach begin="0" end="24" varStatus="status">
+																<!-- Safe: -->
 								                                <option value="<fmt:formatNumber pattern="00" value="${status.index}" />" <c:if test="${reportDtl.resultDtl.fcLastSymptomCsMin eq status.index }"> selected="selected"</c:if>>
+																	<!-- Safe: -->
 								                                    <fmt:formatNumber pattern="00" value="${status.index}" />
 								                                </option>
 								                            </c:forEach>
@@ -948,7 +1007,9 @@
 				<label for="rcmbArChk3">학부모와 직원들에게 성홍열 발생 주의 안내문 발송</label><br/>
 				<input type="checkbox" id="rcmbArChk4" name="arChk" class="ar" value="4"/>
 				<label for="rcmbArChk4">기타 조치사항 및 결과 기술</label><br/>
-				<textarea id="rtxtArRmk" name="arRmk" rows="4" style="width: 99%; margin: 5px 0;" maxlength="1300"><c:out value='${reportDtl.resultDtl.arRmk}'/></textarea>
+				<textarea id="rtxtArRmk" name="arRmk" rows="4" style="width: 99%; margin: 5px 0;" maxlength="1300">
+				<!-- Safe: -->
+				<c:out value='${reportDtl.resultDtl.arRmk}'/></textarea>
 			</tbody>
 		</table>
 	</td>
@@ -970,6 +1031,7 @@
                        <col width="*">
                    </colgroup>
                    <tbody>
+				   <!-- Safe: -->
                    <c:if test="${fn:length(reportDtl.fileListResultReport) == 0}">
                        <tr>
                            <th class="search_th_c">첨부파일
@@ -980,16 +1042,22 @@
                            </td>
                        </tr>
                    </c:if>
+				   <!-- Safe: -->
                    <c:if test="${fn:length(reportDtl.fileListResultReport) > 0}">
+						<!-- Safe: -->
                        <c:forEach var="fileListResultReport" items="${reportDtl.fileListResultReport }" varStatus="status">
                            <tr>
+							<!-- Safe: -->
                                <c:if test="${ status.index eq 0 }">
+									<!-- Safe: -->
                                    <th class="search_th_c" rowspan="${fn:length(reportDtl.fileListResultReport)}">첨부파일
                                        <input type="button" id="rbtnAddAtchFileResultReport" class="input_btn_plus" />
+									   <!-- Flaw: -->
                                        <input type="hidden" id="rhdnFileKeyResultReport" value="${fileListResultReport.FILE_KEY }">
                                    </th>
                                </c:if>
                                <td class="search_td" style="height: 20px;">
+										<!-- Flaw: -->
                                        ${fileListResultReport.FILE_NM }
                                </td>
                            </tr>
