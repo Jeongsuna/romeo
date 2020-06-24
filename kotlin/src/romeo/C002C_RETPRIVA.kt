@@ -2,13 +2,15 @@ package romeo
 
 class C002C_RETPRIVA {
     private val foo: ByteArray = byteArrayOf(1,2,3)
-    fun getFoo(): ByteArray {
+    private val bar: ByteArray = byteArrayOf(1,2,3)
+    fun bad(): ByteArray {
         /* FLAW */
         return foo
     }
 
-    fun bad() {
+    fun good(): ByteArray {
         /* FLAW */
-        val tmp_data = getFoo()
+        val bar = byteArrayOf(4,5,6)
+        return bar
     }
 }
