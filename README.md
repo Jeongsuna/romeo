@@ -4,6 +4,7 @@
 * 폴더이름의 규칙
   - ``C<캐논식별코드>_<캐논고유이름>__CWE<CWE아이디>_<CWE타이틀>`` 
   - ``<CWE타이틀>``에서 공백은 ``_`` 로 대체하도록 한다.
+  - ``_<CWE타이틀>``나 ``__CWE<CWE아이디>_<CWE타이틀>``는 경우에 따라, 생략 가능  
   - 예) C00B0_HTMLCOMMENT__CWE830_Inclusion_of_Web_Functionality_from_an_Untrusted_Source
   - 예 설명) 캐논 식별코드: 00B0, 캐논고유이름: HTMLCOMMENT, CWE아이디: 830, CWE타이틀: Inclusion of Web Functionality from an Untrusted Source
 * 파일이름의 규칙
