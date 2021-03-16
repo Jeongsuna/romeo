@@ -1,3 +1,5 @@
+package testcases.C0078_FBNOTEVALI;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts.action.ActionErrors;

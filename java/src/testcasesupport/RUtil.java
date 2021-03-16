@@ -44,4 +44,17 @@ public class RUtil {
     	}
     	return ba;
     }
+
+	public static int verifyUser(String username, String password) {
+		String id = "id";
+		String pw = "pass!@#$";
+		if (id.equalsIgnoreCase(username) && pw.equals(password))
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
 }
