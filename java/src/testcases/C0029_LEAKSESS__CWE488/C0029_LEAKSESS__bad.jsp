@@ -8,5 +8,5 @@ String imagePath = commonPath + "img/";
 String imagePath_gis = imagePath + "gis/cmm/btn/";
 %>
 <% 
-	/* FLAW: CWE-488*/
+	/* FLAW: CWE-488 */
 	commonPath = request.getParameter("path"); %>

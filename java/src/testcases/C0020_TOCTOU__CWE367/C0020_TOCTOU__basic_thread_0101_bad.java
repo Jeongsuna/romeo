@@ -7,9 +7,7 @@ makedate : 2012 08 20
 license  : Copyright KISA.
 */
 
-package testcases.C0020_TOCTOU;
-
-import testcasesupport.*;
+package testcases.C0020_TOCTOU__CWE367;
 
 import java.io.*;
 

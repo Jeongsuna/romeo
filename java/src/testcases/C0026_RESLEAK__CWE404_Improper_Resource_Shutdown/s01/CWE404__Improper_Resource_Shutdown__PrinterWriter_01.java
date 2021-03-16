@@ -1,4 +1,4 @@
-package testcases.CWE404_Improper_Resource_Shutdown.s01;
+package testcases.C0026_RESLEAK__CWE404_Improper_Resource_Shutdown.s01;
 
 import java.io.File;
 import java.io.FileOutputStream;

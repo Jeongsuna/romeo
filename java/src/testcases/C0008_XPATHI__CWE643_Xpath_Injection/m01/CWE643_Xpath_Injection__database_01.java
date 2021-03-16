@@ -15,11 +15,9 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE643_Xpath_Injection.m01;
+package testcases.C0008_XPATHI__CWE643_Xpath_Injection.m01;
 
 import testcasesupport.*;
-
-import javax.servlet.http.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

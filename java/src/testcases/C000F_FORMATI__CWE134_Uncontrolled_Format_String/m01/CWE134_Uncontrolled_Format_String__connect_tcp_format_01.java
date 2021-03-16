@@ -15,7 +15,7 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE134_Uncontrolled_Format_String.m01;
+package testcases.C000F_FORMATI__CWE134_Uncontrolled_Format_String.m01;
 import testcasesupport.*;
 
 import java.io.BufferedReader;

@@ -13,7 +13,7 @@ Template File: sources-sink-01.tmpl.java
 *
 * */
 
-package testcases.CWE78_OS_Command_Injection.m01;
+package testcases.C0004_CMDI__CWE78_OS_Command_Injection.m01;
 
 import testcasesupport.*;
 

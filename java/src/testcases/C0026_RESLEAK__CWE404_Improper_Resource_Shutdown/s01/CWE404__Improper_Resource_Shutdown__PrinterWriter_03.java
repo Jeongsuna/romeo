@@ -1,4 +1,4 @@
-package testcases.CWE404_Improper_Resource_Shutdown.s01;
+package testcases.C0026_RESLEAK__CWE404_Improper_Resource_Shutdown.s01;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,11 +11,15 @@ public class CWE404__Improper_Resource_Shutdown__PrinterWriter_03 {
 	public void badClose(File file, String enc) {
         PrintWriter out = null;
         try {
-            // Flaw:
+
             out = new PrintWriter(
             	new OutputStreamWriter(
                 new FileOutputStream(file), enc));
             out.append('c');
+            /* FLAW : CWE-404 */
+            if (out != null) {
+                out.close();
+            }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
@@ -23,7 +27,7 @@ public class CWE404__Improper_Resource_Shutdown__PrinterWriter_03 {
         }
     }
 	public void bad(File file, String enc) {
-		bad(file, enc);
+        badClose(file, enc);
 	}
 	
 	public void goodClose(File file, String enc) {
@@ -38,9 +42,13 @@ public class CWE404__Improper_Resource_Shutdown__PrinterWriter_03 {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            if (out != null) {
+                out.close();
+            }
         }
     }
 	public void good(File file, String enc) {
-		good(file, enc);
+        goodClose(file, enc);
 	}
 }

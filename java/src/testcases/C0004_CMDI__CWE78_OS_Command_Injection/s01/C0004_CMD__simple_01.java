@@ -1,4 +1,4 @@
-package testcases.C0004_CMDI;
+package testcases.C0004_CMDI__CWE78_OS_Command_Injection.s01;
 
 import testcasesupport.IO;
 
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
-public class C0004_CMDI_01 {
+public class C0004_CMD__simple_01 {
 
     public void bad(String args[]) throws IOException {
 

@@ -15,7 +15,7 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE113_HTTP_Response_Splitting.m01;
+package testcases.C000B_HTTPSPLIT__CWE113_HTTP_Response_Splitting.m01;
 import testcasesupport.*;
 
 import javax.servlet.http.*;

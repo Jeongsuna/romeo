@@ -5,7 +5,7 @@ import testcasesupport.IO;
 import javax.servlet.http.HttpServletRequest;
 import java.util.logging.Level;
 
-public class C000D_RELUNTRUST {
+public class C000D_RELUNTRUST__simple_01 {
 
     public void bad(HttpServletRequest request) {
         String price = "";

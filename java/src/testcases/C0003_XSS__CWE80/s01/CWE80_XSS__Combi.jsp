@@ -1,4 +1,4 @@
-<%@ page import="testcases.CWE80_XSS.s01.CWE80_XSS__Combi"%>
+<%@ page import="testcases.C0003_XSS__CWE80.s01.CWE80_XSS__Combi"%>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

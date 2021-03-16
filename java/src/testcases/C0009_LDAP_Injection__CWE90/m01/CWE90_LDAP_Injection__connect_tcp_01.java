@@ -13,11 +13,9 @@ Template File: sources-sink-01.tmpl.java
 *
 * */
 
-package testcases.CWE90_LDAP_Injection.m01;
+package testcases.C0009_LDAP_Injection__CWE90.m01;
 
 import testcasesupport.*;
-
-import javax.servlet.http.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

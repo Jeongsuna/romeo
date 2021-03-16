@@ -1,4 +1,4 @@
-package testcases.CWE80_XSS.s01;
+package testcases.C0003_XSS__CWE80.s01;
 
 import java.io.IOException;
 

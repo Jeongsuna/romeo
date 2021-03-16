@@ -13,7 +13,7 @@ Template File: sources-sink-01.tmpl.java
 *
 * */
 
-package testcases.CWE601_Open_Redirect.m01;
+package testcases.C0006_REDIRECT__CWE601_Open_Redirect.m01;
 
 import testcasesupport.*;
 

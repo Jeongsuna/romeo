@@ -15,7 +15,7 @@ Template File: sources-sinks-01.tmpl.java
 *
 * */
 
-package testcases.CWE476_NULL_Pointer_Dereference.m01;
+package testcases.C0025_USENULL__CWE476_NULL_Pointer_Dereference.m01;
 
 import testcasesupport.*;
 

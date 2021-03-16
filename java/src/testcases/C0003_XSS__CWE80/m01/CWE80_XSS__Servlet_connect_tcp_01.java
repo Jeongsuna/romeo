@@ -13,7 +13,7 @@ Template File: sources-sink-01.tmpl.java
 *
 * */
 
-package testcases.CWE80_XSS.m01;
+package testcases.C0003_XSS__CWE80.m01;
 import testcasesupport.*;
 
 import javax.servlet.http.*;
