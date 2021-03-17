@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
-public class C0004_CMD__simple_01 {
+public class C0004_CMDI__simple_01 {
 
     public void bad(String args[]) throws IOException {
 
