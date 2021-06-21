@@ -1,4 +1,4 @@
-package testcases.C7008_IMPRCERTVAL_CWE295;
+package testcases.C7008_IMPRCERTVAL__CWE295;
 
 import javax.net.ssl.*;
 import javax.ws.rs.client.*;
@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
-public class C7008_IMPRCERTVAL_CWE295_simple {
+public class C7008_IMPRCERTVAL_CWE295__simple {
     public void bad() throws NoSuchAlgorithmException, KeyManagementException {
         SSLContext sslContext = SSLContext.getInstance("TLS");
         sslContext.init(null, new TrustManager[]{new X509TrustManager() {

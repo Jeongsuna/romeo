@@ -1,4 +1,4 @@
-package testcases.C7009_IMPRXMLEXTENT_CWE611;
+package testcases.C7009_IMPRXMLEXTENT__CWE611;
 
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -10,7 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class C7009_IMPRXMLEXTENT_CWE611_simple {
+public class C7009_IMPRXMLEXTENT_CWE611__simple {
     public void bad() throws ParserConfigurationException, SAXException, IOException {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser saxParser = factory.newSAXParser();

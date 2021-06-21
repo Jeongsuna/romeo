@@ -1,4 +1,4 @@
-package testcases.C7005_BADDESERIAL_CWE502;
+package testcases.C7005_BADDESERIAL__CWE502;
 
 import java.io.*;
 import java.util.Set;

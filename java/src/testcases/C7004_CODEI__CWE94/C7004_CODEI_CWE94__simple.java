@@ -1,4 +1,4 @@
-package testcases.C7004_CODEI_CWE94;
+package testcases.C7004_CODEI__CWE94;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 @Controller
-public class C7004_CODEI_CWE94_simple {
+public class C7004_CODEI_CWE94__simple {
     @RequestMapping(value = "/execute", method = RequestMethod.GET)
     public String bad(@RequestParam("src") String src) throws ScriptException {
         ScriptEngineManager scriptEngineManager = new ScriptEngineManager();;

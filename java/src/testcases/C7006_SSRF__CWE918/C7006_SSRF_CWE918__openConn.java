@@ -1,4 +1,4 @@
-package testcases.C7006_SSRF_CWE918;
+package testcases.C7006_SSRF__CWE918;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Map;
 
-public class C7006_SSRF_CWE918_simple {
+public class C7006_SSRF_CWE918__openConn {
     protected void bad(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         //사용자 입력값으로 url을 받음.
         /* FLAW: CWE-918 */
