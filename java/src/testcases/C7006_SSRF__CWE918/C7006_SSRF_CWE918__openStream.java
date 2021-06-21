@@ -13,7 +13,6 @@ import java.util.Map;
 public class C7006_SSRF_CWE918__openStream extends HttpServlet {
     protected void bad(HttpServletRequest req, HttpServletResponse res)
         throws ServletException, IOException {
-        /* FLAW: CWE-918 */
         String url = req.getParameter("url");
 
         InputStream inputStream = null;
@@ -25,6 +24,7 @@ public class C7006_SSRF_CWE918__openStream extends HttpServlet {
         int length;
         byte[] bytes = new byte[1024];
         // 입력받은 URL을 stream으로 생성
+        /* FLAW: CWE-918 */
         inputStream = u.openStream();
         outputStream = res.getOutputStream();
         while ((length = inputStream.read(bytes)) > 0) {

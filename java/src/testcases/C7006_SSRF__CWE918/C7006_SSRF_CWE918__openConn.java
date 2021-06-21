@@ -10,8 +10,8 @@ import java.util.Map;
 public class C7006_SSRF_CWE918__openConn {
     protected void bad(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         //사용자 입력값으로 url을 받음.
-        /* FLAW: CWE-918 */
         URL url = new URL(req.getParameter("url"));
+        /* FLAW: CWE-918 */
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
     }
 

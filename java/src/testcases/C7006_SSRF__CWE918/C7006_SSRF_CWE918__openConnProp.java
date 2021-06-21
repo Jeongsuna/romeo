@@ -12,6 +12,7 @@ public class C7006_SSRF_CWE918__openConnProp {
 
     protected void bad(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         URL url = new URL(properties.getProperty("connectUrl"));
+        /* FLAW: CWE-918 */
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
     }
 
