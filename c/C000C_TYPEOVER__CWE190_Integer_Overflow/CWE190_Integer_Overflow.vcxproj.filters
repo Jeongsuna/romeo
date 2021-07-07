@@ -429,6 +429,15 @@
     <ClCompile Include="io.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="s01\C000C_TYPEOVER__simple.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\C000C_TYPEOVER__ftell_simple_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="s01\C000C_TYPEOVER__ftell_ret_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="m00\CWE190_Integer_Overflow__char_max_add_81.h">

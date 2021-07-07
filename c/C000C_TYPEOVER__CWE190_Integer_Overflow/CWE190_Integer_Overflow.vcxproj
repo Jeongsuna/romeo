@@ -250,6 +250,9 @@
     <ClCompile Include="m01\CWE190_Integer_Overflow__unsigned_int_rand_add_01.c" />
     <ClCompile Include="m01\CWE190_Integer_Overflow__unsigned_int_rand_multiply_01.c" />
     <ClCompile Include="m01\CWE190_Integer_Overflow__unsigned_int_rand_square_01.c" />
+    <ClCompile Include="s01\C000C_TYPEOVER__ftell_ret_01.c" />
+    <ClCompile Include="s01\C000C_TYPEOVER__ftell_simple_01.c" />
+    <ClCompile Include="s01\C000C_TYPEOVER__simple.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="m00\CWE190_Integer_Overflow__char_max_add_81.h" />
