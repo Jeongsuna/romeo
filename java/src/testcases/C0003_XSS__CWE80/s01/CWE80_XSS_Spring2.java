@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import testcasesupport.AbstractTestCaseServletReturnString;
 
-public class CWE80_XSS_OpenEG2 extends AbstractTestCaseServletReturnString{
+public class CWE80_XSS_Spring2 extends AbstractTestCaseServletReturnString{
 
 	
 	@RequestMapping(value="/test/xss_test.do")

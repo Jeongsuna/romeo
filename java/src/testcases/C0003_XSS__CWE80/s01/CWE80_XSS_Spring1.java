@@ -1,38 +1,31 @@
 package testcases.C0003_XSS__CWE80.s01;
 
-import java.io.IOException;
-
 import javax.servlet.http.*;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import testcasesupport.AbstractTestCaseServlet;
+import testcasesupport.AbstractTestCaseServletReturnString;
 
-public class CWE80_XSS_OpenEG3 extends AbstractTestCaseServlet{
+public class CWE80_XSS_Spring1 extends AbstractTestCaseServletReturnString{
 
 	
-	@RequestMapping(value="/test/xss_test_c.do")
+	@RequestMapping(value="/test/xss_test.do")
 	@ResponseBody
 	@Override
-	public void bad(HttpServletRequest request, HttpServletResponse response) throws Throwable {
+	public String bad(HttpServletRequest request, HttpServletResponse response) throws Throwable {
+		StringBuffer buffer=new StringBuffer();
 		String data=request.getParameter("data");
-        try {
-        	   /* FLAW */
-	         response.sendRedirect("../domxss.jsp?message="+data);
-        } catch (IOException e) {
-	
-          System.out.println("ERROR");
-        }
-		
+		/* FLAW  */
+		buffer.append(data);
+        return buffer.toString();
 	}
 
 	@Override
-	public void good(HttpServletRequest request, HttpServletResponse response) throws Throwable {
+	public String good(HttpServletRequest request, HttpServletResponse response) throws Throwable {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
-
 
 	
 	
@@ -46,6 +39,4 @@ public class CWE80_XSS_OpenEG3 extends AbstractTestCaseServlet{
     {
         mainFromParent(args);
     }
-
-
 }
