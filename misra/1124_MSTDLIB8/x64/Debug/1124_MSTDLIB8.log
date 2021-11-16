@@ -1,0 +1,4 @@
+﻿  1124_MSTDLIB8__BadCode.cpp
+C:\Users\Jin\Desktop\CanonMisraC2012_omission\1124_MSTDLIB8\1124_MSTDLIB8__BadCode.cpp(11,17): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1124_MSTDLIB8__GoodCode.cpp
+  코드를 생성하고 있습니다...

@@ -1,0 +1,5 @@
+﻿  10B7_MC3TYPE2__BadCode.c
+  10B7_MC3TYPE2__GoodCode.c
+  코드를 생성하고 있습니다...
+10B7_MC3TYPE2__GoodCode.obj : error LNK2005: main이(가) 10B7_MC3TYPE2__BadCode.obj에 이미 정의되어 있습니다.
+C:\Users\Jin\git\romeo\misra\10B7_MC3TYPE2\x64\Debug\10B7_MC3TYPE2.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

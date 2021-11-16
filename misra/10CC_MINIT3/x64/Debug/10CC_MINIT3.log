@@ -1,0 +1,5 @@
+﻿  10CC_MINIT3__BadCode.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\arm_neon.h(21,1): fatal error C1189: #error:  This header is specific to ARM targets
+  10CC_MINIT3__GoodCode.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\arm_neon.h(21,1): fatal error C1189: #error:  This header is specific to ARM targets
+  코드를 생성하고 있습니다...

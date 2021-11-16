@@ -1,0 +1,5 @@
+﻿10A3_MUNUSED2__GoodCode.obj : error LNK2005: "void __cdecl f(void)" (?f@@YAXXZ)이(가) 10A3_MUNUSED2__BadCode.obj에 이미 정의되어 있습니다.
+10A3_MUNUSED2__GoodCode.obj : error LNK2005: main이(가) 10A3_MUNUSED2__BadCode.obj에 이미 정의되어 있습니다.
+10A3_MUNUSED2__GoodCode.obj : error LNK2005: "unsigned short volatile v" (?v@@3GC)이(가) 10A3_MUNUSED2__extern.obj에 이미 정의되어 있습니다.
+10A3_MUNUSED2__GoodCode.obj : error LNK2005: "char * p" (?p@@3PEADEA)이(가) 10A3_MUNUSED2__extern.obj에 이미 정의되어 있습니다.
+C:\Users\Jin\git\romeo\misra\10A3_MUNUSED2\x64\Debug\10A3_MUNUSED2.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

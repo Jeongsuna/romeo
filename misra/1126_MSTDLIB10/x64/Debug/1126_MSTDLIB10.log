@@ -1,0 +1,4 @@
+﻿  1126_MSTDLIB10__GoodCode.c
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(11,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,7): error C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
