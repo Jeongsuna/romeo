@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10FC_MSWITCH7__BadCode.c" />
+    <ClCompile Include="10FC_MSWITCH7__GoodCode.c" />
     <ClCompile Include="10FC_MSWITCH7__GoodCode.cpp" />
   </ItemGroup>
   <ItemGroup>

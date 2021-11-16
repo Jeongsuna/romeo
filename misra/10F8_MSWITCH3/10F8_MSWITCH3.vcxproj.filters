@@ -18,5 +18,8 @@
     <ClCompile Include="10F8_MSWITCH3__GoodCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10F8_MSWITCH3__BadCode.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

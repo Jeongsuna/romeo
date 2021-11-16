@@ -1,0 +1,5 @@
+﻿  10FB_MSWITCH6__BadCode.c
+  10FB_MSWITCH6__GoodCode.c
+  코드를 생성하고 있습니다...
+10FB_MSWITCH6__GoodCode.obj : error LNK2005: main이(가) 10FB_MSWITCH6__BadCode.obj에 이미 정의되어 있습니다.
+C:\Users\Jin\git\romeo\misra\10FB_MSWITCH6\x64\Debug\10FB_MSWITCH6.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

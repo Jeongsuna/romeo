@@ -18,6 +18,12 @@
     <ClCompile Include="10FC_MSWITCH7__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10FC_MSWITCH7__BadCode.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10FC_MSWITCH7__GoodCode.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdbool.h">

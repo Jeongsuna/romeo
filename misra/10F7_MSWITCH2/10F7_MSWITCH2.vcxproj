@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10F7_MSWITCH2__BadCode.c" />
     <ClCompile Include="10F7_MSWITCH2__GoodCode.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
