@@ -1,6 +1,6 @@
 #include <cstdint>
 
-int main() {
+int fake_main() {
 
 	while (true)
 	{

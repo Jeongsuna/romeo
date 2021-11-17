@@ -1,6 +1,6 @@
 #include <cstdint>
 /* badcode */
-int16_t unusedtype(void)
+int16_t unusedtype2(void)
 {
 	typedef int16_t local_Type; /* Non-compliant */
 	return 67;
@@ -12,8 +12,8 @@ int16_t usedtype(void)
 	local_Type num = 5;
 	return num;
 }
-int main() {
-	unusedtype();
+int fake_main() {
+	unusedtype2();
 	usedtype();
 	return 0;
 }

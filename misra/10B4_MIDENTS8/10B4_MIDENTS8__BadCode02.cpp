@@ -9,7 +9,7 @@ static void foo(void) /* Non-compliant - "foo" is not unique
 	* external linkage */
 	int32_t index; /* Compliant - "index" has no linkage */
 }
-int main() {
+int fake_main() {
 	foo();
 	return 0;
 }

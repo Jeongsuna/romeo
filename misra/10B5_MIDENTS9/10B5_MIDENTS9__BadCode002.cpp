@@ -23,7 +23,7 @@ void bar2(void)
 }
 /* End of file2.c */
 
-int main()
+int main2()
 {
 
 	return 0;

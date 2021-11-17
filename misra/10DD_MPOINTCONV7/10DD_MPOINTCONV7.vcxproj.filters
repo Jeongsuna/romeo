@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\CanonMisraC2012_omission\10DD_MPOINTCONV7\10DD_MPOINTCONV7__GoodCode.cpp">
+    <ClCompile Include="10DD_MPOINTCONV7__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

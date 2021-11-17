@@ -5,7 +5,7 @@ static void foo(void) /* "foo" has internal linkage */
 {
     int16_t index; /* "index" has no linkage */
 }
-void bar1(void)
+void bar1_2(void)
 {
     int16_t index; /* Compliant - "index" is not unique but
                     * has no linkage */

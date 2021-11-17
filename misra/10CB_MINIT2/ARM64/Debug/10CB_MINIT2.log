@@ -1,0 +1,5 @@
+﻿  10CB_MINIT2__BadCode.c
+  10CB_MINIT2__GoodCode.c
+  코드를 생성하고 있습니다...
+C:\Users\Jin\git\romeo\misra\10CB_MINIT2\10CB_MINIT2__GoodCode.c(32): warning C4716: 'fake_main': 값을 반환해야 합니다.
+  10CB_MINIT2.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10CB_MINIT2.exe

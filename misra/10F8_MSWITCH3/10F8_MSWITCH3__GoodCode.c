@@ -1,4 +1,4 @@
-int main() {
+int fake_main() {
 	int x = 1;
 	switch (x)
 	{

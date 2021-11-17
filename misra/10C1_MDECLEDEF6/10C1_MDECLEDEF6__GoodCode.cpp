@@ -7,7 +7,7 @@
 int16_t j; /* Tentative definition */
 //int16_t j = 1; /* Compliant - external definition */
 
-int main()
+int fake_main()
 {
 	return 0;
 }

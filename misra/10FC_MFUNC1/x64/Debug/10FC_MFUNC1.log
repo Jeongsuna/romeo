@@ -1,9 +1,3 @@
-﻿  10FC_MSWITCH7__BadCode.c
-C:\Users\Jin\git\romeo\misra\10FC_MFUNC1\10FC_MSWITCH7__BadCode.c(10,19): warning C4145: '==': 관계식을 switch 식으로 사용했습니다. '='과(와) 혼동할 수 있습니다.
-  10FC_MSWITCH7__GoodCode.c
-C:\Users\Jin\git\romeo\misra\10FC_MFUNC1\10FC_MSWITCH7__GoodCode.c(10,19): warning C4145: '==': 관계식을 switch 식으로 사용했습니다. '='과(와) 혼동할 수 있습니다.
-  코드를 생성하고 있습니다...
-  10FC_MSWITCH7__GoodCode.cpp
-10FC_MSWITCH7__GoodCode.obj : error LNK2005: main이(가) 10FC_MSWITCH7__BadCode.obj에 이미 정의되어 있습니다.
+﻿  LINK : C:\Users\Jin\git\romeo\misra\x64\Debug\10FC_MFUNC1.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
 x64\Debug\10FC_MSWITCH7__GoodCode.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
-C:\Users\Jin\git\romeo\misra\x64\Debug\10FC_MFUNC1.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  10FC_MFUNC1.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10FC_MFUNC1.exe

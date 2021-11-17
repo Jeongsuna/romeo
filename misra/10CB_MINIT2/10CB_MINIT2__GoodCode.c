@@ -5,7 +5,7 @@
 #include <arm64_neon.h>
 
 //int16_t y[ 3 ][ 2 ] = { { 1, 2 }, { 0 }, { 5, 6 } }; /* Compliant */
-int16_t y[3][2] = { { 1, 2 }, { 0, 0 }, { 5, 6 } }; /* Compliant */
+int16_t y1[3][2] = { { 1, 2 }, { 0, 0 }, { 5, 6 } }; /* Compliant */
 int16_t z1[2][2] = { { 0 },[1][1] = 1 }; /* Compliant */
 int16_t z2[2][2] = { { 0 },[1][1] = 1,[1][0] = 0 }; /* Compliant */
 int16_t z4[2][2] = { [0] [1] = 0, { 0, 1 } }; /* Compliant */
@@ -26,7 +26,7 @@ struct s1 {
 {.len = 0u } /* Compliant - buf initialized implicitly */
 }; /* Compliant - s[] fully initialized */
 
-int main()
+int fake_main()
 {
 
 }

@@ -2,7 +2,7 @@
 
 int z;
 
-int main()
+int fake_main()
 {
     switch (z)
     {

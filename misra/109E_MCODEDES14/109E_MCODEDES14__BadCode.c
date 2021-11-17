@@ -4,7 +4,7 @@
 void f1(void)
 {
 	char input[128];
-	(void)scanf_s("%128c", input);
+	(void)scanf("%128c", input);
 	(void)printf("%s", input); /* Non-compliant */
 }
 

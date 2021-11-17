@@ -11,6 +11,6 @@ struct str
 	int16_t x; /* Compliant */
 } s;
 
-int main() {
+int fake_main() {
 	return 0;
 }

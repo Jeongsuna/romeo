@@ -12,7 +12,7 @@ uint16_t first(const uint16_t a[5]) {
     return a[0];
 
 }
-int main() {
+int fake_main() {
 	g(0);
 	last_char((char*)"hello");
 	first(0);

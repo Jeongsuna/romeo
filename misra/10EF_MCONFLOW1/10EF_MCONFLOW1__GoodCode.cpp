@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cstdint>
 
-int main(void) {
+int fake_main(void) {
 	/* num is changed by user */
 	int16_t num = 3;
 	for (int16_t i = 0; i < 10; i++)

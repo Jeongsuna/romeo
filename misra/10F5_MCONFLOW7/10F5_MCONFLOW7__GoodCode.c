@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int fake_main() {
 	int i = 0;
 
 	if (i == 5)

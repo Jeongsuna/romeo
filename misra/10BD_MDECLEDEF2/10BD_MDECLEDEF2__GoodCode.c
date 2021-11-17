@@ -18,7 +18,7 @@ int16_t(*pf1) (void);
 /* Compliant */
 typedef int16_t(*pf3_t) (int16_t n);
 
-int main()
+int fake_main()
 {
 	return 0;
 }

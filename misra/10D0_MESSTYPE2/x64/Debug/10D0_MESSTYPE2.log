@@ -1,2 +1,3 @@
 ﻿  10D0_MESSTYPE2__BadCode.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(693,5): error MSB6006: "CL.exe"이(가) 종료되었습니다(코드: 2).
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\arm_neon.h(21,1): fatal error C1189: #error:  This header is specific to ARM targets

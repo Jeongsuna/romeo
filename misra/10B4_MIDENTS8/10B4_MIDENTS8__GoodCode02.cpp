@@ -1,10 +1,10 @@
 /* file2.c */
 #include <cstdint>
-static void foo2(void)
+static void foo3(void)
 {
     int32_t index; /* Compliant - "index" has no linkage */
 }
-int main()
+int fake_main2()
 {
     return 0;
 }

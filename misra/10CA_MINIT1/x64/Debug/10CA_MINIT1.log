@@ -2,7 +2,4 @@
 C:\Users\Jin\git\romeo\misra\10CA_MINIT1\10CA_MINIT1__BadCode.cpp(22,4): warning C4102: 'L1': 참조되지 않은 레이블입니다.
   10CA_MINIT1__GoodCode.cpp
   코드를 생성하고 있습니다...
-10CA_MINIT1__GoodCode.obj : error LNK2005: "void __cdecl f(bool,unsigned short *)" (?f@@YAX_NPEAG@Z)이(가) 10CA_MINIT1__BadCode.obj에 이미 정의되어 있습니다.
-10CA_MINIT1__GoodCode.obj : error LNK2005: "void __cdecl g(void)" (?g@@YAXXZ)이(가) 10CA_MINIT1__BadCode.obj에 이미 정의되어 있습니다.
-10CA_MINIT1__GoodCode.obj : error LNK2005: main이(가) 10CA_MINIT1__BadCode.obj에 이미 정의되어 있습니다.
-C:\Users\Jin\git\romeo\misra\10CA_MINIT1\x64\Debug\10CA_MINIT1.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  10CA_MINIT1.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10CA_MINIT1.exe

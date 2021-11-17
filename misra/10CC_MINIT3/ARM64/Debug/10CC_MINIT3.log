@@ -1,0 +1,5 @@
+﻿  10CC_MINIT3__BadCode.cpp
+  10CC_MINIT3__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\10CC_MINIT3\10CC_MINIT3__GoodCode.cpp(14,1): warning C4305: '초기화 중': 'double'에서 'float32_t'(으)로 잘립니다.
+  코드를 생성하고 있습니다...
+  10CC_MINIT3.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10CC_MINIT3.exe

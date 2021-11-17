@@ -1,5 +1,5 @@
 #include <cstdint>
-void func(void)
+void func2(void)
 {
 	{
 		typedef unsigned char u8_t;  /* Compliant */
@@ -12,8 +12,8 @@ typedef struct list
 	uint16_t
 		element;
 } list; /* Compliant - exception */
-int main()
+int fake_main()
 {
-	func();
+	func2();
     return 0;
 }

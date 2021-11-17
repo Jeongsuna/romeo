@@ -7,11 +7,11 @@ static void foo(void) /* Compliant - "foo" has internal linkage */
 	{
 	}
 }
-void bar1(void)
+void bar1_2(void)
 {
 	int16_t index; /* "index" has no linkage */
 }
-int main(void)
+int fake_main(void)
 {
 	count = 0;
 	for (int16_t i = 0; i < 10; i++)

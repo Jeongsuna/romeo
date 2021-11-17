@@ -1,10 +1,10 @@
 #include <cstdint>
-struct stag
+struct stag2
 {
     uint16_t a;
     uint16_t b;
 };
-struct stag a1 = { 0, 0 }; /* Compliant - compatible with above */
+struct stag2 a1 = { 0, 0 }; /* Compliant - compatible with above */
 
 struct deer
 {
@@ -23,7 +23,7 @@ struct elk
     uint16_t x;
 }; /* Compliant */
 
-int main()
+int fake_main()
 {
     return 0;
 }

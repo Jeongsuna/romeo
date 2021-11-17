@@ -1,30 +1,30 @@
 #include <stdio.h>
 
-int x = 0;
+int x2 = 0;
 
-int main()
+int fake_main()
 {
-    switch (x)
+    switch (x2)
     {
     default:    /* Compliant - default is the first label */
     case 0:
-        ++x;
+        ++x2;
         break;
     case 1:
     case 2:
         break;
     }
 
-    switch (x)
+    switch (x2)
     {
     case 0:
-        ++x;
+        ++x2;
         break;
     case 1:
     case 2:
         break;
     default:    /* Compliant - default is the final label */
-        x = 0;
+        x2 = 0;
         break;
     }
 

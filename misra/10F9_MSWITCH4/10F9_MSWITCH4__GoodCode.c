@@ -2,7 +2,7 @@
 int16_t x;
 int errorflag;
 
-int main()
+int fake_main()
 {
     switch (x)
     {

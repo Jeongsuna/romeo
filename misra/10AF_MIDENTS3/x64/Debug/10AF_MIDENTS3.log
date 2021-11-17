@@ -1,5 +1,4 @@
-﻿  10AF_MIDENTS3_extern.c
-  10AF_MIDENTS3__BadCode.c
+﻿  10AF_MIDENTS3__BadCode.c
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\arm64_neon.h(17,1): fatal error C1189: #error:  This header is specific to ARM64 targets
   10AF_MIDENTS3__GoodCode.c
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\arm64_neon.h(17,1): fatal error C1189: #error:  This header is specific to ARM64 targets

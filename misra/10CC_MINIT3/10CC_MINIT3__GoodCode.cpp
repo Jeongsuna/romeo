@@ -14,6 +14,6 @@ float32_t arr[3][2] =
 };
 char h[10] = "Hello"; /* Compliant by Exception 3 */
 
-int main(){
+int fake_main(){
 	return 0;
 }

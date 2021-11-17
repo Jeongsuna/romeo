@@ -10,7 +10,7 @@ void f(bool_t b)
 {
 	void (*fp1) (int16_t z) = b ? f1 : f2;
 }
-int main() {
+int fake_main() {
 	f(true);
 	return 0;
 }

@@ -6,7 +6,7 @@
 static inline void func(void){
 }
 
-int main()
+int fake_main()
 {
 	return 0;
 }

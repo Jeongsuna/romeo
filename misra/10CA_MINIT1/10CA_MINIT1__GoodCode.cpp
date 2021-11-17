@@ -1,17 +1,17 @@
 #include "stdbool.h"
 #include <cstdint>
 
-void f(bool_t b, uint16_t* p)
+void f2(bool_t b, uint16_t* p)
 {
 	if (b)
 	{
 		*p = 3U;
 	}
 }
-void g(void)
+void g2(void)
 {
 	uint16_t u;
-	f(false, &u);
+	f2(false, &u);
 	if (u == 3U)
 	{
 		/* Non-compliant - u has not been assigned a value */
@@ -21,7 +21,7 @@ void g(void)
 		x = x + 1u;
 	}
 }
-int main() {
-	g();
+int fake_main() {
+	g2();
 	return 0;
 }

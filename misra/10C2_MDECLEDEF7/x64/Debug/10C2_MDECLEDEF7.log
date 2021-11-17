@@ -6,6 +6,4 @@ C:\Users\Jin\git\romeo\misra\10C2_MDECLEDEF7\10C2_MDECLEDEF7__BadCode01.cpp(13,1
 C:\Users\Jin\git\romeo\misra\10C2_MDECLEDEF7\10C2_MDECLEDEF7__GoodCode.cpp(5,10): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
 C:\Users\Jin\git\romeo\misra\10C2_MDECLEDEF7\10C2_MDECLEDEF7__GoodCode.cpp(12,10): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다...
-10C2_MDECLEDEF7__GoodCode.obj : error LNK2005: "void __cdecl bar1(void)" (?bar1@@YAXXZ)이(가) 10C2_MDECLEDEF7__BadCode01.obj에 이미 정의되어 있습니다.
-10C2_MDECLEDEF7__GoodCode.obj : error LNK2005: main이(가) 10C2_MDECLEDEF7__BadCode02.obj에 이미 정의되어 있습니다.
-C:\Users\Jin\git\romeo\misra\10C2_MDECLEDEF7\x64\Debug\10C2_MDECLEDEF7.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  10C2_MDECLEDEF7.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10C2_MDECLEDEF7.exe

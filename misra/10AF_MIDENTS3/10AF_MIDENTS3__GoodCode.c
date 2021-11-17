@@ -6,7 +6,7 @@
 #include <arm64_neon.h>
 
 
-void fn1 ( void )
+void fn1_2 ( void )
 {
 	int16_t i; /* Declare an object ""i"" */
 	{
@@ -19,12 +19,12 @@ struct astruct
 	int16_t m;
 };
 extern void g(struct astruct* p);
-int16_t xyz = 0; /* Declare an object ""xyz""*/
-void fn2(struct astruct x)
+int16_t xyz2 = 0; /* Declare an object ""xyz""*/
+void fn2_2(struct astruct x)
 {
 	g(&x);
 }
-int main()
+int fake_main()
 {
 	return 0;
 }

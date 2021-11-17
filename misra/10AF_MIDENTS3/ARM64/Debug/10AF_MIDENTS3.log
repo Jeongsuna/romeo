@@ -1,0 +1,7 @@
+﻿  10AF_MIDENTS3_extern.c
+  10AF_MIDENTS3__BadCode.c
+C:\Users\Jin\git\romeo\misra\10AF_MIDENTS3\10AF_MIDENTS3__BadCode.c(9,10): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  10AF_MIDENTS3__GoodCode.c
+C:\Users\Jin\git\romeo\misra\10AF_MIDENTS3\10AF_MIDENTS3__GoodCode.c(13,11): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  10AF_MIDENTS3.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10AF_MIDENTS3.exe

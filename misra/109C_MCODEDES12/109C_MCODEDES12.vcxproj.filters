@@ -18,7 +18,7 @@
     <ClCompile Include="109C_MCODEDES12__GoodCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\canon_misra\canon_misra\109C_MCODEDES12__simple.c">
+    <ClCompile Include="109C_MCODEDES12__simple.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

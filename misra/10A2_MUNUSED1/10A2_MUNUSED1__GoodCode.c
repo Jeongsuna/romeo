@@ -1,5 +1,5 @@
 enum light { red, amber, red_amber, green };
-enum light next_light(enum light c)
+enum light next_light2(enum light c)
 {
 	enum light res;
 	switch (c)
@@ -30,7 +30,7 @@ enum light next_light(enum light c)
 	*this part is unreachable.
 	*/
 }
-int main() {
-	next_light(red);
+int fake_main() {
+	next_light2(red);
 	return 0;
 }

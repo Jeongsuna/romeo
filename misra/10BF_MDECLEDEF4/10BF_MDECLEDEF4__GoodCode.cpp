@@ -20,7 +20,7 @@ static void func5(void)
 	* linkage */
 }
 
-int main()
+int fake_main()
 {
 	return 0;
 }

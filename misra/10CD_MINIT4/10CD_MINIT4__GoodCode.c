@@ -25,7 +25,7 @@ struct mystruct s1 = { 100, -1, 42, 999 };
 * Compliant - s2 is 100, -1, 42, 999 */
 struct mystruct s2 = { .a = 100, .b = -1, .c = 42, .d = 999 };
 
-int main()
+int fake_main()
 {
 	return 0;
 }

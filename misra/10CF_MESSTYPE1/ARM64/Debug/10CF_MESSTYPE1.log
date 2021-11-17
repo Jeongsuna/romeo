@@ -1,0 +1,6 @@
+﻿  10CF_MESSTYPE1__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\10CF_MESSTYPE1\10CF_MESSTYPE1__BadCode.cpp(41,24): warning C4293: '<<': 시프트 횟수가 음수이거나 너무 큽니다. 정의되지 않은 동작입니다.
+  10CF_MESSTYPE1__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\10CF_MESSTYPE1\10CF_MESSTYPE1__GoodCode.cpp(47,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+  코드를 생성하고 있습니다...
+  10CF_MESSTYPE1.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10CF_MESSTYPE1.exe

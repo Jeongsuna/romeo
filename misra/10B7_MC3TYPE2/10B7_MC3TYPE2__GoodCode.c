@@ -7,7 +7,7 @@ struct s {
 unsigned int b1 : 1; /* Compliant */
 };
 
-int main()
+int fake_main()
 {
 
 	return 0;

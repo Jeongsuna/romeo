@@ -15,7 +15,7 @@ typedef struct /* Compliant */
 	uint16_t val;
 } record2_t;
 
-int main()
+int fake_main()
 {
 	usedtag();
 

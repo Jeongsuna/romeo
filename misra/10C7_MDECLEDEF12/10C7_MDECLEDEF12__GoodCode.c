@@ -5,7 +5,7 @@
 
 /* Compliant */
 enum colour { red = 3, blue, green = 5, yellow = 5 };
-int main()
+int fake_main()
 {
 	return 0;
  }

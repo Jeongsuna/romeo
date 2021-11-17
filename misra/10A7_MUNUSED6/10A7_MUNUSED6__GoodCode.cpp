@@ -3,7 +3,7 @@
 // main() Ãß°¡
 #include <cstdint>
 
-int16_t use_int16(int16_t x)
+int16_t use_int16_2(int16_t x)
 {
 	return 0;
 }
@@ -17,10 +17,10 @@ void used_label ( void )
 	}
 	x = -x;
 label1: /* Compliant */
-	use_int16(x);
+	use_int16_2(x);
 }
 
-int main()
+int fake_main()
 {
 	return 0;
 }

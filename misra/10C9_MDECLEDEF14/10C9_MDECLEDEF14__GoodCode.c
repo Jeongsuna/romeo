@@ -15,7 +15,7 @@ void f(void) {
     memcpy(p, q, n);
 }
 
-int main()
+int fake_main()
 {
     return 0;
 }

@@ -1,0 +1,4 @@
+﻿  10D0_MESSTYPE2__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\10D0_MESSTYPE2\10D0_MESSTYPE2__BadCode.cpp(11,9): warning C4477: 'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+  10D0_MESSTYPE2__GoodCode.c
+  10D0_MESSTYPE2.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10D0_MESSTYPE2.exe

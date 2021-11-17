@@ -6,7 +6,7 @@ const char *s2 = "\x41" "g"; /* Compliant - terminated by end of literal */
 const char* s3 = "\x41\x67"; /* Compliant - terminated by another escape */
 int c2 = '\141\t'; /* Compliant - terminated by another escape */
 
-int main()
+int fake_main()
 {
 	return 0;
 }

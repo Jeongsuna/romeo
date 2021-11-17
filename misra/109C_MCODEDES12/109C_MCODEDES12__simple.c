@@ -15,7 +15,7 @@ void f_goodcode(void)
 	free(p);
 	p = NULL; /* Assigning NULL to freed pointer makes it determinate */
 }
-int main() {
+int fake_main() {
 	f_badcode();
 	f_goodcode();
 	return 0;
