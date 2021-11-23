@@ -33,4 +33,4 @@ void f3(void)
 	j++;
 	if (j == 10) return;
 	f2();           /* Non-compliant - f3 calls itself by f2 indirectly. */
-}
+} 

@@ -7,6 +7,7 @@ uint16_t lookup(uint16_t v)
 	}
 	return v; /* Compliant */
 }
+
 int main() {
 	lookup(0);
 	return 0; /* Compliant */

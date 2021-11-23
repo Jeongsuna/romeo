@@ -20,13 +20,13 @@ void fn1(void)
 void fn3(void)
 {
 	uint16_t p1[] = { 1,2,3,4,5 };
-	p1++;         /* Compliant */
-	p1 = p1 + 5;  /* Non-compliant */
+	p1[1]++;         /* Compliant */
+	p1[1] = p1[1] + 5;  /* Non-compliant */
 	p1[5] = 0U; /* Compliant */
 
 	uint16_t p2[] = { 6,7,8,9,10 };
-	p2++;         /* Compliant */
-	p2 = p2 + 3;  /* Non-compliant */
+	p2[2]++;         /* Compliant */
+	p2[2] = p2[2] + 3;  /* Non-compliant */
 	p2[3] = 0U; /* Compliant */
 }
 
@@ -36,8 +36,8 @@ uint8_t data = 0U;
 
 void fn4(void)
 {
-	fn3(a1, a2);
-	fn3(&data, &a2[4]);
+	fn3();
+	fn3();
 }
 
 int fake_main()

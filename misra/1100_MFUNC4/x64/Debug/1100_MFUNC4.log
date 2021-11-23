@@ -1,2 +1,5 @@
-﻿  1100_MFUNC4__GoodCode.cpp
+﻿  1100_MFUNC4__BadCode.cpp
+  1100_MFUNC4__GoodCode.cpp
+  코드를 생성하고 있습니다...
+C:\Users\Jin\git\romeo\misra\1100_MFUNC4\1100_MFUNC4__BadCode.cpp(16): warning C4715: 'absolute': 모든 제어 경로에서 값을 반환하지는 않습니다.
   1100_MFUNC4.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\1100_MFUNC4.exe
