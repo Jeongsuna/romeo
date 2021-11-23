@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10E2_MEXP3__BadCode.c" />
     <ClCompile Include="10E2_MEXP3__GoodCode.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

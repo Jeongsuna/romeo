@@ -1,7 +1,7 @@
 #include <arm_neon.h>
 #include <exception>
 
-void f(float32_t x, float32_t y)
+void f2(float32_t x, float32_t y)
 {
 	float32_t z;
 
@@ -16,7 +16,7 @@ void f(float32_t x, float32_t y)
 		z = x * y;
 	}
 }
-int main() {
-	f(1, 1);
+int faje_main() {
+	f2(1, 1);
 	return 0;
 }

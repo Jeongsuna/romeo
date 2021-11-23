@@ -1,4 +1,10 @@
-﻿  10B4_MIDENTS8__GoodCode01.cpp
+﻿  10B4_MIDENTS8__BadCode02.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__BadCode02.cpp(10,10): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__BadCode02.cpp(7,10): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  10B4_MIDENTS8__GoodCode01.cpp
 C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__GoodCode01.cpp(6,13): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  10B4_MIDENTS8__GoodCode02.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__GoodCode02.cpp(5,13): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
 MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
 C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\x64\Debug\10B4_MIDENTS8.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

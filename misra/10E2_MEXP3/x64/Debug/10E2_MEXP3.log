@@ -1,2 +1,6 @@
-﻿  10E2_MEXP3__GoodCode.c
+﻿  10E2_MEXP3__BadCode.c
+C:\Users\Jin\git\romeo\misra\10E2_MEXP3\10E2_MEXP3__BadCode.c(21,1): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\Jin\git\romeo\misra\10E2_MEXP3\10E2_MEXP3__BadCode.c(12,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  10E2_MEXP3__GoodCode.c
+  코드를 생성하고 있습니다...
   10E2_MEXP3.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10E2_MEXP3.exe

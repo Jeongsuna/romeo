@@ -18,5 +18,8 @@
     <ClCompile Include="10F1_MCONFLOW3__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10F1_MCONFLOW3_BadCode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

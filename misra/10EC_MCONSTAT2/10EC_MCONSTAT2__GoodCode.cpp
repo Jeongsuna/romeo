@@ -1,5 +1,6 @@
 #include "stdbool.h"
 #include <cstdint>
+#define bool_t bool
 
 bool_t flag = false;
 

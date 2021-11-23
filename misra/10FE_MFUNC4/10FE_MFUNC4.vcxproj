@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10FE_MFUNC2__BadCode.cpp" />
     <ClCompile Include="10FE_MFUNC2__GoodCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

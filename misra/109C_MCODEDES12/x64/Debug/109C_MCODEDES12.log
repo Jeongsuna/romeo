@@ -1,4 +1,6 @@
-﻿  109C_MCODEDES12__GoodCode.c
+﻿  109C_MCODEDES12__BadCode.c
+  109C_MCODEDES12__GoodCode.c
+C:\Users\Jin\git\romeo\misra\109C_MCODEDES12\109C_MCODEDES12__GoodCode.c(11,3): warning C4013: 'f'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   109C_MCODEDES12__simple.c
 C:\Users\Jin\git\romeo\misra\109C_MCODEDES12\109C_MCODEDES12__simple.c(14,8): warning C4101: 'q' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다...

@@ -3,11 +3,11 @@
 Perform_Critical_Safety_Function( X );
 this comment is compliant */
 
-int x = 0;
-int y = 0;
+int x2 = 0;
+int y2 = 0;
 
-int main() {
-	x = y /*
+int fake_main() {
+	x2 = y2 /*
 		+ z
 		*/
 		;

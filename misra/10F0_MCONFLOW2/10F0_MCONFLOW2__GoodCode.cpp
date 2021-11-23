@@ -10,7 +10,7 @@ void f(void)
 L2:
 	++j;
 }
-int main() {
+int fake_main() {
 	f();
 	return 0;
 }

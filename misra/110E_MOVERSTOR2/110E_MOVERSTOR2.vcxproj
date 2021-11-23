@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="110E_MOVERSTOR2__BadCode.cpp" />
     <ClCompile Include="110E_MOVERSTOR2__GoodCode.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -18,6 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1122_MSTDLIB6__BadCode.c" />
+    <ClCompile Include="1122_MSTDLIB6__GoodCode.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,10 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\CanonMisraC2012_omission\1122_MSTDLIB6\1122_MSTDLIB6__BadCode.c" />
-    <ClCompile Include="..\..\..\..\Desktop\CanonMisraC2012_omission\1122_MSTDLIB6\1122_MSTDLIB6__GoodCode.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,2 +1,6 @@
-﻿  110B_MPOINTARR7__GoodCode.cpp
+﻿  110B_MPOINTARR7__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\110B_MPOINTARR7\110B_MPOINTARR7__BadCode.cpp(6,11): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Users\Jin\git\romeo\misra\110B_MPOINTARR7\110B_MPOINTARR7__BadCode.cpp(6,11): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+  110B_MPOINTARR7__GoodCode.cpp
+  코드를 생성하고 있습니다...
   110B_MPOINTARR7.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\110B_MPOINTARR7.exe

@@ -5,7 +5,7 @@
 
 
 extern volatile uint16_t v;
-extern char* p;
+extern char* q;
 
 void f(void)
 {
@@ -17,8 +17,8 @@ void f(void)
 	v >> 3; /* Non-compliant - the £¾£¾ operator is dead */
 	x = 3; /* Non-compliant - the = operator is dead
 	* x is not subsequently read */
-	*p++; /* Non-compliant - result of * operator is not used */
-	(*p)++; /* Compliant - *p is incremented */
+	*q++; /* Non-compliant - result of * operator is not used */
+	(*q)++; /* Compliant - *p is incremented */
 }
 
 int main()

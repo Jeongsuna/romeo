@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /* Compliant - p is const-qualified; additional qualifiers are permitted */
-const volatile char* p = "string";
+const volatile char* q = "string";
 extern void f2(const char* s2);
 void g(void)
 {

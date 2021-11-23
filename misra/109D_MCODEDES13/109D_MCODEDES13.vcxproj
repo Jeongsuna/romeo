@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="109D_MCODEDES13__BadCode.cpp" />
     <ClCompile Include="109D_MCODEDES13__GoodCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

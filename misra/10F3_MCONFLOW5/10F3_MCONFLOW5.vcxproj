@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10F3_MCONFLOW5__BadCode.cpp" />
     <ClCompile Include="10F3_MCONFLOW5__GoodCode.cpp" />
   </ItemGroup>
   <ItemGroup>

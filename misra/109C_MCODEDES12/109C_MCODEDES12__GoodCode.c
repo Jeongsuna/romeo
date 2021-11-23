@@ -1,5 +1,5 @@
 #include <stdlib.h>
-void f(void)
+void f2(void)
 {
     char* p = (char*)malloc(20);
     free(p);

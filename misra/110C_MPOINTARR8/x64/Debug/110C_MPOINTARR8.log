@@ -1,3 +1,5 @@
 ﻿  110C_MPOINTARR8__GoodCode.cpp
 C:\Users\Jin\git\romeo\misra\110C_MPOINTARR8\110C_MPOINTARR8__GoodCode.cpp(5,11): warning C4101: 'vla' :참조되지 않은 지역 변수입니다.
+  111C_MPOINTARR8__BadCode.cpp
+  코드를 생성하고 있습니다...
   110C_MPOINTARR8.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\110C_MPOINTARR8.exe

@@ -18,5 +18,8 @@
     <ClCompile Include="1135_MRES5__GoodCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1135_MRES5__BadCode.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,9 +1,4 @@
 ﻿  1123_MSTDLIB7__BadCode.cpp
   1123_MSTDLIB7__GoodCode.cpp
   코드를 생성하고 있습니다...
-1123_MSTDLIB7__GoodCode.obj : error LNK2005: "void __cdecl mc2_2010(void)" (?mc2_2010@@YAXXZ)이(가) 1123_MSTDLIB7__BadCode.obj에 이미 정의되어 있습니다.
-1123_MSTDLIB7__GoodCode.obj : error LNK2005: "void __cdecl use_float64(double)" (?use_float64@@YAXN@Z)이(가) 1123_MSTDLIB7__BadCode.obj에 이미 정의되어 있습니다.
-1123_MSTDLIB7__GoodCode.obj : error LNK2005: "void __cdecl use_int32(int)" (?use_int32@@YAXH@Z)이(가) 1123_MSTDLIB7__BadCode.obj에 이미 정의되어 있습니다.
-1123_MSTDLIB7__GoodCode.obj : error LNK2005: "void __cdecl use_int64(__int64)" (?use_int64@@YAX_J@Z)이(가) 1123_MSTDLIB7__BadCode.obj에 이미 정의되어 있습니다.
-1123_MSTDLIB7__GoodCode.obj : error LNK2005: main이(가) 1123_MSTDLIB7__BadCode.obj에 이미 정의되어 있습니다.
-C:\Users\Jin\git\romeo\misra\1123_MSTDLIB7\x64\Debug\1123_MSTDLIB7.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  1123_MSTDLIB7.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\1123_MSTDLIB7.exe

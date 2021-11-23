@@ -1,6 +1,6 @@
 #include "stdbool.h"
 /* Compliant */
-int main() {
+int main3() {
 	bool_t x = true;
 	bool_t y = true;
 	bool_t z = true;

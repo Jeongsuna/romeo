@@ -1,0 +1,11 @@
+﻿  10B4_MIDENTS8__BadCode01.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__BadCode01.cpp(6,10): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  10B4_MIDENTS8__BadCode02.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__BadCode02.cpp(10,10): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__BadCode02.cpp(7,10): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  10B4_MIDENTS8__GoodCode01.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__GoodCode01.cpp(6,13): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  10B4_MIDENTS8__GoodCode02.cpp
+C:\Users\Jin\git\romeo\misra\10B4_MIDENTS8\10B4_MIDENTS8__GoodCode02.cpp(5,13): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  10B4_MIDENTS8.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10B4_MIDENTS8.exe

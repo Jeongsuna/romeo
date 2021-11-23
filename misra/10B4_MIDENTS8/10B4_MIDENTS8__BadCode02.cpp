@@ -1,6 +1,6 @@
 /* file2.c */
 #include <cstdint>
-static void foo(void) /* Non-compliant - "foo" is not unique
+static void foo2(void) /* Non-compliant - "foo" is not unique
 * (it is already defined with external
 * linkage in file1.c) */
 {
@@ -9,7 +9,7 @@ static void foo(void) /* Non-compliant - "foo" is not unique
 	* external linkage */
 	int32_t index; /* Compliant - "index" has no linkage */
 }
-int fake_main() {
-	foo();
+int main() {
+	foo2();
 	return 0;
 }

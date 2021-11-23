@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10DA_MPOINTCONV4__BadCoode.cpp" />
     <ClCompile Include="10DA_MPOINTCONV4__GoodCode.cpp" />
   </ItemGroup>
   <ItemGroup>

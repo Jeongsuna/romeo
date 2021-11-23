@@ -1,2 +1,7 @@
-﻿  10DA_MPOINTCONV4__GoodCode.cpp
+﻿  10DA_MPOINTCONV4__BadCoode.cpp
+C:\Users\Jin\git\romeo\misra\10DA_MPOINTCONV4\10DA_MPOINTCONV4__BadCoode.cpp(11,28): warning C4311: '형식 캐스트': 'uint16_t **'에서 'int32_t'(으)로 포인터가 잘립니다.
+C:\Users\Jin\git\romeo\misra\10DA_MPOINTCONV4\10DA_MPOINTCONV4__BadCoode.cpp(11,28): warning C4302: '형식 캐스트': 'uint16_t **'에서 'int32_t'(으)로 잘립니다.
+C:\Users\Jin\git\romeo\misra\10DA_MPOINTCONV4\10DA_MPOINTCONV4__BadCoode.cpp(12,29): warning C4312: '형식 캐스트': 'int32_t'에서 더 큰 'uint8_t *'(으)로의 변환입니다.
+  10DA_MPOINTCONV4__GoodCode.cpp
+  코드를 생성하고 있습니다...
   10DA_MPOINTCONV4.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10DA_MPOINTCONV4.exe

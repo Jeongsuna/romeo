@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10F0_MCONFLOW2__BadCode.cpp" />
     <ClCompile Include="10F0_MCONFLOW2__GoodCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

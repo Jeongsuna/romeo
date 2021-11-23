@@ -1,7 +1,4 @@
 ﻿  1120_MSTDLIB4__BadCode.cpp
   1120_MSTDLIB4__GoodCode.cpp
   코드를 생성하고 있습니다...
-1120_MSTDLIB4__GoodCode.obj : error LNK2005: "void __cdecl mc2_2007(void)" (?mc2_2007@@YAXXZ)이(가) 1120_MSTDLIB4__BadCode.obj에 이미 정의되어 있습니다.
-1120_MSTDLIB4__GoodCode.obj : error LNK2005: "void __cdecl use_int16(short)" (?use_int16@@YAXF@Z)이(가) 1120_MSTDLIB4__BadCode.obj에 이미 정의되어 있습니다.
-1120_MSTDLIB4__GoodCode.obj : error LNK2005: main이(가) 1120_MSTDLIB4__BadCode.obj에 이미 정의되어 있습니다.
-C:\Users\Jin\git\romeo\misra\1120_MSTDLIB4\x64\Debug\1120_MSTDLIB4.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  1120_MSTDLIB4.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\1120_MSTDLIB4.exe

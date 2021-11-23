@@ -1,0 +1,12 @@
+﻿  10BB_MLITERCONST4__BadCode.cpp
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(1,1): error C2059: 구문 오류: '문자열'
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(1,3): error C2041: '8' 숫자가 잘못되었습니다(기본 '8').
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(1,3): error C2041: '9' 숫자가 잘못되었습니다(기본 '8').
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(2,21): error C3688: 잘못된 리터럴 접두사 'string'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""string'을(를) 찾을 수 없습니다.
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(6,15): error C3688: 잘못된 리터럴 접두사 'string'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""string'을(를) 찾을 수 없습니다.
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__BadCode.cpp(11,19): error C3688: 잘못된 리터럴 접두사 'MISRA'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""MISRA'을(를) 찾을 수 없습니다.
+  10BB_MLITERCONST4__GoodCode.cpp
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__GoodCode.cpp(2,36): error C3688: 잘못된 리터럴 접두사 'string'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""string'을(를) 찾을 수 없습니다.
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__GoodCode.cpp(6,15): error C3688: 잘못된 리터럴 접두사 'string'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""string'을(를) 찾을 수 없습니다.
+C:\Users\CODEMIND-Romy\source\repos\even001\10BB_MLITERCONST4\10BB_MLITERCONST4__GoodCode.cpp(10,19): error C3688: 잘못된 리터럴 접두사 'MISRA'입니다. 리터럴 연산자 또는 리터럴 연산자 템플릿 '연산자 ""MISRA'을(를) 찾을 수 없습니다.
+  코드를 생성하고 있습니다...

@@ -1,5 +1,5 @@
 #include <cstdint>
-void f1(int32_t a)
+void f1_2(int32_t a)
 {
 	goto L1;      /* Compliant */
 
@@ -11,9 +11,9 @@ void f1(int32_t a)
 L1:
 	;
 }
-int main() {
+int fake_main() {
 
-	f1(0);
+	f1_2(0);
 
 	int x = 0;
 	int y = 0;

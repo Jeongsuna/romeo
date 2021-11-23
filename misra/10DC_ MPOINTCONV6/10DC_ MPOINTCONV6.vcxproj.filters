@@ -18,5 +18,8 @@
     <ClCompile Include="10DC_ MPOINTCONV6__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10DC_MPOINTCONV6__BadCode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,2 +1,5 @@
-﻿  10DD_MPOINTCONV7__GoodCode.cpp
+﻿  10DD_MPOINTCONV7__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\10DD_MPOINTCONV7\10DD_MPOINTCONV7__BadCode.cpp(7,19): warning C4305: '초기화 중': 'double'에서 'float32_t'(으)로 잘립니다.
+  10DD_MPOINTCONV7__GoodCode.cpp
+  코드를 생성하고 있습니다...
   10DD_MPOINTCONV7.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\10DD_MPOINTCONV7.exe

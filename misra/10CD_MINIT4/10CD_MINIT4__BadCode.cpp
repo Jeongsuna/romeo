@@ -6,12 +6,12 @@
 
 #include <arm64_neon.h>
 
-uint16_t* p;
+uint16_t* q;
 
 void f ( void )
 {
 
-	uint16_t a[2] = { a[0] = *p++,a[0] = 1 };
+	uint16_t a[2] = { a[0] = *q++,a[0] = 1 };
 }
 /* Repeated designated initializer element values overwrite earlier ones
 * Non-compliant - a3 is -5, -4, -2, 0, -1 */

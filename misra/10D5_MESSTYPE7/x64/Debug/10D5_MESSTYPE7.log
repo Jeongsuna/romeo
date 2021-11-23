@@ -1,0 +1,8 @@
+﻿  10D5_MESSTYPE7__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\10D5_MESSTYPE7\10D5_MESSTYPE7__BadCode.cpp(8,6): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  10D5_MESSTYPE7__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\10D5_MESSTYPE7\10D5_MESSTYPE7__GoodCode.cpp(8,16): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+C:\Users\Jin\git\romeo\misra\10D5_MESSTYPE7\10D5_MESSTYPE7__GoodCode.cpp(9,19): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+C:\Users\Jin\git\romeo\misra\10D5_MESSTYPE7\10D5_MESSTYPE7__GoodCode.cpp(10,9): warning C4552: '*': 식의 결과가 사용되지 않습니다.
+  코드를 생성하고 있습니다...
+  10D5_MESSTYPE7.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10D5_MESSTYPE7.exe

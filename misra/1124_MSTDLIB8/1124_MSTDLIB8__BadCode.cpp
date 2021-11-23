@@ -1,4 +1,5 @@
 #include <cstdint>
+#include <stdio.h>
 #include <stdlib.h>
 
 extern void use_char_ptr(char* use_char_ptr_param) {};

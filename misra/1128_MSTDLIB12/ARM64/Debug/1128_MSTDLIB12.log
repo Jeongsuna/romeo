@@ -1,0 +1,7 @@
+﻿  1128_MSTDLIB12__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\1128_MSTDLIB12\1128_MSTDLIB12__BadCode.cpp(13,9): warning C4068: 알 수 없는 pragma 'STDC'
+C:\Users\Jin\git\romeo\misra\1128_MSTDLIB12\1128_MSTDLIB12__BadCode.cpp(17,9): warning C4068: 알 수 없는 pragma 'STDC'
+  1128_MSTDLIB12__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\1128_MSTDLIB12\1128_MSTDLIB12__GoodCode.cpp(9,24): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  1128_MSTDLIB12.vcxproj -> C:\Users\Jin\git\romeo\misra\ARM64\Debug\1128_MSTDLIB12.exe

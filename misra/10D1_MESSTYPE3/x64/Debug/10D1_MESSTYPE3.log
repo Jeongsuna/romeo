@@ -1,0 +1,8 @@
+﻿  10D1_MESSTYPE3__BadCode.cpp
+C:\Users\Jin\git\romeo\misra\10D1_MESSTYPE3\10D1_MESSTYPE3__BadCode.cpp(19,14): warning C4244: '초기화 중': 'float'에서 'uint8_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Jin\git\romeo\misra\10D1_MESSTYPE3\10D1_MESSTYPE3__BadCode.cpp(16,28): warning C4101: 'ena' :참조되지 않은 지역 변수입니다.
+C:\Users\Jin\git\romeo\misra\10D1_MESSTYPE3\10D1_MESSTYPE3__BadCode.cpp(17,28): warning C4101: 'enb' :참조되지 않은 지역 변수입니다.
+  10D1_MESSTYPE3__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\10D1_MESSTYPE3\10D1_MESSTYPE3__GoodCode.cpp(7,28): warning C4101: 'enb' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  10D1_MESSTYPE3.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10D1_MESSTYPE3.exe

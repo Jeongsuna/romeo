@@ -18,13 +18,10 @@
     <ClCompile Include="10BB_MLITERCONST4__BadCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10BB_MLITERCONST4__extern.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="10BB_MLITERCONST4__GoodCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10BB_MLITERCONST4_extern.c">
+    <ClCompile Include="10BB_MLITERCONST4__extern.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

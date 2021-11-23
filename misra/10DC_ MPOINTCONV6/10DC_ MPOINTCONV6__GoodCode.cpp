@@ -1,7 +1,7 @@
 #include <cstdint>
 int main() {
-	void* p;
 
+	void* p;
 	uint32_t u = 0x1234u;
 	uint32_t *ptr1 = &u;
 	p = ptr1; /* Compliant */

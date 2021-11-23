@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10DC_ MPOINTCONV6__GoodCode.cpp" />
+    <ClCompile Include="10DC_MPOINTCONV6__BadCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

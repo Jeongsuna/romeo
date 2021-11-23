@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10AC_MCHARSLEX2__BadCode.c" />
     <ClCompile Include="10AC_MCHARSLEX2__GoodCode.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

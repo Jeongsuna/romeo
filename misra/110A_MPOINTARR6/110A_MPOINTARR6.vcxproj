@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="110A_MPOINTARR6__BadCode.cpp" />
     <ClCompile Include="110A_MPOINTARR6__GoodCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

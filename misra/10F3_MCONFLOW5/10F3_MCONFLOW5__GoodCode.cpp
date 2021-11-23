@@ -1,7 +1,7 @@
 #include "stdbool.h"
 #include <cstdint>
 
-bool_t f(uint16_t n, char* p)
+bool_t f2(uint16_t n, char* p)
 {
 	if (n > 10u)
 	{
@@ -13,7 +13,7 @@ bool_t f(uint16_t n, char* p)
 
 	return true;  /* Compliant */
 }
-int main() {
-	f(0, 0);
+int fake_main() {
+	f2(0, 0);
 	return 0;
 }

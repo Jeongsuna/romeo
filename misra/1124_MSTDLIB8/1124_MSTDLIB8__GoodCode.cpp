@@ -1,9 +1,9 @@
 #include <cstdint>
 /* Compliant */
 
-extern void use_char_ptr(char* use_char_ptr_param) {};
+extern void use_char_ptr2(char* use_char_ptr_param) {};
 
-void mc2_2011(void)
+void mc2_2011_2(void)
 {
 	int32_t mc2_2011_status = 0;
 	char* mc2_2011_env = NULL;
@@ -12,10 +12,10 @@ void mc2_2011(void)
 
 	if (mc2_2011_status == 1){}
 
-	use_char_ptr(mc2_2011_env);
+	use_char_ptr2(mc2_2011_env);
 }
 
-int main() {
-	mc2_2011();
+int fake_main() {
+	mc2_2011_2();
 	return 0;
 }

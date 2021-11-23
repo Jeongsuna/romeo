@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\CanonMisraC2012_omission\1124_MSTDLIB8\1124_MSTDLIB8__BadCode.cpp">
+    <ClCompile Include="1124_MSTDLIB8__BadCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\CanonMisraC2012_omission\1124_MSTDLIB8\1124_MSTDLIB8__GoodCode.cpp">
+    <ClCompile Include="1124_MSTDLIB8__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,14 +1,15 @@
 #include "stdbool.h"
 #include <cstdint>
+#define bool_t2 bool
 
-bool_t flag = false;
+bool_t2 flag2 = false;
 
-int main() {
-	for (int16_t i = 0; (i < 5) && !flag; i++)
+int fake_main() {
+	for (int16_t i = 0; (i < 5) && !flag2; i++)
 	{
 		if (i == 7)
 		{
-			flag = true;    /* Compliant - allows early termination
+			flag2 = true;    /* Compliant - allows early termination
 							 * of loop */
 		}
 

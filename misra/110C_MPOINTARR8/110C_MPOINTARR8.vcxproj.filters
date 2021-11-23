@@ -18,5 +18,8 @@
     <ClCompile Include="110C_MPOINTARR8__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="111C_MPOINTARR8__BadCode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

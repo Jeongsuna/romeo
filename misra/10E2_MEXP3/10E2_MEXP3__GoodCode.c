@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int fake_main() {
 	int i;
 	int *p;
 	int a[10] = { 11, 22, 33, 44, 55, 66, 77, 88, 99, 110 };

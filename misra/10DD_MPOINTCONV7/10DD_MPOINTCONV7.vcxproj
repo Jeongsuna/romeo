@@ -27,6 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10DD_MPOINTCONV7__BadCode.cpp" />
     <ClCompile Include="10DD_MPOINTCONV7__GoodCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

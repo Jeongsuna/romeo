@@ -1,8 +1,8 @@
 /* Compliant */
 
-void mc2_2009(void){}
+void mc2_2009_2(void){}
 
-int main() {
-	mc2_2009();
+int fake_main() {
+	mc2_2009_2();
 	return 0;
 }

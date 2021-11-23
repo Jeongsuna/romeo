@@ -1,4 +1,19 @@
-﻿  1126_MSTDLIB10__GoodCode.c
+﻿  1126_MSTDLIB10__BadCode.c
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__BadCode.c(16,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__BadCode.c(16,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  1126_MSTDLIB10__GoodCode.c
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,20): warning C4133: '함수': 'unsigned short [3]'과(와) 'const char *const ' 사이의 형식이 호환되지 않습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'wchar_t *'입니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 이 인수는 변환 지정자에서 사용됩니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 서식 문자열에서 '%ls'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 서식 문자열에서 '%lls'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 서식 문자열에서 '%Ls'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 서식 문자열에서 '%ws'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
+C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,15): message : 이 인수는 버퍼 크기로 사용됩니다.
 C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
 C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(11,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-C:\Users\Jin\git\romeo\misra\1126_MSTDLIB10\1126_MSTDLIB10__GoodCode.c(10,7): error C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  코드를 생성하고 있습니다...
+  1126_MSTDLIB10.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\1126_MSTDLIB10.exe

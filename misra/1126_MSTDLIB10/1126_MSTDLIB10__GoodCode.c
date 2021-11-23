@@ -7,7 +7,7 @@ int main(void)
 	wchar_t   dest[100];
 	size_t    rc;
 
-	rc = wscanf(L"%s", dest);
+	rc = scanf_s(L"%s", dest);
 	printf("%d characters placed in string to make:%ls\n", rc, dest);
 	return 0;
 }

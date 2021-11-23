@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="109C_MCODEDES12__BadCode.c" />
     <ClCompile Include="109C_MCODEDES12__GoodCode.c" />
     <ClCompile Include="109C_MCODEDES12__simple.c" />
   </ItemGroup>

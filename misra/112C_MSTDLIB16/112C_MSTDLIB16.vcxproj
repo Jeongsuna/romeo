@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="112C_MSTDLIB16__BadCode.cpp" />
     <ClCompile Include="112C_MSTDLIB16__GoodCode.cpp" />
   </ItemGroup>
   <ItemGroup>
