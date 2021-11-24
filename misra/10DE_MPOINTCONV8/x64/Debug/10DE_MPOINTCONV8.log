@@ -1,0 +1,7 @@
+﻿  10DE_MPOINTCONV8__BadCode.cpp
+  10DE_MPOINTCONV8__GoodCode.cpp
+C:\Users\Jin\git\romeo\misra\10DE_MPOINTCONV8\10DE_MPOINTCONV8__GoodCode.cpp(9,21): warning C4101: 'pci' :참조되지 않은 지역 변수입니다.
+C:\Users\Jin\git\romeo\misra\10DE_MPOINTCONV8\10DE_MPOINTCONV8__GoodCode.cpp(8,16): warning C4101: 'ppi' :참조되지 않은 지역 변수입니다.
+C:\Users\Jin\git\romeo\misra\10DE_MPOINTCONV8\10DE_MPOINTCONV8__GoodCode.cpp(7,22): warning C4101: 'pcpi' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  10DE_MPOINTCONV8.vcxproj -> C:\Users\Jin\git\romeo\misra\x64\Debug\10DE_MPOINTCONV8.exe

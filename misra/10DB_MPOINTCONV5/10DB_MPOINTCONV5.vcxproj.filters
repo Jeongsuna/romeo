@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10DB_MPOINTCONV5__BadCode.cpp">
+    <ClCompile Include="10DB_MPOINTCONV5__BadCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10DB_MPOINTCONV5__GoodCode.cpp">
+    <ClCompile Include="10DB_MPOINTCONV5__GoodCode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
