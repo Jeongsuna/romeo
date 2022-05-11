@@ -4,7 +4,7 @@ public class C9030_LOCKMETHODCALL_bad {
 
     private static Object obj;
 
-    private void bad1() {
+    private void bad1() throws InterruptedException {
         while (!suitableCondition()){
             obj.wait();
         }
@@ -15,7 +15,7 @@ public class C9030_LOCKMETHODCALL_bad {
         return true;
     }
 
-    private void bad2() {
+    private void bad2() throws InterruptedException {
         while (!suitableCondition()){
             wait();
         }

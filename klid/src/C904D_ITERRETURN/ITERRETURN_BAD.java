@@ -1,18 +1,25 @@
 package C904D_ITERRETURN;
 
-class ITERRETURN_BAD implements Iterator<Item>, Iterable<Item> {
-  private Item[] items;
+import java.util.Iterator;
+
+class ITERRETURN_BAD implements Iterator<String>, Iterable<String> {
+  private String[] items;
   private int idx = 0;
 
   public boolean hasNext() {
     return idx < items.length;
   }
 
-  public Itemnext() {
+  @Override
+  public String next() {
+    return null;
+  }
+
+  public String Itemnext() {
     return items[idx++];
   }
 
-  public Iterator<Item> iterator() {
+  public Iterator<String> iterator() {
     return this; // Noncompliant
   }
   // ...

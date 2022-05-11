@@ -4,7 +4,7 @@ public class C9030_LOCKMETHODCALL_good {
 
     private static Object obj;
 
-    private void good1() {
+    private void good1() throws InterruptedException {
         synchronized (obj) {
             while (!suitableCondition()) {
                 obj.wait();
@@ -14,13 +14,12 @@ public class C9030_LOCKMETHODCALL_good {
     }
 
 
-    private synchronized void good2() {
+    private synchronized void good2() throws InterruptedException {
         while (!suitableCondition()){
             wait();
         }
         // Perform removal
     }
-}
 
     private boolean suitableCondition() {
         return true;

@@ -1,17 +1,19 @@
 package C904D_ITERRETURN;
 
-class ITERRETURN_GOOD implements Iterable<Item> {
-  private Item[] items;
+import java.util.Iterator;
 
-  public Iterator<Item> iterator() {
-    return new Iterator<Item>() {
+class ITERRETURN_GOOD implements Iterable<String> {
+  private String[] items;
+
+  public Iterator<String> iterator() {
+    return new Iterator<String>() {
       private int index = 0;
 
       public boolean hasNext() {
         return index < items.length;
       }
 
-      public Foo next() {
+      public String next() {
         return items[index++];
       }
     };

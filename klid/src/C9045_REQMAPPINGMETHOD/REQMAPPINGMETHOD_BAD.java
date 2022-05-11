@@ -5,9 +5,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 public class REQMAPPINGMETHOD_BAD {
 
-  @RequestMapping("/greet", method = GET)
+  @RequestMapping(value = "/greet", method = GET)
   private String greet(String greetee) {
     // do something
+    return null;
   }
   
 }
