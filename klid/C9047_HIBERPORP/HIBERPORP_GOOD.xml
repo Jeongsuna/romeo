@@ -1,0 +1,9 @@
+<session-factory>
+  <property name="hibernate.hbm2ddl.auto">validate</property>  <!-- Compliant -->
+</session-factory>
+
+or
+
+<session-factory>
+  <!-- Property deleted -->
+</session-factory>

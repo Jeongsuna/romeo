@@ -1,0 +1,4 @@
+<bean id="singleCF" class="org.springframework.jms.connection.SingleConnectionFactory">
+  <!-- Noncompliant -->
+  <constructor-arg ref="dummyConnectionFactory" />
+</bean>
