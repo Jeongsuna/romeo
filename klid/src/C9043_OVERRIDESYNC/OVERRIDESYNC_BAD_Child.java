@@ -1,13 +1,8 @@
 package C9043_OVERRIDESYNC;
 
-public class Parent {
 
-  synchronized void execute() {
-    //...
-  }
-}
 
-public class Child extends Parent {
+public class OVERRIDESYNC_BAD_Child extends OVERRIDESYNC_BAD_Parent {
 
   @Override
   public void execute() {  // Noncompliant

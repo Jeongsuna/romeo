@@ -1,6 +1,8 @@
 package C9050_URLPATTERN;
 
 
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+
 public class URLPATTERN_BAD {
   protected void configure(HttpSecurity http) throws Exception {
     http.authorizeRequests()

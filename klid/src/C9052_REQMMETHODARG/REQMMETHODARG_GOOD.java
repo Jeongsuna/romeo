@@ -1,31 +1,41 @@
 package C9052_REQMMETHODARG;
 
 
-public class PurchaseDTO {
-  Long productId;
-  Long quantity;
-  Long clientId;
-}
-
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class REQMMETHODARG_GOOD {
 
-  @PostMapping(path = "/save")
-  public String save(PurchaseDTO pDto) {
-    Wish pWish = new Wish();
-    // do the mapping between "pDto" and "pWish"
-    [...]
-    session.save(pWish);
+  private final PurchaseRepository session;
+
+  public REQMMETHODARG_GOOD(PurchaseRepository session) {
+    this.session = session;
   }
 
-  @RequestMapping(path = "/save", method = RequestMethod.POST)
+  @PostMapping(path = "/save")
   public String save(PurchaseDTO pDto) {
-    Wish pWish = new Wish();
+    Purchase pWish = new Purchase();
+
     // do the mapping between "pDto" and "pWish"
-    [...]
+    //...
+
     session.save(pWish);
+
+    return "Ok";
+  }
+
+  @RequestMapping(path = "/save2", method = RequestMethod.POST)
+  public String save2(PurchaseDTO pDto) {
+    Purchase pWish = new Purchase();
+
+    // do the mapping between "pDto" and "pWish"
+    //...
+
+    session.save(pWish);
+
+    return "Ok";
   }
 }

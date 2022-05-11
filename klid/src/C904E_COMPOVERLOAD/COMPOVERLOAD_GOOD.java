@@ -1,6 +1,6 @@
 package C904E_COMPOVERLOAD;
 
-public class Foo {
+public final class COMPOVERLOAD_GOOD {
   static class Book implements Comparable<Book> {
     public int compareTo(Book book) {
       return -1;

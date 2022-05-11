@@ -1,21 +1,20 @@
 package C9023_NOTIGNOINTERRUPT;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
 
-public class NOTIGNOINTERRUPT_GOOD {
-    public class Foo{
-        Logger LOGGER = Logger.getLogger(Foo.class.getName());
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-        public void running () {
-            try {
-                while (true) {
-                    Thread.sleep(1000);
-                }
-            }catch (InterruptedException e) {
-                LOGGER.log(Level.WARN, "Interrupted!", e);
-                // Restore interrupted state...
-                Thread.currentThread().interrupt();
+public class NOTIGNOINTERRUPT_GOOD extends Thread {
+
+    Logger LOGGER = Logger.getLogger(NOTIGNOINTERRUPT_GOOD.class.getName());
+
+    @Override
+    public void run() {
+        try {
+            while (true) {
+                Thread.sleep(1000);
             }
+        }catch (InterruptedException e) { // Noncompliant; logging is not enough
+            LOGGER.log(Level.WARNING, "Interrupted!", e);
         }
     }
 

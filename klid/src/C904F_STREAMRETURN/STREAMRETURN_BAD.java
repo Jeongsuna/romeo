@@ -1,14 +1,19 @@
 package C904F_STREAMRETURN;
 
-public class STREAMRETURN_GOOD implements InputStream {
+import java.io.IOException;
+import java.io.InputStream;
 
+public class STREAMRETURN_BAD extends InputStream {
+
+  byte[] buffer;
+  int cnt;
   //....
 
   @Override
   public int read() throws IOException {
-    if (cnt == buffer.length()) {
+    if (buffer.length == cnt) {
       return -1;
     }
-    return buffer.getByte(cnt++); // Noncompliant, a signed byte value is returned
+    return buffer[cnt++]; // Noncompliant, a signed byte value is returned
   }
 }

@@ -1,14 +1,17 @@
 package C9048_CONDSAMETHING;
 
 public class CONDSAMETHING_BAD {
-  public static final void main(String[] args) {
+
+  // ...
+
+  public void foo(int x, int y, int i) {
     if (y == 0) {  // Noncompliant
       doOneMoreThing();
     } else {
       doOneMoreThing();
     }
 
-    int y = x > 12 ? 4 : 4;  // Noncompliant
+    int z = x > 12 ? 4 : 4;  // Noncompliant
 
     switch (i) {  // Noncompliant
       case 1:
@@ -24,4 +27,7 @@ public class CONDSAMETHING_BAD {
         doSomething();
     }
   }
+
+  private void doOneMoreThing() {}
+  private void doSomething() {}
 }

@@ -5,12 +5,12 @@ public class IDENTICALIMPL_BAD {
   private final static String CODE = "bounteous";
 
   public String calculateCode() {
-    doSomething();
+    // do Something;
     return CODE;
   }
 
   public String getName() {  // Noncompliant
-    doSomething();
+    // do Something;
     return CODE;
   }
 }

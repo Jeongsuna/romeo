@@ -1,8 +1,8 @@
 package C904A_CREATENEWTHROW;
 
 
-public class CREATENEWTHROW_BAD {
-  public static final void main(String[] argv) {
+public class CREATENEWTHROW_GOOD {
+  public void foo() {
     //...
     Object obj = null;
     if (obj == null)

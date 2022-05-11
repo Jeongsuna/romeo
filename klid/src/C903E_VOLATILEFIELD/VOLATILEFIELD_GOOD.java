@@ -1,7 +1,9 @@
 package C903E_VOLATILEFIELD;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class VOLATILEFIELD_GOOD {
-  private AtomicInteger count = 0;
+  private AtomicInteger count;
   private boolean boo = false;
 
   public void incrementCount() {

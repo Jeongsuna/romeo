@@ -1,7 +1,8 @@
 package C9035_CONTRACTSCHANGE;
 
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
+
+import com.sun.istack.NotNull;
+import org.springframework.lang.Nullable;
 
 public class C9035_CONTRACTSCHANGE_good {
     public class good_Season {}
