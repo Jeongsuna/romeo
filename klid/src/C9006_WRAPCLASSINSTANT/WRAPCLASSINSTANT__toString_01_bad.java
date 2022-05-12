@@ -1,6 +1,6 @@
 package C9006_WRAPCLASSINSTANT;
 
-public class WRAPCLASSINSTANT_BAD {
+public class WRAPCLASSINSTANT__toString_01_bad {
     public static void bad(int myInteger, boolean myBoolean, byte myByte, char myCharacter, double myDouble,
                            float myFloat, long myLong, short myShort, String myString) {
         new Integer(myInteger).toString();      // Noncompliant
