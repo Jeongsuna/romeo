@@ -7,6 +7,8 @@ public class C9032_INSTANTOFCLASS_bad {
         }
     }
 
+    private bad_TextUtils btu = new bad_TextUtils();
+
     public void cleanText(String source) {
         bad_TextUtils tu = new bad_TextUtils(); // Noncompliant
 
