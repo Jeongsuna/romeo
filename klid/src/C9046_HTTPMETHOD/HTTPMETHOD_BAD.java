@@ -16,4 +16,10 @@ public class HTTPMETHOD_BAD {
     // state of the application will be changed here
     return "200 OK";
   }
+
+  @RequestMapping(path = "/delete_user", method = RequestMethod.GET) // Sensitive: both safe and unsafe methods are allowed
+  String deleteUser3(@RequestParam("id") String userId) {
+    // state of the application will be changed here
+    return "200 OK";
+  }
 }

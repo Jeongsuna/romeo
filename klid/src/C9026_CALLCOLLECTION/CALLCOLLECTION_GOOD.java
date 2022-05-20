@@ -7,24 +7,16 @@ import java.util.Map;
 
 public class CALLCOLLECTION_GOOD {
     public static void main(String[] args) {
-        String foo = "42";
+        Integer foo = Integer.valueOf("42");
         Map<Integer, Object> map = new HashMap<>();
-        if(map.remove(foo) == null){
-            int intfoo = Integer.parseInt(foo);
-            map.remove(intfoo);
-        }
+        // do something
+        map.remove(foo);
+
         // ...
         List<String> list = new ArrayList<String>();
-        Integer i = Integer.valueOf(1);
+        String i = String.valueOf(1);
         if (list.contains(i)) { // Compliant
             list.remove(i); // Compliant
-        }else{
-            if(i.getClass().getName() != "java.lang.String"){
-                String strfoo = Integer.toString(i);
-                if (list.contains(strfoo)) { // Compliant
-                    list.remove(strfoo); // Compliant
-                }
-            }
         }
     }
 }

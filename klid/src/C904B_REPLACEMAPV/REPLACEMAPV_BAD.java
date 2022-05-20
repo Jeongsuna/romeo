@@ -8,9 +8,9 @@ public class REPLACEMAPV_BAD {
 
     public void foo(Map letters, String[] towns, int i, HashMap<String, String> map2) {
 
-        letters.put("a", "Apple");
+        letters.put("a", "Apple");letters.put("a", "Airport");
         letters.put("a", "Airport");  // Noncompliant
-
+                    letters.put("a", "Airport");
         if(i == 10) {
             letters.put("a", "AirportX");  // Noncompliant
         }
