@@ -3,11 +3,13 @@ package C9014_IFELSESAME;
 public class IFELSESAME_BAD {
     public static void main(String[] args) {
         int var = 1;
-        if (var == 1)
+        int var2 = 2;
+        String str = "str";
+        if (var == 1 && str == "str")
             startProcess();
-        else if (var == 2)
+        else if (var == 1 && str == "str" || var2 == 2)
             stopProcess();
-        else if (var == 1)
+        else if (var==1&&str=="str")
             moveProcessToTheBackground();
     }
 
