@@ -7,7 +7,7 @@ public class IFELSESAME_BAD {
         String str = "str";
         if (var == 1 && str == "str")
             startProcess();
-        else if (var == 1 && str == "str" || var2 == 2)
+        else if (var == 1 || var2 == 2)
             stopProcess();
         else if (var==1&&str=="str")
             moveProcessToTheBackground();
