@@ -4,7 +4,7 @@ public class USESHORTCIRCUIT_Good {
 
     public void exMethod(){
         if(getTrue() || getFalse()) {
-//            ...
+            // ...
         } // true short-circuit logic
     }
 

@@ -6,5 +6,6 @@ public class UNUSEFIELD_GOOD {
     }
 
     private void compute(int x) {
+        int val = x;
     }
 }
