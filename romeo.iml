@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/java/lib/commons-codec-1.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/commons-lang-2.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/hibernate3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/javamail-1.4.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/saxon-xqj-8.9.0.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/servlet-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/java/lib/xqj-api-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/apache-commons-lang.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/commons-fileupload-1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/cos-05Nov2002.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/javaee-api-7.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/saxon-xqj-8.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/GS/lib/xqj-api-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-codec-1.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-fileupload-1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-lang-2.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-lang3-3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/cos-05Nov2002.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/javamail-1.4.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/saxon-8.9.0.4-osgi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/saxon-xqj-8.9.0.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/servlet-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/xqj-api-1.0.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/java/src" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/petit/GS/src/bad" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/petit/GS/src/good" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/petit/old/java_ext" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/petit/TC4_JAVA/src" expected_position="5" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/petit/GS/src/bad" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/petit/GS/src/good" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/petit/TC4_JAVA/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/petit/old/java_ext" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="commons-codec-1.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/commons-codec-1.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-lang-2.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/commons-lang-2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="hibernate3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/hibernate3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="javamail-1.4.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/javamail-1.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="saxon-xqj-8.9.0.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/saxon-xqj-8.9.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="servlet-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="xqj-api-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/java/lib/xqj-api-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="apache-commons-lang.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/apache-commons-lang.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-fileupload-1.3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/commons-fileupload-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="cos-05Nov2002.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/cos-05Nov2002.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="javaee-api-7.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/javaee-api-7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="saxon-xqj-8.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/saxon-xqj-8.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/GS/lib/xqj-api-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/GS/lib/xqj-api-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/commons-codec-1.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-codec-1.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/commons-fileupload-1.3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-fileupload-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/commons-lang-2.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-lang-2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-lang3-3.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/commons-lang3-3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/cos-05Nov2002.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/cos-05Nov2002.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/javamail-1.4.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/javamail-1.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="saxon-8.9.0.4-osgi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/saxon-8.9.0.4-osgi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/saxon-xqj-8.9.0.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/saxon-xqj-8.9.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/servlet-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="petit/TC4_JAVA/lib/xqj-api-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/petit/TC4_JAVA/lib/xqj-api-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
