@@ -5,9 +5,9 @@ import org.apache.logging.log4j.Logger;
 
 public class GuardLogStatement_BAD {
     public class Test extends Throwable{
-        private void bindParameters(Throwable param1) {
+        private void bindParameters(String param1, String param2) {
             Logger log = LogManager.getLogger(Test.class);
-            log.debug("log something {}", param1);
+            log.debug("log something {} and {}", param1, param2);
         }
     }
 }

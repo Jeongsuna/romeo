@@ -13,7 +13,4 @@ public class CheckResultSet_BAD {
         rs.next();
         String firstName = rs.getString(1);
     }
-
-    public CheckResultSet_BAD() throws SQLException {
-    }
 }

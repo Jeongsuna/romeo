@@ -6,7 +6,7 @@ public class AccessorClassGeneration_BAD {
             Inside isd = new Inside();
         }
         public class Inside {
-            public Inside(){}
+            private Inside(){}
         }
     }
 }

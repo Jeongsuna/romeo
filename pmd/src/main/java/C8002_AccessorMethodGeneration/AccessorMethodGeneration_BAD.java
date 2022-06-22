@@ -4,7 +4,7 @@ public class AccessorMethodGeneration_BAD {
     public class OutClass {
         private int count;
 
-        public class InClass {
+        class InClass {
             InClass() {
                 OutClass.this.count++;
             }

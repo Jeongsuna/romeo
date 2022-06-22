@@ -15,7 +15,4 @@ public class CheckResultSet_GOOD {
         } else  {
         }
     }
-
-    public CheckResultSet_GOOD() throws SQLException {
-    }
 }
