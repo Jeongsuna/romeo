@@ -2,7 +2,8 @@ package C8009_ConstantsInInterface;
 
 public class ConstantsInInterface_BAD {
     public interface ConstantsInterface {
-        public static final int FOO1 = 0;
-        public static final String FOO2 = "1";
+        final int CONST1 = 1;
+        static final int CONST2 = 1;
+        int CONST3 = 1;
     }
 }
