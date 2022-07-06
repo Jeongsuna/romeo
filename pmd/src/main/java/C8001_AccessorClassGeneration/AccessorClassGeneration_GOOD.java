@@ -5,7 +5,7 @@ public class AccessorClassGeneration_GOOD {
         void Foo(){
             Inside isd = new Inside();
         }
-        public class Inside {
+        private class Inside {
             private Inside(){}
         }
     }
