@@ -1,5 +1,7 @@
 package romeo
 
+import com.example.kotlin.Util
+
 class C0024_NOCHKERR {
     fun bad() {
         try {

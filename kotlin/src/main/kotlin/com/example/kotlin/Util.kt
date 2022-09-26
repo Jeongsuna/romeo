@@ -1,4 +1,4 @@
-package romeo
+package com.example.kotlin
 
 object Util {
     fun writeLine(str: String) {
