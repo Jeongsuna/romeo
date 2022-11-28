@@ -1,5 +1,5 @@
 /* TEMPLATE GENERATED TESTCASE FILE
-Filename: CWE476_NULL_Pointer_Dereference__Integer_01.java
+Filename: CWE476_NULL_Pointer_Dereference__int_array_01.java
 Label Definition File: CWE476_NULL_Pointer_Dereference.label.xml
 Template File: sources-sinks-01.tmpl.java
 */
@@ -14,73 +14,65 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
+package romeo
 
-package testcases.C0025_USENULL__CWE476_NULL_Pointer_Dereference.m00;
+import kotlin.Throws
 
-import testcasesupport.*;
-
-public class CWE476_NULL_Pointer_Dereference__Integer_01 extends AbstractTestCase
-{
-    public void bad() throws Throwable
-    {
-        Integer data;
+class CWE476_NULL_Pointer_Dereference__int_array_01 : AbstractTestCase() {
+    @Throws(Throwable::class)
+    fun bad() {
+        lateinit val data: IntArray
 
         /* POTENTIAL FLAW: data is null */
-        data = null;
+        data = null
 
         /* POTENTIAL FLAW: null dereference will occur if data is null */
-        IO.writeLine("" + data.toString());
-
+        IO.writeLine("" + data!!.size)
     }
 
-    public void good() throws Throwable
-    {
-        goodG2B();
-        goodB2G();
+    @Throws(Throwable::class)
+    fun good() {
+        goodG2B()
+        goodB2G()
     }
 
     /* goodG2B() - use goodsource and badsink */
-    private void goodG2B() throws Throwable
-    {
-        Integer data;
+    @Throws(Throwable::class)
+    private fun goodG2B() {
+        lateinit val data: IntArray
 
         /* FIX: hardcode data to non-null */
-        data = Integer.valueOf(5);
+        data = IntArray(5)
 
         /* POTENTIAL FLAW: null dereference will occur if data is null */
-        IO.writeLine("" + data.toString());
-
+        IO.writeLine("" + data.size)
     }
 
     /* goodB2G() - use badsource and goodsink */
-    private void goodB2G() throws Throwable
-    {
-        Integer data;
+    @Throws(Throwable::class)
+    private fun goodB2G() {
+        lateinit val data: IntArray
 
         /* POTENTIAL FLAW: data is null */
-        data = null;
+        data = null
 
         /* FIX: validate that data is non-null */
-        if (data != null)
-        {
-            IO.writeLine("" + data.toString());
+        if (data != null) {
+            IO.writeLine("" + data.size)
+        } else {
+            IO.writeLine("data is null")
         }
-        else
-        {
-            IO.writeLine("data is null");
-        }
-
     }
 
-    /* Below is the main(). It is only used when building this testcase on
+    companion object {
+        /* Below is the main(). It is only used when building this testcase on
      * its own for testing or for building a binary to use in testing binary
      * analysis tools. It is not used when compiling all the testcases as one
      * application, which is how source code analysis tools are tested.
      */
-    public static void main(String[] args) throws ClassNotFoundException,
-           InstantiationException, IllegalAccessException
-    {
-        mainFromParent(args);
+        @Throws(ClassNotFoundException::class, InstantiationException::class, IllegalAccessException::class)
+        fun main(args: Array<String?>?) {
+            mainFromParent(args)
+        }
     }
 }
-
