@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
-    private static int v3;
+    private static int v3, v3_1;
     private String v4;
 
     private static int v5;
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // INTENT_TEST14: 인텐트 (1/2)
                 Intent v14_intent = new Intent();
-                v14_intent.setClassName(MainActivity.this, TestActivity1.class.getName());
+                v12_intent.setClassName(MainActivity.this, TestActivity1.class.getName());
                 v14_intent.putExtra("v14", Input.input2.get(new Integer(4)));
                 startActivity(v14_intent);
             }
@@ -120,9 +120,17 @@ public class MainActivity extends AppCompatActivity {
         String v2 = Input.input2.get(new Integer(4));
         new Output().output2(v2);
 
-        // TODO: TEST2-1: 인트라 & 지역변수 추적 (부모 타입, name 기술)
+        // TEST2-1: 인트라 & 지역변수 추적 (부모 타입, name 기술)
+        int v2_1 = new InputXXXEx().input1();
+        new OutputXXXEx().output1(v2_1);
 
-        // TODO: TEST2-2: 인트라 & 지역변수 추적 (부모 타입, name 미기술)
+        // TEST2-2: 인트라 & 지역변수 추적 (부모 타입, name 미기술)
+        String v2_2 = InputXXXEx.input2.get(new Integer(4));
+        new OutputXXXEx().output2(v2_2);
+
+        // TEST2-3: 인트라 & 지역변수 추적 (상속 관계, name 미기술)
+        int v2_3 = new InputEx().input1();
+        new OutputEx().output1(v2_3);
 
         // TEST3: 인트라 & 맴버변수 추적 (name 기술)
         v3 = new Input().input1();
@@ -132,9 +140,9 @@ public class MainActivity extends AppCompatActivity {
         v4 = Input.input2.get(new Integer(4));
         new Output().output2(v4);
 
-        // TODO: TEST3-1: 인트라 & 맴버변수 추적 (부모 타입, name 기술)
-
-        // TODO: TEST3-2: 인트라 & 맴버변수 추적 (부모 타입, name 미기술)
+        // TEST3-1: 인트라 & 맴버변수 추적 (부모 타입, name 미기술)
+        v3_1 = new InputXXXEx().input1();
+        new OutputXXXEx().output1(v3_1);
 
         // TEST5: 인트라 & 스태틱 변수 추적 (name 기술)
         v5 = new Input().input1();
@@ -199,9 +207,9 @@ public class MainActivity extends AppCompatActivity {
 
         // LIFECYCLE_TEST9: 암시적 흐름 & 스태틱 변수 추적 & name 기술 (6/6)
         v9_6 = v9_5;
-        new Output().output1( v9_6 + "asdf" );
+        new Output().output2( v9_6 + "asdf" );
         v9 = v9_6 + "asdf";
-        new Output().output1( v9 );
+        new Output().output2( v9 );
 
         // LIFECYCLE_TEST11: 암시적 흐름 & 맴버 변수 추적 & name 기술 (6/6)
         v11_6 = v11_5;
