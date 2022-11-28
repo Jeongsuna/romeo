@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // INTENT_TEST14: 인텐트 (1/2)
                 Intent v14_intent = new Intent();
-                v12_intent.setClassName(MainActivity.this, TestActivity1.class.getName());
+                v14_intent.setClassName(MainActivity.this, TestActivity1.class.getName());
                 v14_intent.putExtra("v14", Input.input2.get(new Integer(4)));
                 startActivity(v14_intent);
             }
@@ -207,9 +207,9 @@ public class MainActivity extends AppCompatActivity {
 
         // LIFECYCLE_TEST9: 암시적 흐름 & 스태틱 변수 추적 & name 기술 (6/6)
         v9_6 = v9_5;
-        new Output().output2( v9_6 + "asdf" );
+        new Output().output1( v9_6 + "asdf" );
         v9 = v9_6 + "asdf";
-        new Output().output2( v9 );
+        new Output().output1( v9 );
 
         // LIFECYCLE_TEST11: 암시적 흐름 & 맴버 변수 추적 & name 기술 (6/6)
         v11_6 = v11_5;
