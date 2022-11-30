@@ -21,6 +21,13 @@
 		<DefCategory category="output3">
 			<Call parentBase="com.etriya.test.OutputXXX"/>
 		</DefCategory>
+		
+		<DefCategory category="input4">
+			<Call paretnBase="com.etriya.test.Input" name="i"/>
+		</DefCategory>
+		<DefCategory category="output4">
+			<Call paretnBase="com.etriya.test.Output" name="o"/>
+		</DefCategory>
 
 	</DefLanguage>
 </DefInit>
