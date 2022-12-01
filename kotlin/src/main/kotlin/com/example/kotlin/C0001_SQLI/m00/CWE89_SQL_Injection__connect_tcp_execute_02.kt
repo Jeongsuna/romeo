@@ -16,7 +16,17 @@ Template File: sources-sinks-02.tmpl.java
 * */
 package romeo
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import java.io.BufferedReader
+import java.io.IOException
+import java.io.InputStreamReader
+import java.net.Socket
+import java.sql.Connection
+import java.sql.PreparedStatement
+import java.sql.SQLException
+import java.sql.Statement
+import java.util.logging.Level
 
 class CWE89_SQL_Injection__connect_tcp_execute_02 : AbstractTestCase() {
     @Throws(Throwable::class)

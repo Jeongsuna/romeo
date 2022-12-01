@@ -1,6 +1,7 @@
 package roemo
 
 import javax.servlet.http.HttpServletRequest
+import java.sql.*
 
 class CWE89_SQL_Injection__Hibernate_01 {
     fun bad(req: HttpServletRequest) {

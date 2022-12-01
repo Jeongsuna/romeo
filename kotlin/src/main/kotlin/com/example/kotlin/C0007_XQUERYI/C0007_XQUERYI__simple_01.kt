@@ -1,6 +1,14 @@
 package romeo
 
 import java.util.Hashtable
+import java.util.Properties
+import javax.naming.Context
+import javax.naming.NamingException
+import javax.naming.directory.InitialDirContext
+import javax.xml.namespace.QName
+import javax.xml.xquery.XQException
+import javax.xml.xquery.XQPreparedExpression
+import javax.xml.xquery.XQResultSequence
 
 class C0007_XQUERYI__simple_01 {
     @Throws(NamingException::class, XQException::class)

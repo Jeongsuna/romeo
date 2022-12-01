@@ -16,6 +16,16 @@ package romeo
 
 import java.io.BufferedReader
 
+import java.io.InputStreamReader
+
+import java.io.IOException
+
+import java.net.Socket
+
+
+import java.util.logging.Level
+
+
 class CWE78_OS_Command_Injection__console_readLine_01 : AbstractTestCase() {
     /* uses badsource and badsink */
     @Throws(Throwable::class)

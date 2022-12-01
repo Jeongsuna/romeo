@@ -1,6 +1,7 @@
 package romeo
 
 import javax.servlet.http.HttpServletRequest
+import java.sql.*
 
 class C0001_SQL_Injection__simple_Java11_02 {
     @Throws(SQLException::class)
