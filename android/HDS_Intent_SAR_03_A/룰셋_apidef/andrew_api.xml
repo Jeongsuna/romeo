@@ -1,0 +1,28 @@
+<DefInit>
+	<DefLanguage language="Java">
+		<DefCategory category="input1">
+			<Call base="com.etriya.test.Input" name="input1"/>
+		</DefCategory>
+		<DefCategory category="output1">
+			<Call base="com.etriya.test.Output" name="output1"/>
+		</DefCategory>
+		<DefCategory category="input2">
+			<Call base="java.util.HashMap"/>
+		</DefCategory>
+		<DefCategory category="output2">
+			<Call base="com.etriya.test.Output"/>
+		</DefCategory>
+		<DefCategory category="input3">
+			<Call parentBase="com.etriya.test.InputXXX"/>
+		</DefCategory>
+		<DefCategory category="output3">
+			<Call parentBase="com.etriya.test.OutputXXX"/>
+		</DefCategory>		
+		<DefCategory category="input4">
+			<Call parentBase="com.etriya.test.Input" name="i"/>
+		</DefCategory>
+		<DefCategory category="output4">
+			<Call parentBase="com.etriya.test.Output" name="o"/>
+		</DefCategory>
+	</DefLanguage>
+</DefInit>
