@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+
+<body>
+
+<div class="content">
+{% autoescape off %}
+{{ content }}
+{% endautoescape %}
+</div>
+<div class="content2">
+{{ content | safe }}
+</div>
+</body>
+
+</html>
