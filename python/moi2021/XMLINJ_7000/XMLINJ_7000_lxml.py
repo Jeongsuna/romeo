@@ -8,7 +8,7 @@ def bad(request):
     parser = etree.XMLParser(resolve_entities=False)
     tree = etree.parse('user.xml', parser)
     root = tree.getroot()
-    path = "/collection/users/user[@name='" + user_name + "']/home/text()"
+    query = "/collection/users/user[@name='" + user_name + "']/home/text()"
     elmts = root.xpath(query)
     return render(request, 'parse_xml.html', {'xml_element':elmts})
 

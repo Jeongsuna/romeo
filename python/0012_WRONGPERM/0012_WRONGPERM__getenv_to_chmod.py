@@ -9,4 +9,4 @@ def bad(file_path):
 
 def good(file_path):
     # FIX:
-    os.chmod(file_path, 0444)
+    os.chmod(file_path, 444)
