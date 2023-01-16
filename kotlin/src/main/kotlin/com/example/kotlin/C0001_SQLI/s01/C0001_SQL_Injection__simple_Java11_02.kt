@@ -1,4 +1,4 @@
-package romeo
+package com.example.kotlin.C0001_SQLI.s01
 
 import javax.servlet.http.HttpServletRequest
 import java.sql.*
@@ -6,7 +6,7 @@ import java.sql.*
 class C0001_SQL_Injection__simple_Java11_02 {
     @Throws(SQLException::class)
     fun bad(request: HttpServletRequest, con: Connection) {
-        val gubun: Unit = request.getParameter("gubun")
+        val gubun: String = request.getParameter("gubun")
         val sql = (" select b_gubun "
                 + " , a.idx "
                 + " , a.b_id "
@@ -17,20 +17,20 @@ class C0001_SQL_Injection__simple_Java11_02 {
                 + " , a.security "
                 + " from board a left outer join tail b on a.idx = b.b_id "
                 + " where b_gubun = '" + gubun + "' ")
-        val stmt: Unit = con.createStatement()
+        val stmt: Statement = con.createStatement()
         stmt.use {
 
             /* FLAW : CWE-89 */
-            val rs: Unit = stmt.executeQuery(sql)
+            val rs: ResultSet = stmt.executeQuery(sql)
             if (!rs.next()) {
-                val id: Unit = rs.getString("idx")
+                val id: String = rs.getString("idx")
             }
         }
     }
 
     @Throws(SQLException::class)
     fun good(request: HttpServletRequest, con: Connection) {
-        val gubun: Unit = request.getParameter("gubun")
+        val gubun: String = request.getParameter("gubun")
         val sql = ("select b_gubun "
                 + " , a.idx "
                 + " , a.b_id "
@@ -41,12 +41,12 @@ class C0001_SQL_Injection__simple_Java11_02 {
                 + " , a.security "
                 + " from board a left outer join tail b on a.idx = b.b_id "
                 + " where b_gubun = ? ")
-        val pstmt: Unit = con.prepareStatement(sql)
+        val pstmt: PreparedStatement = con.prepareStatement(sql)
         pstmt.use {
             pstmt.setString(1, gubun)
-            val rs: Unit = pstmt.executeQuery()
+            val rs = pstmt.executeQuery()
             if (!rs.next()) {
-                val id: Unit = rs.getString("idx")
+                val id: String = rs.getString("idx")
             }
         }
     }

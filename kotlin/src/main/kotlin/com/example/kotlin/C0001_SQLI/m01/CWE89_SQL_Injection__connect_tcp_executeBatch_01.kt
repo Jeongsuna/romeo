@@ -14,7 +14,7 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0001_SQLI.m01
 
 import testcasesupport.AbstractTestCase
 import testcasesupport.IO
@@ -30,15 +30,15 @@ import java.util.logging.Level
 
 class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
+    override fun bad() {
         lateinit var data: String
         data = "" /* Initialize data */
 
         /* Read data using an outbound tcp connection */
         run {
-            lateinit var socket: Socket = null
-            lateinit var readerBuffered: BufferedReader = null
-            lateinit var readerInputStream: InputStreamReader = null
+            lateinit var socket: Socket
+            lateinit var readerBuffered: BufferedReader
+            lateinit var readerInputStream: InputStreamReader
             try {
                 /* Read data using an outbound tcp connection */
                 socket = Socket("host.example.org", 39544)
@@ -78,10 +78,10 @@ class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
             }
         }
         if (data != null) {
-            val names: Array<String> = data.split("-")
+            val names: List<String> = data.split("-")
             var successCount = 0
-            lateinit var dbConnection: Connection = null
-            lateinit var sqlStatement: Statement = null
+            lateinit var dbConnection: Connection
+            lateinit var sqlStatement: Statement
             try {
                 dbConnection = IO.getDBConnection()
                 sqlStatement = dbConnection.createStatement()
@@ -118,7 +118,7 @@ class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -126,15 +126,15 @@ class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: String
+        val data: String
 
         /* FIX: Use a hardcoded string */
         data = "foo"
         if (data != null) {
-            val names: Array<String> = data.split("-")
+            val names: List<String> = data.split("-")
             var successCount = 0
-            lateinit var dbConnection: Connection = null
-            lateinit var sqlStatement: Statement = null
+            lateinit var dbConnection: Connection
+            lateinit var sqlStatement: Statement
             try {
                 dbConnection = IO.getDBConnection()
                 sqlStatement = dbConnection.createStatement()
@@ -178,9 +178,9 @@ class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
 
         /* Read data using an outbound tcp connection */
         run {
-            lateinit var socket: Socket = null
-            lateinit var readerBuffered: BufferedReader = null
-            lateinit var readerInputStream: InputStreamReader = null
+            lateinit var socket: Socket
+            lateinit var readerBuffered: BufferedReader
+            lateinit var readerInputStream: InputStreamReader
             try {
                 /* Read data using an outbound tcp connection */
                 socket = Socket("host.example.org", 39544)
@@ -219,10 +219,10 @@ class CWE89_SQL_Injection__connect_tcp_executeBatch_01 : AbstractTestCase() {
             }
         }
         if (data != null) {
-            val names: Array<String> = data.split("-")
+            val names: List<String> = data.split("-")
             var successCount = 0
-            lateinit var dbConnection: Connection = null
-            lateinit var sqlStatement: PreparedStatement = null
+            lateinit var dbConnection: Connection
+            lateinit var sqlStatement: PreparedStatement
             try {
                 /* FIX: Use prepared statement and executeBatch (properly) */
                 dbConnection = IO.getDBConnection()
