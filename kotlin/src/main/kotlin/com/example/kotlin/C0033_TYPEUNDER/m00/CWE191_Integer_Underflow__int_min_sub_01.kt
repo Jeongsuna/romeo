@@ -14,24 +14,26 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0033_TYPEUNDER.m00
 
-import kotlin.Throws
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 
 class CWE191_Integer_Underflow__int_min_sub_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit val data: Int
+    override fun bad() {
+        val data: Int
 
         /* POTENTIAL FLAW: Use the maximum value for this type */
         data = Integer.MIN_VALUE
 
         /* POTENTIAL FLAW: if data == Integer.MIN_VALUE, this will overflow */
-        IO.writeLine("result: ${(data - 1)}")
+        val result = (data - 1)
+        IO.writeLine("result: $result")
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -39,26 +41,28 @@ class CWE191_Integer_Underflow__int_min_sub_01 : AbstractTestCase() {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: Int
+        val data: Int
 
         /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
         data = 2
 
         /* POTENTIAL FLAW: if data == Integer.MIN_VALUE, this will overflow */
-        IO.writeLine("result: ${(data - 1)}")
+        val result = (data - 1)
+        IO.writeLine("result: $result")
     }
 
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit val data: Int
+        val data: Int
 
         /* POTENTIAL FLAW: Use the maximum value for this type */
         data = Integer.MIN_VALUE
 
         /* FIX: Add a check to prevent an overflow from occurring */
         if (data > Integer.MIN_VALUE) {
-            IO.writeLine("result: ${(data - 1)}")
+            val result = (data - 1)
+            IO.writeLine("result: $result")
         } else {
             IO.writeLine("data value is too small to perform subtraction.")
         }

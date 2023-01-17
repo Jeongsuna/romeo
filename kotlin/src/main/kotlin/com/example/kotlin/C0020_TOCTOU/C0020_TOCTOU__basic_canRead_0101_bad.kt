@@ -6,8 +6,10 @@ sinkline : 48,
 makedate : 2012 08 20
 license  : Copyright KISA.
 */
-package romeo
+package com.example.kotlin.C0020_TOCTOU
 
+import testcasesupport.IO
+import java.io.*
 import kotlin.Throws
 
 // from K
@@ -21,9 +23,9 @@ class C0020_TOCTOU__basic_canRead_0101_bad
             IO.writeLine("The file does not exist!")
             return
         }
-        lateinit var bufread2: BufferedReader = null
-        lateinit var inread2: InputStreamReader = null
-        lateinit var finstr2: FileInputStream = null
+        var bufread2: BufferedReader? = null
+        var inread2: InputStreamReader? = null
+        var finstr2: FileInputStream? = null
 
         var line: String = ""
         try {

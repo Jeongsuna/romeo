@@ -14,14 +14,16 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C00C_TYPEOVER.m00
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import kotlin.Throws
 
 class CWE190_Integer_Overflow__int_max_add_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit val data: Int
+    override fun bad() {
+        val data: Int
 
         /* POTENTIAL FLAW: Use the maximum value for this type */
         data = Integer.MAX_VALUE
@@ -31,7 +33,7 @@ class CWE190_Integer_Overflow__int_max_add_01 : AbstractTestCase() {
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -39,7 +41,7 @@ class CWE190_Integer_Overflow__int_max_add_01 : AbstractTestCase() {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: Int
+        var data: Int
 
         /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
         data = 2
@@ -51,7 +53,7 @@ class CWE190_Integer_Overflow__int_max_add_01 : AbstractTestCase() {
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit val data: Int
+        var data: Int
 
         /* POTENTIAL FLAW: Use the maximum value for this type */
         data = Integer.MAX_VALUE

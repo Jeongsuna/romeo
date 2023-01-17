@@ -14,24 +14,26 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0025_USENULL.m01
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import kotlin.Throws
 
 class CWE476_NULL_Pointer_Dereference__int_array_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit val data: IntArray
+    override fun bad() {
+        val data: IntArray?
 
         /* POTENTIAL FLAW: data is null */
         data = null
 
         /* POTENTIAL FLAW: null dereference will occur if data is null */
-        IO.writeLine("" + data!!.size)
+        //IO.writeLine("" + data.size)
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -39,7 +41,7 @@ class CWE476_NULL_Pointer_Dereference__int_array_01 : AbstractTestCase() {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: IntArray
+        val data: IntArray
 
         /* FIX: hardcode data to non-null */
         data = IntArray(5)
@@ -51,7 +53,7 @@ class CWE476_NULL_Pointer_Dereference__int_array_01 : AbstractTestCase() {
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit val data: IntArray
+        val data: IntArray?
 
         /* POTENTIAL FLAW: data is null */
         data = null

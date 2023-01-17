@@ -1,4 +1,4 @@
-package romeo
+package com.example.kotlin.C0028_UNINIT
 
 import java.io.IOException
 import java.io.InputStream

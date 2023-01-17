@@ -12,22 +12,28 @@ Template File: sources-sink-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0004_CMDI.s01
 
 import org.springframework.web.bind.annotation.RequestMapping
+import javax.servlet.http.*
+import org.springframework.web.bind.annotation.ResponseBody
+import testcasesupport.AbstractTestCaseBase.mainFromParent
 import java.io.BufferedReader
-
-import java.io.InputStreamReader
-
 import java.io.IOException
-
-import java.net.Socket
-
-
-import java.util.logging.Level
+import java.io.InputStreamReader
+import java.io.InputStream
+import java.net.URL
+import java.net.URLConnection
+import java.sql.Connection
+import java.sql.DriverManager
+import java.sql.ResultSet
+import java.sql.SQLException
+import java.sql.Statement
+import java.util.Properties
+import java.util.Scanner
 
 class CWE78_OS_Command_Injection_OpenEG : AbstractTestCaseServletReturnString() {
-    @RequestMapping(value = "/test/command_test.do")
+    @RequestMapping(value = arrayOf("/test/command_test.do"))
     @ResponseBody
     @Override
     @Throws(Throwable::class)
@@ -38,9 +44,9 @@ class CWE78_OS_Command_Injection_OpenEG : AbstractTestCaseServletReturnString() 
             data = "$data " + request.getSession().getServletContext().getRealPath("/") + "file1.txt"
             System.out.println(data)
         }
-        lateinit val process: Process
+        val process: Process
         val osName: String = System.getProperty("os.name")
-        lateinit val cmd: Array<String?>
+        val cmd: Array<String?>
         if (osName.toLowerCase().startsWith("window")) {
             cmd = arrayOf("cmd.exe", "/c", data)
             for (s in cmd) System.out.print(s.toString() + " ")
@@ -81,4 +87,7 @@ class CWE78_OS_Command_Injection_OpenEG : AbstractTestCaseServletReturnString() 
             mainFromParent(args)
         }
     }
+}
+open class AbstractTestCaseServletReturnString {
+
 }
