@@ -10,6 +10,7 @@ import javax.naming.directory.DirContext
 import javax.naming.directory.InitialDirContext
 import javax.naming.directory.SearchControls
 import javax.naming.directory.SearchResult
+import javax.servlet.http.HttpServletRequest
 
 class C0009_LDAPI__simple_01 {
     @Throws(NamingException::class)
@@ -36,6 +37,10 @@ class C0009_LDAPI__simple_01 {
         } catch (e: NamingException) {
             IO.logger.log(Level.WARNING, e.toString())
         }
+    }
+
+    fun badSrc(req: HttpServletRequest) {
+        bad(req.getParameter("userSN"), req.getParameter("userSN"))
     }
 
     @Throws(NamingException::class)
