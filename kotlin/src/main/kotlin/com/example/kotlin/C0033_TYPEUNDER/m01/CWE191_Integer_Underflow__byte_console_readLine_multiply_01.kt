@@ -16,14 +16,14 @@ Template File: sources-sinks-01.tmpl.java
 * */
 package com.example.kotlin.C0033_TYPEUNDER.m01
 
-import testcasesupport.AbstractTestCase
-import testcasesupport.IO
+import testcasesupport.AbstractTestCaseKotlin
+import testcasesupport.IOKotlin
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 import java.util.logging.Level
 
-class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTestCase() {
+class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTestCaseKotlin() {
     @Throws(Throwable::class)
     override fun bad() {
         var data: Byte
@@ -42,9 +42,9 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
                 data = Byte.parseByte(stringNumber.trim())
             }
         } catch (exceptIO: IOException) {
-            IO.logger.log(Level.WARNING, "Error with stream reading", exceptIO)
+            IOKotlin.logger.log(Level.WARNING, "Error with stream reading", exceptIO)
         } catch (exceptNumberFormat: NumberFormatException) {
-            IO.logger.log(Level.WARNING, "Error with number parsing", exceptNumberFormat)
+            IOKotlin.logger.log(Level.WARNING, "Error with number parsing", exceptNumberFormat)
         } finally {
             /* clean up stream reading objects */
             try {
@@ -52,21 +52,21 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
                     readerBuffered.close()
                 }
             } catch (exceptIO: IOException) {
-                IO.logger.log(Level.WARNING, "Error closing BufferedReader", exceptIO)
+                IOKotlin.logger.log(Level.WARNING, "Error closing BufferedReader", exceptIO)
             } finally {
                 try {
                     if (readerInputStream != null) {
                         readerInputStream.close()
                     }
                 } catch (exceptIO: IOException) {
-                    IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO)
+                    IOKotlin.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO)
                 }
             }
         }
         if (data < 0) /* ensure we won't have an overflow */ {
             /* POTENTIAL FLAW: if (data * 2) < Byte.MIN_VALUE, this will underflow */
             val result = (data * 2).toByte()
-            IO.writeLine("result: $result")
+            IOKotlin.writeLine("result: $result")
         }
     }
 
@@ -86,7 +86,7 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
         if (data < 0) /* ensure we won't have an overflow */ {
             /* POTENTIAL FLAW: if (data * 2) < Byte.MIN_VALUE, this will underflow */
             val result = (data * 2).toByte()
-            IO.writeLine("result: $result")
+            IOKotlin.writeLine("result: $result")
         }
     }
 
@@ -109,9 +109,9 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
                 data = Byte.parseByte(stringNumber.trim())
             }
         } catch (exceptIO: IOException) {
-            IO.logger.log(Level.WARNING, "Error with stream reading", exceptIO)
+            IOKotlin.logger.log(Level.WARNING, "Error with stream reading", exceptIO)
         } catch (exceptNumberFormat: NumberFormatException) {
-            IO.logger.log(Level.WARNING, "Error with number parsing", exceptNumberFormat)
+            IOKotlin.logger.log(Level.WARNING, "Error with number parsing", exceptNumberFormat)
         } finally {
             /* clean up stream reading objects */
             try {
@@ -119,14 +119,14 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
                     readerBuffered.close()
                 }
             } catch (exceptIO: IOException) {
-                IO.logger.log(Level.WARNING, "Error closing BufferedReader", exceptIO)
+                IOKotlin.logger.log(Level.WARNING, "Error closing BufferedReader", exceptIO)
             } finally {
                 try {
                     if (readerInputStream != null) {
                         readerInputStream.close()
                     }
                 } catch (exceptIO: IOException) {
-                    IO.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO)
+                    IOKotlin.logger.log(Level.WARNING, "Error closing InputStreamReader", exceptIO)
                 }
             }
         }
@@ -134,9 +134,9 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
             /* FIX: Add a check to prevent an underflow from occurring */
             if (data > Byte.MIN_VALUE / 2) {
                 val result = (data * 2).toByte()
-                IO.writeLine("result: $result")
+                IOKotlin.writeLine("result: $result")
             } else {
-                IO.writeLine("data value is too small to perform multiplication.")
+                IOKotlin.writeLine("data value is too small to perform multiplication.")
             }
         }
     }
@@ -149,7 +149,6 @@ class CWE191_Integer_Underflow__byte_console_readLine_multiply_01 : AbstractTest
      */
         @Throws(ClassNotFoundException::class, InstantiationException::class, IllegalAccessException::class)
         fun main(args: Array<String?>?) {
-            mainFromParent(args)
         }
     }
 }

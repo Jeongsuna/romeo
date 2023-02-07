@@ -8,7 +8,7 @@ license  : Copyright KISA.
 */
 package com.example.kotlin.C0020_TOCTOU
 
-import testcasesupport.IO
+import testcasesupport.IOKotlin
 import java.io.*
 import kotlin.Throws
 
@@ -20,7 +20,7 @@ class C0020_TOCTOU__basic_canRead_0101_bad
         val log_bsnk: java.util.logging.Logger = java.util.logging.Logger.getLogger("local-logger")
         val f = File("c:\\toctou.txt") /* may need to be adjusted depending on script */
         if (!f.exists()) {
-            IO.writeLine("The file does not exist!")
+            IOKotlin.writeLine("The file does not exist!")
             return
         }
         var bufread2: BufferedReader? = null
@@ -38,10 +38,10 @@ class C0020_TOCTOU__basic_canRead_0101_bad
             * During delay, swap the "test_evil.txt" and "test_bad.txt" files (or contents).
             */
             /* POSSIBLE FLAW: Delay between file access check and file read */
-            IO.writeLine("Intentional delay. Hit return to continue.")
+            IOKotlin.writeLine("Intentional delay. Hit return to continue.")
             bufread2.readLine()
             while (bufread2.readLine().also { line = it } != null) {
-                IO.writeLine(line)
+                IOKotlin.writeLine(line)
             }
         } catch (e: IOException) {
             log_bsnk.warning("Error reading from console")

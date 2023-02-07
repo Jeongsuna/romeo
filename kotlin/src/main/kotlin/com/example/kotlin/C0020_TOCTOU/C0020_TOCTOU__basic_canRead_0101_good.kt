@@ -8,7 +8,7 @@ license  : Copyright KISA.
 */
 package com.example.kotlin.C0020_TOCTOU
 
-import testcasesupport.IO
+import testcasesupport.IOKotlin
 import java.io.*
 import kotlin.Throws
 
@@ -36,7 +36,7 @@ class C0020_TOCTOU__basic_canRead_0101_good {
             bufread2 = BufferedReader(inread2)
 
             while (bufread2.readLine().also { line = it } != null) {
-                IO.writeLine(line)
+                IOKotlin.writeLine(line)
             }
         } catch (e: IOException) {
             log_gsnk.warning("Error reading from console")

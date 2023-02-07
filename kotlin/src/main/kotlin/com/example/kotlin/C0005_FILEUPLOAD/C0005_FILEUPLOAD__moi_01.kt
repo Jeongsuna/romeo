@@ -2,7 +2,7 @@ package com.example.kotlin.C0005_FILEUPLOAD
 
 import com.oreilly.servlet.MultipartRequest
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy
-import testcasesupport.IO
+import testcasesupport.IOKotlin
 import java.io.IOException
 import java.sql.Connection
 import java.sql.PreparedStatement
@@ -11,7 +11,7 @@ import java.util.*
 import java.util.logging.Level
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
-import net.coobird.thumbnailator.Thumbnails
+//import net.coobird.thumbnailator.Thumbnails
 
 class C0005_FILEUPLOAD__moi_01 {
     private lateinit var path: String
@@ -30,7 +30,7 @@ class C0005_FILEUPLOAD__moi_01 {
         lateinit var con: Connection
         lateinit var pstmt: PreparedStatement
         try {
-            con = IO.getDBConnection()
+            con = IOKotlin.getDBConnection()!!
             val sql = (" INSERT INTO board(email,r_num,w_date,pwd,content,re_step,re_num,filename) "
                     + " values ( ?, 0, sysdate(), ?, ?, ?, ?, ? ) ")
             pstmt = con.prepareStatement(sql)
@@ -42,13 +42,13 @@ class C0005_FILEUPLOAD__moi_01 {
             pstmt.setString(6, fileName)
             pstmt.executeUpdate()
         } catch (e: SQLException) {
-            IO.logger.log(Level.WARNING, e.toString())
+            IOKotlin.logger.log(Level.WARNING, e.toString())
         } finally {
             try {
                 pstmt.close()
                 con.close()
             } catch (e: SQLException) {
-                IO.logger.log(Level.WARNING, e.toString())
+                IOKotlin.logger.log(Level.WARNING, e.toString())
             }
         }
 
