@@ -17,6 +17,7 @@ package com.example.kotlin.C002B_SYSTEMLEAK.s01
 import testcasesupport.AbstractTestCaseServlet
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
+import java.lang.*
 
 class CWE497_Exposure_of_System_Data__Servlet_01 : AbstractTestCaseServlet() {
     @Throws(Throwable::class)
