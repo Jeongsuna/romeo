@@ -28,7 +28,8 @@ import java.util.*
 import java.util.logging.Level
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
-
+import javax.xml.xpath.XPath
+import java.lang.System
 class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
     @Throws(Throwable::class)
     override fun bad() {
@@ -73,7 +74,7 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
         }
         if (data != null) {
             /* assume username||password as source */
-            val tokens = data.split("||".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            val tokens = data.split("||".toRegex())
             if (tokens.size < 2) {
                 return
             }
@@ -88,7 +89,7 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
             val query = "//users/user[name/text()='" + username +
                     "' and pass/text()='" + password + "']" +
                     "/secret/text()"
-            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING) as String
+            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING)
         }
     }
 
@@ -115,14 +116,14 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
         }
         if (data != null) {
             /* assume username||password as source */
-            val tokens = data.split("||".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            val tokens = data.split("||".toRegex())
             if (tokens.size < 2) {
                 return
             }
             val username = tokens[0]
             val password = tokens[1]
             /* build xpath */
-            val xPath = XPathFactory.newInstance().newXPath()
+            val xPath: XPath = XPathFactory.newInstance().newXPath()
             val inputXml = InputSource(xmlFile)
             /* INCIDENTAL: CWE180 Incorrect Behavior Order: Validate Before Canonicalize
              *     The user input should be canonicalized before validation. */
@@ -130,7 +131,7 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
             val query = "//users/user[name/text()='" + username +
                     "' and pass/text()='" + password + "']" +
                     "/secret/text()"
-            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING) as String
+            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING)
         }
     }
 
@@ -178,7 +179,7 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
         }
         if (data != null) {
             /* assume username||password as source */
-            val tokens = data.split("||".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            val tokens = data.split("||".toRegex())
             if (tokens.size < 2) {
                 return
             }
@@ -188,12 +189,12 @@ class CWE643_Xpath_Injection__console_readLine_01 : AbstractTestCase() {
             )
             val password: String = StringEscapeUtils.escapeXml(tokens[1])
             /* build xpath */
-            val xPath = XPathFactory.newInstance().newXPath()
+            val xPath: XPath = XPathFactory.newInstance().newXPath()
             val inputXml = InputSource(xmlFile)
             val query = "//users/user[name/text()='" + username +
                     "' and pass/text()='" + password + "']" +
                     "/secret/text()"
-            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING) as String
+            val secret = xPath.evaluate(query, inputXml, XPathConstants.STRING)
         }
     }
 

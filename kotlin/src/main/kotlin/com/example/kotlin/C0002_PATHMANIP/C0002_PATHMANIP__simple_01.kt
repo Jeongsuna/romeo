@@ -10,12 +10,13 @@ class C0002_PATHMANIP__simple_01 {
     fun bad(request: HttpServletRequest, response: HttpServletResponse) {
         var fileName: String = request.getParameter("P")
         if (fileName == null || "".equals(fileName)) fileName = "dummy.txt"
-        var bis: BufferedInputStream? = null
-        var bos: BufferedOutputStream? = null
-        var fis: FileInputStream? = null
+        lateinit var bis: BufferedInputStream
+        lateinit var bos: BufferedOutputStream
+        lateinit var fis: FileInputStream
+        
         try {
-            val replacen = """\n""".toRegex()
-            val replacer = """\r""".toRegex()
+            val replacen: Regex = """\n""".toRegex()
+            val replacer: Regex = """\r""".toRegex()
             fileName = fileName.replace(replacen, "").replace(replacer, "")
             response.setHeader("Content-Disposition", "attachment;filename=$fileName;")
             val buffer = ByteArray(1024)
@@ -47,20 +48,20 @@ class C0002_PATHMANIP__simple_01 {
     fun good(request: HttpServletRequest, response: HttpServletResponse) {
         var fileName: String = request.getParameter("P")
         if (fileName == null || "".equals(fileName)) fileName = "dummy.txt"
-        var bis: BufferedInputStream? = null
-        var bos: BufferedOutputStream? = null
-        var fis: FileInputStream? = null
+        lateinit var bis: BufferedInputStream
+        lateinit var bos: BufferedOutputStream
+        lateinit var fis: FileInputStream
         try {
-            val replacen = """\n""".toRegex()
-            val replacer = """\r""".toRegex()
+            val replacen: Regex = """\n""".toRegex()
+            val replacer: Regex = """\r""".toRegex()
             fileName = fileName.replace(replacen, "").replace(replacer, "")
             response.setHeader("Content-Disposition", "attachment;filename=$fileName;")
             val buffer = ByteArray(1024)
 
             // 외부입력값에서 경로순회(directory traversal) 문자열을 제거하고 사용
-            val replaceName1 = """\\.\\.""".toRegex()
-            val replaceName2 = """/""".toRegex()
-            val replaceName3 = """\\\\""".toRegex()
+            val replaceName1: Regex = """\\.\\.""".toRegex()
+            val replaceName2: Regex = """/""".toRegex()
+            val replaceName3: Regex = """\\\\""".toRegex()
 
             fileName = fileName.replace(replaceName1, "").replace(replaceName2, "").replace(replaceName3, "")
             fis = FileInputStream("C:/datas/$fileName")

@@ -8,14 +8,14 @@ import javax.xml.parsers.ParserConfigurationException
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathExpressionException
 import javax.xml.xpath.XPathFactory
-
+import javax.xml.xpath.XPath
 class C0008_XPATHI__simple_01 {
     fun bad(args: Array<String>) {
         val name = args[0]
         try {
             val docBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder()
             val doc = docBuilder.parse("http://www.w3schools.com/xml/simple.xml")
-            val xpath = XPathFactory.newInstance().newXPath()
+            val xpath: XPath = XPathFactory.newInstance().newXPath()
             /* FLAW : CWE-643 */
             val nodes = xpath.evaluate(
                 "//food[name='$name']/price",
@@ -35,7 +35,7 @@ class C0008_XPATHI__simple_01 {
         }
     }
 
-    fun good(args: Array<String?>) {
+    fun good(args: Array<String>) {
         var name = args[0]
         if (name != null) {
             name = name.replace("[()\\-'\\[\\]:,*/]".toRegex(), "")
@@ -43,7 +43,7 @@ class C0008_XPATHI__simple_01 {
         try {
             val docBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder()
             val doc = docBuilder.parse("http://www.w3schools.com/xml/simple.xml")
-            val xpath = XPathFactory.newInstance().newXPath()
+            val xpath: XPath = XPathFactory.newInstance().newXPath()
             val nodes = xpath.evaluate("//food[name='$name']/price", doc, XPathConstants.NODESET) as NodeList
             for (i in 0 until nodes.length) {
                 println(nodes.item(i).textContent)
