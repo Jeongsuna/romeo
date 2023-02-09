@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def bad(request):
-    roll = request.COOKIE['roll']
+    roll = request.COOKIE['role']
     request_id = request.POST.get('user_id', '')
     request_mail = request.POST.get('user_email', '')
     if roll == 'admin':
@@ -13,7 +13,7 @@ def bad(request):
 
 
 def good(request):
-    roll = request.session['roll']
+    roll = request.session['role']
     request_id = request.POST.get('user_id', '')
     request_mail = request.POST.get('user_email', '')
     if roll == 'admin':
