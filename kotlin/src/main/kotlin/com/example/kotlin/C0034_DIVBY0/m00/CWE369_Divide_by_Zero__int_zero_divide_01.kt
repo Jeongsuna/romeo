@@ -14,23 +14,25 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0034_DIVBY0.m00
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import kotlin.Throws
 
 class CWE369_Divide_by_Zero__int_zero_divide_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit val data: Int
+    override fun bad() {
+        val data: Int
         data = 0/* POTENTIAL FLAW: data is set to zero */
 
         /* POTENTIAL FLAW: Zero denominator will cause an issue.  An integer division will
         result in an exception. */
-        IO.writeLine("bad: 100/$data = 100" / data + "\n")
+        IO.writeLine("bad: 100/$data = ${100 / data} \n")
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -38,25 +40,25 @@ class CWE369_Divide_by_Zero__int_zero_divide_01 : AbstractTestCase() {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: Int
+        val data: Int
 
         /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
         data = 2
 
         /* POTENTIAL FLAW: Zero denominator will cause an issue.  An integer division will
         result in an exception. */
-        IO.writeLine("bad: 100/$data = 100" / data + "\n")
+        IO.writeLine("bad: 100/$data = ${100 / data} \n")
     }
 
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit val data: Int
+        val data: Int
         data = 0/* POTENTIAL FLAW: data is set to zero */
 
         /* FIX: test for a zero denominator */
         if (data != 0) {
-            IO.writeLine("100/$data = 100" / data + "\n")
+            IO.writeLine("100/$data = ${100 / data} \n")
         } else {
             IO.writeLine("This would result in a divide by zero")
         }

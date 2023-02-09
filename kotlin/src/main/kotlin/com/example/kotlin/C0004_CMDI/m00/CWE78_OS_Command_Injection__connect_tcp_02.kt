@@ -12,8 +12,10 @@ Template File: sources-sink-02.tmpl.java
 * Flow Variant: 02 Control flow: if(true) and if(false)
 *
 * */
-package romeo
+package com.example.kotlin.C0004_CMDI.m00
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import java.io.BufferedReader
 
 import java.io.InputStreamReader
@@ -21,6 +23,7 @@ import java.io.InputStreamReader
 import java.io.IOException
 import java.lang.Runtime
 import java.net.Socket
+import java.util.*
 
 
 import java.util.logging.Level
@@ -29,21 +32,23 @@ import java.util.logging.Level
 class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
     /* uses badsource and badsink */
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit var data: String
+    override fun bad() {
+        var data: String?
         if (true) {
             data = "" /* Initialize data */
             /* Read data using an outbound tcp connection */
             run {
-                lateinit var socket: Socket = null
-                lateinit var readerBuffered: BufferedReader = null
-                lateinit var readerInputStream: InputStreamReader = null
+                var socket: Socket? = null
+                var readerBuffered: BufferedReader? = null
+                var readerInputStream: InputStreamReader? = null
                 try {
                     /* Read data using an outbound tcp connection */
                     socket = Socket("host.example.org", 39544)
-                    /* read input from socket */readerInputStream = InputStreamReader(socket.getInputStream(), "UTF-8")
+                    /* read input from socket */
+                    readerInputStream = InputStreamReader(socket.getInputStream(), "UTF-8")
                     readerBuffered = BufferedReader(readerInputStream)
-                    /* POTENTIAL FLAW: Read data using an outbound tcp connection */data = readerBuffered.readLine()
+                    /* POTENTIAL FLAW: Read data using an outbound tcp connection */
+                    data = readerBuffered.readLine()
                 } catch (exceptIO: IOException) {
                     IO.logger.log(Level.WARNING, "Error with stream reading", exceptIO)
                 } finally {
@@ -77,8 +82,8 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
              * but ensure data is inititialized before the Sink to avoid compiler errors */
             data = null
         }
-        lateinit val osCommand: String
-        osCommand = if (System.getProperty("os.name").toLowerCase().indexOf("win") >= 0) {
+        var osCommand: String
+        osCommand = if (System.getProperty("os.name").lowercase(Locale.getDefault()).indexOf("win") >= 0) {
             /* running on Windows */
             "c:\\WINDOWS\\SYSTEM32\\cmd.exe /c dir "
         } else {
@@ -94,7 +99,7 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
     /* goodG2B1() - use goodsource and badsink by changing true to false */
     @Throws(Throwable::class)
     private fun goodG2B1() {
-        lateinit val data: String
+        val data: String?
         data = if (false) {
             /* INCIDENTAL: CWE 561 Dead Code, the code below will never run
              * but ensure data is inititialized before the Sink to avoid compiler errors */
@@ -104,8 +109,8 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
             /* FIX: Use a hardcoded string */
             "foo"
         }
-        lateinit val osCommand: String
-        osCommand = if (System.getProperty("os.name").toLowerCase().indexOf("win") >= 0) {
+        val osCommand: String
+        osCommand = if (System.getProperty("os.name").lowercase(Locale.getDefault()).indexOf("win") >= 0) {
             /* running on Windows */
             "c:\\WINDOWS\\SYSTEM32\\cmd.exe /c dir "
         } else {
@@ -121,7 +126,7 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
     /* goodG2B2() - use goodsource and badsink by reversing statements in if */
     @Throws(Throwable::class)
     private fun goodG2B2() {
-        lateinit val data: String
+        val data: String?
         data = if (true) {
             /* FIX: Use a hardcoded string */
             "foo"
@@ -130,8 +135,8 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
              * but ensure data is inititialized before the Sink to avoid compiler errors */
             null
         }
-        lateinit val osCommand: String
-        osCommand = if (System.getProperty("os.name").toLowerCase().indexOf("win") >= 0) {
+        val osCommand: String
+        osCommand = if (System.getProperty("os.name").lowercase(Locale.getDefault()).indexOf("win") >= 0) {
             /* running on Windows */
             "c:\\WINDOWS\\SYSTEM32\\cmd.exe /c dir "
         } else {
@@ -145,7 +150,7 @@ class CWE78_OS_Command_Injection__connect_tcp_02 : AbstractTestCase() {
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B1()
         goodG2B2()
     }

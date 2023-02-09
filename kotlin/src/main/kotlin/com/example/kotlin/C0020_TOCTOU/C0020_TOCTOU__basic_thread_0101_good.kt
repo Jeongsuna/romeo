@@ -8,8 +8,10 @@ license  : Copyright KISA.
 */
 package romeo
 
-import testcases.C0020_TOCTOU__CWE367.FileAccessThread2
-import testcases.C0020_TOCTOU__CWE367.FileDeleteThread2
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileReader
+import java.io.IOException
 import kotlin.jvm.Synchronized
 
 // from K
@@ -25,8 +27,8 @@ class C0020_TOCTOU__basic_thread_0101_good {
 internal class FileAccessThread2 : Thread() {
     /* FIX */
     @Synchronized
-    fun run() {
-        var br: BufferedReader = null
+    override fun run() {
+        var br: BufferedReader? = null
         try {
             val f = File("c:\\toctou.txt")
             if (f.exists()) {
@@ -49,7 +51,7 @@ internal class FileAccessThread2 : Thread() {
 internal class FileDeleteThread2 : Thread() {
     /* FIX */
     @Synchronized
-    fun run() {
+    override fun run() {
         val f = File("c:\\toctou.txt")
         if (f.exists()) {
             f.delete()

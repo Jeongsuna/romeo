@@ -1,4 +1,4 @@
-package romeo
+package com.example.kotlin.C000E_BUFOVER
 /* TEMPLATE GENERATED TESTCASE FILE
 Filename: CWE129_Improper_Validation_of_Array_Index__database_array_read_no_check_01.java
 Label Definition File: CWE129_Improper_Validation_of_Array_Index.label.xml
@@ -15,19 +15,24 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
+import testcasesupport.IO
 import java.sql.Connection
+import java.sql.PreparedStatement
+import java.sql.ResultSet
+import java.sql.SQLException
+import java.util.logging.Level
 
 class C000E_CWE119_Buffer_Overflow__basic_01 {
     @Throws(Throwable::class)
     fun bad() {
-        lateinit var data: Int
+        var data: Int
         data = Integer.MIN_VALUE /* Initialize data */
 
         /* Read data from a database */
         run {
-            lateinit var connection: Connection = null
-            lateinit var preparedStatement: PreparedStatement = null
-            lateinit var resultSet: ResultSet = null
+            var connection: Connection? = null
+            var preparedStatement: PreparedStatement? = null
+            var resultSet: ResultSet? = null
             try {
                 /* setup the connection */
                 connection = IO.getDBConnection()
@@ -94,7 +99,7 @@ class C000E_CWE119_Buffer_Overflow__basic_01 {
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: Int
+        val data: Int
 
         /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
         data = 2
@@ -103,22 +108,20 @@ class C000E_CWE119_Buffer_Overflow__basic_01 {
         val array = intArrayOf(0, 1, 2, 3, 4)
 
         /* POTENTIAL FLAW: Attempt to read from array at location data, which may be outside the array bounds */
-        IO.writeLine(
-            array[data]
-        )
+        IO.writeLine(array[data])
     }
 
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit var data: Int
+        var data: Int
         data = Integer.MIN_VALUE /* Initialize data */
 
         /* Read data from a database */
         run {
-            lateinit var connection: Connection = null
-            lateinit var preparedStatement: PreparedStatement = null
-            lateinit var resultSet: ResultSet = null
+            var connection: Connection? = null
+            var preparedStatement: PreparedStatement? = null
+            var resultSet: ResultSet? = null
             try {
                 /* setup the connection */
                 connection = IO.getDBConnection()

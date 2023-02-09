@@ -6,8 +6,10 @@ sinkline : 40,
 makedate : 2012 08 20
 license  : Copyright KISA.
 */
-package romeo
+package com.example.kotlin.C0020_TOCTOU
 
+import testcasesupport.IOKotlin
+import java.io.*
 import kotlin.Throws
 
 // from K
@@ -22,9 +24,9 @@ class C0020_TOCTOU__basic_canRead_0101_good {
         val log_gsnk: java.util.logging.Logger = java.util.logging.Logger.getLogger("local-logger")
         val f = File("c:\\toctou.txt") /* may need to be adjusted depending on script */
 
-        lateinit var bufread2: BufferedReader = null
-        lateinit var inread2: InputStreamReader = null
-        lateinit var finstr2: FileInputStream = null
+        var bufread2: BufferedReader? = null
+        var inread2: InputStreamReader? = null
+        var finstr2: FileInputStream? = null
 
         var line: String = ""
         try {
@@ -34,7 +36,7 @@ class C0020_TOCTOU__basic_canRead_0101_good {
             bufread2 = BufferedReader(inread2)
 
             while (bufread2.readLine().also { line = it } != null) {
-                IO.writeLine(line)
+                IOKotlin.writeLine(line)
             }
         } catch (e: IOException) {
             log_gsnk.warning("Error reading from console")

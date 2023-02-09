@@ -1,9 +1,10 @@
-package romeo
+package com.example.kotlin.C0007_XQUERYI
 
 import java.util.Hashtable
 import java.util.Properties
 import javax.naming.Context
 import javax.naming.NamingException
+import javax.naming.directory.DirContext
 import javax.naming.directory.InitialDirContext
 import javax.xml.namespace.QName
 import javax.xml.xquery.XQException

@@ -8,6 +8,11 @@ license  : Copyright KISA.
 */
 package romeo
 
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileReader
+import java.io.IOException
+
 // from K
 class C0020_TOCTOU__basic_thread_0101_bad {
     fun bad() {
@@ -21,8 +26,8 @@ class C0020_TOCTOU__basic_thread_0101_bad {
 
 internal class FileAccessThread : Thread() {
     /* FLAW */
-    fun run() {
-        lateinit var br: BufferedReader = null
+    override fun run() {
+        var br: BufferedReader? = null
         try {
             val f = File("c:\\toctou.txt")
             if (f.exists()) {
@@ -44,7 +49,7 @@ internal class FileAccessThread : Thread() {
 
 internal class FileDeleteThread : Thread() {
     /* FLAW */
-    fun run() {
+    override fun run() {
         val f = File("c:\\toctou.txt")
         if (f.exists()) {
             f.delete()

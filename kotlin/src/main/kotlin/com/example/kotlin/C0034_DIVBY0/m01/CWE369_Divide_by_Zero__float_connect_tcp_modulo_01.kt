@@ -14,20 +14,27 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C0034_DIVBY0.m01
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import java.io.BufferedReader
+import java.io.IOException
+import java.io.InputStreamReader
+import java.net.Socket
+import java.util.logging.Level
 
 class CWE369_Divide_by_Zero__float_connect_tcp_modulo_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit var data: Float
+    override fun bad() {
+        var data: Float
         data = -1.0f /* Initialize data */
 
-        /* Read data using an outbound tcp connection */run {
-            lateinit var socket: Socket = null
-            lateinit var readerBuffered: BufferedReader = null
-            lateinit var readerInputStream: InputStreamReader = null
+        /* Read data using an outbound tcp connection */
+        run {
+            var socket: Socket? = null
+            var readerBuffered: BufferedReader? = null
+            var readerInputStream: InputStreamReader? = null
             try {
                 /* Read data using an outbound tcp connection */
                 socket = Socket("host.example.org", 39544)
@@ -85,7 +92,7 @@ class CWE369_Divide_by_Zero__float_connect_tcp_modulo_01 : AbstractTestCase() {
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -105,13 +112,14 @@ class CWE369_Divide_by_Zero__float_connect_tcp_modulo_01 : AbstractTestCase() {
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit var data: Float
+        var data: Float
         data = -1.0f /* Initialize data */
 
-        /* Read data using an outbound tcp connection */run {
-            lateinit var socket: Socket = null
-            lateinit var readerBuffered: BufferedReader = null
-            lateinit var readerInputStream: InputStreamReader = null
+        /* Read data using an outbound tcp connection */
+        run {
+            var socket: Socket? = null
+            var readerBuffered: BufferedReader? = null
+            var readerInputStream: InputStreamReader? = null
             try {
                 /* Read data using an outbound tcp connection */
                 socket = Socket("host.example.org", 39544)
@@ -183,4 +191,7 @@ class CWE369_Divide_by_Zero__float_connect_tcp_modulo_01 : AbstractTestCase() {
             mainFromParent(args)
         }
     }
+}
+private fun Any.parseFloat(trim: String): Float {
+    return 0.0f
 }

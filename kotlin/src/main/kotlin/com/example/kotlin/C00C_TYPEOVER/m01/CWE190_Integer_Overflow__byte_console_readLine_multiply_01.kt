@@ -14,22 +14,28 @@ Template File: sources-sinks-01.tmpl.java
 * Flow Variant: 01 Baseline
 *
 * */
-package romeo
+package com.example.kotlin.C00C_TYPEOVER.m01
 
+import testcasesupport.AbstractTestCase
+import testcasesupport.IO
 import java.io.BufferedReader
+import java.io.IOException
+import java.io.InputStreamReader
+import java.util.logging.Level
 
 class CWE190_Integer_Overflow__byte_console_readLine_multiply_01 : AbstractTestCase() {
     @Throws(Throwable::class)
-    fun bad() {
-        lateinit var data: Byte
+    override fun bad() {
+        var data: Byte
 
-        /* init data */data = -1
+        /* init data */
+        data = -1
 
         /* POTENTIAL FLAW: Read data from console with readLine*/
-        lateinit var readerBuffered: BufferedReader = null
-        lateinit var readerInputStream: InputStreamReader = null
+        var readerBuffered: BufferedReader? = null
+        var readerInputStream: InputStreamReader? = null
         try {
-            readerInputStream = InputStreamReader(System.in, "UTF-8")
+            readerInputStream = InputStreamReader(System.`in`, "UTF-8")
             readerBuffered = BufferedReader(readerInputStream)
             val stringNumber: String = readerBuffered.readLine()
             if (stringNumber != null) {
@@ -65,7 +71,7 @@ class CWE190_Integer_Overflow__byte_console_readLine_multiply_01 : AbstractTestC
     }
 
     @Throws(Throwable::class)
-    fun good() {
+    override fun good() {
         goodG2B()
         goodB2G()
     }
@@ -73,7 +79,7 @@ class CWE190_Integer_Overflow__byte_console_readLine_multiply_01 : AbstractTestC
     /* goodG2B() - use goodsource and badsink */
     @Throws(Throwable::class)
     private fun goodG2B() {
-        lateinit val data: Byte
+        val data: Byte
 
         /* FIX: Use a hardcoded number that won't cause underflow, overflow, divide by zero, or loss-of-precision issues */
         data = 2
@@ -87,15 +93,16 @@ class CWE190_Integer_Overflow__byte_console_readLine_multiply_01 : AbstractTestC
     /* goodB2G() - use badsource and goodsink */
     @Throws(Throwable::class)
     private fun goodB2G() {
-        lateinit var data: Byte
+        var data: Byte
 
-        /* init data */data = -1
+        /* init data */
+        data = -1
 
         /* POTENTIAL FLAW: Read data from console with readLine*/
-        lateinit var readerBuffered: BufferedReader = null
-        lateinit var readerInputStream: InputStreamReader = null
+        var readerBuffered: BufferedReader? = null
+        var readerInputStream: InputStreamReader? = null
         try {
-            readerInputStream = InputStreamReader(System.in, "UTF-8")
+            readerInputStream = InputStreamReader(System.`in`, "UTF-8")
             readerBuffered = BufferedReader(readerInputStream)
             val stringNumber: String = readerBuffered.readLine()
             if (stringNumber != null) {
@@ -145,4 +152,8 @@ class CWE190_Integer_Overflow__byte_console_readLine_multiply_01 : AbstractTestC
             mainFromParent(args)
         }
     }
+}
+private fun Any.parseByte(trim: String): Byte {
+
+    return 0
 }
