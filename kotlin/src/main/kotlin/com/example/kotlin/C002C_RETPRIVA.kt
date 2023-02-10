@@ -10,7 +10,7 @@ class C002C_RETPRIVA {
 
     fun good(): ByteArray {
         /* FLAW */
-        val bar = byteArrayOf(4,5,6)
-        return bar
+        val barGood = bar.clone()
+        return barGood
     }
 }
