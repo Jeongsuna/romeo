@@ -1,6 +1,6 @@
 package testcases.CF014_CWE498_CloneableClass;
 
-public class CF014_CWE498_CloneableClass__simple {
+public class CF015_CWE499_SerializableClass__bad {
 	 		
 	public class ReadClass {
         public byte[] serialize() {

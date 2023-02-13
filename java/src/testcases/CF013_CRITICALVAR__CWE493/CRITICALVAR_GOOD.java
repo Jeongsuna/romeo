@@ -1,10 +1,10 @@
 package CF013_CRITICALVAR__CWE493;
 
 public class CRITICALVAR_GOOD {
-    public final class Data extends Phone {
-        public float price;
+    public class Data extends Phone {
+        public final float price;
         //...
-        public final void Data() {
+        public Data() {
             this.price = LookupPrice("MyDataType");
         }
 

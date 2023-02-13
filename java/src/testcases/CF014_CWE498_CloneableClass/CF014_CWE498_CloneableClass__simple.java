@@ -50,7 +50,7 @@ public class CF014_CWE498_CloneableClass__simple {
         public String name;
         public String gradeClass;
 
-        public Teacher(String name, String gradeClass) {
+        public void Teacher(String name, String gradeClass) {
                 this.name = name;
                 this.gradeClass = gradeClass;
         }

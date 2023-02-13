@@ -24,15 +24,15 @@ public class CF020_CWE1235_Incorrect_Use_of_Autoboxing__simple {
         // maximum value for type short before converting
         if ((productCount < Short.MAX_VALUE) && (amountSold < Short.MAX_VALUE)) {
 
-                // convert integer values to short, the method for the
+            // convert integer values to short, the method for the
 
-                // sales object requires the parameters to be of type short
-                short count = (short)productCount;
-                short sold = (short)amountSold;
-                // update sales database for product
-                sales.updateSalesCount(productID, count, sold);
+            // sales object requires the parameters to be of type short
+            short count = (short) productCount;
+            short sold = (short) amountSold;
+            // update sales database for product
+            sales.updateSalesCount(productID, count, sold);
 
-        else {
+        }else {
                 // throw exception or perform other processing
         }
     }
