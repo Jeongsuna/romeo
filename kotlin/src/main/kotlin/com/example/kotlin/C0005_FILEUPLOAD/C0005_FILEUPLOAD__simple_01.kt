@@ -2,6 +2,7 @@ package com.example.kotlin.C0005_FILEUPLOAD
 
 import com.oreilly.servlet.MultipartRequest
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy
+import net.coobird.thumbnailator.Thumbnails
 import testcasesupport.IO
 import java.io.IOException
 import java.sql.Connection
@@ -52,7 +53,7 @@ class C0005_FILEUPLOAD__simple_01 {
         }
 
         /* FLAW : CWE-434 */
-        createThumnail("$savePath/$fileName", "$savePath/s_$fileName", 150)
+        Thumbnails.of("'$savePath'/'$fileName'").size(150,150).toFile("'$savePath'/s_'$fileName'")
     }
 
     @Throws(IOException::class)
@@ -96,13 +97,7 @@ class C0005_FILEUPLOAD__simple_01 {
                 IO.logger.log(Level.WARNING, e.toString())
             }
         }
-        createThumnail("$savePath/$fileName", "$savePath/s_$fileName", 150)
-    }
-
-    fun createThumnail(path: String, path_bak: String, size: Int) {
-        this.path = path
-        this.path_bak = path_bak
-        this.size = size
+        Thumbnails.of("'$savePath'/'$fileName'").size(150,150).toFile("'$savePath'/s_'$fileName'")
     }
 
     @Throws(IOException::class)

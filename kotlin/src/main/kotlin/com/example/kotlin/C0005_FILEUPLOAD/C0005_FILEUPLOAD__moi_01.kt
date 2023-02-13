@@ -11,7 +11,7 @@ import java.util.*
 import java.util.logging.Level
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
-//import net.coobird.thumbnailator.Thumbnails
+import net.coobird.thumbnailator.Thumbnails
 
 class C0005_FILEUPLOAD__moi_01 {
     private lateinit var path: String

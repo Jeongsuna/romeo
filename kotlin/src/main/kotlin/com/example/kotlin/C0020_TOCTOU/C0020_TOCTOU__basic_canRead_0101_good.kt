@@ -14,13 +14,9 @@ import kotlin.Throws
 
 // from K
 class C0020_TOCTOU__basic_canRead_0101_good {
-    @Throws(Throwable::class)
-    fun good() {
-        good1()
-    }
 
     @Throws(Throwable::class)
-    private fun good1() {
+    private fun good() {
         val log_gsnk: java.util.logging.Logger = java.util.logging.Logger.getLogger("local-logger")
         val f = File("c:\\toctou.txt") /* may need to be adjusted depending on script */
 
