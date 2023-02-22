@@ -1,6 +1,6 @@
-package C9072_INFLOOP__InfiniteLoop;
+package C0021_NONTERM__InfiniteLoop;
 
-public class C9072_INFLOOP_InfiniteLoop_bad {
+public class C0021_NONTERM_InfiniteLoop_bad {
 
     public void badMethod() {
         int val1 = 0;
