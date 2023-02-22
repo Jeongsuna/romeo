@@ -1,0 +1,1 @@
+var destUrl = "http://192.168.10.100/xxx/yyy/zzz.uif"

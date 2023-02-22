@@ -1,0 +1,1 @@
+sfmijs.warningMessage(this, message, callback, options);

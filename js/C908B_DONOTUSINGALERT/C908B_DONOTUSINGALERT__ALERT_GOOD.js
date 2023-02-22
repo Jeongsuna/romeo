@@ -1,0 +1,1 @@
+sfmijs.informationMessage('메세지');

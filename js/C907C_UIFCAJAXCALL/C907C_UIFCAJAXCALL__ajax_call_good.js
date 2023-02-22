@@ -1,0 +1,1 @@
+sfmijs.sendRequest("agreement", "XX.ABCDEFG", message, handle);

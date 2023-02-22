@@ -1,90 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86ee604b-87b8-43be-96d1-d0e994d09773" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="86ee604b-87b8-43be-96d1-d0e994d09773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0006_REDIRECT/C0006_REDIRECT__redirect_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C0006_REDIRECT/C0006_REDIRECT__redirect_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C00A0_HARDIP/C00A0_HARDIP__hard_ip_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907A_CMFTRANUDVALID/C907A_CMFTRANUDVALID__for_loop_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907A_CMFTRANUDVALID/C907A_CMFTRANUDVALID__for_loop_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907A_CMFTRANUDVALID/C907A_CMFTRANUDVALID__while_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907A_CMFTRANUDVALID/C907A_CMFTRANUDVALID__while_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907B_UIFCCACHEVARLOOP/C907B_UIFCCACHEVARLOOP__selector_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907B_UIFCCACHEVARLOOP/C907B_UIFCCACHEVARLOOP__selector_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907C_UIFCAJAXCALL/C907C_UIFCAJAXCALL__ajax_call_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907C_UIFCAJAXCALL/C907C_UIFCAJAXCALL__ajax_call_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907E_UIFCWEBSTOR/C907E_UIFCWEBSTOR__local_session_sql_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907E_UIFCWEBSTOR/C907E_UIFCWEBSTOR__local_storage_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907E_UIFCWEBSTOR/C907E_UIFCWEBSTOR__session_storage_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907E_UIFCWEBSTOR/C907E_UIFCWEBSTOR__web_sql_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907F_UIFCWINOPEN/C907F_UIFCWINOPEN__open_popup_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C907F_UIFCWINOPEN/C907F_UIFCWINOPEN__open_popup_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908B_DoNotUsingAlert/C908B_DoNotUsingAlert__alert_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908B_DoNotUsingAlert/C908B_DoNotUsingAlert__alert_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908C_DoNotDirectCallAxios/C908C_DoNotDirectCallAxios__axios_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908C_DoNotDirectCallAxios/C908C_DoNotDirectCallAxios__axios_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908D_DoNotCreateVueInstans/C908D_DoNotCreateVueInstans__vue_instans_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908D_DoNotCreateVueInstans/C908D_DoNotCreateVueInstans__vue_instans_good.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908E_DoNotDirectUseEventBus/C908E_DoNotDirectUseEventBus__use_event_bus_bad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C908E_DoNotDirectUseEventBus/C908E_DoNotDirectUseEventBus__use_event_bus_good.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="C002A_DEBUGCODE.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C002A_DEBUGCODE.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C0058_RETINFINAL.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0058_RETINFINAL.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C0068_MISSDEFAL.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0068_MISSDEFAL.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="C0088_EMPTYPASS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0088_EMPTYPASS.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="C0089_PRECEDENCE.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0089_PRECEDENCE.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C0090_NONUNIQUENAME.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0090_NONUNIQUENAME.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C0091_USEWITH.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0091_USEWITH.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Javascript.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Javascript.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="C0092_ALTER.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C0092_ALTER.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/js" />
+                    <option name="lastUsedInstant" value="1677040637" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1677040636" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,63 +127,43 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551261651109" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "D:/workspace/00_git/murph_project/romeo/js/C9091_DoNotDirectCallNexacro",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\00_git\murph_project\romeo\js\C9091_DoNotDirectCallNexacro" />
+      <recent name="D:\workspace\00_git\murph_project\romeo\js\C9090_DoNotUseLetOrConst" />
+      <recent name="D:\workspace\00_git\murph_project\romeo\js\C908F_DoNotUseArrowFunc" />
+      <recent name="D:\workspace\00_git\murph_project\romeo\js\C908E_DoNotDirectUseEventBus" />
+      <recent name="D:\workspace\00_git\murph_project\romeo\js\C908D_DoNotCreateVueInstans" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -243,9 +212,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/C002A_DEBUGCODE.js">
