@@ -1,0 +1,3 @@
+function openPopup() {
+    sfmijs.openLargePopup();
+}

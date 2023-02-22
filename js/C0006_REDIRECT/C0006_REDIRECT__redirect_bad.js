@@ -1,0 +1,1 @@
+location.href="http://test.samsungfire.com/xxx/yyy/zzz.uif"
