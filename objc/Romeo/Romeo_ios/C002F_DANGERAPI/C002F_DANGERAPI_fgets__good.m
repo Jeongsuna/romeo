@@ -16,7 +16,6 @@ int main (int argc, const char * argv[])
     
     fgets(data,sizeof(data),stdin);
     
-    //flaw:
     NSLog(@"%s\n",data);
     
     return 0;

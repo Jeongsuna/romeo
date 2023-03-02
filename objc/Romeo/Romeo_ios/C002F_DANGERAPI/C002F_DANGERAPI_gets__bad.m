@@ -13,10 +13,10 @@
 int main (int argc, const char * argv[])
 {
     char data[256];
-    
-    gets(data);
-    
+
     //flaw:
+    gets(data);
+
     NSLog(@"%s\n",data);
     
     return 0;

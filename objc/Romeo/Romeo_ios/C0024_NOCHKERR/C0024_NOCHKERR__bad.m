@@ -21,8 +21,6 @@
         @catch (NSException *e) {
     
             /* FLAW: unprecise Exception Handling */
-            NSString *result = @"defaultString";
-            NSLog(@"Error : NSRangeException");
     
         }
         @finally {

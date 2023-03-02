@@ -12,14 +12,14 @@
 @implementation C0024_NOCHKERR_good : NSObject
 
     -(void) good:(NSArray *) arr {
-    
+
         @try {
-            
+
             NSString *result = [NSString stringWithFormat: @"%@", [arr objectAtIndex:0]];
-        
+
         }
         @catch (NSException * e) {
-    
+
             /* FIX: precise Exception Handling */
             if([@"NSRangeException" isEqualToString:[e name]]){
                 NSString *result = @"defaultString";
@@ -28,7 +28,7 @@
                 NSString *result = @"";
                 NSLog(@"Error : Unknown Exception");
             }
-    
+
         }
         @finally {
             NSLog(@"Finally executes no matter what");
@@ -37,3 +37,22 @@
 
 @end
 
+@implementation C0024_NOCHKERR_good : NSObject
+-(void) good:(NSArray *) arr {
+    @try {
+        NSString *result = [NSString stringWithFormat: @"%@", [arr objectAtIndex:0]];
+    }
+    @catch (NSException * e) {
+        /* FIX: precise Exception Handling */
+        if([@"NSRangeException" isEqualToString:[e name]]){
+            NSString *result = @"defaultString";
+            NSLog(@"Error : NSRangeException");
+        }else{
+            NSString *result = @"";
+            NSLog(@"Error : Unknown Exception");
+        }
+    }
+    @finally {
+        NSLog(@"Finally executes no matter what");
+    }
+}

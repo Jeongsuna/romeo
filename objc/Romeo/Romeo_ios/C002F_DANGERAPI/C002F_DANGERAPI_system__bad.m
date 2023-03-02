@@ -12,14 +12,12 @@
 
 int main (int argc, const char * argv[])
 {
-    char data[2];
-    NSLog(@"'insert data'\n");
+   char command[100];
+   printf("Enter the command you want to execute: ");
+   scanf("%s", command);
+   // flaw:
+   system(command);
 
-    //fix:
-    scanf("%2s", data);
-    
+   return 0;
 
-    NSLog(@"%s\n",data);
-    
-    return 0;
 }
