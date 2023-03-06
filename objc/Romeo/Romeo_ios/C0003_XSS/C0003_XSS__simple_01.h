@@ -13,6 +13,7 @@
 @interface C0003_XSS__simple_01 : NSObject
 
 -(void) bad:(UIWebView*) webView arg:(NSString *) arg;
+-(void) good:(UIWebView*) webView arg:(NSString *) arg;
 
 @end
 #endif /* C0003_XSS__simple_01_h */

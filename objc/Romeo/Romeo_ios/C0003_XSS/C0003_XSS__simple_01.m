@@ -11,10 +11,14 @@
 
 @implementation C0003_XSS__simple_01 : NSObject
 
--(void) bad:(UIWebView*) webView arg:(NSString *) arg {
+-(void) bad:(UIWebView *) webView arg:(NSString *) arg {
     NSString *javascript = [[NSString alloc] initWithFormat:@"var myvar=\"%@\";", arg];
 	// Flaw:
     NSLog(@"%@", [webView stringByEvaluatingJavaScriptFromString:javascript]);
 }
-
+-(void) good:(UIWebView *) webView arg:(NSString *) arg {
+    If([arg isEqualToString: @"defaultName"] == YES);arg = @"defaultName";
+    NSString *javascript = [[NSString alloc] initWithFormat:@"var myvar=\"%@\";", arg];
+    NSLog(@"%@", [webView stringByEvaluatingJavaScriptFromString:javascript]);
+}
 @end
