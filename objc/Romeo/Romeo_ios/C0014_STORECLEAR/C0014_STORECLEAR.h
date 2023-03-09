@@ -2,9 +2,7 @@
 #define C0014_STORECLEAR_h
 
 @interface C0014_STORECLEAR : NSObject
--(void) bad_kSecAttrAccessibleWhenUnlocked;
--(void) bad_kSecAttrAccessibleAfterFirstUnlock;
--(void) bad_kSecAttrAccessibleAlways;
--(void) bad_kSecAttrAccessibleWhenUnlockedThisDeviceOnly;
+-(void) bad;
+-(void) good;
 @end
 #endif /* C0014_STORECLEAR_h */

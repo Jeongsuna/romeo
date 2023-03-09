@@ -4,44 +4,37 @@
 
 @implementation C0014_STORECLEAR : NSObject
 
--(void) bad_kSecAttrAccessibleWhenUnlocked {
-    NSMutableDictionary *boo = [NSMutableDictionary dictionary];
-    NSData *bar = [@"secret" dataUsingEncoding:NSUTF8StringEncoding];
+-(void) bad {
+    // 암호화되지 않은 형태로 민감한 정보를 저장하는 나쁜 예제입니다.
+    NSString *username = @"username";
+    NSString *password = @"password";
 
-    [boo setObject:(__bridge KeyId)kSecClassGenericPassword forKey:(__bridge KeyId) kSecClass];
-    [boo setObject:bar forKey:(__bridge KeyId)kSecValueData];
-    [boo setObject:(__bridge KeyId)kSecAttrAccessibleWhenUnlocked forKey:(__bridge KeyId) kSecAttrAccessible];
+    // UserDefaults에 민감한 정보를 저장합니다.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:username forKey:@"Username"];
+    [defaults setObject:password forKey:@"Password"];
+    [defaults synchronize];
 
-    OSStatus status_err = SecItemAdd((__bridge CFDictionaryRef)boo, NULL);
+    // 나중에 정보를 사용할 때 민감한 정보를 복원합니다.
+    NSString *storedUsername = [defaults objectForKey:@"Username"];
+    NSString *storedPassword = [defaults objectForKey:@"Password"];
 }
--(void) bad_kSecAttrAccessibleAfterFirstUnlock {
-    NSMutableDictionary *boo = [NSMutableDictionary dictionary];
-    NSData *bar = [@"secret" dataUsingEncoding:NSUTF8StringEncoding];
+-(void) good {
+    // 암호화되지 않은 형태로 민감한 정보를 저장하는 좋은 예제입니다.
+    NSString *username = @"username";
+    NSString *password = @"password";
 
-    [boo setObject:(__bridge KeyId)kSecClassGenericPassword forKey:(__bridge KeyId) kSecClass];
-    [boo setObject:bar forKey:(__bridge KeyId)kSecValueData];
-    [boo setObject:(__bridge KeyId)kSecAttrAccessibleAfterFirstUnlock forKey:(__bridge KeyId) kSecAttrAccessible];
+    // Keychain에 민감한 정보를 저장합니다.
+    NSError *error = nil;
+    [SSKeychain setPassword:password forService:@"com.example.app" account:username error:&error];
+    if (error) {
+        NSLog(@"Error saving to Keychain: %@", error);
+    }
 
-    OSStatus status_err = SecItemAdd((__bridge CFDictionaryRef)boo, NULL);
-}
--(void) bad_kSecAttrAccessibleAlways {
-    NSMutableDictionary *boo = [NSMutableDictionary dictionary];
-    NSData *bar = [@"secret" dataUsingEncoding:NSUTF8StringEncoding];
-
-    [boo setObject:(__bridge KeyId)kSecClassGenericPassword forKey:(__bridge KeyId) kSecClass];
-    [boo setObject:bar forKey:(__bridge KeyId)kSecValueData];
-    [boo setObject:(__bridge KeyId)kSecAttrAccessibleAlways forKey:(__bridge KeyId) kSecAttrAccessible];
-
-    OSStatus status_err = SecItemAdd((__bridge CFDictionaryRef)boo, NULL);
-}
--(void) bad_kSecAttrAccessibleWhenUnlockedThisDeviceOnly {
-    NSMutableDictionary *boo = [NSMutableDictionary dictionary];
-    NSData *bar = [@"secret" dataUsingEncoding:NSUTF8StringEncoding];
-
-    [boo setObject:(__bridge KeyId)kSecClassGenericPassword forKey:(__bridge KeyId) kSecClass];
-    [boo setObject:bar forKey:(__bridge KeyId)kSecValueData];
-    [boo setObject:(__bridge KeyId)kSecAttrAccessibleWhenUnlockedThisDeviceOnly forKey:(__bridge KeyId) kSecAttrAccessible];
-
-    OSStatus status_err = SecItemAdd((__bridge CFDictionaryRef)boo, NULL);
+    // 나중에 정보를 사용할 때 Keychain에서 민감한 정보를 복원합니다.
+    NSString *storedPassword = [SSKeychain passwordForService:@"com.example.app" account:username error:&error];
+    if (error) {
+        NSLog(@"Error retrieving from Keychain: %@", error);
+    }
 }
 @end
