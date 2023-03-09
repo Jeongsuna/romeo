@@ -7,3 +7,10 @@ for (var i = 0; i < 10; i++) {
 for (var i = 0; i < 10; i++) {
     $("table tr td div span").css()
 }
+
+var x = 0
+while (x < 10) {
+    $("td").css()
+    var tmp = $("td").css()
+    x++
+}
