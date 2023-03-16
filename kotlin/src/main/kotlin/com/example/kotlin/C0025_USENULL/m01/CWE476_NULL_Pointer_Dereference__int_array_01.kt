@@ -29,7 +29,7 @@ class CWE476_NULL_Pointer_Dereference__int_array_01 : AbstractTestCase() {
         data = null
 
         /* POTENTIAL FLAW: null dereference will occur if data is null */
-        //IO.writeLine("" + data.size)
+        IO.writeLine("" + data.size)
     }
 
     @Throws(Throwable::class)
