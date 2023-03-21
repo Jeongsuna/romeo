@@ -45,12 +45,12 @@
         }
     }
 }
-/*
+
 -(void) good:(sqlite3 *)db atId:(NSString *)atId {
     sqlite3_stmt *sql_statement;
-    
+
     const char *sql = "SELECT name FROM products WHERE id = ?";
-    
+
     if(sqlite3_prepare_v2(db, sql, -1, &sql_statement, NULL) == SQLITE_OK) {
         sqlite3_bind_text(sql_statement, 1, [atId UTF8String], -1, SQLITE_TRANSIENT);
         if(sqlite3_step(sql_statement) == SQLITE_ROW)
@@ -62,5 +62,5 @@
     }
     sqlite3_close(db);
 }
-*/
+
 @end

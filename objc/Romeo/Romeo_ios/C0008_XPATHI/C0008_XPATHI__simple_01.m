@@ -21,7 +21,7 @@
 	}
 	if(xmlDoc) {
 		// Flaw:
-		NSArray *result = [xmlDoc nodesForXPath:query error: err];
+		NSArray *result = [xmlDoc nodesForXPath:query error:&err];
 		return result;
 	}
 	return nil;
