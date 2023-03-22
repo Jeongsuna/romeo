@@ -15,7 +15,6 @@
     const int64_t   bar01 = 0l;
     const uint64_t  bar02 = 0lU;
     const uint64_t  bar03 = 0Ull;
-    const __int128  bar04 = 0ll;
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  C10BA_MLITERCONST__good.m
+//  C10BA_MLITERCONST3__good.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/03/21.
@@ -15,7 +15,6 @@
     const int64_t   bar01 = 0L;
     const uint64_t  bar02 = 0LU;
     const uint64_t  bar03 = 0ULL;
-    const __int128  bar04 = 0LL;
 }
 
 @end
