@@ -1,5 +1,5 @@
 //
-//  C909B_NOCONTROLCHAR__good.m
+//  C909C_NOCONTROLCHAR__good.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/03/22.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C909B_NOCONTROLCHAR.h"
+#import "C909C_NOCONTROLCHAR.h"
 
-@implementation C909B_NOCONTROLCHAR__good : NSObject
+@implementation C909C_NOCONTROLCHAR__good : NSObject
 
 -(void)good{
     const char* bar = "X\tY";  // Compliant

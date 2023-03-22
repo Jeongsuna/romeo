@@ -1,5 +1,5 @@
 //
-//  C9099_INCORORDERPARAM__bad.m
+//  C909D_INCORORDERPARAM__good.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/03/21.
@@ -7,19 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "C9099_INCORORDERPARAM.h"
+#import "C909D_INCORORDERPARAM.h"
 
-@implementation C9099_INCORORDERPARAM__bad : NSObject
+@implementation C909D_INCORORDERPARAM__good : NSObject
 
 int divide(int foo_start, int foo_end){
   return foo_start / foo_end;
 }
 
--(void) bad{
+-(void) good{
     int foo_start = 15;
     int foo_end = 5;
 
-    int result = divide(foo_end, foo_start);  // Noncompliant
+    int result = divide(foo_start, foo_end);  // Compliant
 }
 
 @end
