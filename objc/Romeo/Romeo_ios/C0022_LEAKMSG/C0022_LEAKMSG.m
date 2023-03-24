@@ -22,4 +22,8 @@
         // 인증 성공
     }
 }
+- (BOOL)authenticateUser:(NSString *)username withPassword:(NSString *)password {
+    // 로그인 인증 로직을 구현합니다.
+    return YES; // 인증 성공시 YES를 반환합니다.
+}
 @end

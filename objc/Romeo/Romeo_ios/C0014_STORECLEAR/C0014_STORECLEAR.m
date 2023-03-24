@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 
+#import "SSKeychain.h"
 #import "C0014_STORECLEAR.h"
 
 @implementation C0014_STORECLEAR : NSObject
@@ -26,7 +27,7 @@
 
     // Keychain에 민감한 정보를 저장합니다.
     NSError *error = nil;
-    [SSKeychain setPassword:password forService:@"com.example.app" account:username error:&error];
+    [SSKeychain setPassword: password forService:@"com.example.app" account:username error:&error];
     if (error) {
         NSLog(@"Error saving to Keychain: %@", error);
     }

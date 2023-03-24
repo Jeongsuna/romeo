@@ -26,7 +26,9 @@
 -(void) good:(NSString*) file_name{
     // NSString *fname = @"../Documents/secret.txt";
     NSString *fname = @"";
-    If([file_name isEqualToString: @"defaultName"] == YES); fname= file_name;
+    if([file_name isEqualToString: @"defaultName"] == YES){
+        fname = file_name;
+    }
     NSString *sourcePath = [[NSString alloc] initWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], fname];
     NSFileManager *filemgr;
     NSData *buffer;

@@ -9,13 +9,13 @@
 #ifndef C909C_NOCONTROLCHAR_h
 #define C909C_NOCONTROLCHAR_h
 
-@interface C909C_NOCONTROLCHAR_bad : NSObject
+@interface C909C_NOCONTROLCHAR__bad : NSObject
 
 -(void) bad;
 
 @end
 
-@interface C909C_NOCONTROLCHAR_good : NSObject
+@interface C909C_NOCONTROLCHAR__good : NSObject
 
 -(void) good;
 

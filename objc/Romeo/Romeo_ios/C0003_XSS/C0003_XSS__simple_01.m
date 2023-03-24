@@ -17,7 +17,9 @@
     NSLog(@"%@", [webView stringByEvaluatingJavaScriptFromString:javascript]);
 }
 -(void) good:(UIWebView *) webView arg:(NSString *) arg {
-    If([arg isEqualToString: @"defaultName"] == YES);arg = @"defaultName";
+    if([arg isEqualToString: @"defaultName"] == YES){
+        arg = @"defaultName";
+    }
     NSString *javascript = [[NSString alloc] initWithFormat:@"var myvar=\"%@\";", arg];
     NSLog(@"%@", [webView stringByEvaluatingJavaScriptFromString:javascript]);
 }

@@ -12,7 +12,8 @@
 @implementation C909C_NOCONTROLCHAR__good : NSObject
 
 -(void)good{
-    const char* bar = "X\tY";  // Compliant
+    const char* barEscapedHT = "X\tY"; // Compliant
+    const char* barEscapedLF = "X\bY"; // Compliant
 }
 
 @end
