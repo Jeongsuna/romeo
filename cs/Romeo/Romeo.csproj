@@ -62,9 +62,15 @@
     <Compile Include="0009_CWE90_LDAP_Injection\CWE90_LDAP_Injection__DirectorySearcher_Filter_01.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="000C_CWE190_Integer_Overflow\CWE190_Integer_Overflow__Int_Divide_Wraparound_01.cs" />
     <Compile Include="000D_CWE807_Reliance_on_Untrusted_Inputs_in_a_Security_Decision\CWE807_Reliance_on_Untrusted_Inputs_in_a_Security_Decision__Cookie_01.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="0011_CWE285_Improper_Authorization\CWE285_Improper_Authorization__Authorize_Attribute_01_Bad.cs" />
+    <Compile Include="0011_CWE285_Improper_Authorization\CWE285_Improper_Authorization__Authorize_Attribute_01_Good.cs" />
+    <Compile Include="0013_CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__MD5_01.cs" />
+    <Compile Include="0013_CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__SHA1_01.cs" />
+    <Compile Include="0018_CWE330_Insufficiently_Random_Values\CWE330_Insufficiently_Random_Values__Random_01.cs" />
     <Compile Include="0019_CWE321_Hard_Coded_Cryptographic_Key\CWE321_Hard_Coded_Cryptographic_Key__CreateEncryptor_01.cs" />
     <Compile Include="001B_CWE539_Information_Exposure_Through_Persistent_Cookie\CWE539_Information_Exposure_Through_Persistent_Cookie__HttpCookie_Expires_02.cs">
       <SubType>ASPXCodeBehind</SubType>
@@ -72,48 +78,36 @@
     <Compile Include="001B_CWE539_Information_Exposure_Through_Persistent_Cookie\CWE539_Information_Exposure_Through_Persistent_Cookie__HttpCookie_Expires_01.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="001C_CWE615_Info_Exposure_by_Comment\CWE615_Info_Exposure_by_Comment__Simple_01.cs" />
+    <Compile Include="0022_CWE209_Information_Exposure_Through_an_Error_Message\CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs" />
+    <Compile Include="0023_CWE390_Error_Without_Action\CWE390_Error_Without_Action__Empty_Catch_01.cs" />
+    <Compile Include="0024_CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions\CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__StreamReader_read_01.cs" />
+    <Compile Include="0026_CWE404_Improper_Resource_Shutdown_or_Release\CWE404_Improper_Resource_Shutdown_or_Release__Simple_01.cs" />
     <Compile Include="0029_CWE488_Exposure_of_Data_Element_to_Wrong_Session\CWE488_Exposure_of_Data_Element_to_Wrong_Session__simple_01.cs" />
-    <Compile Include="CWE190_Integer_Overflow\CWE190_Integer_Overflow__Int_Divide_Wraparound_01.cs" />
-    <Compile Include="CWE209_Information_Exposure_Through_an_Error_Message\CWE209_Information_Exposure_Through_an_Error_Message__Console_WriteLine_01.cs" />
-    <Compile Include="CWE23_Relative_Path_Traversal\CWE23_Relative_Path_Traversal__simple_01.cs" />
+    <Compile Include="002B_CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere\CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere__Sqlconnection_Writeline_01.cs" />
+    <Compile Include="002C_CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
+    <Compile Include="002D_CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
+    <Compile Include="002E_CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action\CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action__Simple_01.cs" />
+    <Compile Include="0034_CWE369_Divide_By_Zero\CWE369_Divide_By_Zero__Simple_01.cs" />
+    <Compile Include="0045_CWE767_Access_to_Critical_Private_Variable_via_Public_Method\CWE767_Access_to_Critical_Private_Variable_via_Public_Method__simple_01.cs" />
+    <Compile Include="0052_CWE397_Declaration_of_Throws_for_Generic_Exception\CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs" />
+    <Compile Include="0054_CWE477_Use_of_Obsolete_Functions\CWE477_Use_of_Obsolete_Functions__Obsolete_Attribute_Method_01.cs" />
+    <Compile Include="0055_CWE481_Assigning_instead_of_Comparing\CWE481_Assigning_instead_of_Comparing__Simple_01.cs" />
+    <Compile Include="0058_CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
+    <Compile Include="005B_CWE571_Expression_Always_True\CWE571_Expression_Always_True__Always_True_Cond_01.cs" />
+    <Compile Include="0062_CWE609_Double_Checked_Locking\CWE609_Double_Checked_Locking__Double_Null_Check_01.cs" />
+    <Compile Include="0063_CWE595_Comparison_of_Object_References_Instead_of_Object_Contents\CWE595_Comparison_of_Object_References_Instead_of_Object_Contents__simple_01.cs" />
+    <Compile Include="0068_CWE478_Missing_Default_Case_in_Switch_Statement\CWE478_Missing_Default_Case_in_Switch_Statement__Simple_01.cs" />
     <Compile Include="0016_CWE259_Hard_Coded_Password\CWE259_Hard_Coded_Password__equals_01.cs" />
     <Compile Include="0016_CWE259_Hard_Coded_Password\CWE259_Hard_Coded_Password__SqlConnection_01.cs" />
     <Compile Include="0017_CWE326_Inadequate_Encryption_Strength\CWE310_Cryptographic_Issues__RSA_01.cs" />
     <Compile Include="0019_CWE321_Hard_Coded_Cryptographic_Key\CWE321_Hard_Coded_Cryptographic_Key__Equals_01.cs" />
-    <Compile Include="CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__MD5_01.cs" />
-    <Compile Include="CWE327_Use_Broken_Crypto\CWE327_Use_Broken_Crypto__SHA1_01.cs" />
-    <Compile Include="CWE330_Insufficiently_Random_Values\CWE330_Insufficiently_Random_Values__Random_01.cs" />
-    <Compile Include="CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action\CWE350_Reliance_on_Reverse_DNS_Resolution_for_a_Security_Critical_Action__Simple_01.cs" />
-    <Compile Include="CWE369_Divide_By_Zero\CWE369_Divide_By_Zero__Simple_01.cs" />
-    <Compile Include="CWE390_Error_Without_Action\CWE390_Error_Without_Action__Empty_Catch_01.cs" />
-    <Compile Include="CWE397_Declaration_of_Throws_for_Generic_Exception\CWE397_Declaration_of_Throws_for_Generic_Exception__Throws_Exception_01.cs" />
-    <Compile Include="CWE404_Improper_Resource_Shutdown_or_Release\CWE404_Improper_Resource_Shutdown_or_Release__Simple_01.cs" />
-    <Compile Include="CWE477_Use_of_Obsolete_Functions\CWE477_Use_of_Obsolete_Functions__Obsolete_Attribute_Method_01.cs" />
-    <Compile Include="CWE478_Missing_Default_Case_in_Switch_Statement\CWE478_Missing_Default_Case_in_Switch_Statement__Simple_01.cs" />
-    <Compile Include="CWE481_Assigning_instead_of_Comparing\CWE481_Assigning_instead_of_Comparing__Simple_01.cs" />
-    <Compile Include="CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method\CWE495_Private_Array_Typed_Field_Returned_From_A_Public_Method__Simple_01.cs" />
-    <Compile Include="CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field\CWE496_Public_Data_Assigned_to_Private_Array_Typed_Field__Simple01.cs" />
-    <Compile Include="CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere\CWE497_Exposure_of_System_Data_to_Unauthorized_Control_Sphere__Sqlconnection_Writeline_01.cs" />
-    <Compile Include="CWE571_Expression_Always_True\CWE571_Expression_Always_True__Always_True_Cond_01.cs" />
-    <Compile Include="CWE584_Return_Inside_Finally_Block\CWE584_Return_Inside_Finally_Block__Simple_01.cs" />
-    <Compile Include="CWE595_Comparison_of_Object_References_Instead_of_Object_Contents\CWE595_Comparison_of_Object_References_Instead_of_Object_Contents__simple_01.cs" />
-    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Bad.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CWE601_Open_Redirect\CWE601_Open_Redirect__Simple_01__Good.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CWE609_Double_Checked_Locking\CWE609_Double_Checked_Locking__Double_Null_Check_01.cs" />
-    <Compile Include="CWE615_Info_Exposure_by_Comment\CWE615_Info_Exposure_by_Comment__Simple_01.cs" />
-    <Compile Include="CWE643_Xpath_Injection\CWE643_Xpath_Injection__Simple_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_everyone_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_Guest_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__Directory_WorldSid_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_everyone_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_Guest_01.cs" />
     <Compile Include="0012_CWE732_Incorrect_Permission_Assignment_for_Critical_Resource\CWE732_Incorrect_Permission_Assignment_for_Critical_Resource__File_WorldSid_01.cs" />
-    <Compile Include="CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions\CWE754_Improper_Check_for_Unusual_or_Exceptional_Conditions__StreamReader_read_01.cs" />
-    <Compile Include="CWE767_Access_to_Critical_Private_Variable_via_Public_Method\CWE767_Access_to_Critical_Private_Variable_via_Public_Method__simple_01.cs" />
     <Compile Include="0004_CWE78_OS_Command_Injection\CWE78_OS_Command_Injection__Process_01.cs" />
     <Compile Include="0003_CWE80_XSS\CWE80_XSS__Simple_01.cs">
       <SubType>ASPXCodeBehind</SubType>
