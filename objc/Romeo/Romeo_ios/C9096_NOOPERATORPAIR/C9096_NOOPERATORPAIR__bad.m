@@ -14,9 +14,17 @@
 -(void) bad{
     int foo = -5;
     int bar = 3;
+    int* bar2 = 3;
 
     foo =- bar;  // Noncompliant
     foo =+ bar; // Noncompliant
+    foo =! bar; // Noncompliant
+    foo =& bar; // Noncompliant
+    foo =& bar2; // Noncompliant
+    foo =* bar2; // Noncompliant
+    foo +=+ bar; // Noncompliant
+    foo -=- bar; // Noncompliant
+    foo = - bar;  // Noncompliant
 }
 
 @end

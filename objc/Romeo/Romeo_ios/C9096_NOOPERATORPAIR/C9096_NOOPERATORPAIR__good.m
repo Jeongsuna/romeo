@@ -14,9 +14,16 @@
 -(void)good {
     int foo = -5;
     int bar = 3;
+    int* bar2 = 3;
 
-    foo = -bar;  // Compliant
-    foo += bar;
+    foo = -bar; // Compliant
+    foo -= bar; // Compliant
+    foo += bar; // Compliant
+    foo != bar; // Compliant
+    foo &= bar; // Compliant
+    foo *= bar; // Compliant
+    foo = &bar2; // Compliant
+    foo = *bar2; // Compliant
 }
 
 @end
