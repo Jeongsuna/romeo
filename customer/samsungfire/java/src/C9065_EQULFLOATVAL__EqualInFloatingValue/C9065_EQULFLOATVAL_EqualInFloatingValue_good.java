@@ -2,7 +2,7 @@ package C9065_EQULFLOATVAL__EqualInFloatingValue;
 
 public class C9065_EQULFLOATVAL_EqualInFloatingValue_good {
     private void badMethod(double param){
-        if (param == 45.5) { // @violation
+        if (0 == Double.compare(param, 45.5D)) { // @fixed
             doSomething();
         }
     }
