@@ -1,0 +1,1 @@
+java -cp $CLASS_PATH SomethingClass

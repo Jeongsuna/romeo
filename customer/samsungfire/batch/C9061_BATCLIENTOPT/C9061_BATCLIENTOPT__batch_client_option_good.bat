@@ -1,0 +1,1 @@
+java -client -cp $CLASS_PATH SomethingClass
