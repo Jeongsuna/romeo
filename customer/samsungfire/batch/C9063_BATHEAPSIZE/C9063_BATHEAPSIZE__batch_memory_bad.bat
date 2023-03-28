@@ -1,0 +1,1 @@
+java -jar codemind.jar -Xmx513M
