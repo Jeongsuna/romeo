@@ -13,7 +13,7 @@
 
 -(void)bad{
     char *foo = "string";
-    sprintf(foo, "%s", "msg");   // Sensitive: `foo` buffer size is not checked and it is vulnerable to overflows
+    sprintf(foo, "%s", "msg"); // Noncompliant
 }
 
 @end

@@ -13,7 +13,7 @@
 @implementation C00A0_HARDIP__good : NSObject
 
 NSString* getDatabaseHost() {
-    NSString *host = @"10.10.0.1"; // NonCompliant
+    NSString *host = @"10.10.0.1";
     return host;
 }
 

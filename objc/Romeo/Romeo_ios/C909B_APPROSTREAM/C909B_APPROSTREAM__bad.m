@@ -13,13 +13,13 @@
 
 -(void)bad{
     FILE *bar1 = fopen("fileName", "r");
-    fseek(bar1, 1, SEEK_SET); // Noncompliant, file could be NULL
+    fseek(bar1, 1, SEEK_SET); // Noncompliant
     fclose(bar1);
 
     FILE *bar2 = tmpfile();
-    ftell(bar2); // Noncompliant, file could be NULL
+    ftell(bar2); // Noncompliant
     if (bar2) {
-      fseek(bar2, 1, 3); // Noncompliant, third argument should either be SEEK_SET, SEEK_CUR or SEEK_END
+      fseek(bar2, 1, 3); // Noncompliant
     }
     fclose(bar2);
 }

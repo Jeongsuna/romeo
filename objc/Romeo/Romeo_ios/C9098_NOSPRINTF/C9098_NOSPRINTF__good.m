@@ -13,7 +13,7 @@
 
 -(void)good{
     char* foo = "string";
-    snprintf(foo, sizeof(foo), "%s", "msg"); // Prevent overflows by enforcing a maximum size for `foo` buffer
+    snprintf(foo, sizeof(foo), "%s", "msg"); // Compliant
 }
 
 -(void)except{

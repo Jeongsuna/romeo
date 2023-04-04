@@ -14,10 +14,6 @@
 -(void) bad{
     int *boo;
     boo = (int*) malloc(1024 * sizeof(int)); // Noncompliant
-    if (boo == 0)
-    {
-      // handle case when dynamic allocation failed.
-    }
 }
 
 @end
