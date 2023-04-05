@@ -8,13 +8,13 @@ public class C9074_CHKDEBUGMODE_Log4jUsing_bad {
 
     public void badMethod1(){
         logger.info("*******************");  // @violation logger have to have if statement
-        logger.info(" BankTransferCnt START ");
+        logger.info(" BankTransferCnt START "); // @violation
     }
 
     public void badMethod2(){
         if(logger.isDebugEnabled()) {  // @violation logger is info but if condition is DebugEnabled
-            logger.info("*******************");
-            logger.info(" BankTransferCnt START ");
+            logger.info("*******************"); // @violation
+            logger.info(" BankTransferCnt START "); // @violation
         }
     }
 }
