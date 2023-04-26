@@ -1,0 +1,13 @@
+package com.example.kotlin.C0121_CODEOBFUSCATION
+
+android {
+    buildTypes {
+        debug {
+            minifyEnabled false // 디버그 빌드에서는 코드 난독화 비활성화
+        }
+        release {
+            minifyEnabled false // 릴리스 빌드에서는 코드 난독화 비활성화
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' // ProGuard 설정 파일 지정
+        }
+    }
+}

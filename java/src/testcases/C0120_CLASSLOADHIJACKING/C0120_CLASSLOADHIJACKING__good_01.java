@@ -1,4 +1,4 @@
-package testcases.C0120_CLASSLOADHIJACKING;
+package C0120_CLASSLOADHIJACKING;
 
 import dalvik.system.DexClassLoader;
 import java.io.File;
@@ -11,10 +11,12 @@ public class C0120_CLASSLOADHIJACKING__good_01 {
         String optDexFolderPath = "/path/to/your/optdex/folder/"; // 옵티마이즈된 .dex 파일을 저장할 폴더 경로
 
         final File tmpDir = new File(optDexFolderPath);
+        final File dexDir = new File(dexFilePath);
         tmpDir.mkdir();
 
         final DexClassLoader classLoader = new DexClassLoader(
-                dexFilePath, tmpDir.getAbsolutePath(), null, ClassLoader.getSystemClassLoader());
+                dexDir.getAbsolutePath(), tmpDir.getAbsolutePath(),
+                null, ClassLoader.getSystemClassLoader());
 
         try {
             Class<?> classToLoad = classLoader.loadClass("com.registry.Registry");
