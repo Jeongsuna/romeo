@@ -4,13 +4,13 @@
 <form name = "Regist">
     <field property = "name" depends = "required">
         <arg position = "0" key = "prompt.name" />
-    </ field>
+    </field>
     <field property = "addr" depends = "required">
         <arg position = "0" key = "prompt.addr" />
-    </ field>
+    </field>
     <field property = "city" depends = "required">
         <arg position = "0" key = "prompt.city" />
-    </ field>
+    </field>
     <field property = "zipcode" depends = "required,mask">
         <arg position = "0" key = "prompt.zipcode" />
         <var>

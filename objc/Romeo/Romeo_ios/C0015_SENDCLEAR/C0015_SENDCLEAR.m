@@ -6,14 +6,14 @@
 
 -(void) bad {
     NSString * const LOCAL_USER_URL = @"http://localhost:8080/bar/user";
-    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:LOCAL_USER_URL]];
-    [[[NSURLSession sharedSession] dataTaskWithRequest: req] resume];
+    NSMutableURLRequest *req = [NSMutableURLRequest reqWithURL:[NSURL URLWithString:LOCAL_USER_URL]];
+    [[NSURLConnection alloc] initWithRequest:req delegate:self];
 }
 
 -(void) good {
     NSString * const LOCAL_USER_URL = @"https://localhost:8080/bar/user";
-    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:LOCAL_USER_URL]];
-    [[[NSURLSession sharedSession] dataTaskWithRequest: req] resume];
+    NSMutableURLRequest *req = [NSMutableURLRequest reqWithURL:[NSURL URLWithString:LOCAL_USER_URL]];
+    [[NSURLConnection alloc] initWithRequest:req delegate:self];
 }
 
 @end

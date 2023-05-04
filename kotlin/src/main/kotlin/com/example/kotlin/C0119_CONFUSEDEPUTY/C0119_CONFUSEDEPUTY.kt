@@ -12,7 +12,7 @@ class C0119_CONFUSEDEPUTY(context: Context) {
 
     fun bad() {
         var flag = false
-        if (context.checkCallingOrSelfPermission("com.test.testpermission") ===
+        if (context.checkCallingOrSelfPermission("com.test.testpermission") ==
                 PackageManager.PERMISSION_GRANTED) {
             flag = true
         }
