@@ -14,7 +14,6 @@ class C0002_CWE22_99_simple{
         let fManager : FileManager = FileManager.default
         return fManager.contents(atPath: fPath)! as NSData
     }
-
     func good() -> Data? {
         let fName : String = "test.txt"
 

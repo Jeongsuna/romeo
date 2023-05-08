@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CryptoSwift
 
 class C0014_CWE312_Cleartext_Storage_of_Sensitive_Information {
     func bad() {
@@ -23,19 +22,22 @@ class C0014_CWE312_Cleartext_Storage_of_Sensitive_Information {
     }
 
     func good() {
+        
         let userId = "userid"
         let userPwd = "userpassword"
 
         // 데이터 암호화
-       // let ciphertext = try! userId.encrypt(userId,)
-        let key = try AES(key: userPwd.bytes, blockMode: ECB())
+        let ciphertext = try! userId.encryptAES256(userPwd: userPwd)
+
         // 파일 저장
-        let fileURL = FileManager.default.urls(for: documentDirectory, in: .userDomainMask).first?.appendingPathComponent("credentials.bin")
+        let fileURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("credentials.bin")
         try! ciphertext.write(to: fileURL!)
 
         // 데이터 복호화
         let decryptedData = try! Data(contentsOf: fileURL!).decryptAES256(userPwd: userPwd)
         let credentials = String(data: decryptedData, encoding: .utf8)!
         print(credentials)
+        
+        
     }
 }
