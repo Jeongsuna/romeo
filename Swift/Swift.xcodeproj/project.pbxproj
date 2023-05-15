@@ -19,6 +19,7 @@
 		543073C02A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543073BF2A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift */; };
 		543073C32A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543073C22A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift */; };
 		543073C52A0CD21E0025A38A /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543073C42A0CD21E0025A38A /* CryptoSwift.framework */; };
+		543073C72A0E07190025A38A /* C0002_PATHMANIP_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543073C62A0E07190025A38A /* C0002_PATHMANIP_02.swift */; };
 		543F20942A0B907F0058985F /* C0001_CWE89_SQL_Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F20932A0B907F0058985F /* C0001_CWE89_SQL_Injection.swift */; };
 		543F20972A0B90F10058985F /* C0003_XSS_Reflected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F20962A0B90F10058985F /* C0003_XSS_Reflected.swift */; };
 		543F209A2A0B91D70058985F /* C001C_CWE615_leakcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F20992A0B91D70058985F /* C001C_CWE615_leakcom.swift */; };
@@ -27,6 +28,9 @@
 		543F20A42A0CC0A70058985F /* Pods_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A52677819BA162C4A57A813 /* Pods_Swift.framework */; };
 		543F20A52A0CC0A70058985F /* Pods_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A52677819BA162C4A57A813 /* Pods_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		543F20AB2A0CC3890058985F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543F20AA2A0CC3890058985F /* Foundation.framework */; };
+		547448ED2A0E2478009C9542 /* C0014_STORECLEAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448EC2A0E2478009C9542 /* C0014_STORECLEAR.swift */; };
+		547448EF2A11C7BD009C9542 /* C0015_SENDCLEAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448EE2A11C7BD009C9542 /* C0015_SENDCLEAR.swift */; };
+		547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F02A11CA9D009C9542 /* C0004_CMDI_02.swift */; };
 		549E123D2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549E123C2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift */; };
 		54D7E5912A0A3EDD00468A96 /* SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7E5902A0A3EDD00468A96 /* SwiftApp.swift */; };
 		54D7E5932A0A3EDD00468A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7E5922A0A3EDD00468A96 /* ContentView.swift */; };
@@ -64,6 +68,7 @@
 		543073BF2A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0018_CWE330_Insufficiently_Random_Values.swift; sourceTree = "<group>"; };
 		543073C22A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0019_CWE321_Hard_Coded_Cryptographic_Key.swift; sourceTree = "<group>"; };
 		543073C42A0CD21E0025A38A /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543073C62A0E07190025A38A /* C0002_PATHMANIP_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0002_PATHMANIP_02.swift; sourceTree = "<group>"; };
 		543F20932A0B907F0058985F /* C0001_CWE89_SQL_Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0001_CWE89_SQL_Injection.swift; sourceTree = "<group>"; };
 		543F20962A0B90F10058985F /* C0003_XSS_Reflected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0003_XSS_Reflected.swift; sourceTree = "<group>"; };
 		543F20992A0B91D70058985F /* C001C_CWE615_leakcom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C001C_CWE615_leakcom.swift; sourceTree = "<group>"; };
@@ -71,6 +76,9 @@
 		543F209F2A0CB6E40058985F /* C0002_PATHMANIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0002_PATHMANIP.swift; sourceTree = "<group>"; };
 		543F20A22A0CBBB00058985F /* C0004_CMDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0004_CMDI.swift; sourceTree = "<group>"; };
 		543F20AA2A0CC3890058985F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		547448EC2A0E2478009C9542 /* C0014_STORECLEAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0014_STORECLEAR.swift; sourceTree = "<group>"; };
+		547448EE2A11C7BD009C9542 /* C0015_SENDCLEAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0015_SENDCLEAR.swift; sourceTree = "<group>"; };
+		547448F02A11CA9D009C9542 /* C0004_CMDI_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0004_CMDI_02.swift; sourceTree = "<group>"; };
 		549E123C2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0016_CWE259_nsurlrequest_param_02.swift; sourceTree = "<group>"; };
 		54D7E58D2A0A3EDD00468A96 /* Swift_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D7E5902A0A3EDD00468A96 /* SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApp.swift; sourceTree = "<group>"; };
@@ -120,6 +128,7 @@
 			children = (
 				542869952A0A40560000AD1D /* C0002_CWE22_99_simple.swift */,
 				543F209F2A0CB6E40058985F /* C0002_PATHMANIP.swift */,
+				543073C62A0E07190025A38A /* C0002_PATHMANIP_02.swift */,
 			);
 			path = C0002_PATHMANIP__CWE22_99;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				542C766C2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift */,
+				547448EE2A11C7BD009C9542 /* C0015_SENDCLEAR.swift */,
 			);
 			path = C0015_SENDCLEAR__CWE319_Cleartext_Tx_Sensitive_Info;
 			sourceTree = "<group>";
@@ -197,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				543F209C2A0B927F0058985F /* C0014_CWE312_Cleartext_Storage_of_Sensitive_Information.swift */,
+				547448EC2A0E2478009C9542 /* C0014_STORECLEAR.swift */,
 			);
 			path = C0014_STORECLEAR__CWE312_Cleartext_Storage_of_Sensitive_Information;
 			sourceTree = "<group>";
@@ -205,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				543F20A22A0CBBB00058985F /* C0004_CMDI.swift */,
+				547448F02A11CA9D009C9542 /* C0004_CMDI_02.swift */,
 			);
 			path = C0004_CMDI;
 			sourceTree = "<group>";
@@ -383,14 +395,18 @@
 				543F20972A0B90F10058985F /* C0003_XSS_Reflected.swift in Sources */,
 				54D7E5932A0A3EDD00468A96 /* ContentView.swift in Sources */,
 				543073C32A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift in Sources */,
+				547448EF2A11C7BD009C9542 /* C0015_SENDCLEAR.swift in Sources */,
 				543073C02A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift in Sources */,
+				543073C72A0E07190025A38A /* C0002_PATHMANIP_02.swift in Sources */,
 				542C766D2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift in Sources */,
 				549E123D2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift in Sources */,
 				542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */,
+				547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */,
 				543073BD2A0CD08D0025A38A /* C0017_CWE310_Cryptographic_Issues__basic_initialize.swift in Sources */,
 				543073B52A0CCFB00025A38A /* C0016_CWE259_nsurlrequest_param_04.swift in Sources */,
 				543073B82A0CD02E0025A38A /* C0016_CWE259_urlrequest_header_01.swift in Sources */,
 				542C76712A0CCF2E00FCA5C9 /* C0016_CWE259_nsurlrequest_param_01.swift in Sources */,
+				547448ED2A0E2478009C9542 /* C0014_STORECLEAR.swift in Sources */,
 				54D7E5912A0A3EDD00468A96 /* SwiftApp.swift in Sources */,
 				54D7E59D2A0A3EE100468A96 /* Swift.xcdatamodeld in Sources */,
 				543073B32A0CCFAA0025A38A /* C0016_CWE259_nsurlrequest_param_03.swift in Sources */,
