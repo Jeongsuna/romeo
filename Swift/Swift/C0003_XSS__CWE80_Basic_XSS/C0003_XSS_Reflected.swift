@@ -26,11 +26,23 @@ class C003_XSS_Reflected{
         return nil
     }
     
-    func good(with htmlStr: String) {
-        let allowedCharacterSet = CharacterSet(charactersIn: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
-        let cleanedHTMLStr = htmlStr.components(separatedBy: allowedCharacterSet.inverted).joined(separator: "")
+    func good(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> String? {
 
+        let name = getQueryStringParameter(url.absoluteString, "name")
+        let html = "Hi \(name)"
+        let htmlStr = sanitizedInput(html)
         let wView = WKWebView()
-        wView.loadHTMLString(cleanedHTMLStr, baseURL: nil)
+        wView.loadHTMLString(htmlStr, baseURL: nil)
+
+        return nil
+    }
+
+    func sanitizedInput(_ input: String) -> String {
+        let encodedOutput = input.replacingOccurrences(of: "&", with: "&amp;")
+                                 .replacingOccurrences(of: "<", with: "&lt;")
+                                 .replacingOccurrences(of: ">", with: "&gt;")
+                                 .replacingOccurrences(of: "\"", with: "&quot;")
+                                 .replacingOccurrences(of: "'", with: "&#x27;")
+        return encodedOutput
     }
 }
