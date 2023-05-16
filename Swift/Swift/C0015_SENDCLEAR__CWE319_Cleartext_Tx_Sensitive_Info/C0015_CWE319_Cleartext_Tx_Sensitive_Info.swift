@@ -10,8 +10,8 @@ class C0015_CWE319_Cleartext_Tx_Sensitive_Info{
     
     func bad() {
         let LOCAL_USER_URL = "http://localhost:8080/bar/user"
-           let req : NSMutableURLRequest = NSMutableURLRequest(url:URL(string:LOCAL_USER_URL)!)
-           let conn : NSURLConnection = NSURLConnection(request:req as URLRequest, delegate:self)!
+        let req : NSMutableURLRequest = NSMutableURLRequest(url:URL(string:LOCAL_USER_URL)!)
+        let conn : NSURLConnection = NSURLConnection(request:req as URLRequest, delegate:self)!
     }
 
     func good() {

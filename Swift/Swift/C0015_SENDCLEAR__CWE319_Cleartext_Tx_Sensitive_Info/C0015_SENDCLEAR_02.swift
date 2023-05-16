@@ -12,9 +12,11 @@ class C0015_SENDCLEAR_02{
         let username = "myUsername"
         let password = "myPassword"
 
-        let url = URL(string: "http://example.com/login.php?username=\(username)&password=\(password)")! //
+        let url = URL(string: "http://example.com/login.php?username=\(username)&password=\(password)")!
+        let request = URLRequest(url: url)
+
         let task = URLSession.shared.dataTask(
-            with: url,
+            with: request,
             completionHandler: { (data, response, error) in
                 // Handle response from server
             }
