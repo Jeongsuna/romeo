@@ -12,6 +12,10 @@
 		540E595F2A134833008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha1_CryptoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E595E2A134833008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha1_CryptoKit.swift */; };
 		540E59612A13484F008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E59602A13484F008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CommonCrypto.swift */; };
 		540E59632A13486D008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CryptoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E59622A13486D008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CryptoKit.swift */; };
+		540E59662A135824008CEA71 /* C0022_LEAKMSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E59652A135824008CEA71 /* C0022_LEAKMSG.swift */; };
+		540E59692A1359B8008CEA71 /* C0023_NOACTION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E59682A1359B8008CEA71 /* C0023_NOACTION.swift */; };
+		540E596C2A135FA2008CEA71 /* C0024_NOCHEKCER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E596B2A135FA2008CEA71 /* C0024_NOCHEKCER.swift */; };
+		540E596F2A136292008CEA71 /* C0026_RESLEAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E596E2A136292008CEA71 /* C0026_RESLEAK.swift */; };
 		542869972A0B28C60000AD1D /* C0002_CWE22_99_simple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542869952A0A40560000AD1D /* C0002_CWE22_99_simple.swift */; };
 		542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F20A22A0CBBB00058985F /* C0004_CMDI.swift */; };
 		542C766D2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C766C2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift */; };
@@ -78,6 +82,10 @@
 		540E595E2A134833008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha1_CryptoKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0013_BROKNCRYPT__CWE327_hash_sha1_CryptoKit.swift; sourceTree = "<group>"; };
 		540E59602A13484F008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CommonCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0013_BROKNCRYPT__CWE327_hash_sha512_CommonCrypto.swift; sourceTree = "<group>"; };
 		540E59622A13486D008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CryptoKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0013_BROKNCRYPT__CWE327_hash_sha512_CryptoKit.swift; sourceTree = "<group>"; };
+		540E59652A135824008CEA71 /* C0022_LEAKMSG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0022_LEAKMSG.swift; sourceTree = "<group>"; };
+		540E59682A1359B8008CEA71 /* C0023_NOACTION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0023_NOACTION.swift; sourceTree = "<group>"; };
+		540E596B2A135FA2008CEA71 /* C0024_NOCHEKCER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0024_NOCHEKCER.swift; sourceTree = "<group>"; };
+		540E596E2A136292008CEA71 /* C0026_RESLEAK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0026_RESLEAK.swift; sourceTree = "<group>"; };
 		542869952A0A40560000AD1D /* C0002_CWE22_99_simple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0002_CWE22_99_simple.swift; sourceTree = "<group>"; };
 		542C766C2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift; sourceTree = "<group>"; };
 		542C76702A0CCF2E00FCA5C9 /* C0016_CWE259_nsurlrequest_param_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0016_CWE259_nsurlrequest_param_01.swift; sourceTree = "<group>"; };
@@ -153,6 +161,38 @@
 				178891D6916D4ADE4B39277D /* Pods-Swift.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		540E59642A1357FB008CEA71 /* C0022_LEAKMSG */ = {
+			isa = PBXGroup;
+			children = (
+				540E59652A135824008CEA71 /* C0022_LEAKMSG.swift */,
+			);
+			path = C0022_LEAKMSG;
+			sourceTree = "<group>";
+		};
+		540E59672A135995008CEA71 /* C0023_NOACTION */ = {
+			isa = PBXGroup;
+			children = (
+				540E59682A1359B8008CEA71 /* C0023_NOACTION.swift */,
+			);
+			path = C0023_NOACTION;
+			sourceTree = "<group>";
+		};
+		540E596A2A135F90008CEA71 /* C0024_NOCHEKCER */ = {
+			isa = PBXGroup;
+			children = (
+				540E596B2A135FA2008CEA71 /* C0024_NOCHEKCER.swift */,
+			);
+			path = C0024_NOCHEKCER;
+			sourceTree = "<group>";
+		};
+		540E596D2A136281008CEA71 /* C0026_RESLEAK */ = {
+			isa = PBXGroup;
+			children = (
+				540E596E2A136292008CEA71 /* C0026_RESLEAK.swift */,
+			);
+			path = C0026_RESLEAK;
 			sourceTree = "<group>";
 		};
 		542869922A0A400F0000AD1D /* C0002_PATHMANIP__CWE22_99 */ = {
@@ -332,6 +372,10 @@
 		54D7E58F2A0A3EDD00468A96 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				540E596D2A136281008CEA71 /* C0026_RESLEAK */,
+				540E596A2A135F90008CEA71 /* C0024_NOCHEKCER */,
+				540E59672A135995008CEA71 /* C0023_NOACTION */,
+				540E59642A1357FB008CEA71 /* C0022_LEAKMSG */,
 				5474490B2A13477D009C9542 /* C0013_BROKNCRYPT__CWE327_Use_Broken_Crypto */,
 				547449082A13474D009C9542 /* C005C_FALSE__CWE570_Expression_Always_False */,
 				547449052A134708009C9542 /* C005B_TRUE__CWE571_Expression_Always_True */,
@@ -483,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				540E595F2A134833008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha1_CryptoKit.swift in Sources */,
+				540E59692A1359B8008CEA71 /* C0023_NOACTION.swift in Sources */,
 				543073BA2A0CD0370025A38A /* C0016_CWE259_urlrequest_header_02.swift in Sources */,
 				543F209D2A0B927F0058985F /* C0014_CWE312_Cleartext_Storage_of_Sensitive_Information.swift in Sources */,
 				542869972A0B28C60000AD1D /* C0002_CWE22_99_simple.swift in Sources */,
@@ -499,6 +544,7 @@
 				54D7E5932A0A3EDD00468A96 /* ContentView.swift in Sources */,
 				543073C32A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift in Sources */,
 				547449012A134656009C9542 /* C001B_CWE359_cookie_expires_old.swift in Sources */,
+				540E596C2A135FA2008CEA71 /* C0024_NOCHEKCER.swift in Sources */,
 				547448EF2A11C7BD009C9542 /* C0015_SENDCLEAR.swift in Sources */,
 				547448FF2A13462B009C9542 /* C001B_CWE359_cookie_expires_new.swift in Sources */,
 				543073C02A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift in Sources */,
@@ -510,6 +556,7 @@
 				542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */,
 				547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */,
 				547449042A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift in Sources */,
+				540E59662A135824008CEA71 /* C0022_LEAKMSG.swift in Sources */,
 				5474490A2A134759009C9542 /* C005C_CWE570_Expression_Always_False.swift in Sources */,
 				543073BD2A0CD08D0025A38A /* C0017_CWE310_Cryptographic_Issues__basic_initialize.swift in Sources */,
 				543073B52A0CCFB00025A38A /* C0016_CWE259_nsurlrequest_param_04.swift in Sources */,
@@ -520,6 +567,7 @@
 				54D7E5912A0A3EDD00468A96 /* SwiftApp.swift in Sources */,
 				54D7E59D2A0A3EE100468A96 /* Swift.xcdatamodeld in Sources */,
 				543073B32A0CCFAA0025A38A /* C0016_CWE259_nsurlrequest_param_03.swift in Sources */,
+				540E596F2A136292008CEA71 /* C0026_RESLEAK.swift in Sources */,
 				543F20942A0B907F0058985F /* C0001_CWE89_SQL_Injection.swift in Sources */,
 				547448F32A130738009C9542 /* C0015_SENDCLEAR_02.swift in Sources */,
 				540E595D2A134803008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_md5_CryptoKit.swift in Sources */,
