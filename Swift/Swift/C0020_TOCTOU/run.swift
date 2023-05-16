@@ -23,8 +23,3 @@ class C0020_TOCTOU: Thread {
     }
     
 }
-
-
-
-
-
