@@ -6,10 +6,21 @@
 //
 
 import Foundation
+
 class C001C_CWE615_leakcom{
     func bad(id: String, pw: String) {
         // id: admin, password: adminpw
-        //login(id: id, pw: pw)
+        let adminId = id
+        let adminPw = pw
+
+        print("아이디 : " + adminId + ", 비밀번호 : " + adminPw)
+    }
+    
+    func good(id: String, pw: String) {
+        let adminId = id
+        let adminPw = pw
+
+        print("아이디 : " + adminId + ", 비밀번호 : " + adminPw)
     }
 }
 
