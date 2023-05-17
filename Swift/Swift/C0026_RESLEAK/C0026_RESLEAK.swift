@@ -14,8 +14,8 @@ class C0026_RESLEAK{
         let inStream = FileHandle(forReadingAtPath: inputFile)
         let outStream = FileHandle(forWritingAtPath: outputFile)
         // 자원 활용
-        inStream?.closeFile()
-        outStream?.closeFile()
+        try? inStream?.close()
+        try? outStream?.close()
     }
     
     func good(){
@@ -25,8 +25,8 @@ class C0026_RESLEAK{
         let outStream = FileHandle(forWritingAtPath: outputFile)
         // 자원 활용
         defer{
-            inStream?.closeFile()
-            outStream?.closeFile()
+            try? inStream?.close()
+            try? outStream?.close()
         }
     }
 }
