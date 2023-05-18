@@ -12,8 +12,8 @@ class C0017_KEYLEN{
     func bad() {
         let privateKeyFile = "private.key"
         let publicKeyFile = "public.key"
-        let privateKeyURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(privateKeyFile)
-        let publicKeyURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(publicKeyFile)
+        let privateKeyURL = URL(fileURLWithPath: NSHomeDirectory()).appendingPathComponent("Documents").appendingPathComponent(privateKeyFile)
+        let publicKeyURL = URL(fileURLWithPath: NSHomeDirectory()).appendingPathComponent("Documents").appendingPathComponent(publicKeyFile)
         let attributes: [CFString: Any] = [
             kSecAttrKeyType: kSecAttrKeyTypeRSA,
             kSecAttrKeySizeInBits: 1024
@@ -34,8 +34,8 @@ class C0017_KEYLEN{
     func good() {
         let privateKeyFile = "private.key"
         let publicKeyFile = "public.key"
-        let privateKeyURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(privateKeyFile)
-        let publicKeyURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(publicKeyFile)
+        let privateKeyURL = URL(fileURLWithPath: NSHomeDirectory()).appendingPathComponent("Documents").appendingPathComponent(privateKeyFile)
+        let publicKeyURL = URL(fileURLWithPath: NSHomeDirectory()).appendingPathComponent("Documents").appendingPathComponent(publicKeyFile)
         let attributes: [CFString: Any] = [
             kSecAttrKeyType: kSecAttrKeyTypeRSA,
             kSecAttrKeySizeInBits: 2048
@@ -52,4 +52,5 @@ class C0017_KEYLEN{
         try? publicKeyData.write(to: publicKeyURL)
         print("Key pair generated successfully")
     }
+
 }

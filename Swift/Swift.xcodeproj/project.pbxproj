@@ -42,9 +42,6 @@
 		547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F02A11CA9D009C9542 /* C0004_CMDI_02.swift */; };
 		547448F32A130738009C9542 /* C0015_SENDCLEAR_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F22A130738009C9542 /* C0015_SENDCLEAR_02.swift */; };
 		547448F52A130E87009C9542 /* C0017_KEYLEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F42A130E87009C9542 /* C0017_KEYLEN.swift */; };
-		547448F82A132219009C9542 /* run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F72A132219009C9542 /* run.swift */; };
-		547448FA2A1324EE009C9542 /* C0020_TOCTOU_bad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448F92A1324EE009C9542 /* C0020_TOCTOU_bad.swift */; };
-		547448FC2A13267E009C9542 /* C0020_TOCTOU_good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448FB2A13267E009C9542 /* C0020_TOCTOU_good.swift */; };
 		547448FF2A13462B009C9542 /* C001B_CWE359_cookie_expires_new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547448FE2A13462B009C9542 /* C001B_CWE359_cookie_expires_new.swift */; };
 		547449012A134656009C9542 /* C001B_CWE359_cookie_expires_old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547449002A134656009C9542 /* C001B_CWE359_cookie_expires_old.swift */; };
 		547449042A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547449032A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift */; };
@@ -53,6 +50,7 @@
 		5474490D2A13478E009C9542 /* C0013_BROKNCRYPT__CWE327_crypt_des_CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474490C2A13478E009C9542 /* C0013_BROKNCRYPT__CWE327_crypt_des_CommonCrypto.swift */; };
 		54792D7B2A14BE70000FD5E8 /* C0025_USENULL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54792D7A2A14BE70000FD5E8 /* C0025_USENULL.swift */; };
 		54792D7E2A14D6E4000FD5E8 /* C000C_TYPEOVER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54792D7D2A14D6E4000FD5E8 /* C000C_TYPEOVER.swift */; };
+		54792D822A15BFAF000FD5E8 /* C0020_TOCTOU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54792D812A15BFAF000FD5E8 /* C0020_TOCTOU.swift */; };
 		549E123D2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549E123C2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift */; };
 		54D7E5912A0A3EDD00468A96 /* SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7E5902A0A3EDD00468A96 /* SwiftApp.swift */; };
 		54D7E5932A0A3EDD00468A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7E5922A0A3EDD00468A96 /* ContentView.swift */; };
@@ -112,9 +110,6 @@
 		547448F02A11CA9D009C9542 /* C0004_CMDI_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0004_CMDI_02.swift; sourceTree = "<group>"; };
 		547448F22A130738009C9542 /* C0015_SENDCLEAR_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0015_SENDCLEAR_02.swift; sourceTree = "<group>"; };
 		547448F42A130E87009C9542 /* C0017_KEYLEN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0017_KEYLEN.swift; sourceTree = "<group>"; };
-		547448F72A132219009C9542 /* run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = run.swift; sourceTree = "<group>"; };
-		547448F92A1324EE009C9542 /* C0020_TOCTOU_bad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0020_TOCTOU_bad.swift; sourceTree = "<group>"; };
-		547448FB2A13267E009C9542 /* C0020_TOCTOU_good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0020_TOCTOU_good.swift; sourceTree = "<group>"; };
 		547448FE2A13462B009C9542 /* C001B_CWE359_cookie_expires_new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C001B_CWE359_cookie_expires_new.swift; sourceTree = "<group>"; };
 		547449002A134656009C9542 /* C001B_CWE359_cookie_expires_old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C001B_CWE359_cookie_expires_old.swift; sourceTree = "<group>"; };
 		547449032A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C002B_CWE497_Exposure_of_System_Data.swift; sourceTree = "<group>"; };
@@ -123,6 +118,7 @@
 		5474490C2A13478E009C9542 /* C0013_BROKNCRYPT__CWE327_crypt_des_CommonCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0013_BROKNCRYPT__CWE327_crypt_des_CommonCrypto.swift; sourceTree = "<group>"; };
 		54792D7A2A14BE70000FD5E8 /* C0025_USENULL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0025_USENULL.swift; sourceTree = "<group>"; };
 		54792D7D2A14D6E4000FD5E8 /* C000C_TYPEOVER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C000C_TYPEOVER.swift; sourceTree = "<group>"; };
+		54792D812A15BFAF000FD5E8 /* C0020_TOCTOU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0020_TOCTOU.swift; sourceTree = "<group>"; };
 		549E123C2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0016_CWE259_nsurlrequest_param_02.swift; sourceTree = "<group>"; };
 		54D7E58D2A0A3EDD00468A96 /* Swift_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D7E5902A0A3EDD00468A96 /* SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApp.swift; sourceTree = "<group>"; };
@@ -302,9 +298,7 @@
 		547448F62A132207009C9542 /* C0020_TOCTOU */ = {
 			isa = PBXGroup;
 			children = (
-				547448F72A132219009C9542 /* run.swift */,
-				547448F92A1324EE009C9542 /* C0020_TOCTOU_bad.swift */,
-				547448FB2A13267E009C9542 /* C0020_TOCTOU_good.swift */,
+				54792D812A15BFAF000FD5E8 /* C0020_TOCTOU.swift */,
 			);
 			path = C0020_TOCTOU;
 			sourceTree = "<group>";
@@ -563,9 +557,9 @@
 				5474490D2A13478E009C9542 /* C0013_BROKNCRYPT__CWE327_crypt_des_CommonCrypto.swift in Sources */,
 				54D7E59A2A0A3EE100468A96 /* Persistence.swift in Sources */,
 				547448F52A130E87009C9542 /* C0017_KEYLEN.swift in Sources */,
-				547448F82A132219009C9542 /* run.swift in Sources */,
 				543F20972A0B90F10058985F /* C0003_XSS_Reflected.swift in Sources */,
 				54D7E5932A0A3EDD00468A96 /* ContentView.swift in Sources */,
+				54792D822A15BFAF000FD5E8 /* C0020_TOCTOU.swift in Sources */,
 				543073C32A0CD16F0025A38A /* C0019_CWE321_Hard_Coded_Cryptographic_Key.swift in Sources */,
 				547449012A134656009C9542 /* C001B_CWE359_cookie_expires_old.swift in Sources */,
 				540E596C2A135FA2008CEA71 /* C0024_NOCHEKCER.swift in Sources */,
@@ -573,10 +567,8 @@
 				547448FF2A13462B009C9542 /* C001B_CWE359_cookie_expires_new.swift in Sources */,
 				543073C02A0CD1290025A38A /* C0018_CWE330_Insufficiently_Random_Values.swift in Sources */,
 				543073C72A0E07190025A38A /* C0002_PATHMANIP_02.swift in Sources */,
-				547448FC2A13267E009C9542 /* C0020_TOCTOU_good.swift in Sources */,
 				542C766D2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift in Sources */,
 				549E123D2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift in Sources */,
-				547448FA2A1324EE009C9542 /* C0020_TOCTOU_bad.swift in Sources */,
 				542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */,
 				547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */,
 				547449042A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift in Sources */,
