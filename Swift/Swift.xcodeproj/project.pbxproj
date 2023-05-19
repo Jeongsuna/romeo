@@ -17,6 +17,8 @@
 		540E596C2A135FA2008CEA71 /* C0024_NOCHEKCER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E596B2A135FA2008CEA71 /* C0024_NOCHEKCER.swift */; };
 		540E596F2A136292008CEA71 /* C0026_RESLEAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E596E2A136292008CEA71 /* C0026_RESLEAK.swift */; };
 		542869972A0B28C60000AD1D /* C0002_CWE22_99_simple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542869952A0A40560000AD1D /* C0002_CWE22_99_simple.swift */; };
+		542C23B42A178C26006605C4 /* C0020_TOCTOU_bad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C23B32A178C26006605C4 /* C0020_TOCTOU_bad.swift */; };
+		542C23B62A179063006605C4 /* C0020_TOCTOU_good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C23B52A179063006605C4 /* C0020_TOCTOU_good.swift */; };
 		542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F20A22A0CBBB00058985F /* C0004_CMDI.swift */; };
 		542C766D2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C766C2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift */; };
 		542C76712A0CCF2E00FCA5C9 /* C0016_CWE259_nsurlrequest_param_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542C76702A0CCF2E00FCA5C9 /* C0016_CWE259_nsurlrequest_param_01.swift */; };
@@ -87,6 +89,8 @@
 		540E596B2A135FA2008CEA71 /* C0024_NOCHEKCER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0024_NOCHEKCER.swift; sourceTree = "<group>"; };
 		540E596E2A136292008CEA71 /* C0026_RESLEAK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0026_RESLEAK.swift; sourceTree = "<group>"; };
 		542869952A0A40560000AD1D /* C0002_CWE22_99_simple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0002_CWE22_99_simple.swift; sourceTree = "<group>"; };
+		542C23B32A178C26006605C4 /* C0020_TOCTOU_bad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0020_TOCTOU_bad.swift; sourceTree = "<group>"; };
+		542C23B52A179063006605C4 /* C0020_TOCTOU_good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0020_TOCTOU_good.swift; sourceTree = "<group>"; };
 		542C766C2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift; sourceTree = "<group>"; };
 		542C76702A0CCF2E00FCA5C9 /* C0016_CWE259_nsurlrequest_param_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0016_CWE259_nsurlrequest_param_01.swift; sourceTree = "<group>"; };
 		543073B22A0CCFAA0025A38A /* C0016_CWE259_nsurlrequest_param_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C0016_CWE259_nsurlrequest_param_03.swift; sourceTree = "<group>"; };
@@ -299,6 +303,8 @@
 			isa = PBXGroup;
 			children = (
 				54792D812A15BFAF000FD5E8 /* C0020_TOCTOU.swift */,
+				542C23B32A178C26006605C4 /* C0020_TOCTOU_bad.swift */,
+				542C23B52A179063006605C4 /* C0020_TOCTOU_good.swift */,
 			);
 			path = C0020_TOCTOU;
 			sourceTree = "<group>";
@@ -570,6 +576,7 @@
 				542C766D2A0CCC1C00FCA5C9 /* C0015_CWE319_Cleartext_Tx_Sensitive_Info.swift in Sources */,
 				549E123D2A0CCF6B0064B0BD /* C0016_CWE259_nsurlrequest_param_02.swift in Sources */,
 				542C76692A0CCA0D00FCA5C9 /* C0004_CMDI.swift in Sources */,
+				542C23B62A179063006605C4 /* C0020_TOCTOU_good.swift in Sources */,
 				547448F12A11CA9D009C9542 /* C0004_CMDI_02.swift in Sources */,
 				547449042A1346AA009C9542 /* C002B_CWE497_Exposure_of_System_Data.swift in Sources */,
 				540E59662A135824008CEA71 /* C0022_LEAKMSG.swift in Sources */,
@@ -581,6 +588,7 @@
 				540E59632A13486D008CEA71 /* C0013_BROKNCRYPT__CWE327_hash_sha512_CryptoKit.swift in Sources */,
 				547448ED2A0E2478009C9542 /* C0014_STORECLEAR.swift in Sources */,
 				54D7E5912A0A3EDD00468A96 /* SwiftApp.swift in Sources */,
+				542C23B42A178C26006605C4 /* C0020_TOCTOU_bad.swift in Sources */,
 				54D7E59D2A0A3EE100468A96 /* Swift.xcdatamodeld in Sources */,
 				543073B32A0CCFAA0025A38A /* C0016_CWE259_nsurlrequest_param_03.swift in Sources */,
 				540E596F2A136292008CEA71 /* C0026_RESLEAK.swift in Sources */,
