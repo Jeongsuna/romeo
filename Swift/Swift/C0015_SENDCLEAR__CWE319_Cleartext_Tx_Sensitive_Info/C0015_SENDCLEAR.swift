@@ -12,16 +12,17 @@ class C0015_SENDCLEAR__CWE319_Cleartext_Tx_Sensitive_Info{
         let password = "myPassword"
 
         let url = URL(string: "http://example.com/login.php?username=\(username)&password=\(password)")!
-        let request = URLRequest(url: url)
-
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            // Handle response from server
-        }
+        let task = URLSession.shared.dataTask(
+            with: url,
+            completionHandler: { (data, response, error) in
+                // Handle response from server
+            }
+        )
 
         task.resume()
 
     }
-    
+
     func good(){
         let username = "myUsername"
         let password = "myPassword"
@@ -37,9 +38,12 @@ class C0015_SENDCLEAR__CWE319_Cleartext_Tx_Sensitive_Info{
 
         let request = URLRequest(url: urlComponents.url!)
 
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            // Handle response from server
-        }
+        let task = URLSession.shared.dataTask(
+            with: request,
+            completionHandler: { (data, response, error) in
+                // Handle response from server
+            }
+        )
 
         task.resume()
 

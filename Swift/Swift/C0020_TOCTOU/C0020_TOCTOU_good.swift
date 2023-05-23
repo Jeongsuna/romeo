@@ -6,12 +6,11 @@
 //
 
 import Foundation
-class TOCTOUExample {
+class C0020_TOCTOU_good {
     private let accessLock = NSLock()
-    func bad() {
+    func good() {
         let fileAccessThread = FileAccessThread_good(accessLock: accessLock)
         let fileDeleteThread = FileDeleteThread_good(accessLock: accessLock)
-        /* FLAW */
         fileAccessThread.start()
         fileDeleteThread.start()
     }
@@ -23,9 +22,6 @@ class FileAccessThread_good: Thread {
     }
     override func main() {
         accessLock.lock()
-        defer {
-            accessLock.unlock()
-        }
         var fileContents: String? = "content"
         do {
             let fileURL = URL(fileURLWithPath: "toctou.txt")
@@ -38,6 +34,9 @@ class FileAccessThread_good: Thread {
         } catch {
             print("IOException occurred")
         }
+        defer {
+            accessLock.unlock()
+        }
     }
 }
 class FileDeleteThread_good: Thread {
@@ -47,9 +46,6 @@ class FileDeleteThread_good: Thread {
     }
     override func main() {
         accessLock.lock()
-        defer {
-            accessLock.unlock()
-        }
         let fileURL = URL(fileURLWithPath: "toctou.txt")
         let fileManager = FileManager()
         if fileManager.fileExists(atPath: fileURL.path) {
@@ -58,6 +54,9 @@ class FileDeleteThread_good: Thread {
             } catch {
                 print("Error deleting file")
             }
+        }
+        defer {
+            accessLock.unlock()
         }
     }
 }
