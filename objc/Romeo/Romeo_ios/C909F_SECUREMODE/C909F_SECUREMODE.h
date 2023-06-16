@@ -9,6 +9,8 @@
 #ifndef C909F_SECUREMODE_h
 #define C909F_SECUREMODE_h
 
+
+
 @interface C909F_SECUREMODE__bad : NSObject
 
 -(void) bad_botan;

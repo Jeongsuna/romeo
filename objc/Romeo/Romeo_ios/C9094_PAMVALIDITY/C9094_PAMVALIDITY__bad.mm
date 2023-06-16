@@ -12,7 +12,7 @@
 
 @implementation C9094_PAMVALIDITY__bad :NSObject
 
--(int) bad_01: (pam_handle_t *)pam {
+-(int) bad_01: (pam_handle_t *)pamh {
     if (pam_authenticate(pamh, PAM_DISALLOW_NULL_AUTHTOK) != PAM_SUCCESS) { // Noncompliant
         return -1;
     }
@@ -20,7 +20,7 @@
     return 0;
 }
 
--(int) bad_02: (pam_handle_t *)pam {
+-(int) bad_02: (pam_handle_t *)pamh {
     if (pam_authenticate(pamh, PAM_DISALLOW_NULL_AUTHTOK) != PAM_SUCCESS) {
         return -1;
     }

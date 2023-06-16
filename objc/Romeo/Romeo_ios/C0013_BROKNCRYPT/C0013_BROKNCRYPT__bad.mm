@@ -23,22 +23,22 @@
 
 -(void) bad_botan{
 
-    Botan::Cipher_Mode::create("Blowfish/CBC/PKCS7", Botan::ENCRYPTION);      // Noncompliant
-    Botan::Cipher_Mode::create("DES/CBC/PKCS7", Botan::ENCRYPTION);           // Noncompliant
-    Botan::Cipher_Mode::create("3DES/CBC/PKCS7", Botan::ENCRYPTION);          // Noncompliant
-    Botan::Cipher_Mode::create("DESX/CBC/PKCS7", Botan::ENCRYPTION);          // Noncompliant
-    Botan::Cipher_Mode::create("CAST-128/CBC/PKCS7", Botan::ENCRYPTION);      // Noncompliant
-    Botan::Cipher_Mode::create("GOST-28147-89/CBC/PKCS7", Botan::ENCRYPTION); // Noncompliant
-    Botan::Cipher_Mode::create("IDEA/CBC/PKCS7", Botan::ENCRYPTION);          // Noncompliant
-    Botan::Cipher_Mode::create("KASUMI/CBC/PKCS7", Botan::ENCRYPTION);        // Noncompliant
-    Botan::Cipher_Mode::create("MISTY1/CBC/PKCS7", Botan::ENCRYPTION);        // Noncompliant
-    Botan::Cipher_Mode::create("XTEA/CBC/PKCS7", Botan::ENCRYPTION);          // Noncompliant
-    Botan::Cipher_Mode::create("RC4", Botan::ENCRYPTION);
+    Botan::Cipher_Mode::create("Blowfish/CBC/PKCS7", Botan::Cipher_Dir::Encryption);      // Noncompliant
+    Botan::Cipher_Mode::create("DES/CBC/PKCS7", Botan::Cipher_Dir::Encryption);           // Noncompliant
+    Botan::Cipher_Mode::create("3DES/CBC/PKCS7", Botan::Cipher_Dir::Encryption);          // Noncompliant
+    Botan::Cipher_Mode::create("DESX/CBC/PKCS7", Botan::Cipher_Dir::Encryption);          // Noncompliant
+    Botan::Cipher_Mode::create("CAST-128/CBC/PKCS7", Botan::Cipher_Dir::Encryption);      // Noncompliant
+    Botan::Cipher_Mode::create("GOST-28147-89/CBC/PKCS7", Botan::Cipher_Dir::Encryption); // Noncompliant
+    Botan::Cipher_Mode::create("IDEA/CBC/PKCS7", Botan::Cipher_Dir::Encryption);          // Noncompliant
+    Botan::Cipher_Mode::create("KASUMI/CBC/PKCS7", Botan::Cipher_Dir::Encryption);        // Noncompliant
+    Botan::Cipher_Mode::create("MISTY1/CBC/PKCS7", Botan::Cipher_Dir::Encryption);        // Noncompliant
+    Botan::Cipher_Mode::create("XTEA/CBC/PKCS7", Botan::Cipher_Dir::Encryption);          // Noncompliant
+    Botan::Cipher_Mode::create("RC4",Botan::Cipher_Dir::Encryption);
 }
 
 -(void) bad_crypto{
     
-    Byte key[CryptoPP::DES::DEFAULT_KEYLENGTH] = {"Key"};
+    Byte key[CryptoPP::DES::S] = {"Key"};
     CryptoPP::ARC4::Encryption(key, sizeof(key)); // Noncompliant
     CryptoPP::Blowfish::Encryption(key, sizeof(key)); // Noncompliant
     CryptoPP::GOST::Encryption(key, sizeof(key)); // Noncompliant

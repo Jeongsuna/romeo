@@ -8,17 +8,18 @@
 
 #ifndef C9094_PAMVALIDITY_h
 #define C9094_PAMVALIDITY_h
+#include <security/pam_appl.h>
 
 @interface C9094_PAMVALIDITY__bad : NSObject
 
--(int) bad_01: (pam_handle_t *)pam;
--(int) bad_02: (pam_handle_t *)pam;
+-(int) bad_01: (pam_handle_t *)pamh;
+-(int) bad_02: (pam_handle_t *)pamh;
 
 @end
 
 @interface C9094_PAMVALIDITY__good : NSObject
 
--(int) good: (pam_handle_t *)pam;
+-(int) good: (pam_handle_t *)pamh;
 
 @end
 

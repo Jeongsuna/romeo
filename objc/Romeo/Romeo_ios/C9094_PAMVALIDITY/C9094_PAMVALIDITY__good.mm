@@ -10,9 +10,9 @@
 #import "C9094_PAMVALIDITY.h"
 #include <security/pam_appl.h>
 
-@implementation C9094_PAMVALIDITY__good : NSObject
+@implementation C9094_PAMVALIDITY__good :NSObject
 
--(int) good: pam_handle_t *pam {
+-(int) good: (pam_handle_t )*pamh  {
     if (pam_authenticate(pamh, PAM_DISALLOW_NULL_AUTHTOK) != PAM_SUCCESS) {
         return -1;
     }
