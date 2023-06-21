@@ -17,7 +17,7 @@ void bad() {
     chdir(anyDirPath);
 
     int fd = open(anyDirPath, O_RDONLY | O_DIRECTORY);
-    fchdir(fd); //Sensitive
+    fchdir(fd); //Noncompliant
 
 }
 

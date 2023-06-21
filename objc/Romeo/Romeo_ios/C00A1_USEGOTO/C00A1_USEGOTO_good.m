@@ -8,17 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-int good() {
-    int j;
-    for (j = 0; j < 11; j++) {
+void good() {
+    int a = 0;
+    
+      if (a <=0) {
         // ...
-    }
-    return ++j;
-}
+      }
 
-int main() {
-    @autoreleasepool {
-        NSLog(@"Result: %d", good());
-        return 0;
+      if (a == 0) {
+      {
+        goto L1; // Compliant
+      }
+
+    L1:
+      for (int i = 0; i < a; i++) {
+      L2:
+          a++;
+      }
     }
-}
+    
+  }
+
+

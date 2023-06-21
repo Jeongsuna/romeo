@@ -10,14 +10,13 @@
 
 int bad() {
     int j = 0;
-L1:;
-   j;
+  L1:
+    ++j;
     if (10 == j) {
-        goto L2;         // Noncompliant
+      goto L2;
     }
-    // ...
     goto L1;           // Noncompliant
-L2:;
+  L2:
     return ++j;
 }
 
@@ -27,6 +26,7 @@ int main() {
         return 0;
     }
 }
+
 
 
 

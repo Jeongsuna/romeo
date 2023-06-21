@@ -1,5 +1,5 @@
 //
-//  C90A9_ARRAYIDX_good.m
+//  C90A8_ARRAYIDX_bad.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/06/12.
@@ -12,14 +12,14 @@ void doStuff(int value) {
     NSLog(@"Doing stuff with value: %d", value);
 }
 
-void good(int argc, const char *argv[]) {
+void bad(int argc, const char *argv[]) {
     
         int arr[] = {1, 2, 3, 4, 5};
         int i = 2;
         int *P1 = &arr[0];
     
-        P1[10] = 0; // Compliant
-        doStuff(arr[i]); // Compliant
+        10[P1] = 0; // Noncompliant
+        doStuff(i[arr]); // Noncompliant
     
         NSLog(@"arr[2]: %d", arr[2]);
         

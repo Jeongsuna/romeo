@@ -11,7 +11,7 @@
 
 @implementation C90A0_AVOIDMEMSET_bad : NSObject
 
-void init2(char *dest, char *src) {
+void init(char *dest, char *src) {
     size_t len = strlen(src);
     memcpy(dest, src, len);
 }

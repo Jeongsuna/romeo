@@ -52,7 +52,6 @@
     EVP_aes_128_cbc(); // Noncompliant
     
     RSA_public_decrypt(flen, from, to, key, RSA_PKCS1_PADDING); // Noncompliant
-    //RSA_public_decrypt(flen, from, to, key, RSA_SSLV23_PADDING); RSA_SSLV23_PADDING은 OpenSSL1.0.2 ver 이후로 제거되었다.
     RSA_public_decrypt(flen, from, to, key, RSA_NO_PADDING); // Noncompliant
 
 }

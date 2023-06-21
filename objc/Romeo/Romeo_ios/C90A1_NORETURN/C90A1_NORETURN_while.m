@@ -15,8 +15,8 @@ __attribute__((noreturn)) void bad() {
     // ...
     NSLog(@"infinite loop");
     if (true) {
-      // Noncompliant
-      return ;
+      
+      return ; // Noncompliant
     }
   }
 }
@@ -25,11 +25,14 @@ __attribute__((noreturn)) void good1() {
   while (1) {
     // ...
     NSLog(@"infinite loop");
-    
+      if (true) {
+        
+       // Concompliant
+      }
   }
 }
 
-void good2() {
+void good2() {  // Concompliant
   while (1) {
     // ...
     NSLog(@"infinite loop");

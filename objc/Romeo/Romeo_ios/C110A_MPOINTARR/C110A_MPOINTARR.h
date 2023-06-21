@@ -9,7 +9,7 @@
 #ifndef C110A_MPOINTARR_h
 #define C110A_MPOINTARR_h
 
-@interface MyClass : NSObject
+@interface C110A_MPOINTARR : NSObject
 + (int *)bad;
 + (int *)good;
 @end

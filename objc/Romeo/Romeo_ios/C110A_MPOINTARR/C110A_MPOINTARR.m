@@ -11,15 +11,17 @@
 
 @implementation C110A_MPOINTARR
 
-+ (int *)nonCompliantFunction {
++ (int *)bad {
   int local_auto;
   return &local_auto; // Noncompliant
 }
 
-int* good(void) {
++ (int*) good {
   static int local_static;
   return &local_static; // Compliant
 }
+ 
+
 
 @end
 

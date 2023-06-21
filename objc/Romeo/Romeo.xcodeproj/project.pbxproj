@@ -67,16 +67,21 @@
 		546C88E62A39B86D002E0DBB /* C0013_BROKNCRYPT_botanCipherMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 546C88E52A39B86D002E0DBB /* C0013_BROKNCRYPT_botanCipherMode.mm */; };
 		546F7EEA29CD8FC900C7F09D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7D27E11FFB7B600079B442 /* UIKit.framework */; };
 		546F7EF129CD950700C7F09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2E115C200DD3C9004FB697 /* Foundation.framework */; };
-		5480A66D2A36E0AD0090256C /* C90AA_USEDEFINED_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A66C2A36E0AD0090256C /* C90AA_USEDEFINED_good.m */; };
-		5480A66F2A36E2CC0090256C /* C90AA_USEDEFINED_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A66E2A36E2CC0090256C /* C90AA_USEDEFINED_bad.m */; };
-		5480A6722A36E7E10090256C /* C90A9_ARRAYIDX_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A6712A36E7E10090256C /* C90A9_ARRAYIDX_bad.m */; };
-		5480A6742A36E8F10090256C /* C90A9_ARRAYIDX_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A6732A36E8F10090256C /* C90A9_ARRAYIDX_good.m */; };
+		54767D3B2A401D43004D3C9F /* C0020_TOCTOU_bad_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 54767D3A2A401D43004D3C9F /* C0020_TOCTOU_bad_good.m */; };
+		54767D3D2A4029EC004D3C9F /* C0027_USEFREED_char__good.m in Sources */ = {isa = PBXBuildFile; fileRef = 54767D3C2A4029EC004D3C9F /* C0027_USEFREED_char__good.m */; };
+		54767D3F2A40319E004D3C9F /* C0015_SENDCLEAR_protoclos.m in Sources */ = {isa = PBXBuildFile; fileRef = 54767D3E2A40319E004D3C9F /* C0015_SENDCLEAR_protoclos.m */; };
+		54767D422A404232004D3C9F /* C10E9_MSIDEEF5_plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 54767D412A404232004D3C9F /* C10E9_MSIDEEF5_plus.m */; };
+		5480A66D2A36E0AD0090256C /* C90A9_USEDEFINED_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A66C2A36E0AD0090256C /* C90A9_USEDEFINED_good.m */; };
+		5480A66F2A36E2CC0090256C /* C90A9_USEDEFINED_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A66E2A36E2CC0090256C /* C90A9_USEDEFINED_bad.m */; };
+		5480A6722A36E7E10090256C /* C90A8_ARRAYIDX_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A6712A36E7E10090256C /* C90A8_ARRAYIDX_bad.m */; };
+		5480A6742A36E8F10090256C /* C90A8_ARRAYIDX_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480A6732A36E8F10090256C /* C90A8_ARRAYIDX_good.m */; };
 		5489C0F82A3ACD8A00416913 /* C7008_IMPRCERTVAL_bad_botan.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5489C0F62A3ACD8A00416913 /* C7008_IMPRCERTVAL_bad_botan.mm */; };
 		5489C0F92A3ACD8A00416913 /* C7008_IMPRCERTVAL_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C0F72A3ACD8A00416913 /* C7008_IMPRCERTVAL_bad.m */; };
 		5489C0FB2A3ACDAD00416913 /* C7008_IMPRCERTVAL_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C0FA2A3ACDAD00416913 /* C7008_IMPRCERTVAL_good.m */; };
 		5489C0FE2A3AD79C00416913 /* C9095_MACRONOARG_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C0FD2A3AD79C00416913 /* C9095_MACRONOARG_bad.m */; };
 		5489C1002A3AD85F00416913 /* C9095_MACRONOARG_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C0FF2A3AD85F00416913 /* C9095_MACRONOARG_good.m */; };
-		5489C1032A3AE5E600416913 /* C9099_USEDIAGRAPHS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.mm */; };
+		5489C1032A3AE5E600416913 /* C9099_USEDIAGRAPHS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.m */; };
+		5489C1052A3C521B00416913 /* C0016_HARDPASS_dbi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C1042A3C521B00416913 /* C0016_HARDPASS_dbi.m */; };
 		54969F2529D2DF4B009D29B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2E115C200DD3C9004FB697 /* Foundation.framework */; };
 		54969F2729D2DF6D009D29B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546F7EE829CD8F2300C7F09D /* Security.framework */; };
 		54B457622A33235700A2CBAE /* C0066_SIZEOFPTR_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B457602A33235700A2CBAE /* C0066_SIZEOFPTR_bad.m */; };
@@ -127,8 +132,8 @@
 		54D1357C2A2DB5F200A3E69C /* C90A6_RESCTRL_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1357B2A2DB5F200A3E69C /* C90A6_RESCTRL_bad.m */; };
 		54D1357F2A2DC14700A3E69C /* C90A6_RESCTRL_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1357E2A2DC14700A3E69C /* C90A6_RESCTRL_good.m */; };
 		54D135832A2DC63600A3E69C /* C90A7_CHANGEDIR.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D135822A2DC63600A3E69C /* C90A7_CHANGEDIR.m */; };
-		54D135862A2DD8BE00A3E69C /* C90A8_NESTSWITCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D135852A2DD8BE00A3E69C /* C90A8_NESTSWITCH.m */; };
-		54D135892A300A1300A3E69C /* C1092_MCODEDES2.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D135882A300A1300A3E69C /* C1092_MCODEDES2.m */; };
+		54D135862A2DD8BE00A3E69C /* C10F7_MSWITCH2.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D135852A2DD8BE00A3E69C /* C10F7_MSWITCH2.m */; };
+		54D135892A300A1300A3E69C /* C10AC_MCHARSLEX2.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D135882A300A1300A3E69C /* C10AC_MCHARSLEX2.m */; };
 		54D1358C2A301A2600A3E69C /* C00A1_USEGOTO_bad.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1358B2A301A2600A3E69C /* C00A1_USEGOTO_bad.m */; };
 		54D1358E2A301AF800A3E69C /* C00A1_USEGOTO_good.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D1358D2A301AF800A3E69C /* C00A1_USEGOTO_good.m */; };
 		54D2E4DA29CBF5040028C25C /* C0031_ALLOCSIZE in Resources */ = {isa = PBXBuildFile; fileRef = E32BB6A2201719E1005700A4 /* C0031_ALLOCSIZE */; };
@@ -693,10 +698,14 @@
 		546C88E42A39B613002E0DBB /* C0017_KEYLEN_bad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C0017_KEYLEN_bad.h; sourceTree = "<group>"; };
 		546C88E52A39B86D002E0DBB /* C0013_BROKNCRYPT_botanCipherMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = C0013_BROKNCRYPT_botanCipherMode.mm; sourceTree = "<group>"; };
 		546F7EE829CD8F2300C7F09D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		5480A66C2A36E0AD0090256C /* C90AA_USEDEFINED_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90AA_USEDEFINED_good.m; sourceTree = "<group>"; };
-		5480A66E2A36E2CC0090256C /* C90AA_USEDEFINED_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90AA_USEDEFINED_bad.m; sourceTree = "<group>"; };
-		5480A6712A36E7E10090256C /* C90A9_ARRAYIDX_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A9_ARRAYIDX_bad.m; sourceTree = "<group>"; };
-		5480A6732A36E8F10090256C /* C90A9_ARRAYIDX_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A9_ARRAYIDX_good.m; sourceTree = "<group>"; };
+		54767D3A2A401D43004D3C9F /* C0020_TOCTOU_bad_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0020_TOCTOU_bad_good.m; sourceTree = "<group>"; };
+		54767D3C2A4029EC004D3C9F /* C0027_USEFREED_char__good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0027_USEFREED_char__good.m; sourceTree = "<group>"; };
+		54767D3E2A40319E004D3C9F /* C0015_SENDCLEAR_protoclos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0015_SENDCLEAR_protoclos.m; sourceTree = "<group>"; };
+		54767D412A404232004D3C9F /* C10E9_MSIDEEF5_plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C10E9_MSIDEEF5_plus.m; sourceTree = "<group>"; };
+		5480A66C2A36E0AD0090256C /* C90A9_USEDEFINED_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A9_USEDEFINED_good.m; sourceTree = "<group>"; };
+		5480A66E2A36E2CC0090256C /* C90A9_USEDEFINED_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A9_USEDEFINED_bad.m; sourceTree = "<group>"; };
+		5480A6712A36E7E10090256C /* C90A8_ARRAYIDX_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A8_ARRAYIDX_bad.m; sourceTree = "<group>"; };
+		5480A6732A36E8F10090256C /* C90A8_ARRAYIDX_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A8_ARRAYIDX_good.m; sourceTree = "<group>"; };
 		5480BDEC2A370B0A0090256C /* news.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = news.rst; sourceTree = "<group>"; };
 		5480BDED2A370B0A0090256C /* configure.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = configure.py; sourceTree = "<group>"; };
 		5480BDEE2A370B0A0090256C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -4256,7 +4265,8 @@
 		5489C0FA2A3ACDAD00416913 /* C7008_IMPRCERTVAL_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C7008_IMPRCERTVAL_good.m; sourceTree = "<group>"; };
 		5489C0FD2A3AD79C00416913 /* C9095_MACRONOARG_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C9095_MACRONOARG_bad.m; sourceTree = "<group>"; };
 		5489C0FF2A3AD85F00416913 /* C9095_MACRONOARG_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C9095_MACRONOARG_good.m; sourceTree = "<group>"; };
-		5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = C9099_USEDIAGRAPHS.mm; sourceTree = "<group>"; };
+		5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = C9099_USEDIAGRAPHS.m; sourceTree = "<group>"; };
+		5489C1042A3C521B00416913 /* C0016_HARDPASS_dbi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C0016_HARDPASS_dbi.m; sourceTree = "<group>"; };
 		54B457602A33235700A2CBAE /* C0066_SIZEOFPTR_bad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C0066_SIZEOFPTR_bad.m; sourceTree = "<group>"; };
 		54B457612A33235700A2CBAE /* C0066_SIZEOFPTR_good.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = C0066_SIZEOFPTR_good.m; sourceTree = "<group>"; };
 		54B457652A33239200A2CBAE /* C1094_MCODEDES4_cal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C1094_MCODEDES4_cal.m; sourceTree = "<group>"; };
@@ -4330,8 +4340,8 @@
 		54D1357E2A2DC14700A3E69C /* C90A6_RESCTRL_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A6_RESCTRL_good.m; sourceTree = "<group>"; };
 		54D135802A2DC20100A3E69C /* archive_entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = archive_entry.h; sourceTree = "<group>"; };
 		54D135822A2DC63600A3E69C /* C90A7_CHANGEDIR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A7_CHANGEDIR.m; sourceTree = "<group>"; };
-		54D135852A2DD8BE00A3E69C /* C90A8_NESTSWITCH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C90A8_NESTSWITCH.m; sourceTree = "<group>"; };
-		54D135882A300A1300A3E69C /* C1092_MCODEDES2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C1092_MCODEDES2.m; sourceTree = "<group>"; };
+		54D135852A2DD8BE00A3E69C /* C10F7_MSWITCH2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C10F7_MSWITCH2.m; sourceTree = "<group>"; };
+		54D135882A300A1300A3E69C /* C10AC_MCHARSLEX2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C10AC_MCHARSLEX2.m; sourceTree = "<group>"; };
 		54D1358B2A301A2600A3E69C /* C00A1_USEGOTO_bad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C00A1_USEGOTO_bad.m; sourceTree = "<group>"; };
 		54D1358D2A301AF800A3E69C /* C00A1_USEGOTO_good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C00A1_USEGOTO_good.m; sourceTree = "<group>"; };
 		54D2E4DC29CBF5E30028C25C /* std_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = std_thread.c; sourceTree = "<group>"; };
@@ -5521,6 +5531,7 @@
 				1B2E112A2008AD3E004FB697 /* C0027_USEFREED_char__bad.m */,
 				E36926D52015AF7F00EFE55A /* C0027_USEFREED_int__bad.m */,
 				E36926D42015AD3F00EFE55A /* C0027_USEFREED.h */,
+				54767D3C2A4029EC004D3C9F /* C0027_USEFREED_char__good.m */,
 			);
 			path = C0027_USEFREED;
 			sourceTree = "<group>";
@@ -5697,8 +5708,6 @@
 		1B7D27C01FFB7A910079B442 /* Romeo_ios */ = {
 			isa = PBXGroup;
 			children = (
-				5489C1012A3AE5E500416913 /* C9099_USEDIAGRAPHS */,
-				5489C0FC2A3AD77600416913 /* C9095_MACRONOARG */,
 				1B7D27C41FFB7A910079B442 /* AppDelegate.h */,
 				1B7D27C51FFB7A910079B442 /* AppDelegate.m */,
 				54D135802A2DC20100A3E69C /* archive_entry.h */,
@@ -5727,8 +5736,11 @@
 				E30E6796201191AA004A3768 /* C0007_XQUERYI */,
 				E30E679A201191BB004A3768 /* C0008_XPATHI */,
 				1B67A2B52010BA1200B1296D /* C0010_MISSAUTH */,
+				54D135872A3009F200A3E69C /* C10AC_MCHARSLEX2 */,
 				54C0C06F29CABBB90087A336 /* C10BA_MLITERCONST3 */,
 				54B457672A3323CA00A2CBAE /* C10C8_MDECLEDEF13 */,
+				54767D402A404231004D3C9F /* C10E9_MSIDEEF5 */,
+				54D135842A2DD8A000A3E69C /* C10F7_MSWITCH2 */,
 				1B2E112C200C293B004FB697 /* C0013_BROKNCRYPT */,
 				54D2E52C29CC261E0028C25C /* C0014_STORECLEAR */,
 				54D2E53029CC263A0028C25C /* C0015_SENDCLEAR */,
@@ -5760,9 +5772,8 @@
 				54D135772A2D9E5800A3E69C /* C90A5_USECHROOT */,
 				54D1357A2A2DA36700A3E69C /* C90A6_RESCTRL */,
 				54D135812A2DC5DA00A3E69C /* C90A7_CHANGEDIR */,
-				54D135842A2DD8A000A3E69C /* C90A8_NESTSWITCH */,
-				5480A6702A36E7A50090256C /* C90A9_ARRAYIDX */,
-				5480A66B2A36E0840090256C /* C90AA_USEDEFINED */,
+				5480A6702A36E7A50090256C /* C90A8_ARRAYIDX */,
+				5480A66B2A36E0840090256C /* C90A9_USEDEFINED */,
 				54D135612A2986BA00A3E69C /* C110A_MPOINTARR */,
 				54EA581029D19A960011BB2A /* C111F_MSTDLIB3 */,
 				54EA582229D1AE9C0011BB2A /* C909A_MULTIVALCASE */,
@@ -5771,14 +5782,15 @@
 				54C0C07529CABC9D0087A336 /* C909D_INCORORDERPARAM */,
 				54D135312A2891F200A3E69C /* C909E_POSIXARG */,
 				54D135362A28921000A3E69C /* C909F_SECUREMODE */,
-				54D135872A3009F200A3E69C /* C1092_MCODEDES2 */,
 				54B457642A33239200A2CBAE /* C1094_MCODEDES4 */,
 				5489C0F52A3ACD8A00416913 /* C7008_IMPRCERTVAL */,
 				54B4576C2A33244100A2CBAE /* C9002_REDUPARENTHES */,
 				54C0C09429CAF7090087A336 /* C9094_PAMVALIDITY */,
+				5489C0FC2A3AD77600416913 /* C9095_MACRONOARG */,
 				54C0C09C29CAF8820087A336 /* C9096_NOOPERATORPAIR */,
 				54C0C0A229CAF95C0087A336 /* C9097_PUBLICWRITABLEDIR */,
 				54C0C0A829CBD79E0087A336 /* C9098_NOSPRINTF */,
+				5489C1012A3AE5E500416913 /* C9099_USEDIAGRAPHS */,
 				1B7D27D21FFB7A910079B442 /* Info.plist */,
 				1B7D27CF1FFB7A910079B442 /* LaunchScreen.storyboard */,
 				1B7D27CA1FFB7A910079B442 /* Main.storyboard */,
@@ -5877,22 +5889,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5480A66B2A36E0840090256C /* C90AA_USEDEFINED */ = {
+		54767D402A404231004D3C9F /* C10E9_MSIDEEF5 */ = {
 			isa = PBXGroup;
 			children = (
-				5480A66C2A36E0AD0090256C /* C90AA_USEDEFINED_good.m */,
-				5480A66E2A36E2CC0090256C /* C90AA_USEDEFINED_bad.m */,
+				54767D412A404232004D3C9F /* C10E9_MSIDEEF5_plus.m */,
 			);
-			path = C90AA_USEDEFINED;
+			path = C10E9_MSIDEEF5;
 			sourceTree = "<group>";
 		};
-		5480A6702A36E7A50090256C /* C90A9_ARRAYIDX */ = {
+		5480A66B2A36E0840090256C /* C90A9_USEDEFINED */ = {
 			isa = PBXGroup;
 			children = (
-				5480A6712A36E7E10090256C /* C90A9_ARRAYIDX_bad.m */,
-				5480A6732A36E8F10090256C /* C90A9_ARRAYIDX_good.m */,
+				5480A66C2A36E0AD0090256C /* C90A9_USEDEFINED_good.m */,
+				5480A66E2A36E2CC0090256C /* C90A9_USEDEFINED_bad.m */,
 			);
-			path = C90A9_ARRAYIDX;
+			path = C90A9_USEDEFINED;
+			sourceTree = "<group>";
+		};
+		5480A6702A36E7A50090256C /* C90A8_ARRAYIDX */ = {
+			isa = PBXGroup;
+			children = (
+				5480A6712A36E7E10090256C /* C90A8_ARRAYIDX_bad.m */,
+				5480A6732A36E8F10090256C /* C90A8_ARRAYIDX_good.m */,
+			);
+			path = C90A8_ARRAYIDX;
 			sourceTree = "<group>";
 		};
 		5480BDEB2A370B0A0090256C /* botan */ = {
@@ -14247,7 +14267,7 @@
 		5489C1012A3AE5E500416913 /* C9099_USEDIAGRAPHS */ = {
 			isa = PBXGroup;
 			children = (
-				5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.mm */,
+				5489C1022A3AE5E500416913 /* C9099_USEDIAGRAPHS.m */,
 			);
 			path = C9099_USEDIAGRAPHS;
 			sourceTree = "<group>";
@@ -14496,20 +14516,20 @@
 			path = C90A7_CHANGEDIR;
 			sourceTree = "<group>";
 		};
-		54D135842A2DD8A000A3E69C /* C90A8_NESTSWITCH */ = {
+		54D135842A2DD8A000A3E69C /* C10F7_MSWITCH2 */ = {
 			isa = PBXGroup;
 			children = (
-				54D135852A2DD8BE00A3E69C /* C90A8_NESTSWITCH.m */,
+				54D135852A2DD8BE00A3E69C /* C10F7_MSWITCH2.m */,
 			);
-			path = C90A8_NESTSWITCH;
+			path = C10F7_MSWITCH2;
 			sourceTree = "<group>";
 		};
-		54D135872A3009F200A3E69C /* C1092_MCODEDES2 */ = {
+		54D135872A3009F200A3E69C /* C10AC_MCHARSLEX2 */ = {
 			isa = PBXGroup;
 			children = (
-				54D135882A300A1300A3E69C /* C1092_MCODEDES2.m */,
+				54D135882A300A1300A3E69C /* C10AC_MCHARSLEX2.m */,
 			);
-			path = C1092_MCODEDES2;
+			path = C10AC_MCHARSLEX2;
 			sourceTree = "<group>";
 		};
 		54D1358A2A301A0400A3E69C /* C00A1_USEGOTO */ = {
@@ -14634,6 +14654,7 @@
 			children = (
 				54D2E53129CC263A0028C25C /* C0015_SENDCLEAR.h */,
 				54D2E53229CC263A0028C25C /* C0015_SENDCLEAR.m */,
+				54767D3E2A40319E004D3C9F /* C0015_SENDCLEAR_protoclos.m */,
 			);
 			path = C0015_SENDCLEAR;
 			sourceTree = "<group>";
@@ -15412,6 +15433,7 @@
 				E302A94E2017577F008CF96F /* CWE367_TOC_TOU__access_04__good.m */,
 				E302A94F2017577F008CF96F /* CWE367_TOC_TOU__access_05__bad.m */,
 				E302A9492017577F008CF96F /* CWE367_TOC_TOU__access_05__good.m */,
+				54767D3A2A401D43004D3C9F /* C0020_TOCTOU_bad_good.m */,
 			);
 			path = C0020_TOCTOU;
 			sourceTree = "<group>";
@@ -15801,6 +15823,7 @@
 				1B6A248B2011AA9300574118 /* C0016_HARDPASS__NSURLCredential.h */,
 				1B6A248C2011AA9F00574118 /* C0016_HARDPASS__NSURLCredential_01.m */,
 				1B6A248E2011B66200574118 /* C0016_HARDPASS__NSURLCredential_02.m */,
+				5489C1042A3C521B00416913 /* C0016_HARDPASS_dbi.m */,
 			);
 			path = C0016_HARDPASS;
 			sourceTree = "<group>";
@@ -16183,6 +16206,7 @@
 				E30E6704201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_17.mm in Sources */,
 				E30E6723201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_84_bad.mm in Sources */,
 				E30E6779201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_array_delete_wchar_t_01.mm in Sources */,
+				54767D3B2A401D43004D3C9F /* C0020_TOCTOU_bad_good.m in Sources */,
 				E30E671D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_45.mm in Sources */,
 				E36926402015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_15.mm in Sources */,
 				E30E67BA201191EA004A3768 /* C0034_DIVBY0_int__bad.m in Sources */,
@@ -16270,7 +16294,9 @@
 				E36926712015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_declare_01.mm in Sources */,
 				E30E66EC201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_83a.mm in Sources */,
 				E30E662B20116EDA004A3768 /* C0033_TYPEUNDER_NSArray__good.m in Sources */,
+				54767D3D2A4029EC004D3C9F /* C0027_USEFREED_char__good.m in Sources */,
 				1B7D27C91FFB7A910079B442 /* ViewController.m in Sources */,
+				54767D422A404232004D3C9F /* C10E9_MSIDEEF5_plus.m in Sources */,
 				E30E66F6201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_18.mm in Sources */,
 				E30E66F7201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_53a.mm in Sources */,
 				E36926342015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_73a.mm in Sources */,
@@ -16286,7 +16312,7 @@
 				E31EB934201083DD002D5E66 /* C0028_UNINIT_NSSet__good.m in Sources */,
 				54D135352A2891F200A3E69C /* C909E_POSIXARG_bad.m in Sources */,
 				1B2E112B2008AD3E004FB697 /* C0027_USEFREED_char__bad.m in Sources */,
-				54D135862A2DD8BE00A3E69C /* C90A8_NESTSWITCH.m in Sources */,
+				54D135862A2DD8BE00A3E69C /* C10F7_MSWITCH2.m in Sources */,
 				E30E6744201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_wchar_t_calloc_01.mm in Sources */,
 				E31EB930201083DD002D5E66 /* C0028_UNINIT_NSDictionary__good.m in Sources */,
 				E30E66FA201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_74b.mm in Sources */,
@@ -16324,7 +16350,7 @@
 				E30E67BF201191EA004A3768 /* C0034_DIVBY0_NSArray__bad.m in Sources */,
 				54D135792A2D9EB100A3E69C /* C90A5_USECHROOT.m in Sources */,
 				1B2E113C200C7B48004FB697 /* C000F_FORMATI__stringWithFormat_01.m in Sources */,
-				5480A6742A36E8F10090256C /* C90A9_ARRAYIDX_good.m in Sources */,
+				5480A6742A36E8F10090256C /* C90A8_ARRAYIDX_good.m in Sources */,
 				E31EB932201083DD002D5E66 /* C0028_UNINIT_int__good.m in Sources */,
 				E36926672015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_08.mm in Sources */,
 				54D1358E2A301AF800A3E69C /* C00A1_USEGOTO_good.m in Sources */,
@@ -16361,7 +16387,7 @@
 				E36926762015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_class_declare_01.mm in Sources */,
 				1B7D27DB1FFB7AB60079B442 /* C0001_CWE89_SQL_Injection__simple_01.m in Sources */,
 				54D135342A2891F200A3E69C /* C909E_POSIXARG_good.m in Sources */,
-				5480A66F2A36E2CC0090256C /* C90AA_USEDEFINED_bad.m in Sources */,
+				5480A66F2A36E2CC0090256C /* C90A9_USEDEFINED_bad.m in Sources */,
 				E30E6719201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_82_bad.mm in Sources */,
 				54B457622A33235700A2CBAE /* C0066_SIZEOFPTR_bad.m in Sources */,
 				E369266B2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_class_placement_new_01.mm in Sources */,
@@ -16389,7 +16415,7 @@
 				E31EB95320109AC3002D5E66 /* C0016_HARDPASS__good.m in Sources */,
 				54C0C07E29CABD480087A336 /* C909C_NOCONTROLCHAR__bad.m in Sources */,
 				E30E6730201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_68b.mm in Sources */,
-				5480A66D2A36E0AD0090256C /* C90AA_USEDEFINED_good.m in Sources */,
+				5480A66D2A36E0AD0090256C /* C90A9_USEDEFINED_good.m in Sources */,
 				54D1356C2A2D63A500A3E69C /* C90A2_UNLOCKMUTEX_bad.m in Sources */,
 				E36926572015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_68a.mm in Sources */,
 				E30E6799201191AA004A3768 /* C0007_XQUERYI__simple_01.m in Sources */,
@@ -16456,7 +16482,7 @@
 				E30E6731201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_73a.mm in Sources */,
 				E369262F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_51b.mm in Sources */,
 				E30E672A201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_54c.mm in Sources */,
-				5480A6722A36E7E10090256C /* C90A9_ARRAYIDX_bad.m in Sources */,
+				5480A6722A36E7E10090256C /* C90A8_ARRAYIDX_bad.m in Sources */,
 				E36926532015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_82_bad.mm in Sources */,
 				54C0C07929CABC9D0087A336 /* C909D_INCORORDERPARAM__good.m in Sources */,
 				54D2E51D29CBF5E30028C25C /* std_thread.c in Sources */,
@@ -16490,7 +16516,7 @@
 				E31EB943201085D3002D5E66 /* C001C_LEAKCOM_pw__bad.m in Sources */,
 				E30E6776201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__new_free_struct_01.mm in Sources */,
 				1B2E1182200F2DC1004FB697 /* C003D_MEMLEAK__simple_good.m in Sources */,
-				5489C1032A3AE5E600416913 /* C9099_USEDIAGRAPHS.mm in Sources */,
+				5489C1032A3AE5E600416913 /* C9099_USEDIAGRAPHS.m in Sources */,
 				E30E6736201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_64a.mm in Sources */,
 				E302A9542017577F008CF96F /* CWE367_TOC_TOU__access_02__good.m in Sources */,
 				E36926CF20159C9600EFE55A /* C0025_USENULL_NSSet__bad.m in Sources */,
@@ -16507,6 +16533,7 @@
 				E30E674D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_class_calloc_01.mm in Sources */,
 				54D135832A2DC63600A3E69C /* C90A7_CHANGEDIR.m in Sources */,
 				E36926582015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_54a.mm in Sources */,
+				54767D3F2A40319E004D3C9F /* C0015_SENDCLEAR_protoclos.m in Sources */,
 				E30E675E201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_01.mm in Sources */,
 				E31EB946201085D3002D5E66 /* C001C_LEAKCOM_k_pw__bad.m in Sources */,
 				E32FC4C3202D6B280069463D /* C0038_FREENULL_simple2__good.m in Sources */,
@@ -16528,7 +16555,7 @@
 				54C0C07329CABBB90087A336 /* C10BA_MLITERCONST3__good.m in Sources */,
 				E369263F2015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_44.mm in Sources */,
 				54D135302A2891C300A3E69C /* C90A0_AVOIDMEMSET_bad.m in Sources */,
-				54D135892A300A1300A3E69C /* C1092_MCODEDES2.m in Sources */,
+				54D135892A300A1300A3E69C /* C10AC_MCHARSLEX2.m in Sources */,
 				E36926442015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_array_char_alloca_10.mm in Sources */,
 				E302A9522017577F008CF96F /* CWE367_TOC_TOU__access_01__good.m in Sources */,
 				1B2E1173200ED4F9004FB697 /* C0053_REFLECTI__performSelector_01.m in Sources */,
@@ -16587,6 +16614,7 @@
 				E30E672D201190DE004A3768 /* CWE762_Mismatched_Memory_Management_Routines__delete_array_int_malloc_66a.mm in Sources */,
 				E36926802015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_char_placement_new_01.mm in Sources */,
 				E36926792015806700EFE55A /* CWE590_Free_Memory_Not_on_Heap__delete_int64_t_placement_new_01.mm in Sources */,
+				5489C1052A3C521B00416913 /* C0016_HARDPASS_dbi.m in Sources */,
 				1B2E1170200DF76C004FB697 /* C0024_NOCHKERR__bad.m in Sources */,
 				E36926ED2015C09E00EFE55A /* C003C_RETFREED_int__bad.m in Sources */,
 				E31EB935201083DD002D5E66 /* C0028_UNINIT_NSMutableArray__bad.m in Sources */,

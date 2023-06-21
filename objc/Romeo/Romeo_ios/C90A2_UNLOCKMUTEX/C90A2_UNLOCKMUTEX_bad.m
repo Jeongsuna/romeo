@@ -10,6 +10,7 @@
 #import <pthread.h>
 
 pthread_mutex_t mtx1;
+pthread_mutex_t mtx2;
 
 void bad1(void)
 {
@@ -43,4 +44,12 @@ void bad5(void)
   pthread_mutex_init(&mtx1, NULL);
   pthread_mutex_destroy(&mtx1);
   pthread_mutex_unlock(&mtx1);
+}
+
+void bad6(void)
+{
+  pthread_mutex_lock(&mtx1);
+  pthread_mutex_lock(&mtx2);
+  pthread_mutex_unlock(&mtx1);
+  pthread_mutex_unlock(&mtx2);
 }

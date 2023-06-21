@@ -1,5 +1,5 @@
 //
-//  C90AA_USEDEFINED_bad.m
+//  C90A9_USEDEFINED_good.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/06/12.
@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#if defined(X > Y)  // Noncompliant
-void bad(int argc, const char * argv[]) {
+#define X 10
+#define Y 5
+
+#if defined(X) && defined(Y) && X > Y   //Compliant
+void good(int argc, const char * argv[]) {
     NSLog(@"X is greater than Y");
 }
-
 #endif

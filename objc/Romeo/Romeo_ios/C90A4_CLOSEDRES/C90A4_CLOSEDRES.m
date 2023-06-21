@@ -28,6 +28,7 @@ void good(NSString *fileName, BOOL condition) {
     pFile = fopen([fileName UTF8String], "w");
 
     if (condition) {
+                    // Compliant
         // ...
     }
 

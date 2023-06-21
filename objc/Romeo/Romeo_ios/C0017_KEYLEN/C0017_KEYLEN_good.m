@@ -26,18 +26,18 @@
     // RSA
     RSA *key = RSA_new();
     BIGNUM *e = BN_new();
-    RSA_generate_key_ex(key, 2048, e, NULL);  // Noncompliant; 2nd argument "bits" must be ≥ 2048
+    RSA_generate_key_ex(key, 2048, e, NULL);  // Compliant
 
     // DSA
     DSA *dsa = DSA_new();
-    DSA_generate_parameters_ex(dsa, 2048, NULL, 0, NULL, NULL, NULL); // Noncompliant; 2nd argument "bits" must be ≥ 2048
+    DSA_generate_parameters_ex(dsa, 2048, NULL, 0, NULL, NULL, NULL); // Compliant
 
     // DH
     DH *dh = DH_new();
-    DH_generate_parameters_ex(dh, 2048, DH_GENERATOR_2, NULL); // Noncompliant; 2nd argument "prime_len" must be ≥ 2048
+    DH_generate_parameters_ex(dh, 2048, DH_GENERATOR_2, NULL); // Compliant
 
     // EC
-    EC_KEY_new_by_curve_name(NID_secp224r1); // Noncompliant; EC key length is 112. Should be ≥ 224
+    EC_KEY_new_by_curve_name(NID_secp224r1); // Compliant
 }
 
 @end

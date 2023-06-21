@@ -12,10 +12,10 @@
 void bad() {
     
    const char *root_dir = "/jail/";
-   chroot(root_dir); // Sensitive
+   chroot(root_dir); // Noncompliant
         
    const char *any_dir = "/any/";
-   chdir(any_dir); // Sensitive
+   chdir(any_dir); // Noncompliant
 
 }
 
@@ -23,11 +23,11 @@ void good() {
     
     const char* root_dir = "/jail/";
 
-    if (chdir(root_dir) == -1) {  // compliant
+    if (chdir(root_dir) == -1) {  // Compliant
       exit(-1);
     }
 
-    if (chroot(root_dir) == -1) {  // compliant
+    if (chroot(root_dir) == -1) {  // Compliant
       exit(-1);
     }
 

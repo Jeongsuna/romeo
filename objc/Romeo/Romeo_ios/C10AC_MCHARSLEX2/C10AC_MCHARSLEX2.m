@@ -1,5 +1,5 @@
 //
-//  C1092_MCODEDES2.m
+//  C10AC_MCHARSLEX2.m
 //  Romeo
 //
 //  Created by Seungcheol on 2023/06/07.
@@ -17,9 +17,9 @@ void bad (int argc, const char * argv[]) {
 
 void good (int argc, const char * argv[]) {
     
-    static const char str[] = "(Date should be in the form ?" "?-?" "?-?" "?)";  // compliant.
-    static const char str2[] = "(Date should be in the form ?-?-?)"; // compliant.
-    static const char str3[] = "(Date should be in the form ? ?-? ?-? ?)"; //   compliant.
+    static const char str[] = "(Date should be in the form ?" "?-?" "?-?" "?)";  // Compliant.
+    static const char str2[] = "(Date should be in the form ?-?-?)"; // Compliant.
+    static const char str3[] = "(Date should be in the form ? ?-? ?-? ?)"; //   Compliant.
     
     NSLog(@"%s", str);
     NSLog(@"%s", str2);
