@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <pthread.h>
+#import <pthread/pthread.h>
 
 pthread_mutex_t mtx1;
 pthread_mutex_t mtx2;
