@@ -8,24 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-int bad() {
-    int j = 0;
-  L1:
-    ++j;
-    if (10 == j) {
-      goto L2;
-    }
-    goto L1;           // Noncompliant
-  L2:
-    return ++j;
-}
+void bad(int a) {
+      if (a == 0) {
+        goto L2; // Noncompliant
+      }
 
-int main() {
-    @autoreleasepool {
-        NSLog(@"Result: %d", bad());
-        return 0;
+      if (a == 0) {
+      {
+        goto L1;
+      }
+      goto L2; // Noncompliant
+    L1:
+      for (int i = 0; i < a; i++) {
+      L2:
+          a++;
+      }
     }
-}
+    
+  }
+
 
 
 

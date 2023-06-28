@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define PRINT_PI() NSLog(@"PI Value is 3.141592653589793") //Noncompliant
+#define    PRINT_PI() NSLog(@"PI Value is 3.141592653589793") //Noncompliant
 
 int main(int argc, const char* argv[]) {
     @autoreleasepool {
