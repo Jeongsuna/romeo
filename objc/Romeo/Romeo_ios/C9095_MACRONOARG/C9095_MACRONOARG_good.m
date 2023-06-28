@@ -8,13 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#define    sPRINT_PI(pi) NSLog(@"PI Value is %f", pi) //Compliant
-
-int main(int argc, const char* argv[]) {
-    @autoreleasepool {
-        
-        PRINT_PI(M_PI); //Compliant
-        
-    }
-    return 0;
-}
+#define    sPRINT_PI    (pi) NSLog(@"PI Value is %f", pi) //Compliant
