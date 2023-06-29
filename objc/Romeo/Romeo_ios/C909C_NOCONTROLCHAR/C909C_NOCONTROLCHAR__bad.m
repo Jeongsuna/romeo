@@ -12,7 +12,7 @@
 @implementation C909C_NOCONTROLCHAR__bad : NSObject
 
 -(void)bad{
-    const char* barHT = "X    Y"; // Noncompliant
+    const char* barHT = "X	Y"; // Noncompliant
 }
 
 @end

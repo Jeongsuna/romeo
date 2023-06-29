@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#define    sPRINT_PI    (pi) NSLog(@"PI Value is %f", pi) //Compliant
+#define	sPRINT_PI	(pi)	NSLog(@"PI Value is %f", pi) //Compliant
