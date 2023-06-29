@@ -13,7 +13,6 @@
 
 -(void)good{
     const char* barEscapedHT = "X\tY"; // Compliant
-    const char* barEscapedLF = "X\bY"; // Compliant
 }
 
 @end
