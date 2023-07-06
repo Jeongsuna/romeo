@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-typedef struct {
+typedef struct Shape{
   bool visible;
   int x;
   int y;

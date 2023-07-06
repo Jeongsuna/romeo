@@ -33,7 +33,7 @@ int bad_memcpy(){
     char src[4];
     char dest[] = "abcdefu";
      
-    char *result = memcpy(dest, src, 10);   // Noncompliant
+    memcpy(dest, src, 10);   // Noncompliant
     return 0;
 }
 
@@ -41,7 +41,7 @@ int bad_memmmove() {
     char src[] = "ghijk";
     char dest[] = "abcdefu";
      
-    char *result = memmove(dest, src,  10);     // Noncompliant
+    memmove(dest, src,  10);     // Noncompliant
     return 0;}
 
 int bad_memset() {
