@@ -15,7 +15,7 @@
 -(NSHTTPURLResponse *) bad:(NSString*) urlStr request:(NSMutableURLRequest*) request response:(NSHTTPURLResponse *) response {
     
     
-    char *result = malloc(CHAR_BIT);
+    char *result = (char*)malloc(CHAR_BIT);
     
     if([NSURLProtocol propertyForKey:@"resultSet" inRequest:request] != NULL){
         
