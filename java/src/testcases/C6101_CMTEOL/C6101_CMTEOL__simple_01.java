@@ -60,24 +60,20 @@ public class C6101_CMTEOL__simple_01 {
             flag = false;
         } // end-Comment
 
-
         /* Compliant */
         for(i=0; i<5; i++) {
             i += 3;
         } // end-Comment
-
 
         /* Compliant */
         while (i<5) {
             i++;
         } // end-Comment
 
-
         /* Compliant */
         do {
             i++;
         } while (i<5); // end-Comment
-
 
         /* Compliant */
         switch (i) {

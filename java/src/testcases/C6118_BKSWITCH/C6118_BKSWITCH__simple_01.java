@@ -22,7 +22,7 @@ public class C6118_BKSWITCH__simple_01 {
     public void good(){
         int i = 0;
 
-        switch (i){ /* Compliant */
+        switch (i) { /* Compliant */
             case 1:
                 System.out.println(1);
                 break;
