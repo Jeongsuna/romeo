@@ -7,7 +7,7 @@ import javax.crypto.Cipher; /* Compliant */
 import java.util.ArrayList;
 import java.lang.reflect.Method;
 
-import javax.crypto.Cipher; /* Compliant */
+import android.os.Environment; /* Compliant */
 
 import java.util.Scanner;
 import java.lang.Math; /* Compliant */

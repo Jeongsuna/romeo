@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.lang.reflect.Method;
 import javax.crypto.CipherInputStream;; /* Non-compliant */
 
-import java.util.Scanner;import java.lang.Math; /* Non-compliant */
+import java.util.Scanner;import java.io.File; /* Non-compliant */
 
 public class C6124_NOBLIMP__simple_bad_01 {
 }
