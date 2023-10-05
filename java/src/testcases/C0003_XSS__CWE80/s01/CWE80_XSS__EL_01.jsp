@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
 <html>
 <head><title>Localized Dates</title></head>
@@ -65,13 +66,13 @@ Out.append(filter.doFilter(name));
 <!-- safe: 8.-->
 <c:if test="${sessionScope.cart.numberOfItems > 0}">safe8</c:if>
 <!-- safe: 9.-->
-<c:if test="${empty param.abc}">safe9<c:if>
+<c:if test="${empty param.abc}">safe9</c:if>
 <!-- safe: 10.-->
-<c:if test="${empty param.p_id}">safe10<c:if>
+<c:if test="${empty param.p_id}">safe10</c:if>
 <!-- safe: 11.-->
-<c:if test="${param.abc == ''}">safe11<c:if>
+<c:if test="${param.abc == ''}">safe11</c:if>
 <!-- safe: 12.-->
-<c:if test="${param.p_id == ''}">safe12<c:if>			
+<c:if test="${param.p_id == ''}">safe12</c:if>			
 			
 			
 			
