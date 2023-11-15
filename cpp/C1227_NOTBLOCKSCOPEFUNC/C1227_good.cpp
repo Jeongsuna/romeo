@@ -6,20 +6,20 @@ public:
     A() { std::cout << "A's constructor called" << std::endl; }
 };
 
-void f1 () // Compliant - declaring a function at global scope 
+void f2 () // Compliant - declaring a function at global scope 
 { 
     std::cout << "Function f1 called" << std::endl;
 }
 
 A a; // Compliant - declaring an object 'a' of class 'A' at global scope
 
-void b1 ( ) 
+void b2 ( ) 
 { 
     // Now you can use 'f1' and 'a' inside this function
-    f1();
+    f2();
 }
 
 int main() {
-    b1();
+    b2();
     return 0;
 }
