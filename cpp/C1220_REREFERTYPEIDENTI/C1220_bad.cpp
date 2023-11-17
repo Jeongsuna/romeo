@@ -1,16 +1,21 @@
 #include <iostream>
 
 typedef struct vector1 { 
-    uint16_t x ; 
-    uint16_t y; 
-    uint16_t z; 
+    int x ; 
+    int y; 
+    int z; 
 } vector1; 
 
 struct vector2 { 
-    uint16_t x ; 
-    uint16_t y; 
-    uint16_t z; 
+    int x ; 
+    int y; 
+    int z; 
 } vector2;
+
+struct vector3{
+    int x;		
+    int y;		
+}typedef vector3;
 
 int main()
 {
