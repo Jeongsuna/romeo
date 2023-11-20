@@ -1,0 +1,1 @@
+// goto 또는 switch 문을 사용하여 try-catch 블록으로 제어를 전송하면 안됩니다.
