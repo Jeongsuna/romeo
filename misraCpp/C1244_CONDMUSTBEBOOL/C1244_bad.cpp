@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdint.h>
 
+typedef int codemind32_t;
+
 extern int32_t *fn();
 extern int32_t fn2();
 extern bool fn3();
@@ -74,6 +76,7 @@ void example5()
 
 int main()
 {
+    codemind32_t x = 10;
     example1();
     example2();
     example3();
