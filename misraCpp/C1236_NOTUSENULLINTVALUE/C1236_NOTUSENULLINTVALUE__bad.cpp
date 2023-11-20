@@ -1,12 +1,13 @@
 #include <iostream>
 #include <cstddef>
+#include <stdint.h>
 
-void f1(int val)
+void f1(int32_t val)
 {
     std::cout << "f1: " << val << std::endl;
 }
 
-void f2(int *val)
+void f2(int32_t *val)
 {
     if (val == NULL)
     {
