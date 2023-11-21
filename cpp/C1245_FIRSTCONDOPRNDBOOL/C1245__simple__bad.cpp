@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdint.h>
 
 int main() {
     int16_t int16_b = 1;
