@@ -35,7 +35,7 @@ int main()
     case 0:
         if (x == y)
         {
-            goto L1;
+            goto L1; /* Non-compliant */
         }
         break;
     case 1:

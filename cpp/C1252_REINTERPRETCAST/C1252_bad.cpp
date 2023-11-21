@@ -3,7 +3,8 @@
 
 void f(int32_t)
 {
-    void (*fp)(int32_t) = &f;
+    reinterpret_cast<void(*)()>(&f); // Non-compliant
+    reinterpret_cast<void*>(&f); // Non-compliant
 }
 
 int main()
@@ -12,3 +13,5 @@ int main()
     f(10);
     return 0;
 }
+
+// codemind

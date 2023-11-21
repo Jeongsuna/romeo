@@ -1,10 +1,9 @@
 #include <iostream>
 #include <cstdint>
 
-void f(int32_t)
+void f(int)
 {
-    reinterpret_cast<void(*)()>(&f); // Non-compliant
-    reinterpret_cast<void*>(&f); // Non-compliant
+    void (*fp)(int) = &f;
 }
 
 int main()
