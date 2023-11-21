@@ -1,6 +1,5 @@
 #include <iostream>
-#include <cstdint>
-
+#include <cstdint>#include <stdint.h>
 int main() {
     int8_t a = 97; // Compliant – using ASCII value of 'a'
     std::cout << "a: " << a << std::endl;
