@@ -1,35 +1,32 @@
 #include <iostream>
-#include <cstddef>
 #include <stdint.h>
 
-void f1(int32_t val)
+void func(int32_t a) 
 {
-    std::cout << "f1: " << val << std::endl;
+  std::cout << a << std::endl;
 }
 
-void f2(int32_t *val)
-{
-    if (val == NULL)
-    {
-        std::cout << "f2: NULL" << std::endl;
-    }
-    else
-    {
-        std::cout << "f2: " << *val << std::endl;
-    }
+int32_t func2() {
+    return NULL;  // 위반 : 함수 반환에서 NULL 사용
 }
 
-void f3()
+int main() 
 {
-    f1(NULL); // Not-compliant, NULL used as an integer
-    f2(NULL); // Compliant
-}
+  
+  func(NULL);  // 위반 : 함수 호출에서 NULL 사용
+  
+  int32_t a = NULL + 1;  // 위반 : 산술 연산에서 NULL 사용
 
-int main()
-{
-    int val = 10;
-    f1(val);
-    f2(&val);
-    f3();
-    return 0;
+  if (5 == NULL) {}  // 위반 : 비교 연산에서 NULL 사용
+  
+  int32_t b = NULL;  // 위반 : 할당에서 NULL 사용
+
+  int32_t arr[10];
+  int32_t i = arr[NULL];  // 위반 : 배열 인덱스에서 NULL 사용
+
+  int32_t c = 5 & NULL;  // 위반 : 비트 연산에서 NULL 사용
+
+  int32_t d = (true ? NULL : 1);  // 위반 : 조건 연산자에서 NULL 사용
+
+  return 0;
 }
