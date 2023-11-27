@@ -1,18 +1,18 @@
 #include <stdint.h>
 
-void f_1() 
+void function_4() 
 { 
 }
 
-void f_2() // Now Complinant
+void function_5() // Now Complinant
 { 
 }
 
-void f_3(); // Compliant prototype
+void function_6(); // Compliant prototype
 
 int32_t main() 
 { 
-    f_1();
-    f_2();
+    function_4();
+    function_5();
     return 0; 
 }

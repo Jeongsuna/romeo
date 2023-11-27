@@ -1,17 +1,17 @@
 #include <stdint.h>
 
-void f1() 
+void function_1() 
 { 
 }
 
-void f2() // Non-compliant 
+void function_2() // Non-compliant 
 { 
 }
 
-void f3(); // Compliant prototype
+void function_3(); // Compliant prototype
 
 int32_t main() 
 { 
-    f1();
+    function_1();
     return 0; 
 }
