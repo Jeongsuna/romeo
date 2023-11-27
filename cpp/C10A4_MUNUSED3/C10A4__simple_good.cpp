@@ -1,5 +1,6 @@
 int unusedtype() 
 { 
+    // typedef int local_Type; // Now-compliant
     return 67; 
 }
 

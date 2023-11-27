@@ -6,7 +6,7 @@ void f1 ( )
     if ( p1 < a1 ) // Compliant 
     { 
     }
-    // if ( p1 < a2 ) // Non-compliant 
+    // if ( p1 < a2 ) // Now-compliant 
     // { 
     // } 
 }
