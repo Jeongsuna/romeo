@@ -2,17 +2,17 @@
 
 void f1 ( ) 
 { 
-    enum TYPE { }; 
+    enum TYPE3 { }; 
 }
 
 void f2 ( ) 
 { 
-    union TYPE2 { }; // Compliant
+    union TYPE4 { }; // Compliant
 }
 
 namespace A
 {
-    class TYPE { }; // Compliant-exception
+    class TYPE3 { }; // Compliant-exception
 }
 
 
