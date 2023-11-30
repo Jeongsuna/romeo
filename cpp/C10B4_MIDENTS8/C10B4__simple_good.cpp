@@ -1,12 +1,12 @@
 #include <iostream>
 
-static void f1();
+static void f2();
 
-static void f1() {
+static void f2() {
     std::cout << "Hello, World!" << std::endl;
 }
 
 int main() {
-    f1();
+    f2();
     return 0;
 }

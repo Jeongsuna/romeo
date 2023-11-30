@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <stdint.h>
 
 int fn3(int x)
 {
@@ -12,4 +12,6 @@ int fn3(int x)
     return (x);
 }
 
-int main(void){return 0;}
+int main(void){
+    return 0;
+}
