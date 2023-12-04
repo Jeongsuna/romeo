@@ -33,12 +33,18 @@ void f()
     int32_t q = static_cast<int32_t>(p - 20);                  // 뺄셈 연산에서 20이 부호 없는 정수형으로 변환됩니다.
 
     int32_t r = 10;
-    uint32_t s = static_cast<uint32_t>(r - 20);        // 뺄셈 연산에서 r이 부호 없는 정수형으로 변환됩니다.
+    uint32_t s = static_cast<uint32_t>(r - 20);                // 뺄셈 연산에서 r이 부호 없는 정수형으로 변환됩니다.
 
     int8_t s8 = -1;
     uint8_t u8 = 2;
     s8 = static_cast<int8_t>(u8);                              // Non-compliant
     u8 = static_cast<uint8_t>(s8) + u8;                        // Non-compliant
+}
+
+int32_t good_func() {
+    int64_t s64 = 3000000000L;
+
+    return static_cast<int32_t>(s64); // long 타입을 int로 변환 하여 반환.
 }
 
 int main() {

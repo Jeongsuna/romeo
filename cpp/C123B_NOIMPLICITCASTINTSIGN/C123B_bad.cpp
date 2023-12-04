@@ -39,6 +39,14 @@ void f()
     uint8_t u8 = 2;
     s8 = u8;                            // Non-compliant
     u8 = s8 + u8;                       // Non-compliant
+
+    u8 = u8 + (u8 + s8);                       // Non-compliant
+}
+
+int32_t bad_func() {
+    int64_t s64 = 3000000000L;
+
+    return s64; // long 타입을 int로 변환 하여 반환.
 }
 
 int main() {
