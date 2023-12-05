@@ -4,7 +4,7 @@
 enum Gender {MALE, FEMALE, OTHERS};
 
 int main() {
-    int16_t int16_a = 0x1111;
+    uint16_t uint16_a = 0x1111;
 
     if (~uint16_a == 0x1234U) { // Compliant
         std::cout << "Compliant bitwise operation passed.\n";
