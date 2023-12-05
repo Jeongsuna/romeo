@@ -11,16 +11,8 @@ int main() {
         std::cout << "Non-compliant bitwise operation passed.\n";
     }
 
-    if ((uint16_a | uint16_b) == 0x1234U) { // Compliant
-        std::cout << "Compliant bitwise operation passed.\n";
-    }
-
-    if (~int16_a == 0x1234U) { // Non-compliant
+    if ((-10 & uint16_b) == 0x1234U) { // Non-compliant
         std::cout << "Non-compliant bitwise operation passed.\n";
-    }
-
-    if (~uint16_a == 0x1234U) { // Compliant
-        std::cout << "Compliant bitwise operation passed.\n";
     }
 
     return 0;

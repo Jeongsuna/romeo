@@ -7,19 +7,11 @@ int main() {
     uint16_t uint16_a = 0x3333;
     uint16_t uint16_b = 0x4444;
 
-    if ( ( uint16_a & (uint16_t)int16_b ) == 0x1234U )  { // Non-compliant
-        std::cout << "Non-compliant bitwise operation passed.\n";
-    }
-
     if ((uint16_a | uint16_b) == 0x1234U) { // Compliant
         std::cout << "Compliant bitwise operation passed.\n";
     }
 
-    if ( ~(uint16_t)int16_a == 0x1234U ) { // Non-compliant
-        std::cout << "Non-compliant bitwise operation passed.\n";
-    }
-
-    if (~uint16_a == 0x1234U) { // Compliant
+    if ((10 & uint16_b) == 0x1234U) { // Compliant
         std::cout << "Compliant bitwise operation passed.\n";
     }
 
