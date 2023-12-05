@@ -59,6 +59,9 @@ cmake-build-*/
 # IntelliJ
 out/
 
+# Visual Studio Code
+**/.vscode/
+
 # mpeltonen/sbt-idea plugin
 **/.idea_modules/
 
@@ -86,3 +89,5 @@ out/
 *.lock
 cs/.vs/
 cs/Romeo/obj/Debug/
+
+
