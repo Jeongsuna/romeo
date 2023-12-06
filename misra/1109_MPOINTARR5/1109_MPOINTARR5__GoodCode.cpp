@@ -1,7 +1,7 @@
 #include <cstdint>
 typedef int8_t INTPTR;
 
-void function(int8_t** arrPar[])     /* compliant */
+void function(int8_t* arrPar[])     /* compliant */
 {
 	int8_t** obj2;       /* Compliant */
 	INTPTR* obj4;        /* Compliant */
