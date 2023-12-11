@@ -4,7 +4,7 @@
 void f()
 {
     uint32_t a = -1;                    // 부호 있는 정수 -1을 부호 없는 정수형으로 변환
-    int32_t b = 3000000000;             // 3000000000은 int의 범위를 초과하므로 unsigned int로 해석되고, 다시 int로 변환됩니다.
+    
     
     uint32_t c = 10;
     int32_t d = -5;
@@ -33,20 +33,20 @@ void f()
     int32_t q = p - 20;                 // 뺄셈 연산에서 20이 부호 없는 정수형으로 변환됩니다.
 
     int32_t r = 10;
-    unsigned int s = r - 20;            // 뺄셈 연산에서 r이 부호 없는 정수형으로 변환됩니다.
+    uint32_t s = r - 20;            // 뺄셈 연산에서 r이 부호 없는 정수형으로 변환됩니다.
 
     int8_t s8 = -1;
     uint8_t u8 = 2;
     s8 = u8;                            // Non-compliant
     u8 = s8 + u8;                       // Non-compliant
 
-    u8 = u8 + (u8 + s8);                       // Non-compliant
+    u8 = u8 + (u8 + s8);                // Non-compliant
 }
 
 int32_t bad_func() {
-    int64_t s64 = 3000000000L;
+    uint32_t u32 = 300;
 
-    return s64; // long 타입을 int로 변환 하여 반환.
+    return u32; // unsigined int 타입을 signed int로 변환 하여 반환.
 }
 
 int main() {
