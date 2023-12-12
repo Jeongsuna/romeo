@@ -1,36 +1,55 @@
 #include <iostream>
-#include <cstddef>
 #include <stdint.h>
 
-// 함수 정의
-void f1(int32_t val)
+void func(int32_t *x)
 {
-    std::cout << "f1: " << val << std::endl;
+  std::cout << &x << std::endl;
 }
 
-void f2(int32_t *val)
+int32_t *func2()
 {
-    if (val == nullptr)
-    {
-        std::cout << "f2: nullptr" << std::endl;
-    }
-    else
-    {
-        std::cout << "f2: " << *val << std::endl;
-    }
+  return NULL; // 수정 : NULL 반환
 }
 
-void f3()
+int32_t *func3()
 {
-    f1(0);       // Compliant
-    f2(nullptr); // Compliant, nullptr used as the null pointer constant
+  return NULL; // 수정 : NULL 반환
 }
 
 int main()
 {
-    int val = 10;
-    f1(val);
-    f2(&val);
-    f3();
-    return 0;
+
+  func(NULL); // 수정 : 함수 호출에서 NULL 사용
+
+  int32_t *p1 = NULL; // 수정 : NULL 사용
+
+  int8_t *p2 = NULL; // 수정 : NULL 사용
+
+  void (*funcPtr1)() = NULL; // 수정 : NULL 사용
+
+  double *arr1 = NULL; // 수정 : NULL 사용
+
+  struct Node *next1 = NULL; // 수정 : NULL 사용
+
+  int32_t *p3 = new (std::nothrow) int32_t;
+  if (p3 == NULL) // 수정 : NULL 사용
+  {
+    // handle error
+  }
+
+  if (p1 == NULL) // 수정 : NULL 사용
+  {
+    // some code
+  }
+  
+  switch (p1 != NULL) // 수정 : NULL 사용
+  {
+  case 0:
+    // some code
+    break;
+  default:
+    // some code
+  }
+
+  return 0;
 }
