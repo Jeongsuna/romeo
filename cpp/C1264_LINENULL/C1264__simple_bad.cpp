@@ -4,7 +4,13 @@ int main(void){
     
     while ( ( port & 0x80 ) == 0 ) 
     {
+        /* wait for pin */;
+
         /* wait for pin */ ;
+
+        /*
+        test
+        */;
 
         /*
         test
@@ -15,6 +21,10 @@ int main(void){
         ;/*
         test
         */
+
+        ; ;
+
+        ; ; ;
 
     }
 }

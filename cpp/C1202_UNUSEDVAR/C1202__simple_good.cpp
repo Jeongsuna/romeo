@@ -15,7 +15,7 @@ C c; // Now-compliant
 
 void withunusedvar ( void ) 
 { 
-    // int16_t unusedvar; // Removed: Unused variable
+    int16_t unusedvar = 10; // Now-compliant
     struct s_tag 
     { 
         signed int a : 3; 
@@ -26,7 +26,7 @@ void withunusedvar ( void )
     s_var.a = 0; 
     s_var.b = 0; 
 
-    usefn ( s_var.a, s_var.b ); 
+    usefn ( s_var.a + unusedvar, s_var.b + unusedvar ); 
 }
 
 int main() {

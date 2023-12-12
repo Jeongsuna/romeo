@@ -15,7 +15,7 @@ C c; // Non-compliant - unused
 
 void withunusedvar ( void ) 
 { 
-    int16_t unusedvar; // Non-compliant – unused
+    int16_t unusedvar = 10; // Non-compliant - unused
     struct s_tag 
     { 
         signed int a : 3; 
