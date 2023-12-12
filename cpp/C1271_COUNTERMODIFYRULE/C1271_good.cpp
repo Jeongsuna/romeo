@@ -25,13 +25,22 @@ int main(){
     Thing thing(0);
 
     // 루프 카운터는 --,++, -=n 또는 +=n 중 하나로 수정되어야 합니다(준수)
-    for ( x = 0; x < 10; --x )
+    for ( x = 0; x < 10; --x ){
 
-    for ( x = thing.start(0); x != thing.end( ); ++x )
+    }
 
-    for ( x = 0; x < 10; x += 1 )
+    for ( x = thing.start(0); x != thing.end( ); ++x ){
 
-    for ( x = 0; x < 10; x -= n )
+    }
+
+    for ( x = 0; x < 10; x += 1 ){
+
+    }
+
+    for ( x = 0; x < 10; x -= n ){
+
+    }
+
 
     return 0;
 }
