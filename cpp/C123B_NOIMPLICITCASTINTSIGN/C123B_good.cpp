@@ -4,7 +4,6 @@
 void f()
 {
     uint32_t a = static_cast<uint32_t>(-1);                    // 부호 있는 정수 -1을 부호 없는 정수형으로 변환
-    int32_t b = static_cast<int32_t>(2147483647);              // 3000000000은 int의 범위를 초과하므로 unsigned int로 해석되고, 다시 int로 변환됩니다.
     
     uint32_t c = 10;
     int32_t d = -5;
@@ -42,9 +41,9 @@ void f()
 }
 
 int32_t good_func() {
-    int64_t s64 = 3000000000L;
+    uint32_t u32 = 300;
 
-    return static_cast<int32_t>(s64); // long 타입을 int로 변환 하여 반환.
+    return static_cast<int32_t>(u32); // unsigined int 타입을 signed int로 변환 하여 반환.
 }
 
 int main() {
