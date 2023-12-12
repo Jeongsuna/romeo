@@ -1,12 +1,12 @@
 #include <iostream>
-#include <cstdint>
+#include <stdint.h>
 
 void f()
 {
     float f32 = 1.0f;
     int32_t s32 = 2;
-    s32 = static_cast<int32_t>(f32); // Non-compliant 
-    f32 = static_cast<float>(s32);   // Non-compliant 
+    s32 = f32; // Non-compliant 
+    f32 = s32;   // Non-compliant 
 }
 
 int main() {
