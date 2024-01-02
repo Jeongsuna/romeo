@@ -1,3 +1,5 @@
+#include <iostream>
+
 typedef int (*CallbackFn)(int a, int b);
 
 int Callback_1(int a, int b) // Compliant 
