@@ -15,6 +15,5 @@ namespace MyNamespace {
 }
 
 int main() {
-    fun_1();
     return 0;
 }
