@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cstdint>
+#include <stdint.h>
 
 int main() {
     int32_t i;
