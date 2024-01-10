@@ -7,9 +7,9 @@ uint16_t func(uint16_t paral)
 
 uint16_t x;
 
-void discarded(uint16_t para2)
+uint16_t discarded(uint16_t para2)
 {
-	func(para2);            /* Non-compliant - value discarded */
+	return func(para2);            /* Compliant */
 }
 
 int main()
