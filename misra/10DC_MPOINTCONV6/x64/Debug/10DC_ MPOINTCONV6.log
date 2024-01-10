@@ -1,4 +1,4 @@
-﻿  10DC_ MPOINTCONV6__GoodCode.cpp
+  10DC_ MPOINTCONV6__GoodCode.cpp
   10DC_MPOINTCONV6__BadCode.cpp
 C:\Users\Jin\git\romeo\misra\10DC_ MPOINTCONV6\10DC_MPOINTCONV6__BadCode.cpp(14,17): warning C4311: '형식 캐스트': 'void *'에서 'uint32_t'(으)로 포인터가 잘립니다.
 C:\Users\Jin\git\romeo\misra\10DC_ MPOINTCONV6\10DC_MPOINTCONV6__BadCode.cpp(14,17): warning C4302: '형식 캐스트': 'void *'에서 'uint32_t'(으)로 잘립니다.
