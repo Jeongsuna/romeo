@@ -1,12 +1,12 @@
-double power(double d, int n) { return 1; };
+extern double power_10ff_2(double d, int n);
 
-void func(void)
+void func2(void)
 {
-	/* Compliant */
-	double sql = power(1.0, 2);
+    /* Now compliant - function is declared before use */
+    double sql = power_10ff_2(1.0, 2);
 }
 
-int main()
+int fake_main()
 {
-	return 0;
+    return 0;
 }

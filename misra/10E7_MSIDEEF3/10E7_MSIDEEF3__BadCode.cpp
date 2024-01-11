@@ -10,7 +10,7 @@ void g(uint16_t a)
 
 }
 
-int fake_main()
+int main()
 {
 	uint16_t u8a = 0;
 	uint16_t u8b = 0;
