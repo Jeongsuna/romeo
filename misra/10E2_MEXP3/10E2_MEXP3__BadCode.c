@@ -1,4 +1,4 @@
-// f() Ãß°¡
+// f() ï¿½ß°ï¿½
 #include <stdio.h>
 
 int a, b, c;
@@ -18,7 +18,7 @@ int main()
 	
 	f((1, 2), 3); /* Non-compliant - how many parameters? */
 	
-	for (int i = 0, p = &a[0]; i < N; ++i, ++p)
+	for (int i = 0, p = &a[0]; i < N; ++i, ++p) /* Non-compliant */
 	{
 	}
 

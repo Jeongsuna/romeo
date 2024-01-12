@@ -7,8 +7,8 @@ int32_t foo(void)
 
 #ifndef AAA
 	x = 1;
-	#else1        /* Non-compliant */
-		x = AAA;
+#else1        /* Non-compliant */
+	x = AAA;
 #endif
 
 	return x;

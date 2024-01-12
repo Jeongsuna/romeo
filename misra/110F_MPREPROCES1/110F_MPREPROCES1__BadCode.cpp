@@ -1,22 +1,15 @@
-/* f.h */
-int xyz2 = 0;
+#define F1_MACRO
 
-/* f.c */
 #include <cstdint>
 
 int16_t a2;
 
-#include "f.h"    /* Non-compliant */
+#include "f1.h"    /* Non-compliant */
+#include "f2.h"    /* Non-compliant */
 
-/* f1.c */
-#define F1_MACRO
+int32_t i = 0;
 
-#include "f1.h"   /* Compliant */
-#include "f2.h"   /* Compliant */
-
-int32_t i2 = 0;
-
-#include "f3.h"   /* Non-compliant */
+#include "f3.h"    /* Non-compliant */
 
 int fake_main()
 {
