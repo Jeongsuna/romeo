@@ -1,11 +1,12 @@
-// #include <stdio.h> Ãß°¡
-// main() Ãß°¡
-// 10BB_MLITERCONST4__extern.c Ãß°¡
+// #include <stdio.h> ï¿½ß°ï¿½
+// main() ï¿½ß°ï¿½
+// 10BB_MLITERCONST4__extern.c ï¿½ß°ï¿½
 
 #include <stdio.h>
 
 /* Compliant - p is const-qualified; additional qualifiers are permitted */
-const volatile char* q = "string";
+const volatile char* q = "string"; /* Compliant */
+const char strs[] = "Hello"; /* Compliant */
 extern void f2(const char* s2);
 void g(void)
 {

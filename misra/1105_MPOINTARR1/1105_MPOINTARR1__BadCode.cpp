@@ -25,7 +25,6 @@ void f2_2(void)
     data = f1_2(&b, c);
     data = f1_2(c, c);
 
-    q1++;                          /* Compliant */
     c[-1] = 0;                  /* Non-compliant - undefined, array
                                     * bounds exceeded */
     data = c[10];                /* Non-compliant - underfined, dereference
@@ -37,9 +36,6 @@ void f2_2(void)
     data = d[2][3];            /* Non-compliant  - undefined, internal
                                     * boundary exceeded */
 
-    q1 = d[1];                    /* Compliant */
-    data = q1[1];                 /* Compliant - p1 address an array
-                                     * of size 2 */
 }
 
 
@@ -56,14 +52,11 @@ uint16_t* q;
 void f3_2(void)
 {
     q = &s.x;
-    ++q;                              /* Compliant - p points one beyond s.x */
     q[0] = 1;                       /* Non-compliant - undefined, dereference of address one
                                         * beyond s.x which is not necessarily
                                         * the same as s.y */
     q[1] = 2;                       /* Non-compliant - undefined */
 
-    q = &s.a[0];                      /* Compliant - p points into s.a */
-    q = q + 8;                          /* Compliant - p still points into s.a */
     q = q + 3;                          /* Non-compliant - undefined, p points more than one
                                           * beyond s.a */
 }
