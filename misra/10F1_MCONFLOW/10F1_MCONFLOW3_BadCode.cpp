@@ -40,8 +40,8 @@ int main()
         break;
     case 1:
         y = x;
-    L1:
-        ++x;
+L1:
+    ++x;
         break;
     default:
         break;
