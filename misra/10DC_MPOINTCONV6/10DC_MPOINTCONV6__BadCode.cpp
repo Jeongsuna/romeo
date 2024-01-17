@@ -1,6 +1,6 @@
 #include <cstdint>
 
-int fake_main() {
+int main() {
 	void* p;
 	uint32_t u;
 	float f = 1024.0;

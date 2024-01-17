@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fake_main()
+int main()
 {
 	FILE* pf1 = 0;
 	FILE* pf2;

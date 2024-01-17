@@ -3,12 +3,11 @@
 class B {
 public:
 	uint16_t x = 1;
-
 };
+
 class C {
 public:
 	uint16_t x = 1;
-
 };
 
 int main()
@@ -19,7 +18,7 @@ int main()
 	uint16_t i_2 = 0;
 	uint16_t x_2 = 3;
 	int32_t a_2[5] = { 1, 2, 3, 4, 5 };
-	uint16_t* p_2 = &u8a;
+	uint16_t* p_2 = &u8a_2;
 	B b_2;
 	C cpoint_2;
 	C *c_2;
@@ -30,11 +29,11 @@ int main()
 	u8c_2--;
 
 	x_2++;
-	a_2[i]++;
-	b_2.x_2++;
-	c_2->x_2++;
+	a_2[i_2]++;
+	b_2.x++;
+	c_2->x++;
 	++(*p_2);
-	*p_2++;
+	p_2++;
 	(*p_2)++;
 
 	return 0;
