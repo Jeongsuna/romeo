@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdint.h>
 #include <arm_neon.h>
 
-__int16 s16a = 1;
-float32_t f32a = 1;
+int16_t s16a = 1;
+_Float32 f32a = 1;
 char cha = 'a';
+char cha5 = '5';
 enum enuma { a, b, c } ena;
 
 int main() {
@@ -11,5 +13,7 @@ int main() {
 	printf("%c\n", '0' + f32a);
 	printf("%c\n", cha + ':');
 	printf("%c\n", cha - ena);
+	
+	printf("%c\n", cha - cha5);
 	return 0;
 }
