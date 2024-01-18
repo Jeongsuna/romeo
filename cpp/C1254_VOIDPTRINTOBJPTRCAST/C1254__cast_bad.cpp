@@ -11,4 +11,6 @@ void f(void *v)
 {
     // Non-compliant: void 포인터 타입 객체를 객체 포인터 타입의 객체로 변환하고 있습니다.
     S *s1 = reinterpret_cast<S*>(v);
+    // Non-compliant: void 포인터 타입 객체를 객체 포인터 타입의 객체로 변환하고 있습니다.
+    S *s2 = static_cast<S*>(v);
 }
