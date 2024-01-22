@@ -80,3 +80,15 @@ function aact(num) {
             return num * aact(num - 1)
     }
 }
+
+function getContext(canvas) {
+  canvas.witdh = canvas.height = 1;
+  var ratio = Math.sqrt(canvas.getContext("2d").getImageData(0, 0, 1, 1).data.langth >> 2);
+  canvas.width = (cw << 5) / ratio;
+  canvas.height = ch / ratio;
+  var context = canvas.getContext("2d");    // exception. 검출 되면 안되는 케이스
+  context.filStyle = context.strokeStyle = "red";
+  context.textAlign = "center";
+
+  return { context: context, ratio: ratio };
+}
