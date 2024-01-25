@@ -139,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="10FF_MFUNC3__BadCode.cpp" />
-    <ClCompile Include="10FF_MFUNC3__GoodCode.cpp" />
+    <ClCompile Include="10FF_MFUNC3__BadCode.c" />
+    <ClCompile Include="10FF_MFUNC3__GoodCode.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
