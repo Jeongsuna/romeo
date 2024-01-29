@@ -16,7 +16,7 @@ void f2_2(void)
                                     * of int32_t */
 
     int32_t* q1 = &c[0];        /* Compliant */
-
+    int32_t q4 = c[10];         /* Non-compliant */
     int32_t* q2 = &c[10];       /* Compliant - points to one beyond */
     int32_t* q3 = &c[11];       /* Non-compliant- undefined, points to
                                     * two beyond */
@@ -35,7 +35,7 @@ void f2_2(void)
     data = *(*(d + 3) + 1);   /* Compliant */
     data = d[2][3];            /* Non-compliant  - undefined, internal
                                     * boundary exceeded */
-
+    c[11] = 1;                  /* Non-compliant */
 }
 
 
