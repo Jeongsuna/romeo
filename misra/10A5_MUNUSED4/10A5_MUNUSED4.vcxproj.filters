@@ -18,7 +18,7 @@
     <ClCompile Include="10A5_MUNUSED4__BadCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10A5_MUNUSED4__GoodCodecpp.cpp">
+    <ClCompile Include="10A5_MUNUSED4__GoodCode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

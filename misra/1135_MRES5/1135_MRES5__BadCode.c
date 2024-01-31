@@ -1,15 +1,10 @@
 #include <stdio.h>
 
-int main()
-{
-	FILE* pf1 = 0;
-	FILE* pf2;
-	FILE f3;
-
-	pf2 = pf1;    /* Compliant */
-	f3 = *pf2;    /* Non-compliant */
-
-	pf1->_Placeholder = 0; /* Non-compliant */
-
-	return 0;
+int main() {
+    FILE *fp = fopen("test.txt", "w");
+    if (fp != NULL) {
+        fp->_flags = 0;  // MISRA C 2012 Rule 22.5 위반
+        fclose(fp);
+    }
+    return 0;
 }
