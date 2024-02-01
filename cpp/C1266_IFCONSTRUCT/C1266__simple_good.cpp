@@ -4,6 +4,7 @@ int main()
 {
     int x, y;
     bool test1 = true;
+    bool test2 = false;
 
     // if ( condition ) 구문 뒤에는 복합 문으로 작성 합니다.(준수)
     if (test1)
@@ -11,13 +12,11 @@ int main()
         x = 1;
     }
 
-
-    if (test1);
-    {
+    if (test1){
         x = 1;
-    }
-    // else 키워드 뒤에 복합 문이 오고 있습니다.(준수)
-    else{
+    }else if (test1){
+        x = 2;
+    }else{
         x = 3;
         y = 2;
     }

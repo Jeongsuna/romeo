@@ -4,6 +4,7 @@ int main()
 {
     int x, y;
     bool test1 = true;
+    bool test2 = false;
 
     // if ( condition ) 구문 뒤에 (;) 있습니다.(비준수)
     if (test1);
@@ -12,7 +13,7 @@ int main()
     }
 
 
-    if (test1);
+    if (test1)
     {
         x = 1;
     }
