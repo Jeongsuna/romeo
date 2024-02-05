@@ -31,7 +31,7 @@ int main()
         case 1:
             std::cout << "One";
             break;
-        default:
+        default: 
             break;
     }
 

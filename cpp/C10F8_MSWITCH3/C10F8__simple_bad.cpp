@@ -9,8 +9,9 @@ int main()
   case 4:
     a = b;
 
-  // default 블록은 항상 break 문을 가져야 합니다(비준수).
+  // default 블록은 역시 break나 throw 문을 가져야 합니다(비준수).
   default:
+    ;
   }
 
   return 0;
