@@ -16,6 +16,14 @@ namespace MY_API
     int y2;
 }
 
+// extern "C" 선언 (준수)
+extern "C" void excfn1();
+extern "C" int exc1;
+extern "C" {
+    void excfn2();
+    int exc2;
+}
+
 // main 함수는 전역 네임스페이스에 선언 될 수 있습니다.(준수)
 int main()
 {
