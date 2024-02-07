@@ -63,7 +63,7 @@ void example5()
     } // Now compliant
 
     bool bool_1 = true, bool_2 = false;
-    if (u8 && (bool_1 <= bool_2) == true)
+    if ((bool_1 <= bool_2) == true)
     {
     } // Now compliant
 
