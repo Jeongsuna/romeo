@@ -1,19 +1,19 @@
-int fn(int x){
-    x += 1;
-    return x;
+bool modify(int *pX)
+{
+    *pX++;
+    return ( *pX < 10 );
 }
 
 int main(){
     int x;
-    int y = 0;
     // 함수 fn()의 결과를 사용하여 x를 수정하고 있습니다.(비준수)
-    for ( x = 0; x < 10; fn(x) ){
-        y = 1;
+    for (x = 0; modify(&x);)
+    {
     }
 
     for ( x = 0; x < 10;){
-        x += 1;
+        x = x*2;
     }
-    
+
     return 0;
 }
