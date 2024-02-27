@@ -22,7 +22,6 @@ C c(5);
 
 int main(void)
 {
-    // m_b 가 초기화되지 않았습니다.(비준수)
     if (c.GetmB() > 0)
     {
     }
