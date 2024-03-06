@@ -1,6 +1,6 @@
 #include <iostream>
 
-class C
+class C1293_1
 {
 public:
     int32_t& getA()
@@ -12,7 +12,7 @@ private:
     int32_t a;
 };
 
-void b(C& c)
+void b1(C1293_1& c)
 {
     int32_t& a_ref = c.getA();
     a_ref = 10; 

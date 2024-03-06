@@ -1,9 +1,9 @@
 #include <iostream>
 
-class C 
+class C1292_2
 { 
 public: 
-    C(int32_t &b_) : a(new int32_t[10]), b(b_)
+    C1292_2(int32_t &b_) : a(new int32_t[10]), b(b_)
     { 
     }
     // Compliant
