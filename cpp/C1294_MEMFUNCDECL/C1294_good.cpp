@@ -18,9 +18,18 @@ public:
     {
         return ++m_i;
     } 
+    int16_t f4()
+    {
+        return m_i++;
+    } 
+    int16_t f5() const
+    {
+        return m_c;
+    }
 private:
     int16_t m_i;
     static int16_t m_s;
+    const int16_t m_c; 
 };
 
 int main() {
