@@ -2,11 +2,14 @@
 #include <cstdint>
 
 int main() {
-   void fn(int b); // Non-compliant :: parameter
+   // Non-compliant :: parameter
+   void fn(int b);
 
-   int a = 3; // Non-compliant :: var Decl type
+   // Non-compliant :: var Decl type
+   int a = 3;
 
-   int fn2(int16_t c); // Non-compliant :: return type
+   // Non-compliant :: return type
+   int fn2(int16_t c);
 
    return 0;
 }
