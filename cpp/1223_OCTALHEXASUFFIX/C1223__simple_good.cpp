@@ -18,7 +18,7 @@ void f < int16_t > ( int16_t i16 ) {
 
 void b ( ) 
 { 
-    uint16_t u16a = 0U; // Compliant
+    uint16_t u16a = 0U;
     u16a = u16a + 0x8000U; // Compliant
 }
 
