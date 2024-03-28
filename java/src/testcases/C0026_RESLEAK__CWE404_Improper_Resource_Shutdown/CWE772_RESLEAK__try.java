@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class CWE772_RESLEAK__try {
-    private void good(String fName) throws IOException {
+    private void good_1(String fName) throws IOException {
         BufferedReader fil = null;
         try{
             fil = new BufferedReader(new FileReader(fName));
@@ -47,19 +47,23 @@ public class CWE772_RESLEAK__try {
         }
     }
 
-    private void good_1() throws IOException{
+    private void bad_2() throws IOException{
         BufferedReader fil = null;
         String fName = "";
+        ArrayList<String> args = new ArrayList<>();
         fil = new BufferedReader(new FileReader(fName));
         try {
-            // TODO: close 함수 호출 전에 예외를 던지는 로직이 없음
-
-            if(fil != null) {
+            if(args.size() == 0) {
+                throw new Exception();
+            }
+            if (fil != null) {
                 fil.close();
             }
         }
         catch(IOException e) {
 
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
     private void good_2() throws IOException{
