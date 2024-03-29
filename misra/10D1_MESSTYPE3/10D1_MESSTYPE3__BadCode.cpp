@@ -40,9 +40,9 @@ int main()
 	bool_t bla = 0; /* boolean and signed */
 	char cha;
 
-	cha = 7; /* character and signed */
-	u8a = 'a';
-	u8a = -1;		  /* unsigned and character */
+	cha = 7;		  /* character and signed */
+	u8a = 'a';		  /* unsigned and character */
+	u8a = -1;		  /* unsigned and signed */
 	u8b = 1 - 2;	  /* unsigned and signed */
 	u8c += 'a';		  /* u8c = u8c + 'a' assigns character to unsigned */
 	use_uint32(s32a); /* signed and unsigned */
