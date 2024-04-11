@@ -8,7 +8,8 @@ struct A
 
 void f1()
 {
-    offsetof(A, i);  // offsetof 매크로를 사용했습니다. (비준수)
+    // offsetof 매크로를 사용했습니다. (비준수)
+    offsetof(A, i);
 }
 
 int main()

@@ -4,7 +4,6 @@
 // 무명(unnamed)네임스페이스에 변수와 함수 선언 (준수)
 namespace
 {
-
     void f2(int);
     int x2;
 }
@@ -17,7 +16,6 @@ namespace MY_API
 }
 
 // extern "C" 선언 (준수)
-extern "C" void excfn1();
 extern "C" int exc1;
 extern "C" {
     void excfn2();

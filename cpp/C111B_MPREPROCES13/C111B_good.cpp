@@ -7,7 +7,8 @@ int32_t foo(void)
 
 #ifndef AAA
     x = 1;
-#else       // Compliant
+// #else 지시문 뒤에 아무런 문자나 숫자가 없습니다.(준수)
+#else
     x = AAA;
 #endif
 

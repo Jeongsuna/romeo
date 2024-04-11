@@ -10,11 +10,13 @@ int main(){
     {
         // ...
     }
-    catch ( D &d ) // Compliant – Derived class caught before base class
+    // Compliant – Derived class caught before base class
+    catch ( D &d )
     {
         // ...
     }
-    catch ( B &b ) // Compliant – Base class caught after derived class
+    // Compliant – Base class caught after derived class
+    catch ( B &b )
     {
         // ...
     }

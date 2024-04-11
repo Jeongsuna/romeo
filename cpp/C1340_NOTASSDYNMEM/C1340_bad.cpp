@@ -3,7 +3,8 @@
 
 void f1 ( )
 {
-    int32_t * i = new int32_t; // 동적 메모리를 할당하고 있습니다.(비준수)
+    // 동적 메모리를 할당하고 있습니다.(비준수)
+    int32_t * i = new int32_t;
 
     delete i;
 
@@ -22,9 +23,9 @@ void f2 ( )
         printf("Memory allocation failed\n");
         return 1;
     }
-
-    *ptr1 = 42; // Assign a value to the allocated memory
-    *ptr2 = 42; // Assign a value to the allocated memory
+    // Assign a value to the allocated memory
+    *ptr1 = 42;
+    *ptr2 = 42;
 
     // Free the allocated memory
     free(ptr1);
@@ -37,4 +38,3 @@ int main()
     f1();
     return 0;
 }
-

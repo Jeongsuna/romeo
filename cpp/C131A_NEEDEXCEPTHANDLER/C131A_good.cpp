@@ -7,12 +7,15 @@ class B {};
 void f(int32_t i) throw() {
     try {
         if (i > 10) {
-            throw A(); // Compliant
+            // Compliant
+            throw A();
         } else {
-            throw B(); // Now Compliant
+            // Now Compliant
+            throw B();
         }
     } catch (A const &) {
-    } catch (B const &) { // Added handler for B
+    } catch (B const &) {
+    // Added handler for B
     }
 }
 

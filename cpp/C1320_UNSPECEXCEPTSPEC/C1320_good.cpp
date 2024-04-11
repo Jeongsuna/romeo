@@ -8,5 +8,6 @@ void foo() {
 // goo는 std::exception 유형의 예외만 발생하도록 지정합니다.
 // foo가 int를 throw하면 unexpected() 함수가 호출되어 프로그램이 종료될 수 있습니다.
 void goo() throw(std::exception) {
- foo(); // goo()에서 명시한 예외사양으로 throw 하고있음 (준수)
+ // goo()에서 명시한 예외사양으로 throw 하고있음 (준수)
+ foo();
 }

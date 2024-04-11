@@ -3,12 +3,14 @@
 
 void f1 ( const char * str )
 {
-    errno = 0;  // Non-compliant
+    // Non-compliant
+    errno = 0;
     int32_t i = atoi ( str );
 
-    if ( 0 != errno )   //Non-compliant
+    //Non-compliant
+    if ( 0 != errno )
     {
-        // handle error case???
+        // handle error case
     }
 }
 

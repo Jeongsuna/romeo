@@ -6,7 +6,8 @@ void f1()
     {
         // ...
     }
-    catch( ... ) // cath_all 핸들러는 마지막에 위치해야합니다. (비준수)
+    // cath_all 핸들러는 마지막에 위치해야합니다. (비준수)
+    catch( ... )
     {
         // Handle all exception types
     }

@@ -7,7 +7,8 @@ int32_t foo(void)
 
 #ifndef AAA
     x = 1;
-#else1      // Non-compliant
+// #else 지시문뒤에 숫자 1이 오고있습니다.(비준수)
+#else1
     x = AAA;
 #endif
 

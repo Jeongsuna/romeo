@@ -14,11 +14,13 @@ int main(){
     {
         // ...
     }
-    catch ( B &b )  // Non-compliant – will catch derived classes as well
+    // Non-compliant – will catch derived classes as well
+    catch ( B &b )
     {
         // ...
     }
-    catch ( D &d )  // Non-compliant – Derived class will be caught above
+    // Non-compliant – Derived class will be caught above
+    catch ( D &d )
     {
         // Any code here will be unreachable,
         // breaking Rule 0–1–1

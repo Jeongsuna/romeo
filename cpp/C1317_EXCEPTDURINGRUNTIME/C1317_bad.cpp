@@ -3,16 +3,18 @@ class C
 public:
     C ( )
     {
-        throw (0); // Non-compliant – thrown before main starts
+        // Non-compliant – thrown before main starts
+        throw (0);
     }
 
     ~C ( )
     {
-        throw (0); // Non-compliant – thrown after main exits
+        // Non-compliant – thrown after main exits
+        throw (0);
     }
 };
-
-C c; // An exception thrown in C's constructor or destructor will cause the program to terminate, and will not be caught by the handler in main
+// An exception thrown in C's constructor or destructor will cause the program to terminate, and will not be caught by the handler in main
+C c;
 
 int main( ... )
 {
