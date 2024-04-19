@@ -1,12 +1,12 @@
-// #include <cstdint> Ãß°¡
-// main() Ãß°¡
+// #include <cstdint> ï¿½ß°ï¿½
+// main() ï¿½ß°ï¿½
 
 #include <cstdint>
 
-int32_t engine_exhaust_gas_temperature_raw;
-int32_t engine_exhaust_gas_temperature_scaled; /* Non-compliant */
-int32_t engine_exhaust_gas_temp_raw;
-int32_t engine_exhaust_gas_temp_scaled; /* Compliant */
+int engine_exhaust_gas_temperature_raw;
+int engine_exhaust_gas_temperature_scaled; /* Non-compliant */
+int engine_exhaust_gas_temp_raw;
+int engine_exhaust_gas_temp_scaled; /* Compliant */
 
 int main()
 {

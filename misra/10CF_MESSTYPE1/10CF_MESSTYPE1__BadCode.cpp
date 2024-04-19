@@ -1,18 +1,19 @@
-// #include <arm64_neon.h> Ãß°¡
-// #include <stdio.h> Ãß°¡
-// main() Ãß°¡
-// º¯¼ö ¼±¾ð
-// printf()·Î ¹Ù²Þ
-// ¾Ë ¼ö ¾ø´Â ¿À·ù·Î 4°³´Â ÁÖ¼®Ã³¸®ÇÔ
+// #include <arm64_neon.h> ï¿½ß°ï¿½
+// #include <stdio.h> ï¿½ß°ï¿½
+// main() ï¿½ß°ï¿½
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+// printf()ï¿½ï¿½ ï¿½Ù²ï¿½
+// ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 4ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½Ã³ï¿½ï¿½ï¿½ï¿½
 
-#include <arm64_neon.h>
+#include <arm_neon.h>
+#include <stdint.h>
 #include <stdio.h>
 
-float32_t f32a = 10;
+_Float32 f32a = 10;
 char cha = 'a';
 char chb = 'b';
-__int8 s8a = 0;
-unsigned __int8 u8a = 0;
+int8_t s8a = 0;
+uint8_t u8a = 0;
 bool bla = 0;
 bool blb = 0;
 
@@ -21,24 +22,32 @@ enum {K1 = 1, K2 = 2};
 
 
 int main() {
-	//printf("%d", f32a & 2U);
-	//printf("%d", f32a MM 2);
+	// printf("%d", f32a & 2U); // non-compile
+	// printf("%d", f32a << 2); // non-compile
+
 	printf("%d", cha && bla);
 	printf("%d", ena ? a1 : a2);
 	printf("%d", s8a && bla);
 	printf("%d", u8a ? a1 : a2);
 	printf("%d", f32a && bla);
+
 	printf("%d", bla * blb);
 	printf("%d", bla > blb);
+
 	printf("%d", cha & chb);
 	printf("%d", cha << 1);
-	//printf("%d", ena--);
+
+	// printf("%d", ena--); // non-compile
 	printf("%d", ena * a1);
-	//printf("%d", ena += a1);
+
+	// printf("%d", ena += a1); // non-compile
 	printf("%d", s8a & 2);
+
 	printf("%d", 50 << 3U);
 	printf("%d", u8a << s8a);
+
 	printf("%d", u8a << -1);
+	
 	printf("%d", -u8a);
 	return 0;
 }

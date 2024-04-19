@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10A5_MUNUSED4__BadCode.cpp" />
-    <ClCompile Include="10A5_MUNUSED4__GoodCodecpp.cpp" />
+    <ClCompile Include="10A5_MUNUSED4__GoodCode.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

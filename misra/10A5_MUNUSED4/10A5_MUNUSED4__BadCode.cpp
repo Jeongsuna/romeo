@@ -1,16 +1,12 @@
-// #include <cstdint> 추가
-// main() 추가
 #include <cstdint>
 
-void unusedtag(void)
-{
-	enum state { S_init, S_run, S_sleep }; /* Non-compliant */
-}
-typedef struct record_t /* Non-compliant */
+enum state1 { S_init, S_run, S_sleep }; /* Non-compliant */
+
+typedef struct record_t_1 /* Non-compliant */
 {
 	uint16_t key;
 	uint16_t val;
-} record1_t;
+} record_t_1_1;
 
 int main()
 {

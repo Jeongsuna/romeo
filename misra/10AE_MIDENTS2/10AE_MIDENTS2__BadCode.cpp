@@ -1,12 +1,23 @@
 #include <cstdint>
-extern int32_t engine_exhaust_gas_temperature_raw;
-static int32_t engine_exhaust_gas_temperature_scaled; /* Non-compliant */
+//C90
+extern int engine_exhaust_gas_temperature_raw;
+static int engine_exhaust_gas_temperature_scaled; /* Non-compliant */
 void f(void)
 {
-	int32_t engine_exhaust_gas_temperature_local; /* Compliant */
+	int engine_exhaust_gas_temperature_local; /* Compliant */
 }
-static int32_t engine_exhaust_gas_temp_raw;
-static int32_t engine_exhaust_gas_temp_scaled; /* Compliant */
+
+static int engine_exhaust_gas_temp_raw;
+static int engine_exhaust_gas_temp_scaled; /* Compliant */
+
+//C99
+extern int engine_exhaust_gas_temperature_engine_exhaust_gas_temperature_raw;
+static int engine_exhaust_gas_temperature_engine_exhaust_gas_temperature_scaled; /* Non-compliant */
+void f(void)
+{
+	int engine_exhaust_gas_temperature_engine_exhaust_gas_temperature_local;
+    int engine_exhaust_gas_temperature_engine_exhaust_gas_temperature_locale; /* Non-compliat */
+}
 int main() {
 	f();
 	return 0;

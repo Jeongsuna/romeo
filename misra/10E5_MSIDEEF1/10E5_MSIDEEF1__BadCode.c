@@ -1,10 +1,9 @@
 #include <stdio.h>
+#include <stdint.h>
 
 typedef unsigned short int uint16_t;
 
 uint16_t x = 0u;
-
-//extern void p(uint16_t a[2]);
 
 void f(void)
 {
@@ -13,20 +12,12 @@ void f(void)
 	uint16_t a[2] = { v1, 0 };
 }
 
-void p(uint16_t a[2])
+void p(uint16_t a)
 {
-	/* Non=compliant - two side effects */
-	p((uint16_t[2]) { x++, x++ });
+	/* Non-compliant - two side effects */
+	uint16_t p_var[2] = { x++, x++ };
 
 }
-
-void h(void)
-{
-	/* Non=compliant - two side effects */
-	p((uint16_t[2]) { x++, x++ });
-}
-
-
 
 int fake_main()
 {

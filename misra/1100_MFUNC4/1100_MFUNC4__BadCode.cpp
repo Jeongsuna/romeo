@@ -22,7 +22,7 @@ uint16_t lookup2(uint16_t v)
     if ((v < V_MIN) || (v > V_MAX))
     {
         /* Non-compliant - no value returned. Constraint in C99 */
-        return 0;
+        return ;
     }
 
     return table[v];

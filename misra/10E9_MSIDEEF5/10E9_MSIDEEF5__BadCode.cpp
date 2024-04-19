@@ -25,6 +25,10 @@ int fake_main()
 
     /* Non-compliant if fp points to a function with persistent side effects */
     (fp != NULL) && (*fp) && 0;
+
+    if ((x == 0u) || (x == h2(x)))
+    {
+    }
     
     return 0;
 }

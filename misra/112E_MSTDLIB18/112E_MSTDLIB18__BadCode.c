@@ -1,8 +1,8 @@
 #include <memory.h>
 #include <string.h>
 
-char buf1_2[5] = "12345";
-char buf2_2[10] = "1234567890";
+char buf1_2[5] = "1234";
+char buf2_2[10] = "123456789";
 
 void f2(void)
 {

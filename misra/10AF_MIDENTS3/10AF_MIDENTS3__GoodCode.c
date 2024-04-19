@@ -1,25 +1,25 @@
-// #include <arm64_neon.h> Ãß°¡
-// main() Ãß°¡
-// 10AF_MIDENTS3_extern.c Ãß°¡
-// ¼Ö·ç¼ÇÀ» ARM64·Î ¼³Á¤ ÈÄ ºôµå
+// #include <arm64_neon.h> ï¿½ß°ï¿½
+// main() ï¿½ß°ï¿½
+// 10AF_MIDENTS3_extern.c ï¿½ß°ï¿½
+// ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ ARM64ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #include <arm64_neon.h>
 
 
 void fn1_2 ( void )
 {
-	int16_t i; /* Declare an object ""i"" */
+	int i; /* Declare an object ""i"" */
 	{
-		int16_t j; /* Declare an object ""j"" */
+		int j; /* Declare an object ""j"" */
 		i = 3;
 	}
 }
 struct astruct
 {
-	int16_t m;
+	int m;
 };
 extern void g(struct astruct* p);
-int16_t xyz2 = 0; /* Declare an object ""xyz""*/
+int xyz2 = 0; /* Declare an object ""xyz""*/
 void fn2_2(struct astruct x)
 {
 	g(&x);

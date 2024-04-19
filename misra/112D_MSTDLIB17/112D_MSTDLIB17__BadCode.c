@@ -3,7 +3,7 @@
 
 char string2[] = "Short";
 
-void f1_2(const char* str)
+void f1_2(const char *str)
 {
     /*
      * Non-compliant use of strcpy as it results in writes beyond the end of 'string'
@@ -21,14 +21,13 @@ void f1_2(const char* str)
 
 size_t f2_2(void)
 {
- //  char text[5] = "Token";
+    char text[5] = "Token";
 
     /*
      * The following is non-compliant as it results in reads beyond
      * the end of 'text' as there is no null terminator.
      */
-//    return strlen(text);
-    return 0;
+    return strlen(text);
 }
 
 int fake_main()

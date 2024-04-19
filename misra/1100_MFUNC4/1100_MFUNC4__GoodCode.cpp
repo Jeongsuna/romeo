@@ -4,6 +4,9 @@ uint16_t lookup(uint16_t v)
 {
 	if ((v < 0u) || (v > 10u))
 	{
+		return -v;
+	}else {
+		return v;
 	}
 	return v; /* Compliant */
 }

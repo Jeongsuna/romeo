@@ -35,13 +35,13 @@ int main()
     case 0:
         if (x == y)
         {
-            goto L1;
+            goto L1; /* Non-compliant */
         }
         break;
     case 1:
         y = x;
-    L1:
-        ++x;
+L1:
+    ++x;
         break;
     default:
         break;

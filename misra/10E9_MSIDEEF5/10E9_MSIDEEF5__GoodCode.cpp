@@ -10,16 +10,6 @@ uint16_t f(uint16_t y)
 	return temp;
 }
 
-uint16_t h(uint16_t y)
-{
-	static uint16_t temp = 0;
-
-	/* This side effect is persistent */
-	temp = y + temp;
-
-	return temp;
-}
-
 void g(void)
 {
 	int ishigh = 0;
@@ -27,7 +17,7 @@ void g(void)
 	uint16_t x = 1;
 
 	/* Compliant - f ( ) has no persistent side effects */
-	if (ishigh && (a == h(x)))
+	if (ishigh && (a == f(x)))
 	{
 	}
 }

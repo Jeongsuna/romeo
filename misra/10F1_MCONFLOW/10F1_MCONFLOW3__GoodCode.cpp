@@ -21,10 +21,7 @@ int fake_main() {
 	switch (x)
 	{
 	case 0:
-		if (x == y)
-		{
-			goto L1;
-		}
+		goto L1;
 		break;
 	case 1:
 		y = x;

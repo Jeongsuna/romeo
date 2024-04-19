@@ -6,7 +6,7 @@ void function2(int8_t** arrPar[])     /* Non-compliant */
 	int8_t** obj2;       /* Compliant */
 	int8_t*** obj3;      /* Non-compliant */
 	INTPTR* obj4;        /* Compliant */
-	INTPTR const* obj5;  /* Non-compliant */
+	INTPTR* const * const obj5;  /* Non-compliant */
 	int8_t** arr[10];  /* Compliant */
 	int8_t** (*parr)[10]; /* Compliant */
 	int8_t* (**pparr)[10];/* Compliant */

@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	FILE* pf1;
-	FILE* pf2;
-	FILE f3;
-
-	pf2 = &f3;    /* Compliant */
-	pf1 = pf2;    /* Compliant */
-
-	printf("%p\n", pf1);
-	printf("%p\n", pf2);
-
-	return 0;
+    FILE *fp = fopen("test.txt", "w");
+    if (fp != NULL) {
+        // FILE 객체에 대한 포인터를 역참조하지 않고, 표준 라이브러리 함수를 사용합니다.
+        fputs("Hello, World!", fp);
+        fclose(fp);
+    }
+    return 0;
 }

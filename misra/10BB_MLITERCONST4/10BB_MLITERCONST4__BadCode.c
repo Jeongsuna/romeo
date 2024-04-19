@@ -1,22 +1,21 @@
-// #include <stdio.h> Ãß°¡
-// main() Ãß°¡
-// 10BB_MLITERCONST4__extern.c Ãß°¡
-// "0123456789"[0] = '*';´Â ±¸¹®¿À·ù·Î ÁÖ¼®Ã³¸®ÇÔ
+// #include <stdio.h> ï¿½ß°ï¿½
+// main() ï¿½ß°ï¿½
+// 10BB_MLITERCONST4__extern.c ï¿½ß°ï¿½
+// "0123456789"[0] = '*';ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½Ã³ï¿½ï¿½ï¿½ï¿½
 
 #include <stdio.h>
 
 // "0123456789"[0] = '*'; /* Non-compliant */
 char* s = "string"; /* Non-compliant - s is not const-qualified */
+char strs[] = "Hello"; /* Non-compliant - s is not const-qualified */
 extern void f1(char* s1);
 void g1(void)
 {
-	f1("string"); /* Non-compliant - parameter s1 is not
-	* const-qualified */
+	f1("string"); /* Non-compliant - parameter s1 is not const-qualified */
 }
 char* name1(void)
 {
-	return ("MISRA"); /* Non-compliant - return type is not
-	* const-qualified */
+	return ("MISRA"); /* Non-compliant - return type is not const-qualified */
 }
 
 int main()
