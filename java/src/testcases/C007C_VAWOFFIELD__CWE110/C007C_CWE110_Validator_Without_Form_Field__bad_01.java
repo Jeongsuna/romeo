@@ -1,3 +1,5 @@
+package testcases.C007C_VAWOFFIELD__CWE110;
+
 import org.apache.struts.validator.ValidatorForm;
 
 public class C007C_CWE110_Validator_Without_Form_Field__bad_01 {
